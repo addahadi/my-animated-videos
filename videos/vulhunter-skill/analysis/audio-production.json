@@ -1,0 +1,175 @@
+{
+  "status": "audio draft ready; visual reference required before styling",
+  "order": [
+    1,
+    2,
+    4,
+    3,
+    5,
+    6
+  ],
+  "sample_rate": 48000,
+  "samples": 3366912,
+  "duration": 70.144,
+  "clips": [
+    {
+      "file": "audio1.ogg",
+      "start_sample": 0,
+      "samples": 832512,
+      "start": 0.0,
+      "duration": 17.344,
+      "sha256": "aefdc2e2ebd3a7b133198e23413845d14effbe4ec5e6ef707f893c18ac52243e"
+    },
+    {
+      "file": "audio2.ogg",
+      "start_sample": 832512,
+      "samples": 514048,
+      "start": 17.344,
+      "duration": 10.709333333333333,
+      "sha256": "dd8574beb30d73127de264d740363ee5d341262328d7fa5d3edd0786fb073850"
+    },
+    {
+      "file": "audio4.ogg",
+      "start_sample": 1346560,
+      "samples": 1000448,
+      "start": 28.053333333333335,
+      "duration": 20.842666666666666,
+      "sha256": "fa63a4b60321921cc3d3567da0ddd8fcce61d2c225d6ddc9155835c98108fb6d"
+    },
+    {
+      "file": "audio3.ogg",
+      "start_sample": 2347008,
+      "samples": 462848,
+      "start": 48.896,
+      "duration": 9.642666666666667,
+      "sha256": "f3f74a8036ef1601220db12769be4b5c8ce4bd0a1abe864ec927899da56ce751"
+    },
+    {
+      "file": "audio5.ogg",
+      "start_sample": 2809856,
+      "samples": 367616,
+      "start": 58.538666666666664,
+      "duration": 7.658666666666667,
+      "sha256": "8e98947db811cfd859443e675b9a3db204bc388722fb9c3d8696e64333dddf26"
+    },
+    {
+      "file": "audio6.ogg",
+      "start_sample": 3177472,
+      "samples": 189440,
+      "start": 66.19733333333333,
+      "duration": 3.9466666666666668,
+      "sha256": "bae56d95eb034c721a55ccc68c0e9c2491bfeeec50d558ef3e8cf57f945b11bc"
+    }
+  ],
+  "voice_gain": 0.816190481536492,
+  "master_gain": 1.0,
+  "mixed_peak": 0.7886296510696411,
+  "voice_rms": 0.14118804037570953,
+  "music_rms": 0.008800302632153034,
+  "sound_events": [
+    {
+      "time": 0.45,
+      "kind": "click",
+      "duration": 0.06
+    },
+    {
+      "time": 5.9,
+      "kind": "sweep",
+      "duration": 0.4
+    },
+    {
+      "time": 13.0,
+      "kind": "confirm",
+      "duration": 0.5
+    },
+    {
+      "time": 17.344,
+      "kind": "sweep",
+      "duration": 0.35
+    },
+    {
+      "time": 28.25,
+      "kind": "scan",
+      "duration": 0.55
+    },
+    {
+      "time": 35.5,
+      "kind": "click",
+      "duration": 0.07
+    },
+    {
+      "time": 38.2,
+      "kind": "sweep",
+      "duration": 0.35
+    },
+    {
+      "time": 46.0,
+      "kind": "confirm",
+      "duration": 0.5
+    },
+    {
+      "time": 49.0,
+      "kind": "sweep",
+      "duration": 0.35
+    },
+    {
+      "time": 56.8,
+      "kind": "confirm",
+      "duration": 0.5
+    },
+    {
+      "time": 58.65,
+      "kind": "scan",
+      "duration": 0.5
+    },
+    {
+      "time": 64.7,
+      "kind": "click",
+      "duration": 0.08
+    },
+    {
+      "time": 66.3,
+      "kind": "sweep",
+      "duration": 0.4
+    },
+    {
+      "time": 68.6,
+      "kind": "confirm",
+      "duration": 0.5
+    }
+  ],
+  "checks": [
+    {
+      "file": "audio1.ogg",
+      "unmixed_correlation": 0.9999999981186094,
+      "aac_mix_correlation": 0.9970840915600291
+    },
+    {
+      "file": "audio2.ogg",
+      "unmixed_correlation": 0.999999998533302,
+      "aac_mix_correlation": 0.9977274016715021
+    },
+    {
+      "file": "audio4.ogg",
+      "unmixed_correlation": 0.9999999979787213,
+      "aac_mix_correlation": 0.9963977710086388
+    },
+    {
+      "file": "audio3.ogg",
+      "unmixed_correlation": 0.9999999982045191,
+      "aac_mix_correlation": 0.9966057008213849
+    },
+    {
+      "file": "audio5.ogg",
+      "unmixed_correlation": 0.999999997588135,
+      "aac_mix_correlation": 0.9961964812310775
+    },
+    {
+      "file": "audio6.ogg",
+      "unmixed_correlation": 0.9999999983501195,
+      "aac_mix_correlation": 0.9970730946038204
+    }
+  ],
+  "music": "Original locally synthesized 96 BPM D-minor instrumental draft; no external recording used.",
+  "notes": "No narration trimmed. SFX timings are provisional until animation is built. Objective checks do not replace listening review."
+}

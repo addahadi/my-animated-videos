@@ -1,0 +1,170 @@
+{
+  "status": "v2 draft based on measured reference pulse and bass balance; user listening review pending",
+  "order": [
+    1,
+    2,
+    4,
+    3,
+    5,
+    6
+  ],
+  "sample_rate": 48000,
+  "samples": 3366912,
+  "duration": 70.144,
+  "clips": [
+    {
+      "file": "audio1.ogg",
+      "start_sample": 0,
+      "samples": 832512,
+      "start": 0.0,
+      "duration": 17.344,
+      "sha256": "aefdc2e2ebd3a7b133198e23413845d14effbe4ec5e6ef707f893c18ac52243e"
+    },
+    {
+      "file": "audio2.ogg",
+      "start_sample": 832512,
+      "samples": 514048,
+      "start": 17.344,
+      "duration": 10.709333333333333,
+      "sha256": "dd8574beb30d73127de264d740363ee5d341262328d7fa5d3edd0786fb073850"
+    },
+    {
+      "file": "audio4.ogg",
+      "start_sample": 1346560,
+      "samples": 1000448,
+      "start": 28.053333333333335,
+      "duration": 20.842666666666666,
+      "sha256": "fa63a4b60321921cc3d3567da0ddd8fcce61d2c225d6ddc9155835c98108fb6d"
+    },
+    {
+      "file": "audio3.ogg",
+      "start_sample": 2347008,
+      "samples": 462848,
+      "start": 48.896,
+      "duration": 9.642666666666667,
+      "sha256": "f3f74a8036ef1601220db12769be4b5c8ce4bd0a1abe864ec927899da56ce751"
+    },
+    {
+      "file": "audio5.ogg",
+      "start_sample": 2809856,
+      "samples": 367616,
+      "start": 58.538666666666664,
+      "duration": 7.658666666666667,
+      "sha256": "8e98947db811cfd859443e675b9a3db204bc388722fb9c3d8696e64333dddf26"
+    },
+    {
+      "file": "audio6.ogg",
+      "start_sample": 3177472,
+      "samples": 189440,
+      "start": 66.19733333333333,
+      "duration": 3.9466666666666668,
+      "sha256": "bae56d95eb034c721a55ccc68c0e9c2491bfeeec50d558ef3e8cf57f945b11bc"
+    }
+  ],
+  "voice_gain": 0.816190481536492,
+  "master_gain": 1.0,
+  "mixed_peak": 0.7953387498855591,
+  "voice_rms": 0.14118804037570953,
+  "music_rms": 0.013813100755214691,
+  "sound_events": [
+    {
+      "time": 2.5,
+      "kind": "click",
+      "duration": 0.045
+    },
+    {
+      "time": 6.5,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 13.0,
+      "kind": "confirm",
+      "duration": 0.18
+    },
+    {
+      "time": 17.344,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 28.053,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 35.5,
+      "kind": "click",
+      "duration": 0.045
+    },
+    {
+      "time": 38.053,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 46.0,
+      "kind": "confirm",
+      "duration": 0.18
+    },
+    {
+      "time": 48.896,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 56.8,
+      "kind": "confirm",
+      "duration": 0.18
+    },
+    {
+      "time": 58.539,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 64.7,
+      "kind": "click",
+      "duration": 0.045
+    },
+    {
+      "time": 66.197,
+      "kind": "sweep",
+      "duration": 0.24
+    }
+  ],
+  "checks": [
+    {
+      "file": "audio1.ogg",
+      "unmixed_correlation": 0.9999999981186094,
+      "aac_mix_correlation": 0.9939094154013773
+    },
+    {
+      "file": "audio2.ogg",
+      "unmixed_correlation": 0.999999998533302,
+      "aac_mix_correlation": 0.9945000506055564
+    },
+    {
+      "file": "audio4.ogg",
+      "unmixed_correlation": 0.9999999979787213,
+      "aac_mix_correlation": 0.9917965965338702
+    },
+    {
+      "file": "audio3.ogg",
+      "unmixed_correlation": 0.9999999982045191,
+      "aac_mix_correlation": 0.9929757704558606
+    },
+    {
+      "file": "audio5.ogg",
+      "unmixed_correlation": 0.999999997588135,
+      "aac_mix_correlation": 0.9903608637087814
+    },
+    {
+      "file": "audio6.ogg",
+      "unmixed_correlation": 0.9999999983501195,
+      "aac_mix_correlation": 0.9957776163656739
+    }
+  ],
+  "music": "Original 120 BPM minimal bass-led electronic pulse; reference-informed, no samples copied. Replaces rejected 96 BPM pad/pluck v1.",
+  "notes": "No narration trimmed. SFX timings are provisional until animation is built. Objective checks do not replace listening review."
+}

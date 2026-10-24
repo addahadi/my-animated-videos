@@ -1,0 +1,176 @@
+{
+  "status": "Actual post2.mp4 soundtrack applied at user request",
+  "order": [
+    1,
+    2,
+    4,
+    3,
+    5,
+    6
+  ],
+  "sample_rate": 48000,
+  "samples": 3366912,
+  "duration": 70.144,
+  "clips": [
+    {
+      "file": "audio1.ogg",
+      "start_sample": 0,
+      "samples": 832512,
+      "start": 0.0,
+      "duration": 17.344,
+      "sha256": "aefdc2e2ebd3a7b133198e23413845d14effbe4ec5e6ef707f893c18ac52243e"
+    },
+    {
+      "file": "audio2.ogg",
+      "start_sample": 832512,
+      "samples": 514048,
+      "start": 17.344,
+      "duration": 10.709333333333333,
+      "sha256": "dd8574beb30d73127de264d740363ee5d341262328d7fa5d3edd0786fb073850"
+    },
+    {
+      "file": "audio4.ogg",
+      "start_sample": 1346560,
+      "samples": 1000448,
+      "start": 28.053333333333335,
+      "duration": 20.842666666666666,
+      "sha256": "fa63a4b60321921cc3d3567da0ddd8fcce61d2c225d6ddc9155835c98108fb6d"
+    },
+    {
+      "file": "audio3.ogg",
+      "start_sample": 2347008,
+      "samples": 462848,
+      "start": 48.896,
+      "duration": 9.642666666666667,
+      "sha256": "f3f74a8036ef1601220db12769be4b5c8ce4bd0a1abe864ec927899da56ce751"
+    },
+    {
+      "file": "audio5.ogg",
+      "start_sample": 2809856,
+      "samples": 367616,
+      "start": 58.538666666666664,
+      "duration": 7.658666666666667,
+      "sha256": "8e98947db811cfd859443e675b9a3db204bc388722fb9c3d8696e64333dddf26"
+    },
+    {
+      "file": "audio6.ogg",
+      "start_sample": 3177472,
+      "samples": 189440,
+      "start": 66.19733333333333,
+      "duration": 3.9466666666666668,
+      "sha256": "bae56d95eb034c721a55ccc68c0e9c2491bfeeec50d558ef3e8cf57f945b11bc"
+    }
+  ],
+  "voice_gain": 0.816190481536492,
+  "master_gain": 0.9883115961876062,
+  "mixed_peak": 0.9099999666213989,
+  "voice_rms": 0.14118371903896332,
+  "music_rms": 0.027990052476525307,
+  "sound_events": [
+    {
+      "time": 2.5,
+      "kind": "click",
+      "duration": 0.045
+    },
+    {
+      "time": 6.5,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 13.0,
+      "kind": "confirm",
+      "duration": 0.18
+    },
+    {
+      "time": 17.344,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 28.053,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 35.5,
+      "kind": "click",
+      "duration": 0.045
+    },
+    {
+      "time": 38.053,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 46.0,
+      "kind": "confirm",
+      "duration": 0.18
+    },
+    {
+      "time": 48.896,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 56.8,
+      "kind": "confirm",
+      "duration": 0.18
+    },
+    {
+      "time": 58.539,
+      "kind": "sweep",
+      "duration": 0.24
+    },
+    {
+      "time": 64.7,
+      "kind": "click",
+      "duration": 0.045
+    },
+    {
+      "time": 66.197,
+      "kind": "sweep",
+      "duration": 0.24
+    }
+  ],
+  "checks": [
+    {
+      "file": "audio1.ogg",
+      "mixed_correlation": 0.9999921401320331,
+      "voice_correlation": 0.9725594946536149
+    },
+    {
+      "file": "audio2.ogg",
+      "mixed_correlation": 0.9999940334504516,
+      "voice_correlation": 0.9779371777137393
+    },
+    {
+      "file": "audio4.ogg",
+      "mixed_correlation": 0.9999924416663442,
+      "voice_correlation": 0.9701686121706121
+    },
+    {
+      "file": "audio3.ogg",
+      "mixed_correlation": 0.9999903735572708,
+      "voice_correlation": 0.9727460252518727
+    },
+    {
+      "file": "audio5.ogg",
+      "mixed_correlation": 0.9999899761552006,
+      "voice_correlation": 0.9619868276497796
+    },
+    {
+      "file": "audio6.ogg",
+      "mixed_correlation": 0.9999895432784481,
+      "voice_correlation": 0.9856298378217223
+    }
+  ],
+  "music": "Exact AAC soundtrack extracted from inputs/post2.mp4, looped at original tempo; replaces generated music.",
+  "notes": "All narration and existing animation preserved. Actual supplied music at audible level with voice ducking. Prior final saved as vulnhunter-instagram-v2.mp4.",
+  "music_source_sha256": "e9bc26c54bcb62d346c9fd380d3582d8dba1b9e9200855e16fea6d9d0d59ff12",
+  "reference_extraction_sample_identical": true,
+  "reference_duration": 36.053333333333335,
+  "music_loop_seconds": 36.0,
+  "music_gain": 1.3151453673872218,
+  "decoded_peak": 0.9088006019592285
+}

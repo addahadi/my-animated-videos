@@ -1,0 +1,265 @@
+{
+  "file": "audio1.ogg",
+  "duration": 17.344,
+  "cumulative_start": 0.0,
+  "language": "ar",
+  "language_probability": 1,
+  "segments": [
+    {
+      "start": 0.3,
+      "end": 6.5,
+      "text": "كمدة تطبيقك بالفايب كودين و ركحة تنشره بسعوش ركحة متأكد بلي مفيش تغارة تحشي كيريتي",
+      "words": [
+        {
+          "start": 0.3,
+          "end": 0.96,
+          "word": " كمدة",
+          "probability": 0.45004648094375926
+        },
+        {
+          "start": 0.96,
+          "end": 1.48,
+          "word": " تطبيقك",
+          "probability": 0.8019326478242874
+        },
+        {
+          "start": 1.48,
+          "end": 1.92,
+          "word": " بالفايب",
+          "probability": 0.6369666941463947
+        },
+        {
+          "start": 1.92,
+          "end": 2.4,
+          "word": " كودين",
+          "probability": 0.6898017376661301
+        },
+        {
+          "start": 2.4,
+          "end": 2.48,
+          "word": " و",
+          "probability": 0.6318961381912231
+        },
+        {
+          "start": 2.48,
+          "end": 2.76,
+          "word": " ركحة",
+          "probability": 0.4967377707362175
+        },
+        {
+          "start": 2.76,
+          "end": 3.22,
+          "word": " تنشره",
+          "probability": 0.661897748708725
+        },
+        {
+          "start": 3.22,
+          "end": 4.38,
+          "word": " بسعوش",
+          "probability": 0.5949366509914398
+        },
+        {
+          "start": 4.38,
+          "end": 4.62,
+          "word": " ركحة",
+          "probability": 0.7610372304916382
+        },
+        {
+          "start": 4.62,
+          "end": 4.94,
+          "word": " متأكد",
+          "probability": 0.9126145392656326
+        },
+        {
+          "start": 4.94,
+          "end": 5.12,
+          "word": " بلي",
+          "probability": 0.6912599205970764
+        },
+        {
+          "start": 5.12,
+          "end": 5.48,
+          "word": " مفيش",
+          "probability": 0.5269373854001363
+        },
+        {
+          "start": 5.48,
+          "end": 5.86,
+          "word": " تغارة",
+          "probability": 0.6493809744715691
+        },
+        {
+          "start": 5.86,
+          "end": 6.08,
+          "word": " تحشي",
+          "probability": 0.7139368802309036
+        },
+        {
+          "start": 6.08,
+          "end": 6.5,
+          "word": " كيريتي",
+          "probability": 0.6561423093080521
+        }
+      ]
+    },
+    {
+      "start": 6.5,
+      "end": 12.46,
+      "text": "عروحة معا اليو من روريك اهداء تقدر اتعاملك تكتشف هذه الثغارات وتصلحهم قبل ما تنشر تطبيقك",
+      "words": [
+        {
+          "start": 6.5,
+          "end": 7.58,
+          "word": " عروحة",
+          "probability": 0.6321852952241898
+        },
+        {
+          "start": 7.58,
+          "end": 7.76,
+          "word": " معا",
+          "probability": 0.7559609711170197
+        },
+        {
+          "start": 7.76,
+          "end": 8.04,
+          "word": " اليو",
+          "probability": 0.49905580282211304
+        },
+        {
+          "start": 8.04,
+          "end": 8.16,
+          "word": " من",
+          "probability": 0.8867425918579102
+        },
+        {
+          "start": 8.16,
+          "end": 8.48,
+          "word": " روريك",
+          "probability": 0.624472051858902
+        },
+        {
+          "start": 8.48,
+          "end": 8.82,
+          "word": " اهداء",
+          "probability": 0.6892790645360947
+        },
+        {
+          "start": 8.82,
+          "end": 9.2,
+          "word": " تقدر",
+          "probability": 0.9778333902359009
+        },
+        {
+          "start": 9.2,
+          "end": 9.54,
+          "word": " اتعاملك",
+          "probability": 0.5522422244151434
+        },
+        {
+          "start": 9.54,
+          "end": 9.96,
+          "word": " تكتشف",
+          "probability": 0.8447962760925293
+        },
+        {
+          "start": 9.96,
+          "end": 10.04,
+          "word": " هذه",
+          "probability": 0.49813148379325867
+        },
+        {
+          "start": 10.04,
+          "end": 10.66,
+          "word": " الثغارات",
+          "probability": 0.8700656294822693
+        },
+        {
+          "start": 10.66,
+          "end": 11.32,
+          "word": " وتصلحهم",
+          "probability": 0.843156710267067
+        },
+        {
+          "start": 11.32,
+          "end": 11.58,
+          "word": " قبل",
+          "probability": 0.972751259803772
+        },
+        {
+          "start": 11.58,
+          "end": 11.7,
+          "word": " ما",
+          "probability": 0.7244976758956909
+        },
+        {
+          "start": 11.7,
+          "end": 11.96,
+          "word": " تنشر",
+          "probability": 0.9805543422698975
+        },
+        {
+          "start": 11.96,
+          "end": 12.46,
+          "word": " تطبيقك",
+          "probability": 0.8877912163734436
+        }
+      ]
+    },
+    {
+      "start": 12.98,
+      "end": 16.88,
+      "text": "اسمها volhunter وهي اهداء تطورتها الشركة capital one",
+      "words": [
+        {
+          "start": 12.98,
+          "end": 13.86,
+          "word": " اسمها",
+          "probability": 0.6661971807479858
+        },
+        {
+          "start": 13.86,
+          "end": 14.7,
+          "word": " volhunter",
+          "probability": 0.45491814861694974
+        },
+        {
+          "start": 14.7,
+          "end": 15.08,
+          "word": " وهي",
+          "probability": 0.8701738119125366
+        },
+        {
+          "start": 15.08,
+          "end": 15.42,
+          "word": " اهداء",
+          "probability": 0.941222608089447
+        },
+        {
+          "start": 15.42,
+          "end": 15.9,
+          "word": " تطورتها",
+          "probability": 0.8065153896808624
+        },
+        {
+          "start": 15.9,
+          "end": 16.28,
+          "word": " الشركة",
+          "probability": 0.9459084272384644
+        },
+        {
+          "start": 16.28,
+          "end": 16.6,
+          "word": " capital",
+          "probability": 0.5508631467819214
+        },
+        {
+          "start": 16.6,
+          "end": 16.88,
+          "word": " one",
+          "probability": 0.7808917760848999
+        }
+      ]
+    }
+  ],
+  "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+}

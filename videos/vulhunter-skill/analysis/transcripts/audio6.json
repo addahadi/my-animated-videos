@@ -1,0 +1,65 @@
+{
+  "file": "audio6.ogg",
+  "duration": 3.9466666666666663,
+  "cumulative_start": 66.19733333333333,
+  "language": "ar",
+  "language_probability": 1,
+  "segments": [
+    {
+      "start": 0.5,
+      "end": 3.46,
+      "text": "وما تنسوش ديرو فولولو للمزيد من أدوات الإعاية",
+      "words": [
+        {
+          "start": 0.5,
+          "end": 1.0,
+          "word": " وما",
+          "probability": 0.2914898842573166
+        },
+        {
+          "start": 1.0,
+          "end": 1.42,
+          "word": " تنسوش",
+          "probability": 0.6577089786529541
+        },
+        {
+          "start": 1.42,
+          "end": 1.66,
+          "word": " ديرو",
+          "probability": 0.6117015779018402
+        },
+        {
+          "start": 1.66,
+          "end": 2.06,
+          "word": " فولولو",
+          "probability": 0.7462314814329147
+        },
+        {
+          "start": 2.06,
+          "end": 2.52,
+          "word": " للمزيد",
+          "probability": 0.7908252030611038
+        },
+        {
+          "start": 2.52,
+          "end": 2.66,
+          "word": " من",
+          "probability": 0.9956966638565063
+        },
+        {
+          "start": 2.66,
+          "end": 3.04,
+          "word": " أدوات",
+          "probability": 0.8743525743484497
+        },
+        {
+          "start": 3.04,
+          "end": 3.46,
+          "word": " الإعاية",
+          "probability": 0.25033973529934883
+        }
+      ]
+    }
+  ],
+  "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+}

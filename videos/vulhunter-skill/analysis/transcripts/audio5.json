@@ -1,0 +1,144 @@
+{
+  "file": "audio5.ogg",
+  "duration": 7.658666666666666,
+  "cumulative_start": 58.538666666666664,
+  "language": "ar",
+  "language_probability": 1,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.3,
+      "text": "والحاجة الملحة فيها مش يغير تقلب على المشاكل في الكود",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.8,
+          "word": " والحاجة",
+          "probability": 0.8799916952848434
+        },
+        {
+          "start": 0.8,
+          "end": 1.32,
+          "word": " الملحة",
+          "probability": 0.7894435971975327
+        },
+        {
+          "start": 1.32,
+          "end": 1.44,
+          "word": " فيها",
+          "probability": 0.9626646637916565
+        },
+        {
+          "start": 1.44,
+          "end": 1.72,
+          "word": " مش",
+          "probability": 0.42147329449653625
+        },
+        {
+          "start": 1.72,
+          "end": 1.96,
+          "word": " يغير",
+          "probability": 0.6738109141588211
+        },
+        {
+          "start": 1.96,
+          "end": 2.24,
+          "word": " تقلب",
+          "probability": 0.8220657308896383
+        },
+        {
+          "start": 2.24,
+          "end": 2.38,
+          "word": " على",
+          "probability": 0.6140016913414001
+        },
+        {
+          "start": 2.38,
+          "end": 2.78,
+          "word": " المشاكل",
+          "probability": 0.6730342507362366
+        },
+        {
+          "start": 2.78,
+          "end": 2.94,
+          "word": " في",
+          "probability": 0.8848690986633301
+        },
+        {
+          "start": 2.94,
+          "end": 3.3,
+          "word": " الكود",
+          "probability": 0.4706566482782364
+        }
+      ]
+    },
+    {
+      "start": 3.3,
+      "end": 6.88,
+      "text": "بل تحاول تتأكد إذا الثغرة يقدر يستغلها عاكر أو لا",
+      "words": [
+        {
+          "start": 3.3,
+          "end": 3.66,
+          "word": " بل",
+          "probability": 0.6855257302522659
+        },
+        {
+          "start": 3.66,
+          "end": 4.08,
+          "word": " تحاول",
+          "probability": 0.9908568412065506
+        },
+        {
+          "start": 4.08,
+          "end": 4.62,
+          "word": " تتأكد",
+          "probability": 0.9563567161560058
+        },
+        {
+          "start": 4.62,
+          "end": 4.82,
+          "word": " إذا",
+          "probability": 0.9433543384075165
+        },
+        {
+          "start": 4.82,
+          "end": 5.3,
+          "word": " الثغرة",
+          "probability": 0.7843851372599602
+        },
+        {
+          "start": 5.3,
+          "end": 5.7,
+          "word": " يقدر",
+          "probability": 0.9690627455711365
+        },
+        {
+          "start": 5.7,
+          "end": 6.18,
+          "word": " يستغلها",
+          "probability": 0.7901998102664948
+        },
+        {
+          "start": 6.18,
+          "end": 6.46,
+          "word": " عاكر",
+          "probability": 0.7429606815179189
+        },
+        {
+          "start": 6.46,
+          "end": 6.72,
+          "word": " أو",
+          "probability": 0.7349665760993958
+        },
+        {
+          "start": 6.72,
+          "end": 6.88,
+          "word": " لا",
+          "probability": 0.9463609457015991
+        }
+      ]
+    }
+  ],
+  "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+}

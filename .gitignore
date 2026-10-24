@@ -1,0 +1,21 @@
+node_modules/
+.venv/
+build/
+output/
+.remotion/
+__pycache__/
+
+# Generated render bundles duplicate source files and media.
+render-bundle/
+
+# Keep video inputs and exports local.
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[mM]4[vV]
+*.[wW][eE][bB][mM]
+*.[mM][kK][vV]
+*.[aA][vV][iI]
+*.[mM][pP][eE][gG]
+*.[mM][pP][gG]
+*.[mM][tT][sS]
+*.[mM]2[tT][sS]

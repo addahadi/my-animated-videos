@@ -1,0 +1,146 @@
+{
+  "file": "audio3.ogg",
+  "duration": 9.642666666666667,
+  "cumulative_start": 28.053333333333335,
+  "language": "ar",
+  "language_probability": 1,
+  "segments": [
+    {
+      "start": 0.05,
+      "end": 3.17,
+      "text": "ثلاث حاجة لكتبو فريفائد",
+      "words": [
+        {
+          "start": 0.05,
+          "end": 0.75,
+          "word": " ثلاث",
+          "probability": 0.5794351622462273
+        },
+        {
+          "start": 0.75,
+          "end": 1.09,
+          "word": " حاجة",
+          "probability": 0.8184075752894083
+        },
+        {
+          "start": 1.09,
+          "end": 1.45,
+          "word": " لكتبو",
+          "probability": 0.6163415670394897
+        },
+        {
+          "start": 1.45,
+          "end": 3.17,
+          "word": " فريفائد",
+          "probability": 0.3031221777200699
+        }
+      ]
+    },
+    {
+      "start": 3.17,
+      "end": 4.41,
+      "text": "هنا الأيجنت آخر",
+      "words": [
+        {
+          "start": 3.17,
+          "end": 3.45,
+          "word": " هنا",
+          "probability": 0.1305806189775467
+        },
+        {
+          "start": 3.45,
+          "end": 3.95,
+          "word": " الأيجنت",
+          "probability": 0.4359441101551056
+        },
+        {
+          "start": 3.95,
+          "end": 4.41,
+          "word": " آخر",
+          "probability": 0.7250413596630096
+        }
+      ]
+    },
+    {
+      "start": 4.94,
+      "end": 6.69,
+      "text": "إراجعة تصلحة بشكل مستقل",
+      "words": [
+        {
+          "start": 4.94,
+          "end": 5.35,
+          "word": " إراجعة",
+          "probability": 0.4751613885164261
+        },
+        {
+          "start": 5.35,
+          "end": 5.79,
+          "word": " تصلحة",
+          "probability": 0.8059953451156616
+        },
+        {
+          "start": 5.79,
+          "end": 6.11,
+          "word": " بشكل",
+          "probability": 0.9667455156644186
+        },
+        {
+          "start": 6.11,
+          "end": 6.69,
+          "word": " مستقل",
+          "probability": 0.9653465449810028
+        }
+      ]
+    },
+    {
+      "start": 6.69,
+      "end": 9.05,
+      "text": "ويتحق إذا ثغارات صحة صلحة ولا لا",
+      "words": [
+        {
+          "start": 6.69,
+          "end": 7.17,
+          "word": " ويتحق",
+          "probability": 0.8128823339939117
+        },
+        {
+          "start": 7.17,
+          "end": 7.47,
+          "word": " إذا",
+          "probability": 0.7783549726009369
+        },
+        {
+          "start": 7.47,
+          "end": 7.97,
+          "word": " ثغارات",
+          "probability": 0.8351678848266602
+        },
+        {
+          "start": 7.97,
+          "end": 8.33,
+          "word": " صحة",
+          "probability": 0.7336509823799133
+        },
+        {
+          "start": 8.33,
+          "end": 8.71,
+          "word": " صلحة",
+          "probability": 0.748953104019165
+        },
+        {
+          "start": 8.71,
+          "end": 8.83,
+          "word": " ولا",
+          "probability": 0.3738783001899719
+        },
+        {
+          "start": 8.83,
+          "end": 9.05,
+          "word": " لا",
+          "probability": 0.6123424172401428
+        }
+      ]
+    }
+  ],
+  "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+}

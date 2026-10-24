@@ -1,0 +1,1157 @@
+[
+  {
+    "file": "audio1.ogg",
+    "duration": 17.344,
+    "cumulative_start": 0.0,
+    "language": "ar",
+    "language_probability": 1,
+    "segments": [
+      {
+        "start": 0.3,
+        "end": 6.5,
+        "text": "كمدة تطبيقك بالفايب كودين و ركحة تنشره بسعوش ركحة متأكد بلي مفيش تغارة تحشي كيريتي",
+        "words": [
+          {
+            "start": 0.3,
+            "end": 0.96,
+            "word": " كمدة",
+            "probability": 0.45004648094375926
+          },
+          {
+            "start": 0.96,
+            "end": 1.48,
+            "word": " تطبيقك",
+            "probability": 0.8019326478242874
+          },
+          {
+            "start": 1.48,
+            "end": 1.92,
+            "word": " بالفايب",
+            "probability": 0.6369666941463947
+          },
+          {
+            "start": 1.92,
+            "end": 2.4,
+            "word": " كودين",
+            "probability": 0.6898017376661301
+          },
+          {
+            "start": 2.4,
+            "end": 2.48,
+            "word": " و",
+            "probability": 0.6318961381912231
+          },
+          {
+            "start": 2.48,
+            "end": 2.76,
+            "word": " ركحة",
+            "probability": 0.4967377707362175
+          },
+          {
+            "start": 2.76,
+            "end": 3.22,
+            "word": " تنشره",
+            "probability": 0.661897748708725
+          },
+          {
+            "start": 3.22,
+            "end": 4.38,
+            "word": " بسعوش",
+            "probability": 0.5949366509914398
+          },
+          {
+            "start": 4.38,
+            "end": 4.62,
+            "word": " ركحة",
+            "probability": 0.7610372304916382
+          },
+          {
+            "start": 4.62,
+            "end": 4.94,
+            "word": " متأكد",
+            "probability": 0.9126145392656326
+          },
+          {
+            "start": 4.94,
+            "end": 5.12,
+            "word": " بلي",
+            "probability": 0.6912599205970764
+          },
+          {
+            "start": 5.12,
+            "end": 5.48,
+            "word": " مفيش",
+            "probability": 0.5269373854001363
+          },
+          {
+            "start": 5.48,
+            "end": 5.86,
+            "word": " تغارة",
+            "probability": 0.6493809744715691
+          },
+          {
+            "start": 5.86,
+            "end": 6.08,
+            "word": " تحشي",
+            "probability": 0.7139368802309036
+          },
+          {
+            "start": 6.08,
+            "end": 6.5,
+            "word": " كيريتي",
+            "probability": 0.6561423093080521
+          }
+        ]
+      },
+      {
+        "start": 6.5,
+        "end": 12.46,
+        "text": "عروحة معا اليو من روريك اهداء تقدر اتعاملك تكتشف هذه الثغارات وتصلحهم قبل ما تنشر تطبيقك",
+        "words": [
+          {
+            "start": 6.5,
+            "end": 7.58,
+            "word": " عروحة",
+            "probability": 0.6321852952241898
+          },
+          {
+            "start": 7.58,
+            "end": 7.76,
+            "word": " معا",
+            "probability": 0.7559609711170197
+          },
+          {
+            "start": 7.76,
+            "end": 8.04,
+            "word": " اليو",
+            "probability": 0.49905580282211304
+          },
+          {
+            "start": 8.04,
+            "end": 8.16,
+            "word": " من",
+            "probability": 0.8867425918579102
+          },
+          {
+            "start": 8.16,
+            "end": 8.48,
+            "word": " روريك",
+            "probability": 0.624472051858902
+          },
+          {
+            "start": 8.48,
+            "end": 8.82,
+            "word": " اهداء",
+            "probability": 0.6892790645360947
+          },
+          {
+            "start": 8.82,
+            "end": 9.2,
+            "word": " تقدر",
+            "probability": 0.9778333902359009
+          },
+          {
+            "start": 9.2,
+            "end": 9.54,
+            "word": " اتعاملك",
+            "probability": 0.5522422244151434
+          },
+          {
+            "start": 9.54,
+            "end": 9.96,
+            "word": " تكتشف",
+            "probability": 0.8447962760925293
+          },
+          {
+            "start": 9.96,
+            "end": 10.04,
+            "word": " هذه",
+            "probability": 0.49813148379325867
+          },
+          {
+            "start": 10.04,
+            "end": 10.66,
+            "word": " الثغارات",
+            "probability": 0.8700656294822693
+          },
+          {
+            "start": 10.66,
+            "end": 11.32,
+            "word": " وتصلحهم",
+            "probability": 0.843156710267067
+          },
+          {
+            "start": 11.32,
+            "end": 11.58,
+            "word": " قبل",
+            "probability": 0.972751259803772
+          },
+          {
+            "start": 11.58,
+            "end": 11.7,
+            "word": " ما",
+            "probability": 0.7244976758956909
+          },
+          {
+            "start": 11.7,
+            "end": 11.96,
+            "word": " تنشر",
+            "probability": 0.9805543422698975
+          },
+          {
+            "start": 11.96,
+            "end": 12.46,
+            "word": " تطبيقك",
+            "probability": 0.8877912163734436
+          }
+        ]
+      },
+      {
+        "start": 12.98,
+        "end": 16.88,
+        "text": "اسمها volhunter وهي اهداء تطورتها الشركة capital one",
+        "words": [
+          {
+            "start": 12.98,
+            "end": 13.86,
+            "word": " اسمها",
+            "probability": 0.6661971807479858
+          },
+          {
+            "start": 13.86,
+            "end": 14.7,
+            "word": " volhunter",
+            "probability": 0.45491814861694974
+          },
+          {
+            "start": 14.7,
+            "end": 15.08,
+            "word": " وهي",
+            "probability": 0.8701738119125366
+          },
+          {
+            "start": 15.08,
+            "end": 15.42,
+            "word": " اهداء",
+            "probability": 0.941222608089447
+          },
+          {
+            "start": 15.42,
+            "end": 15.9,
+            "word": " تطورتها",
+            "probability": 0.8065153896808624
+          },
+          {
+            "start": 15.9,
+            "end": 16.28,
+            "word": " الشركة",
+            "probability": 0.9459084272384644
+          },
+          {
+            "start": 16.28,
+            "end": 16.6,
+            "word": " capital",
+            "probability": 0.5508631467819214
+          },
+          {
+            "start": 16.6,
+            "end": 16.88,
+            "word": " one",
+            "probability": 0.7808917760848999
+          }
+        ]
+      }
+    ],
+    "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+  },
+  {
+    "file": "audio2.ogg",
+    "duration": 10.709333333333333,
+    "cumulative_start": 17.344,
+    "language": "ar",
+    "language_probability": 1,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 1.5,
+        "text": "والأحسن من هذا كامل",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.66,
+            "word": " والأحسن",
+            "probability": 0.814692622423172
+          },
+          {
+            "start": 0.66,
+            "end": 0.74,
+            "word": " من",
+            "probability": 0.947933554649353
+          },
+          {
+            "start": 0.74,
+            "end": 0.94,
+            "word": " هذا",
+            "probability": 0.9315604567527771
+          },
+          {
+            "start": 0.94,
+            "end": 1.5,
+            "word": " كامل",
+            "probability": 0.7659196555614471
+          }
+        ]
+      },
+      {
+        "start": 1.5,
+        "end": 4.52,
+        "text": "المشروع ظاول هانتر هو مشروع open source",
+        "words": [
+          {
+            "start": 1.5,
+            "end": 2.5,
+            "word": " المشروع",
+            "probability": 0.817949153482914
+          },
+          {
+            "start": 2.5,
+            "end": 2.82,
+            "word": " ظاول",
+            "probability": 0.4689050754532218
+          },
+          {
+            "start": 2.82,
+            "end": 3.26,
+            "word": " هانتر",
+            "probability": 0.6959013380110264
+          },
+          {
+            "start": 3.26,
+            "end": 3.52,
+            "word": " هو",
+            "probability": 0.9491428732872009
+          },
+          {
+            "start": 3.52,
+            "end": 4.0,
+            "word": " مشروع",
+            "probability": 0.9315954049428304
+          },
+          {
+            "start": 4.0,
+            "end": 4.16,
+            "word": " open",
+            "probability": 0.1241389587521553
+          },
+          {
+            "start": 4.16,
+            "end": 4.52,
+            "word": " source",
+            "probability": 0.8962675333023071
+          }
+        ]
+      },
+      {
+        "start": 4.52,
+        "end": 5.94,
+        "text": "أي موجود في الـ github",
+        "words": [
+          {
+            "start": 4.52,
+            "end": 4.92,
+            "word": " أي",
+            "probability": 0.6865253448486328
+          },
+          {
+            "start": 4.92,
+            "end": 5.36,
+            "word": " موجود",
+            "probability": 0.9825515349706014
+          },
+          {
+            "start": 5.36,
+            "end": 5.46,
+            "word": " في",
+            "probability": 0.9325361251831055
+          },
+          {
+            "start": 5.46,
+            "end": 5.58,
+            "word": " الـ",
+            "probability": 0.19878798723220825
+          },
+          {
+            "start": 5.58,
+            "end": 5.94,
+            "word": " github",
+            "probability": 0.719973087310791
+          }
+        ]
+      },
+      {
+        "start": 5.94,
+        "end": 7.94,
+        "text": "بارك لازم يكون عنده clod code",
+        "words": [
+          {
+            "start": 5.94,
+            "end": 6.64,
+            "word": " بارك",
+            "probability": 0.6691057483355204
+          },
+          {
+            "start": 6.64,
+            "end": 6.92,
+            "word": " لازم",
+            "probability": 0.8549116055170695
+          },
+          {
+            "start": 6.92,
+            "end": 7.12,
+            "word": " يكون",
+            "probability": 0.9584494233131409
+          },
+          {
+            "start": 7.12,
+            "end": 7.4,
+            "word": " عنده",
+            "probability": 0.5543563961982727
+          },
+          {
+            "start": 7.4,
+            "end": 7.68,
+            "word": " clod",
+            "probability": 0.23347460478544235
+          },
+          {
+            "start": 7.68,
+            "end": 7.94,
+            "word": " code",
+            "probability": 0.8283134698867798
+          }
+        ]
+      },
+      {
+        "start": 7.94,
+        "end": 9.68,
+        "text": "مع الوصول لموضل clod op",
+        "words": [
+          {
+            "start": 7.94,
+            "end": 8.24,
+            "word": " مع",
+            "probability": 0.9754080772399902
+          },
+          {
+            "start": 8.24,
+            "end": 8.76,
+            "word": " الوصول",
+            "probability": 0.9634882807731628
+          },
+          {
+            "start": 8.76,
+            "end": 9.16,
+            "word": " لموضل",
+            "probability": 0.6757380627095699
+          },
+          {
+            "start": 9.16,
+            "end": 9.46,
+            "word": " clod",
+            "probability": 0.8935671150684357
+          },
+          {
+            "start": 9.46,
+            "end": 9.68,
+            "word": " op",
+            "probability": 0.5936965942382812
+          }
+        ]
+      }
+    ],
+    "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+  },
+  {
+    "file": "audio3.ogg",
+    "duration": 9.642666666666667,
+    "cumulative_start": 28.053333333333335,
+    "language": "ar",
+    "language_probability": 1,
+    "segments": [
+      {
+        "start": 0.05,
+        "end": 3.17,
+        "text": "ثلاث حاجة لكتبو فريفائد",
+        "words": [
+          {
+            "start": 0.05,
+            "end": 0.75,
+            "word": " ثلاث",
+            "probability": 0.5794351622462273
+          },
+          {
+            "start": 0.75,
+            "end": 1.09,
+            "word": " حاجة",
+            "probability": 0.8184075752894083
+          },
+          {
+            "start": 1.09,
+            "end": 1.45,
+            "word": " لكتبو",
+            "probability": 0.6163415670394897
+          },
+          {
+            "start": 1.45,
+            "end": 3.17,
+            "word": " فريفائد",
+            "probability": 0.3031221777200699
+          }
+        ]
+      },
+      {
+        "start": 3.17,
+        "end": 4.41,
+        "text": "هنا الأيجنت آخر",
+        "words": [
+          {
+            "start": 3.17,
+            "end": 3.45,
+            "word": " هنا",
+            "probability": 0.1305806189775467
+          },
+          {
+            "start": 3.45,
+            "end": 3.95,
+            "word": " الأيجنت",
+            "probability": 0.4359441101551056
+          },
+          {
+            "start": 3.95,
+            "end": 4.41,
+            "word": " آخر",
+            "probability": 0.7250413596630096
+          }
+        ]
+      },
+      {
+        "start": 4.94,
+        "end": 6.69,
+        "text": "إراجعة تصلحة بشكل مستقل",
+        "words": [
+          {
+            "start": 4.94,
+            "end": 5.35,
+            "word": " إراجعة",
+            "probability": 0.4751613885164261
+          },
+          {
+            "start": 5.35,
+            "end": 5.79,
+            "word": " تصلحة",
+            "probability": 0.8059953451156616
+          },
+          {
+            "start": 5.79,
+            "end": 6.11,
+            "word": " بشكل",
+            "probability": 0.9667455156644186
+          },
+          {
+            "start": 6.11,
+            "end": 6.69,
+            "word": " مستقل",
+            "probability": 0.9653465449810028
+          }
+        ]
+      },
+      {
+        "start": 6.69,
+        "end": 9.05,
+        "text": "ويتحق إذا ثغارات صحة صلحة ولا لا",
+        "words": [
+          {
+            "start": 6.69,
+            "end": 7.17,
+            "word": " ويتحق",
+            "probability": 0.8128823339939117
+          },
+          {
+            "start": 7.17,
+            "end": 7.47,
+            "word": " إذا",
+            "probability": 0.7783549726009369
+          },
+          {
+            "start": 7.47,
+            "end": 7.97,
+            "word": " ثغارات",
+            "probability": 0.8351678848266602
+          },
+          {
+            "start": 7.97,
+            "end": 8.33,
+            "word": " صحة",
+            "probability": 0.7336509823799133
+          },
+          {
+            "start": 8.33,
+            "end": 8.71,
+            "word": " صلحة",
+            "probability": 0.748953104019165
+          },
+          {
+            "start": 8.71,
+            "end": 8.83,
+            "word": " ولا",
+            "probability": 0.3738783001899719
+          },
+          {
+            "start": 8.83,
+            "end": 9.05,
+            "word": " لا",
+            "probability": 0.6123424172401428
+          }
+        ]
+      }
+    ],
+    "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+  },
+  {
+    "file": "audio4.ogg",
+    "duration": 20.842666666666666,
+    "cumulative_start": 37.696,
+    "language": "ar",
+    "language_probability": 1,
+    "segments": [
+      {
+        "start": 0.3,
+        "end": 1.72,
+        "text": "اول حاجة نكتبو",
+        "words": [
+          {
+            "start": 0.3,
+            "end": 0.88,
+            "word": " اول",
+            "probability": 0.5101602971553802
+          },
+          {
+            "start": 0.88,
+            "end": 1.24,
+            "word": " حاجة",
+            "probability": 0.8871410290400187
+          },
+          {
+            "start": 1.24,
+            "end": 1.72,
+            "word": " نكتبو",
+            "probability": 0.7359433799982071
+          }
+        ]
+      },
+      {
+        "start": 1.72,
+        "end": 4.7,
+        "text": "هنا تفحص لك الكود",
+        "words": [
+          {
+            "start": 1.72,
+            "end": 2.66,
+            "word": " هنا",
+            "probability": 0.00017579722043592483
+          },
+          {
+            "start": 2.66,
+            "end": 4.16,
+            "word": " تفحص",
+            "probability": 0.8758969753980637
+          },
+          {
+            "start": 4.16,
+            "end": 4.34,
+            "word": " لك",
+            "probability": 0.7485847771167755
+          },
+          {
+            "start": 4.34,
+            "end": 4.7,
+            "word": " الكود",
+            "probability": 0.5576523244380951
+          }
+        ]
+      },
+      {
+        "start": 4.7,
+        "end": 6.34,
+        "text": "تقلب على الثغارات الأمنية",
+        "words": [
+          {
+            "start": 4.7,
+            "end": 5.22,
+            "word": " تقلب",
+            "probability": 0.8153638243675232
+          },
+          {
+            "start": 5.22,
+            "end": 5.4,
+            "word": " على",
+            "probability": 0.9249823093414307
+          },
+          {
+            "start": 5.4,
+            "end": 5.84,
+            "word": " الثغارات",
+            "probability": 0.670981377363205
+          },
+          {
+            "start": 5.84,
+            "end": 6.34,
+            "word": " الأمنية",
+            "probability": 0.7885184288024902
+          }
+        ]
+      },
+      {
+        "start": 6.34,
+        "end": 7.36,
+        "text": "وتخرج لك رابور",
+        "words": [
+          {
+            "start": 6.34,
+            "end": 6.78,
+            "word": " وتخرج",
+            "probability": 0.8616775075594584
+          },
+          {
+            "start": 6.78,
+            "end": 6.94,
+            "word": " لك",
+            "probability": 0.9158145487308502
+          },
+          {
+            "start": 6.94,
+            "end": 7.36,
+            "word": " رابور",
+            "probability": 0.7883557677268982
+          }
+        ]
+      },
+      {
+        "start": 7.36,
+        "end": 8.72,
+        "text": "فيه المشاكل اللي يلقاتهم",
+        "words": [
+          {
+            "start": 7.36,
+            "end": 7.64,
+            "word": " فيه",
+            "probability": 0.6474437713623047
+          },
+          {
+            "start": 7.64,
+            "end": 8.08,
+            "word": " المشاكل",
+            "probability": 0.7639041617512703
+          },
+          {
+            "start": 8.08,
+            "end": 8.24,
+            "word": " اللي",
+            "probability": 0.6025498062372208
+          },
+          {
+            "start": 8.24,
+            "end": 8.72,
+            "word": " يلقاتهم",
+            "probability": 0.7806898385286332
+          }
+        ]
+      },
+      {
+        "start": 8.72,
+        "end": 10.02,
+        "text": "وكيفاش تقدر تصلاحهم",
+        "words": [
+          {
+            "start": 8.72,
+            "end": 9.24,
+            "word": " وكيفاش",
+            "probability": 0.7771275565028191
+          },
+          {
+            "start": 9.24,
+            "end": 9.52,
+            "word": " تقدر",
+            "probability": 0.9359539151191711
+          },
+          {
+            "start": 9.52,
+            "end": 10.02,
+            "word": " تصلاحهم",
+            "probability": 0.6235390901565552
+          }
+        ]
+      },
+      {
+        "start": 10.02,
+        "end": 12.78,
+        "text": "ثانية حاجة نكتبو",
+        "words": [
+          {
+            "start": 10.02,
+            "end": 10.98,
+            "word": " ثانية",
+            "probability": 0.6892750461896261
+          },
+          {
+            "start": 10.98,
+            "end": 11.38,
+            "word": " حاجة",
+            "probability": 0.989194909731547
+          },
+          {
+            "start": 11.38,
+            "end": 12.78,
+            "word": " نكتبو",
+            "probability": 0.9758801817893982
+          }
+        ]
+      },
+      {
+        "start": 12.78,
+        "end": 15.82,
+        "text": "هنا تعاونك تصلاح الثغارات",
+        "words": [
+          {
+            "start": 12.78,
+            "end": 14.12,
+            "word": " هنا",
+            "probability": 0.2332899123430252
+          },
+          {
+            "start": 14.12,
+            "end": 14.98,
+            "word": " تعاونك",
+            "probability": 0.8082600831985474
+          },
+          {
+            "start": 14.98,
+            "end": 15.32,
+            "word": " تصلاح",
+            "probability": 0.8459082394838333
+          },
+          {
+            "start": 15.32,
+            "end": 15.82,
+            "word": " الثغارات",
+            "probability": 0.979875648021698
+          }
+        ]
+      },
+      {
+        "start": 15.82,
+        "end": 16.84,
+        "text": "مباشرة في الكود",
+        "words": [
+          {
+            "start": 15.82,
+            "end": 16.28,
+            "word": " مباشرة",
+            "probability": 0.9254452735185623
+          },
+          {
+            "start": 16.28,
+            "end": 16.5,
+            "word": " في",
+            "probability": 0.9119757413864136
+          },
+          {
+            "start": 16.5,
+            "end": 16.84,
+            "word": " الكود",
+            "probability": 0.9774127900600433
+          }
+        ]
+      },
+      {
+        "start": 16.84,
+        "end": 17.74,
+        "text": "والدير تاست",
+        "words": [
+          {
+            "start": 16.84,
+            "end": 17.32,
+            "word": " والدير",
+            "probability": 0.7877594033877054
+          },
+          {
+            "start": 17.32,
+            "end": 17.74,
+            "word": " تاست",
+            "probability": 0.8394036889076233
+          }
+        ]
+      },
+      {
+        "start": 17.74,
+        "end": 18.88,
+        "text": "بش تشوف إذا التصليح",
+        "words": [
+          {
+            "start": 17.74,
+            "end": 18.02,
+            "word": " بش",
+            "probability": 0.7494929730892181
+          },
+          {
+            "start": 18.02,
+            "end": 18.2,
+            "word": " تشوف",
+            "probability": 0.7122349143028259
+          },
+          {
+            "start": 18.2,
+            "end": 18.4,
+            "word": " إذا",
+            "probability": 0.7811671793460846
+          },
+          {
+            "start": 18.4,
+            "end": 18.88,
+            "word": " التصليح",
+            "probability": 0.6693902090191841
+          }
+        ]
+      },
+      {
+        "start": 18.88,
+        "end": 19.48,
+        "text": "خدمو للا",
+        "words": [
+          {
+            "start": 18.88,
+            "end": 19.24,
+            "word": " خدمو",
+            "probability": 0.6517614523569742
+          },
+          {
+            "start": 19.24,
+            "end": 19.48,
+            "word": " للا",
+            "probability": 0.48669275641441345
+          }
+        ]
+      }
+    ],
+    "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+  },
+  {
+    "file": "audio5.ogg",
+    "duration": 7.658666666666666,
+    "cumulative_start": 58.538666666666664,
+    "language": "ar",
+    "language_probability": 1,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 3.3,
+        "text": "والحاجة الملحة فيها مش يغير تقلب على المشاكل في الكود",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.8,
+            "word": " والحاجة",
+            "probability": 0.8799916952848434
+          },
+          {
+            "start": 0.8,
+            "end": 1.32,
+            "word": " الملحة",
+            "probability": 0.7894435971975327
+          },
+          {
+            "start": 1.32,
+            "end": 1.44,
+            "word": " فيها",
+            "probability": 0.9626646637916565
+          },
+          {
+            "start": 1.44,
+            "end": 1.72,
+            "word": " مش",
+            "probability": 0.42147329449653625
+          },
+          {
+            "start": 1.72,
+            "end": 1.96,
+            "word": " يغير",
+            "probability": 0.6738109141588211
+          },
+          {
+            "start": 1.96,
+            "end": 2.24,
+            "word": " تقلب",
+            "probability": 0.8220657308896383
+          },
+          {
+            "start": 2.24,
+            "end": 2.38,
+            "word": " على",
+            "probability": 0.6140016913414001
+          },
+          {
+            "start": 2.38,
+            "end": 2.78,
+            "word": " المشاكل",
+            "probability": 0.6730342507362366
+          },
+          {
+            "start": 2.78,
+            "end": 2.94,
+            "word": " في",
+            "probability": 0.8848690986633301
+          },
+          {
+            "start": 2.94,
+            "end": 3.3,
+            "word": " الكود",
+            "probability": 0.4706566482782364
+          }
+        ]
+      },
+      {
+        "start": 3.3,
+        "end": 6.88,
+        "text": "بل تحاول تتأكد إذا الثغرة يقدر يستغلها عاكر أو لا",
+        "words": [
+          {
+            "start": 3.3,
+            "end": 3.66,
+            "word": " بل",
+            "probability": 0.6855257302522659
+          },
+          {
+            "start": 3.66,
+            "end": 4.08,
+            "word": " تحاول",
+            "probability": 0.9908568412065506
+          },
+          {
+            "start": 4.08,
+            "end": 4.62,
+            "word": " تتأكد",
+            "probability": 0.9563567161560058
+          },
+          {
+            "start": 4.62,
+            "end": 4.82,
+            "word": " إذا",
+            "probability": 0.9433543384075165
+          },
+          {
+            "start": 4.82,
+            "end": 5.3,
+            "word": " الثغرة",
+            "probability": 0.7843851372599602
+          },
+          {
+            "start": 5.3,
+            "end": 5.7,
+            "word": " يقدر",
+            "probability": 0.9690627455711365
+          },
+          {
+            "start": 5.7,
+            "end": 6.18,
+            "word": " يستغلها",
+            "probability": 0.7901998102664948
+          },
+          {
+            "start": 6.18,
+            "end": 6.46,
+            "word": " عاكر",
+            "probability": 0.7429606815179189
+          },
+          {
+            "start": 6.46,
+            "end": 6.72,
+            "word": " أو",
+            "probability": 0.7349665760993958
+          },
+          {
+            "start": 6.72,
+            "end": 6.88,
+            "word": " لا",
+            "probability": 0.9463609457015991
+          }
+        ]
+      }
+    ],
+    "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+  },
+  {
+    "file": "audio6.ogg",
+    "duration": 3.9466666666666663,
+    "cumulative_start": 66.19733333333333,
+    "language": "ar",
+    "language_probability": 1,
+    "segments": [
+      {
+        "start": 0.5,
+        "end": 3.46,
+        "text": "وما تنسوش ديرو فولولو للمزيد من أدوات الإعاية",
+        "words": [
+          {
+            "start": 0.5,
+            "end": 1.0,
+            "word": " وما",
+            "probability": 0.2914898842573166
+          },
+          {
+            "start": 1.0,
+            "end": 1.42,
+            "word": " تنسوش",
+            "probability": 0.6577089786529541
+          },
+          {
+            "start": 1.42,
+            "end": 1.66,
+            "word": " ديرو",
+            "probability": 0.6117015779018402
+          },
+          {
+            "start": 1.66,
+            "end": 2.06,
+            "word": " فولولو",
+            "probability": 0.7462314814329147
+          },
+          {
+            "start": 2.06,
+            "end": 2.52,
+            "word": " للمزيد",
+            "probability": 0.7908252030611038
+          },
+          {
+            "start": 2.52,
+            "end": 2.66,
+            "word": " من",
+            "probability": 0.9956966638565063
+          },
+          {
+            "start": 2.66,
+            "end": 3.04,
+            "word": " أدوات",
+            "probability": 0.8743525743484497
+          },
+          {
+            "start": 3.04,
+            "end": 3.46,
+            "word": " الإعاية",
+            "probability": 0.25033973529934883
+          }
+        ]
+      }
+    ],
+    "note": "Automatic draft; recognition errors possible, especially Darija and English terms."
+  }
+]
