@@ -1,0 +1,677 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "timing": "ESTIMATED",
+  "audioTiming": "MEASURED",
+  "alignmentStatus": "ASSUMED_ONE_CLIP_PER_BEAT_REVIEW_BY_EAR_REQUIRED",
+  "alignmentNote": "One clip per script beat is inferred from filenames, not verified by listening. ASR model allocation failed. Preserve script and all source audio; re-anchor events by ear before animation.",
+  "audioDurationSec": 93.312,
+  "durationInFrames": 2800,
+  "durationSec": 93.33333333333333,
+  "frameIntervals": "[startFrame, endFrame), end exclusive",
+  "audioPlacement": "Use the exact cumulative sample offsets below, not independently rounded scene starts. Keep all audio and original clip silence. Final frame padding is visual-only.",
+  "audioClips": [
+    {
+      "scriptBeat": 1,
+      "source": "../inputs/audio_2026-11-04_21-34-19.ogg",
+      "startSec": 0,
+      "endSec": 3.84,
+      "durationSec": 3.84,
+      "sampleRate": 48000,
+      "samples": 184320,
+      "sha256": "721fbf59620f9017a0fbd8f55f0a71fd0429b136d68aae33a2547ee5a4af68fe"
+    },
+    {
+      "scriptBeat": 2,
+      "source": "../inputs/audio2.ogg",
+      "startSec": 3.84,
+      "endSec": 11.392,
+      "durationSec": 7.552,
+      "sampleRate": 48000,
+      "samples": 362496,
+      "sha256": "9c2c9897ee580c104a656703df6fd2e8849426240083d4041e8e309e51b33991"
+    },
+    {
+      "scriptBeat": 3,
+      "source": "../inputs/audio3.ogg",
+      "startSec": 11.392,
+      "endSec": 19.712,
+      "durationSec": 8.32,
+      "sampleRate": 48000,
+      "samples": 399360,
+      "sha256": "b7ac7cbbf0d7629bf203deb7adb16dd097b786bd03e10c336c44037db3e4db9e"
+    },
+    {
+      "scriptBeat": 4,
+      "source": "../inputs/audio4.ogg",
+      "startSec": 19.712,
+      "endSec": 31.061333333333334,
+      "durationSec": 11.349333333333334,
+      "sampleRate": 48000,
+      "samples": 544768,
+      "sha256": "150a4538002947efd23f7a76ae74f7c71c3bc2e94db4e3cc765f3a87598be9e0"
+    },
+    {
+      "scriptBeat": 5,
+      "source": "../inputs/audio5.ogg",
+      "startSec": 31.061333333333334,
+      "endSec": 43.328,
+      "durationSec": 12.266666666666667,
+      "sampleRate": 48000,
+      "samples": 588800,
+      "sha256": "2cd5ad7ee697e523659a0ba981e054e327ca99a79c1c5fac8976f65312615d0e"
+    },
+    {
+      "scriptBeat": 6,
+      "source": "../inputs/audio6ogg.ogg",
+      "startSec": 43.328,
+      "endSec": 54.42133333333334,
+      "durationSec": 11.093333333333334,
+      "sampleRate": 48000,
+      "samples": 532480,
+      "sha256": "fc976e963f6677c717b78bc92cc217972354709f5bebbaebee5e656c2c2b7fa4"
+    },
+    {
+      "scriptBeat": 7,
+      "source": "../inputs/audio7.ogg",
+      "startSec": 54.42133333333334,
+      "endSec": 64.78933333333333,
+      "durationSec": 10.368,
+      "sampleRate": 48000,
+      "samples": 497664,
+      "sha256": "bbf8d6aaee587a1ad023e0fabe80ec37ff853fd433127c5854fe70a2e401a197"
+    },
+    {
+      "scriptBeat": 8,
+      "source": "../inputs/audio8.ogg",
+      "startSec": 64.78933333333333,
+      "endSec": 74.19733333333333,
+      "durationSec": 9.408,
+      "sampleRate": 48000,
+      "samples": 451584,
+      "sha256": "9dfd3394d44b9e2a833c648f3ac9f86ec2126a0695e0ea6a2b73b0e2e886d5e6"
+    },
+    {
+      "scriptBeat": 9,
+      "source": "../inputs/audio9.ogg",
+      "startSec": 74.19733333333333,
+      "endSec": 84.62933333333334,
+      "durationSec": 10.432,
+      "sampleRate": 48000,
+      "samples": 500736,
+      "sha256": "6bade067ddc595571a503253617718275aaa33ca560996810bd46209f35c4ce5"
+    },
+    {
+      "scriptBeat": 10,
+      "source": "../inputs/audio10.ogg",
+      "startSec": 84.62933333333334,
+      "endSec": 93.312,
+      "durationSec": 8.682666666666666,
+      "sampleRate": 48000,
+      "samples": 416768,
+      "sha256": "7e9a866bb91a55208569560373c4615057e320cd4ff6eda38271212b0826ab6f"
+    }
+  ],
+  "captions": {
+    "mode": "short_headings_only",
+    "fullNarrationCaptions": false
+  },
+  "styleFile": "style.md",
+  "scenes": [
+    {
+      "id": 1,
+      "startSec": 0.0,
+      "endSec": 3.8333333333333335,
+      "startFrame": 0,
+      "endFrame": 115,
+      "timing": "ESTIMATED",
+      "voiceover": "server واحد، ومئات الملايين راحو.",
+      "component": "IncidentHook",
+      "props": {
+        "effort": "S",
+        "representation": "Story / scale: one server with an unexplained loss; creates a question without inventing intermediate dollar values.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 0,
+            "atSec": 0.0,
+            "phraseAnchor": "server واحد",
+            "action": "Server card already entering on frame one; orange fault edge draws",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 9
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 54,
+            "atSec": 1.8,
+            "phraseAnchor": "ومئات الملايين",
+            "action": "Loss label appears beside the card; keep exact dollar amount covered",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 63
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 96,
+            "atSec": 3.2,
+            "phraseAnchor": "راحو",
+            "action": "Freeze the loss label and move the same card toward the future grid anchor",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 105
+          }
+        ],
+        "audioClip": "../inputs/audio_2026-11-04_21-34-19.ogg"
+      },
+      "onScreenText": "server واحد، كارثة بالملايين",
+      "sfx": [
+        "One quiet low impact on the loss label"
+      ],
+      "tool": "remotion",
+      "role": "hook"
+    },
+    {
+      "id": 2,
+      "startSec": 3.8333333333333335,
+      "endSec": 11.4,
+      "startFrame": 115,
+      "endFrame": 342,
+      "timing": "ESTIMATED",
+      "voiceover": "في أوت ألفين واثناش، شركة أمريكية اسمها Knight Capital كانت تستعمل برامج تبعث أوامر شراء وبيع الأسهم للبورصة، بسرعة كبيرة.",
+      "component": "OrderJourney",
+      "props": {
+        "effort": "M",
+        "representation": "Invisible process: a customer order travels through the company to an exchange. Blue always means an order, never a good software version.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 115,
+            "atSec": 3.8333333333333335,
+            "phraseAnchor": "في أوت ألفين واثناش",
+            "action": "Date chip appears above the persistent server; no logo intro",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 124
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 199,
+            "atSec": 6.633333333333334,
+            "phraseAnchor": "Knight Capital",
+            "action": "Company label snaps onto the middle node; reveal exchange below",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 208
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 280,
+            "atSec": 9.333333333333334,
+            "phraseAnchor": "أوامر شراء وبيع",
+            "action": "Blue BUY/SELL cards move downward; accelerate only on بسرعة كبيرة",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 289
+          }
+        ],
+        "audioClip": "../inputs/audio2.ogg"
+      },
+      "onScreenText": "أوامر تتبعث في لحظات",
+      "sfx": [
+        "One soft routing click; music optional/off"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 3,
+      "startSec": 11.4,
+      "endSec": 19.7,
+      "startFrame": 342,
+      "endFrame": 591,
+      "timing": "ESTIMATED",
+      "voiceover": "نهار واحد أوت، فتح السوق… وبدا البرنامج يبعث أوامر غالطة. في حوالي خمسة وأربعين دقيقة، دار قرابة أربعة ملايين عملية تداول.",
+      "component": "IncidentScale",
+      "props": {
+        "effort": "M",
+        "representation": "Story / number: distinguish incoming customer requests from executed trades. Compression illustrates activity, not real-time trading speed.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 342,
+            "atSec": 11.4,
+            "phraseAnchor": "فتح السوق",
+            "action": "09:30 market-open chip; ordinary order path stays visible",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 351
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 423,
+            "atSec": 14.1,
+            "phraseAnchor": "أوامر غالطة",
+            "action": "Repeated blue order cards gain orange fault outlines and multiply",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 432
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 510,
+            "atSec": 17.0,
+            "phraseAnchor": "خمسة وأربعين دقيقة",
+            "action": "Span card 45 دقيقة, then approximately 4M executions on its spoken phrase; add small why-question marker",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 519
+          }
+        ],
+        "audioClip": "../inputs/audio3.ogg"
+      },
+      "onScreenText": "45 دقيقة، ملايين العمليات",
+      "sfx": [
+        "Quiet clock click; no constant ticking"
+      ],
+      "tool": "remotion",
+      "role": "open loop"
+    },
+    {
+      "id": 4,
+      "startSec": 19.7,
+      "endSec": 31.066666666666666,
+      "startFrame": 591,
+      "endFrame": 932,
+      "timing": "ESTIMATED",
+      "voiceover": "واش صرا؟ قبلها، كانوا يركّبوا تحديث على ثمانية servers، يعني كمبيوترات تخدم البرنامج. سبعة تحدّثوا… والثامن فاتوه. وما كانش تحقق ثاني يكشف الغلطة.",
+      "component": "DeploymentGrid",
+      "props": {
+        "effort": "M",
+        "representation": "Sequence / comparison: reveal the missed deployment. Eight numbered cards are one grouped fleet, not eight equally prominent diagrams.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 591,
+            "atSec": 19.7,
+            "phraseAnchor": "واش صرا؟",
+            "action": "Rewind tab قبل فتح السوق; retain server identity from hook",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 600
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 675,
+            "atSec": 22.5,
+            "phraseAnchor": "ثمانية servers",
+            "action": "Build two columns of four cards in reading order, one card per short stagger; label as computers running software",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 684
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 756,
+            "atSec": 25.2,
+            "phraseAnchor": "سبعة تحدّثوا",
+            "action": "Version labels on cards 1–7 become جديد; 8 remains قديم in neutral gray",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 765
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 843,
+            "atSec": 28.1,
+            "phraseAnchor": "والثامن فاتوه",
+            "action": "Orange missing-update ring on 8; second-review checkbox remains blank",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 852
+          }
+        ],
+        "audioClip": "../inputs/audio4.ogg"
+      },
+      "onScreenText": "سبعة تحدّثوا، واحد بقى",
+      "sfx": [
+        "One quiet click on server eight; no eight separate SFX"
+      ],
+      "tool": "remotion",
+      "role": "aha"
+    },
+    {
+      "id": 5,
+      "startSec": 31.066666666666666,
+      "endSec": 43.333333333333336,
+      "startFrame": 932,
+      "endFrame": 1300,
+      "timing": "ESTIMATED",
+      "voiceover": "بصح علاش تحديث ناقص يدير هاذ الكارثة؟ في الثامن، بقى كود قديم ما عادوش يستعملوه، اسمو Power Peg. تخيّل زر قديم عاودوا استعملوه لوظيفة جديدة.",
+      "component": "FlagComparison",
+      "props": {
+        "effort": "L",
+        "representation": "Abstract concept / comparison: hardest idea part 1. Same violet activation signal, different installed versions, different functions. Software analogy only; no physical server interior.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 932,
+            "atSec": 31.066666666666666,
+            "phraseAnchor": "بصح علاش",
+            "action": "Dim seven cards and move 8 into focus; retain fleet breadcrumb",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 941
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1022,
+            "atSec": 34.06666666666667,
+            "phraseAnchor": "Power Peg",
+            "action": "Open an application panel labelled Power Peg / كود قديم, not a circuit board",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1031
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1118,
+            "atSec": 37.266666666666666,
+            "phraseAnchor": "زر قديم",
+            "action": "Show conceptual switch with small تشبيه label; attach old-version function",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1127
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1211,
+            "atSec": 40.36666666666667,
+            "phraseAnchor": "لوظيفة جديدة",
+            "action": "Add NEW-version panel alongside OLD; same violet switch routes to a different function in each",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1220
+          }
+        ],
+        "audioClip": "../inputs/audio5.ogg"
+      },
+      "onScreenText": "نفس الزر، خدمة مختلفة",
+      "sfx": [
+        "Quiet reveal click only after the question"
+      ],
+      "tool": "remotion",
+      "role": "open loop"
+    },
+    {
+      "id": 6,
+      "startSec": 43.333333333333336,
+      "endSec": 54.43333333333333,
+      "startFrame": 1300,
+      "endFrame": 1633,
+      "timing": "ESTIMATED",
+      "voiceover": "بشكل مبسط، الإشارة اللي تشغّل الخدمة الجديدة في السبعة، شغّلت الكود القديم في الثامن. وهذا بقى يبعث أوامر، حتى كي الطلب الأصلي راهو تكمّل.",
+      "component": "CompletionFailure",
+      "props": {
+        "effort": "L",
+        "representation": "Invisible process / cause and effect: hardest idea part 2. A reused software flag activates legacy code; the router does not receive completion information.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1300,
+            "atSec": 43.333333333333336,
+            "phraseAnchor": "الإشارة",
+            "action": "Violet activation marker reaches both versions; label same input with different destinations",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1309
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1390,
+            "atSec": 46.333333333333336,
+            "phraseAnchor": "الكود القديم في الثامن",
+            "action": "Old function activates on server 8; its outgoing cards stay blue with orange fault marks",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1399
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1480,
+            "atSec": 49.333333333333336,
+            "phraseAnchor": "بقى يبعث أوامر",
+            "action": "Repeated order sends continue from the legacy function; leave the customer card in view",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1489
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1564,
+            "atSec": 52.13333333333333,
+            "phraseAnchor": "الطلب الأصلي راهو تكمّل",
+            "action": "Customer-order card gains مكتمل; completion feedback stops at a broken connector while outgoing orders continue",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1573
+          }
+        ],
+        "audioClip": "../inputs/audio6ogg.ogg"
+      },
+      "onScreenText": "الطلب كمل، الأوامر تواصلت",
+      "sfx": [
+        "Soft completion click, followed by continued quiet packet motion; no alarm loop"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 7,
+      "startSec": 54.43333333333333,
+      "endSec": 64.8,
+      "startFrame": 1633,
+      "endFrame": 1944,
+      "timing": "ESTIMATED",
+      "voiceover": "والأسوأ؟ كي حاولوا يصلّحوا المشكل، نحّاو التحديث من السبعة الآخرين. هكذا الكود القديم تفعّل حتى فيهم، والمشكل كبر. كانوا يصلّحوا، والأوامر ما زالت تخرج.",
+      "component": "RollbackSpread",
+      "props": {
+        "effort": "M",
+        "representation": "Story / sequence: the attempted rollback exposes legacy behavior on additional servers. Some eligible orders activate it; never imply every order is faulty.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1633,
+            "atSec": 54.43333333333333,
+            "phraseAnchor": "والأسوأ؟",
+            "action": "Hold current fault for a beat; reveal repair action above fleet",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1642
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1717,
+            "atSec": 57.233333333333334,
+            "phraseAnchor": "نحّاو التحديث",
+            "action": "Remove NEW badges from 1–7 in a short stagger; do not disconnect server 8",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1726
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1804,
+            "atSec": 60.13333333333333,
+            "phraseAnchor": "حتى فيهم",
+            "action": "Violet activation markers trigger further old paths; orange fault outlines spread",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1813
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1888,
+            "atSec": 62.93333333333333,
+            "phraseAnchor": "الأوامر ما زالت تخرج",
+            "action": "Repair pointer pauses while the same order stream continues below",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1897
+          }
+        ],
+        "audioClip": "../inputs/audio7.ogg"
+      },
+      "onScreenText": "محاولة الإصلاح كبّرت المشكل",
+      "sfx": [
+        "One restrained impact when fault spreads"
+      ],
+      "tool": "remotion",
+      "role": "aha"
+    },
+    {
+      "id": 8,
+      "startSec": 64.8,
+      "endSec": 74.2,
+      "startFrame": 1944,
+      "endFrame": 2226,
+      "timing": "ESTIMATED",
+      "voiceover": "هنا تفهم علاش الغلطة كبرت: ما كانش نظام حماية كافي يوقف هاذ السيل تلقائيا. البرنامج يغلط بسرعة، والخسارة تكبر مع كل دقيقة تفوت.",
+      "component": "ControlGap",
+      "props": {
+        "effort": "M",
+        "representation": "Structure / cause and effect: monitoring exists, but its readings do not adequately block orders. No claim of zero safeguards.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 1944,
+            "atSec": 64.8,
+            "phraseAnchor": "علاش الغلطة كبرت",
+            "action": "Group fleet into one node and reveal its outgoing path",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 1953
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2034,
+            "atSec": 67.8,
+            "phraseAnchor": "نظام حماية كافي",
+            "action": "Monitoring meter reads rising exposure; show disconnected link to a blocking gate",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2043
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2133,
+            "atSec": 71.1,
+            "phraseAnchor": "مع كل دقيقة",
+            "action": "More fault-marked orders pass while exposure rises; no fabricated dollar ticks",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2142
+          }
+        ],
+        "audioClip": "../inputs/audio8.ogg"
+      },
+      "onScreenText": "وين راهي الحماية التلقائية؟",
+      "sfx": [
+        "No new SFX; let narration carry the explanation"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 9,
+      "startSec": 74.2,
+      "endSec": 84.63333333333334,
+      "startFrame": 2226,
+      "endFrame": 2539,
+      "timing": "ESTIMATED",
+      "voiceover": "من بعد، كي صفّاو الصفقات الغالطة، أعلنوا خسارة حوالي ربعمية وأربعين مليون دولار. وحتى هاذ الرقم طلع: التحقيق الرسمي ذكر أكثر من ربعمية وستين مليون.",
+      "component": "LossAndRecap",
+      "props": {
+        "effort": "M",
+        "representation": "Number / recap: settlement losses are a consequence of the trading interval. Present the two documented figures as dated reports, then recap the chain before the closing lesson.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2226,
+            "atSec": 74.2,
+            "phraseAnchor": "كي صفّاو الصفقات",
+            "action": "Close-out cards settle; separate settlement from the 45-minute trading span",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2235
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2313,
+            "atSec": 77.1,
+            "phraseAnchor": "ربعمية وأربعين",
+            "action": "Show $440M with الإعلان الأولي and 2012-08-02; small caption قبل الضرائب",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2322
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2403,
+            "atSec": 80.1,
+            "phraseAnchor": "التحقيق الرسمي",
+            "action": "Add SEC 2013 and >$460M only when the later finding is introduced",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2412
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2466,
+            "atSec": 82.2,
+            "phraseAnchor": "أكثر من ربعمية وستين",
+            "action": "After the number lands, show recap: تحديث ناقص → كود قديم → أوامر متكررة. Hold about 2.4s if phrase timing permits",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2475
+          }
+        ],
+        "audioClip": "../inputs/audio9.ogg"
+      },
+      "onScreenText": "الإعلان الأولي: $440 مليون / لاحقًا: أكثر من $460 مليون",
+      "sfx": [
+        "Two very soft report clicks; no cash-register joke"
+      ],
+      "tool": "remotion",
+      "role": "recap"
+    },
+    {
+      "id": 10,
+      "startSec": 84.63333333333334,
+      "endSec": 93.33333333333333,
+      "startFrame": 2539,
+      "endFrame": 2800,
+      "timing": "ESTIMATED",
+      "voiceover": "server واحد فاتوه، بصح الغلطة دازت بلا ما تتشد. الدرس؟ ما يكفيش البرنامج يخدم… لازم تعرف كيفاش توقفو كي يغلط.",
+      "component": "SafeguardSummary",
+      "props": {
+        "effort": "M",
+        "representation": "Advice / save frame: show conceptual prevention steps, clearly separated from the historical reconstruction. End echoes the first server card.",
+        "events": [
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2539,
+            "atSec": 84.63333333333334,
+            "phraseAnchor": "server واحد فاتوه",
+            "action": "Return to server 8 and the hook composition; label takeaway الدرس",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2548
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2620,
+            "atSec": 87.33333333333333,
+            "phraseAnchor": "الدرس؟",
+            "action": "Build three short checklist lines: تحقق من التحديث / راقب الأوامر / وقف الخطر. Keep all three readable through +6.6s",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2629
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2698,
+            "atSec": 89.93333333333334,
+            "phraseAnchor": "كيفاش توقفو",
+            "action": "Close conceptual order gate on the emphasized stop word; checklist itself remains still",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2707
+          },
+          {
+            "timing": "ESTIMATED",
+            "atFrame": 2737,
+            "atSec": 91.23333333333333,
+            "phraseAnchor": "كي يغلط",
+            "action": "After the spoken lesson completes, show the sole CTA واش أول حماية تزيدها؟; server returns toward opening pose; quiet Runtime.tech mark",
+            "visualLeadFrames": 9,
+            "estimatedEmphasisFrame": 2746
+          }
+        ],
+        "audioClip": "../inputs/audio10.ogg"
+      },
+      "onScreenText": "لازم تعرف كيفاش توقفو",
+      "sfx": [
+        "Quiet stop click; no additional sting"
+      ],
+      "tool": "remotion",
+      "role": "save frame"
+    }
+  ]
+}

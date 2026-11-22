@@ -1,0 +1,859 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 2819,
+ "audioDurationSec": 93.96,
+ "audioFile": "public/phone-slowdown-v2/voice.wav",
+ "audioSourceNote": "New intro audio_2026-11-15_20-01-11.ogg (replaces audio1-3) + unchanged audio4-10. Only leading/trailing silence trimmed, 0.25 s gaps, 2.0 s end-card tail. No words cut or reordered. Internal event times come from RMS pause detection and draft ASR: check by ear.",
+ "colorMeanings": {
+  "red": "slowdown and its penalty (throttle, fine, stamp, overload)",
+  "green": "the phone keeps working / a fix that helps",
+  "yellow": "ink-on-yellow highlight tags only",
+  "blue": "neutral icons inside mini UI",
+  "dark.marker (mint)": "power the battery can deliver",
+  "dark.delta (yellow)": "gap between power needed and power delivered"
+ },
+ "narrationEdit": [
+  {
+   "clip": "audio_2026-11-15_20-01-11.ogg",
+   "srcInSec": 0.85,
+   "srcOutSec": 12.08,
+   "masterStartSec": 0.0,
+   "masterEndSec": 11.23
+  },
+  {
+   "clip": "audio4.ogg",
+   "srcInSec": 0.42,
+   "srcOutSec": 10.8,
+   "masterStartSec": 11.48,
+   "masterEndSec": 21.86
+  },
+  {
+   "clip": "audio5.ogg",
+   "srcInSec": 0.04,
+   "srcOutSec": 17.41,
+   "masterStartSec": 22.11,
+   "masterEndSec": 39.48
+  },
+  {
+   "clip": "audio6.ogg",
+   "srcInSec": 0.06,
+   "srcOutSec": 10.12,
+   "masterStartSec": 39.73,
+   "masterEndSec": 49.79
+  },
+  {
+   "clip": "audio7.ogg",
+   "srcInSec": 0.12,
+   "srcOutSec": 8.91,
+   "masterStartSec": 50.04,
+   "masterEndSec": 58.83
+  },
+  {
+   "clip": "audio8.ogg",
+   "srcInSec": 0.0,
+   "srcOutSec": 10.92,
+   "masterStartSec": 59.08,
+   "masterEndSec": 70.0
+  },
+  {
+   "clip": "audio9.ogg",
+   "srcInSec": 0.08,
+   "srcOutSec": 9.14,
+   "masterStartSec": 70.25,
+   "masterEndSec": 79.31
+  },
+  {
+   "clip": "audio10.ogg",
+   "srcInSec": 0.17,
+   "srcOutSec": 12.57,
+   "masterStartSec": 79.56,
+   "masterEndSec": 91.96
+  }
+ ],
+ "scenes": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 3.95,
+   "startFrame": 0,
+   "endFrame": 118,
+   "speechStartSec": 0.08,
+   "speechEndSec": 3.69,
+   "voiceover": "Apple خلّصت غرامة… على خاطر ثقّلت تليفونات الناس بلا ما تقولهم.",
+   "component": "HookFine",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 0.0,
+      "what": "scene start",
+      "frame": 0
+     },
+     {
+      "sec": 0.612,
+      "what": "EUR 25M tag lands",
+      "frame": 18
+     },
+     {
+      "sec": 1.697,
+      "what": "speed bar drains, SLOWED",
+      "frame": 51
+     },
+     {
+      "sec": 2.653,
+      "what": "stamp: they didn't tell",
+      "frame": 80
+     }
+    ]
+   },
+   "onScreenText": "غرامة… على التبطئة",
+   "sfx": [
+    "whoosh",
+    "pop",
+    "stamp"
+   ],
+   "tool": "remotion",
+   "role": "hook"
+  },
+  {
+   "id": 2,
+   "startSec": 3.95,
+   "endSec": 7.07,
+   "startFrame": 118,
+   "endFrame": 212,
+   "speechStartSec": 4.22,
+   "speechEndSec": 6.92,
+   "voiceover": "وانت؟ تفتح الكاميرا، تستنى… واللقطة تفوت.",
+   "component": "YourCamera",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 3.95,
+      "what": "scene start",
+      "frame": 118
+     },
+     {
+      "sec": 3.95,
+      "what": "tag flips to YOUR PHONE",
+      "frame": 118
+     },
+     {
+      "sec": 4.64,
+      "what": "camera opens, spinner",
+      "frame": 139
+     },
+     {
+      "sec": 5.676,
+      "what": "ball in frame, still loading",
+      "frame": 170
+     },
+     {
+      "sec": 6.363,
+      "what": "ball leaves, MISSED",
+      "frame": 191
+     }
+    ]
+   },
+   "onScreenText": "اللقطة فاتت",
+   "sfx": [
+    "whoosh",
+    "tick",
+    "bloop"
+   ],
+   "tool": "remotion",
+   "role": "hook"
+  },
+  {
+   "id": 3,
+   "startSec": 7.07,
+   "endSec": 11.36,
+   "startFrame": 212,
+   "endFrame": 341,
+   "speechStartSec": 7.22,
+   "speechEndSec": 11.16,
+   "voiceover": "زعما حتى تليفونك ثقّلوه؟ نبداو بواش دارت Apple في 2017.",
+   "component": "VerdictLocked",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 7.07,
+      "what": "scene start",
+      "frame": 212
+     },
+     {
+      "sec": 7.07,
+      "what": "verdict locked chip",
+      "frame": 212
+     },
+     {
+      "sec": 8.098,
+      "what": "chip shakes, ? grows",
+      "frame": 243
+     },
+     {
+      "sec": 8.9,
+      "what": "phone slides left",
+      "frame": 267
+     },
+     {
+      "sec": 10.594,
+      "what": "2017 sticker",
+      "frame": 318
+     }
+    ]
+   },
+   "onScreenText": "واش صرا في 2017؟",
+   "sfx": [
+    "pop",
+    "lock",
+    "whoosh"
+   ],
+   "tool": "remotion",
+   "role": "open loop"
+  },
+  {
+   "id": 4,
+   "startSec": 11.36,
+   "endSec": 21.98,
+   "startFrame": 341,
+   "endFrame": 659,
+   "speechStartSec": 11.55,
+   "speechEndSec": 21.79,
+   "voiceover": "كانت تنقّص الأداء تاع بعض iPhone القدام كي تضعف البطارية تاعهم. والمشكل؟ ما وضّحتش هذا للناس مليح. ومن بعد، خلّصت غرامة في فرنسا، ودارت تسويات قضايا في أمريكا.",
+   "component": "CaseFile",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "CASE · PHONE SLOWDOWN",
+    "chapterPill": "القضية · 2017",
+    "events": [
+     {
+      "sec": 11.36,
+      "what": "scene start",
+      "frame": 341
+     },
+     {
+      "sec": 11.54,
+      "what": "three old phones",
+      "frame": 346
+     },
+     {
+      "sec": 13.958,
+      "what": "weak batteries -> SLOWED",
+      "frame": 419
+     },
+     {
+      "sec": 16.508,
+      "what": "card 1 + NOT TOLD stamp",
+      "frame": 495
+     },
+     {
+      "sec": 19.079,
+      "what": "card 2 FRANCE + EUR 25M tag",
+      "frame": 572
+     },
+     {
+      "sec": 20.238,
+      "what": "card 3 USA",
+      "frame": 607
+     }
+    ]
+   },
+   "onScreenText": "بطّأتهم… بلا ما توضّح",
+   "sfx": [
+    "pop",
+    "pop",
+    "stamp",
+    "pop",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 5,
+   "startSec": 21.98,
+   "endSec": 30.87,
+   "startFrame": 659,
+   "endFrame": 926,
+   "speechStartSec": 22.18,
+   "speechEndSec": 30.73,
+   "voiceover": "الناس حسّو بلي تخدعو. بصح Apple قالت: درنا هكّا باش التليفون ما يطفاش فجأة. وهنا لازم نفهمو حاجة: البطارية كي تقدّم، ماشي غير تولّي تفرغ بالخف.",
+   "component": "ClaimVsReply",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "CASE · PHONE SLOWDOWN",
+    "chapterPill": "علاش؟",
+    "events": [
+     {
+      "sec": 21.98,
+      "what": "scene start",
+      "frame": 659
+     },
+     {
+      "sec": 22.23,
+      "what": "red bubble from people",
+      "frame": 667
+     },
+     {
+      "sec": 24.097,
+      "what": "maker reply bubble",
+      "frame": 723
+     },
+     {
+      "sec": 25.708,
+      "what": "phone blinks off/on",
+      "frame": 771
+     },
+     {
+      "sec": 26.47,
+      "what": "part 1 dims, battery card",
+      "frame": 794
+     },
+     {
+      "sec": 28.777,
+      "what": "battery ages NEW -> 2 YEARS",
+      "frame": 863
+     },
+     {
+      "sec": 30.109,
+      "what": "drains fast",
+      "frame": 903
+     }
+    ]
+   },
+   "onScreenText": "علاش ينقّص السرعة أصلاً؟",
+   "sfx": [
+    "pop",
+    "pop",
+    "click",
+    "whoosh"
+   ],
+   "tool": "remotion",
+   "role": "explain / re-hook"
+  },
+  {
+   "id": 6,
+   "startSec": 30.87,
+   "endSec": 39.6,
+   "startFrame": 926,
+   "endFrame": 1188,
+   "speechStartSec": 31.02,
+   "speechEndSec": 39.41,
+   "voiceover": "تقدر تكون مشحونة، بصح ما تقدرش تمدّ الطاقة بالسرعة اللي يحتاجها التليفون. كيما روبيني: الماء كاين، بصح كي تحتاج دفعة كبيرة، ما يخرجش كفاية.",
+   "component": "BlueprintPower",
+   "props": {
+    "canvas": "dark",
+    "header": true,
+    "headerTag": "CASE · PHONE SLOWDOWN",
+    "chapterPill": "CHARGE ≠ POWER",
+    "events": [
+     {
+      "sec": 30.87,
+      "what": "scene start",
+      "frame": 926
+     },
+     {
+      "sec": 31.262,
+      "what": "charge tank 80%",
+      "frame": 938
+     },
+     {
+      "sec": 32.345,
+      "what": "power meter rises",
+      "frame": 970
+     },
+     {
+      "sec": 33.763,
+      "what": "NEEDED marker high + gap bracket",
+      "frame": 1013
+     },
+     {
+      "sec": 35.667,
+      "what": "tap inset",
+      "frame": 1070
+     },
+     {
+      "sec": 36.21,
+      "what": "water is there",
+      "frame": 1086
+     },
+     {
+      "sec": 37.786,
+      "what": "tap opens wide",
+      "frame": 1134
+     },
+     {
+      "sec": 38.811,
+      "what": "thin stream + bracket",
+      "frame": 1164
+     }
+    ]
+   },
+   "onScreenText": "الشحن وحدو ما يكفيش",
+   "sfx": [
+    "whoosh",
+    "tick",
+    "pop",
+    "water"
+   ],
+   "tool": "remotion",
+   "role": "aha (hardest idea)"
+  },
+  {
+   "id": 7,
+   "startSec": 39.6,
+   "endSec": 49.91,
+   "startFrame": 1188,
+   "endFrame": 1497,
+   "speechStartSec": 39.8,
+   "speechEndSec": 49.72,
+   "voiceover": "كي البطارية تعجز تمدّ الطاقة المطلوبة، التليفون يقدر يطفى. الحل؟ النظام ينقّص سرعة المعالج، اللي ينفّذ الخدمة داخل التليفون. يستهلك أقل، ويخدم أبطأ، بصح يبقى شاعل.",
+   "component": "BlueprintThrottle",
+   "props": {
+    "canvas": "dark",
+    "header": true,
+    "headerTag": "CASE · PHONE SLOWDOWN",
+    "chapterPill": "الحل",
+    "events": [
+     {
+      "sec": 39.6,
+      "what": "scene start",
+      "frame": 1188
+     },
+     {
+      "sec": 40.142,
+      "what": "NEEDED above supply, blink",
+      "frame": 1204
+     },
+     {
+      "sec": 42.205,
+      "what": "phone blacks out",
+      "frame": 1266
+     },
+     {
+      "sec": 43.02,
+      "what": "?",
+      "frame": 1291
+     },
+     {
+      "sec": 44.208,
+      "what": "dial turns down",
+      "frame": 1326
+     },
+     {
+      "sec": 44.718,
+      "what": "CPU term",
+      "frame": 1342
+     },
+     {
+      "sec": 45.95,
+      "what": "NEEDED slides under supply",
+      "frame": 1378
+     },
+     {
+      "sec": 47.11,
+      "what": "uses less",
+      "frame": 1413
+     },
+     {
+      "sec": 48.399,
+      "what": "slower",
+      "frame": 1452
+     },
+     {
+      "sec": 49.154,
+      "what": "screen ON",
+      "frame": 1475
+     }
+    ]
+   },
+   "onScreenText": "سرعة أقل، طاقة أقل",
+   "sfx": [
+    "tick",
+    "bloop",
+    "pop",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 8,
+   "startSec": 49.91,
+   "endSec": 58.95,
+   "startFrame": 1497,
+   "endFrame": 1768,
+   "speechStartSec": 50.11,
+   "speechEndSec": 58.76,
+   "voiceover": "بصح ماشي كل تليفون ثقيل عندو هاذ المشكل. كاين تطبيقات تزيد فيها ميزات مع التحديثات، وتولّي تحتاج خدمة أكثر من المعالج، ومساحة أكبر في الذاكرة.",
+   "component": "AppGrowth",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "CASE · PHONE SLOWDOWN",
+    "chapterPill": "سبب 2 · التطبيقات",
+    "events": [
+     {
+      "sec": 49.91,
+      "what": "scene start",
+      "frame": 1497
+     },
+     {
+      "sec": 50.017,
+      "what": "cause chip BATTERY + not always",
+      "frame": 1501
+     },
+     {
+      "sec": 52.597,
+      "what": "app card",
+      "frame": 1578
+     },
+     {
+      "sec": 53.565,
+      "what": "feature chips",
+      "frame": 1607
+     },
+     {
+      "sec": 54.073,
+      "what": "version v5.0",
+      "frame": 1622
+     },
+     {
+      "sec": 56.493,
+      "what": "CPU work bar",
+      "frame": 1695
+     },
+     {
+      "sec": 57.818,
+      "what": "RAM tray fills",
+      "frame": 1735
+     }
+    ]
+   },
+   "onScreenText": "التطبيقات تطلب خدمة أكثر",
+   "sfx": [
+    "whoosh",
+    "pop",
+    "pop",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "re-hook / explain"
+  },
+  {
+   "id": 9,
+   "startSec": 58.95,
+   "endSec": 70.12,
+   "startFrame": 1768,
+   "endFrame": 2104,
+   "speechStartSec": 59.13,
+   "speechEndSec": 69.93,
+   "voiceover": "والتليفون تاعك؟ بقى بنفس الإمكانيات. نفس الجهاز، بصح الخدمة زادت عليه. لهذا التطبيق اللي كان يخدم عندك خفيف يقدر يولّي ثقيل. وماشي كل تحديث يدير هكّا، كاين تحديثات فعلاً تزيد الأداء.",
+   "component": "SamePhoneMoreWork",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "CASE · PHONE SLOWDOWN",
+    "chapterPill": "نفس الجهاز",
+    "events": [
+     {
+      "sec": 58.95,
+      "what": "scene start",
+      "frame": 1768
+     },
+     {
+      "sec": 59.341,
+      "what": "your phone + box",
+      "frame": 1780
+     },
+     {
+      "sec": 60.496,
+      "what": "capacity line",
+      "frame": 1815
+     },
+     {
+      "sec": 61.854,
+      "what": "blocks drop",
+      "frame": 1856
+     },
+     {
+      "sec": 62.488,
+      "what": "overflow",
+      "frame": 1875
+     },
+     {
+      "sec": 64.99,
+      "what": "LIGHT tag",
+      "frame": 1950
+     },
+     {
+      "sec": 65.825,
+      "what": "HEAVY",
+      "frame": 1975
+     },
+     {
+      "sec": 67.205,
+      "what": "update card",
+      "frame": 2016
+     },
+     {
+      "sec": 68.99,
+      "what": "FASTER + APPS chip",
+      "frame": 2070
+     }
+    ]
+   },
+   "onScreenText": "نفس الجهاز، الخدمة زادت",
+   "sfx": [
+    "pop",
+    "tick",
+    "pop",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 10,
+   "startSec": 70.12,
+   "endSec": 79.43,
+   "startFrame": 2104,
+   "endFrame": 2383,
+   "speechStartSec": 70.32,
+   "speechEndSec": 79.24,
+   "voiceover": "وزيد، كي التخزين يقرب يعمر، يقدر التليفون يثقال. وكي يسخن بزاف، يقدر ينقّص السرعة باش يحمي روحو. تشوف نفس التقطيع، بصح السبب ماشي ديما واحد.",
+   "component": "StorageHeatRecap",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "CASE · PHONE SLOWDOWN",
+    "chapterPill": "سبب 3 و 4",
+    "events": [
+     {
+      "sec": 70.12,
+      "what": "scene start",
+      "frame": 2104
+     },
+     {
+      "sec": 70.95,
+      "what": "storage bar",
+      "frame": 2128
+     },
+     {
+      "sec": 71.574,
+      "what": "storage 97% red",
+      "frame": 2147
+     },
+     {
+      "sec": 73.753,
+      "what": "thermometer",
+      "frame": 2213
+     },
+     {
+      "sec": 74.491,
+      "what": "dial dips",
+      "frame": 2235
+     },
+     {
+      "sec": 76.25,
+      "what": "2x2 cause grid",
+      "frame": 2288
+     },
+     {
+      "sec": 77.833,
+      "what": "four causes, one symptom",
+      "frame": 2335
+     },
+     {
+      "sec": 78.674,
+      "what": "hold",
+      "frame": 2360
+     }
+    ]
+   },
+   "onScreenText": "نفس التقطيع… أسباب مختلفة",
+   "sfx": [
+    "pop",
+    "tick",
+    "pop",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "recap"
+  },
+  {
+   "id": 11,
+   "startSec": 79.43,
+   "endSec": 84.75,
+   "startFrame": 2383,
+   "endFrame": 2542,
+   "speechStartSec": 79.63,
+   "speechEndSec": 84.65,
+   "voiceover": "يعني يقدرو يبطّؤوه بالعاني؟ إيه، في بعض الحالات. بصح البطء وحدو ما يثبتش بلي يحبوك تشري جديد.",
+   "component": "VerdictOpen",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "CASE · PHONE SLOWDOWN",
+    "chapterPill": "الحكم",
+    "events": [
+     {
+      "sec": 79.43,
+      "what": "scene start",
+      "frame": 2383
+     },
+     {
+      "sec": 79.86,
+      "what": "verdict chip unlocks",
+      "frame": 2396
+     },
+     {
+      "sec": 80.54,
+      "what": "BATTERY -> SLOWER proven",
+      "frame": 2416
+     },
+     {
+      "sec": 82.058,
+      "what": "dotted SLOWER -> BUY NEW?",
+      "frame": 2462
+     },
+     {
+      "sec": 82.866,
+      "what": "stamp: not proven",
+      "frame": 2486
+     }
+    ]
+   },
+   "onScreenText": "البطء وحدو ما يثبتش النيّة",
+   "sfx": [
+    "unlock",
+    "pop",
+    "stamp"
+   ],
+   "tool": "remotion",
+   "role": "aha / share moment"
+  },
+  {
+   "id": 12,
+   "startSec": 84.75,
+   "endSec": 92.1,
+   "startFrame": 2542,
+   "endFrame": 2763,
+   "speechStartSec": 84.86,
+   "speechEndSec": 91.89,
+   "voiceover": "يعني قبل ما تبدّل تليفون، شوف حالة البطارية والتخزين. وإذا البطارية السبب، تبديلها يقدر يحسّن الأداء ويوفّر الدراهم.",
+   "component": "CheckBeforeBuying",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "CASE · PHONE SLOWDOWN",
+    "chapterPill": "قبل ما تبدّل",
+    "events": [
+     {
+      "sec": 84.75,
+      "what": "scene start",
+      "frame": 2542
+     },
+     {
+      "sec": 84.88,
+      "what": "save card",
+      "frame": 2546
+     },
+     {
+      "sec": 86.873,
+      "what": "row 1 battery health",
+      "frame": 2606
+     },
+     {
+      "sec": 87.406,
+      "what": "row 2 storage",
+      "frame": 2622
+     },
+     {
+      "sec": 88.25,
+      "what": "row 3 battery swap",
+      "frame": 2648
+     },
+     {
+      "sec": 89.585,
+      "what": "row 3 highlight",
+      "frame": 2688
+     },
+     {
+      "sec": 91.189,
+      "what": "save money sticker",
+      "frame": 2736
+     }
+    ]
+   },
+   "onScreenText": "قبل ما تبدّل… شوف",
+   "sfx": [
+    "whoosh",
+    "tick",
+    "tick",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "save frame"
+  },
+  {
+   "id": 13,
+   "startSec": 92.1,
+   "endSec": 93.96,
+   "startFrame": 2763,
+   "endFrame": 2819,
+   "voiceover": "",
+   "component": "EndCard",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 92.1,
+      "what": "scene start",
+      "frame": 2763
+     },
+     {
+      "sec": 92.1,
+      "what": "end card objects",
+      "frame": 2763
+     },
+     {
+      "sec": 92.45,
+      "what": "wordmark + stamp",
+      "frame": 2774
+     },
+     {
+      "sec": 92.8,
+      "what": "button + comment prompt",
+      "frame": 2784
+     }
+    ]
+   },
+   "onScreenText": "شحال عندو تليفونك؟",
+   "sfx": [
+    "whoosh",
+    "stamp"
+   ],
+   "tool": "remotion",
+   "role": "CTA / loop"
+  }
+ ]
+}

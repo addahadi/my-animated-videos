@@ -1,0 +1,430 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "audioFile": "public/baridimob-scams/voice-tiktok.wav",
+ "note": "Event and phrase times are absolute seconds in voice-tiktok.wav; approximate (pause-based), check by ear.",
+ "scenes": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 14.1667,
+   "startFrame": 0,
+   "endFrame": 425,
+   "voiceover": "الساعة 2 تاع الليل، تجيك رسالة من البريد. حسابك راح يتبلوكا، دخل لهاذ اللينك. تخاف وتدخل… تلقى صفحة تشبه بريد الجزائر بالضبط. نفس الألوان ونفس الخانات. تكتب الكود، والمحتال يقراه في نفس الثانية.",
+   "phrases": [
+    {
+     "start": 0.1,
+     "end": 2.53,
+     "text": "الساعة 2 تاع الليل، تجيك رسالة من البريد."
+    },
+    {
+     "start": 2.85,
+     "end": 4.84,
+     "text": "حسابك راح يتبلوكا، دخل لهاذ اللينك."
+    },
+    {
+     "start": 5.31,
+     "end": 6.45,
+     "text": "تخاف وتدخل…"
+    },
+    {
+     "start": 6.91,
+     "end": 9.08,
+     "text": "تلقى صفحة تشبه بريد الجزائر بالضبط."
+    },
+    {
+     "start": 9.26,
+     "end": 10.84,
+     "text": "نفس الألوان ونفس الخانات."
+    },
+    {
+     "start": 11.58,
+     "end": 13.86,
+     "text": "تكتب الكود، والمحتال يقراه في نفس الثانية."
+    }
+   ],
+   "component": "TrickSms",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "lockTime": "02:00",
+    "lockDay": "NIGHT",
+    "hookText": true,
+    "notIt": "لينك مزيف",
+    "events": [
+     {
+      "sec": 0.0,
+      "frame": 0,
+      "what": "phone lock screen 02:00 + hook text on screen at frame 0"
+     },
+     {
+      "sec": 0.6,
+      "frame": 18,
+      "what": "SmsNotif slides down: ALGERIE-POSTE, حسابك راح يتبلوكا…, link chip"
+     },
+     {
+      "sec": 5.75,
+      "frame": 172,
+      "what": "finger tap on the link (تدخل)"
+     },
+     {
+      "sec": 6.55,
+      "frame": 196,
+      "what": "fake login page builds in the phone browser"
+     },
+     {
+      "sec": 9.35,
+      "frame": 280,
+      "what": "magnifier over the URL poste-dz-verif.xyz + sticker 'لينك مزيف'"
+     },
+     {
+      "sec": 11.2,
+      "frame": 336,
+      "what": "code digits type into the form (تكتب الكود)"
+     },
+     {
+      "sec": 12.4,
+      "frame": 372,
+      "what": "CODE chip flies to the LootBag; tag 0.0 s"
+     }
+    ]
+   },
+   "onScreenText": "SMS من البريد في الليل؟ ⚠️ → لينك مزيف 🔗",
+   "sfx": [
+    "buzz",
+    "tick",
+    "scan",
+    "type",
+    "whoosh"
+   ],
+   "tool": "remotion",
+   "role": "hook",
+   "reusesMainScene": 3
+  },
+  {
+   "id": 2,
+   "startSec": 14.1667,
+   "endSec": 20.6667,
+   "startFrame": 425,
+   "endFrame": 620,
+   "voiceover": "وفي الصباح، تحل بريدي موب: صفر دينار. ماكانش hacker. بصح انت بيدك عطيت الكود للمحتال.",
+   "phrases": [
+    {
+     "start": 14.46,
+     "end": 16.88,
+     "text": "وفي الصباح، تحل بريدي موب: صفر دينار."
+    },
+    {
+     "start": 17.36,
+     "end": 18.25,
+     "text": "ماكانش hacker."
+    },
+    {
+     "start": 18.25,
+     "end": 20.39,
+     "text": "بصح انت بيدك عطيت الكود للمحتال."
+    }
+   ],
+   "component": "TtMorningZero",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "SECURITY · BARIDIMOB",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 14.25,
+      "frame": 428,
+      "what": "morning: wallet phone slides in, sun pill 'الصباح', real BaridiMob logo tile"
+     },
+     {
+      "sec": 15.95,
+      "frame": 478,
+      "what": "balance hits 0 DA, red sticker (صفر)"
+     },
+     {
+      "sec": 16.35,
+      "frame": 491,
+      "what": "transfer row −48 750 DA"
+     },
+     {
+      "sec": 17.3,
+      "frame": 519,
+      "what": "phone shrinks left, hacker photo enters (ماكانش hacker)"
+     },
+     {
+      "sec": 17.85,
+      "frame": 536,
+      "what": "XStamp over the photo"
+     },
+     {
+      "sec": 18.45,
+      "frame": 554,
+      "what": "photo exits; CODE chip leaves the phone"
+     },
+     {
+      "sec": 19.9,
+      "frame": 597,
+      "what": "chip lands in the LootBag + sticker 'انت عطيتهولو 🔑'"
+     }
+    ]
+   },
+   "onScreenText": "0 DA → انت عطيتهولو 🔑",
+   "sfx": [
+    "hit",
+    "stamp",
+    "whoosh",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "payoff",
+   "reusesMainScene": 1
+  },
+  {
+   "id": 3,
+   "startSec": 20.6667,
+   "endSec": 27.0667,
+   "startFrame": 620,
+   "endFrame": 812,
+   "voiceover": "هاذي القاعدة: بريد الجزائر ما يطلبش منك الكود. لا في SMS، لا في التيليفون، ولا في الميساج.",
+   "phrases": [
+    {
+     "start": 20.93,
+     "end": 23.95,
+     "text": "هاذي القاعدة: بريد الجزائر ما يطلبش منك الكود."
+    },
+    {
+     "start": 23.95,
+     "end": 26.82,
+     "text": "لا في SMS، لا في التيليفون، ولا في الميساج."
+    }
+   ],
+   "component": "RuleStamp",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "SECURITY · BARIDIMOB",
+    "chapterPill": "القاعدة",
+    "logo": "baridimob-scams/images/algerie-poste-logo.svg",
+    "events": [
+     {
+      "sec": 20.75,
+      "frame": 622,
+      "what": "real Algérie Poste logo pops (هاذي القاعدة)"
+     },
+     {
+      "sec": 21.45,
+      "frame": 644,
+      "what": "rule text types in"
+     },
+     {
+      "sec": 24.3,
+      "frame": 729,
+      "what": "pill SMS ✕"
+     },
+     {
+      "sec": 25.15,
+      "frame": 754,
+      "what": "pill تيليفون ✕"
+     },
+     {
+      "sec": 26.0,
+      "frame": 780,
+      "what": "pill ميساج ✕"
+     }
+    ]
+   },
+   "onScreenText": "ما يطلبوش الكود ❌",
+   "sfx": [
+    "pop-soft",
+    "type",
+    "strike"
+   ],
+   "tool": "remotion",
+   "role": "rule",
+   "reusesMainScene": 6
+  },
+  {
+   "id": 4,
+   "startSec": 27.0667,
+   "endSec": 33.6,
+   "startFrame": 812,
+   "endFrame": 1008,
+   "voiceover": "وإذا صرالك: روح لأقرب GAB باش تبدّل الرقم المربوط بالحساب، عيّط لـ 1530، وأودع شكوى عند الشرطة.",
+   "phrases": [
+    {
+     "start": 27.33,
+     "end": 30.75,
+     "text": "وإذا صرالك: روح لأقرب GAB باش تبدّل الرقم المربوط بالحساب،"
+    },
+    {
+     "start": 31.01,
+     "end": 33.32,
+     "text": "عيّط لـ 1530، وأودع شكوى عند الشرطة."
+    }
+   ],
+   "component": "RecoveryChecklist",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "SECURITY · BARIDIMOB",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 27.15,
+      "frame": 814,
+      "what": "MiniUI 'إذا صرالك' appears"
+     },
+     {
+      "sec": 28.3,
+      "frame": 849,
+      "what": "AtmMock enters big (GAB)"
+     },
+     {
+      "sec": 30.55,
+      "frame": 916,
+      "what": "AtmMock shrinks into row 1"
+     },
+     {
+      "sec": 30.95,
+      "frame": 928,
+      "what": "row 2: 1530"
+     },
+     {
+      "sec": 31.95,
+      "frame": 958,
+      "what": "gendarmerie photo enters big (شكوى)"
+     },
+     {
+      "sec": 32.95,
+      "frame": 989,
+      "what": "photo shrinks into row 3; full list holds"
+     }
+    ]
+   },
+   "onScreenText": "GAB · 1530 · شكوى",
+   "sfx": [
+    "whoosh-short",
+    "pop",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "save frame",
+   "reusesMainScene": 7
+  },
+  {
+   "id": 5,
+   "startSec": 33.6,
+   "endSec": 36.2,
+   "startFrame": 1008,
+   "endFrame": 1086,
+   "voiceover": "ابعث الفيديو لماماك وباباك.",
+   "phrases": [
+    {
+     "start": 33.85,
+     "end": 36.15,
+     "text": "ابعث الفيديو لماماك وباباك."
+    }
+   ],
+   "component": "TtShare",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 33.7,
+      "frame": 1011,
+      "what": "send icon + 'ابعثو لماماك وباباك'"
+     }
+    ]
+   },
+   "onScreenText": "ابعثو لماماك وباباك",
+   "sfx": [
+    "whoosh",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "share",
+   "reusesMainScene": 8
+  },
+  {
+   "id": 6,
+   "startSec": 36.2,
+   "endSec": 44.1667,
+   "startFrame": 1086,
+   "endFrame": 1325,
+   "voiceover": "وكاين حيلة أخطر: تطبيق مزيف يشوف كلش واش راك تكتب. نزيدو Part 2؟ اكتب \"إيه\" في الكومنتار.",
+   "phrases": [
+    {
+     "start": 36.3,
+     "end": 37.62,
+     "text": "وكاين حيلة أخطر:"
+    },
+    {
+     "start": 37.84,
+     "end": 40.29,
+     "text": "تطبيق مزيف يشوف كلش واش راك تكتب."
+    },
+    {
+     "start": 40.52,
+     "end": 41.96,
+     "text": "نزيدو Part 2؟"
+    },
+    {
+     "start": 42.2,
+     "end": 43.43,
+     "text": "اكتب \"إيه\" في الكومنتار."
+    }
+   ],
+   "component": "TtTease",
+   "props": {
+    "canvas": "dark",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 36.3,
+      "frame": 1089,
+      "what": "dark reveal, phone rises, red sticker 'حيلة أخطر'"
+     },
+     {
+      "sec": 37.85,
+      "frame": 1136,
+      "what": "fake app opens, eye spreads over the screen + label 'تطبيق مزيف'"
+     },
+     {
+      "sec": 38.9,
+      "frame": 1167,
+      "what": "ghost cursor + code dots typed, 'يشوف كلش'"
+     },
+     {
+      "sec": 40.45,
+      "frame": 1214,
+      "what": "big 'Part 2؟' pill"
+     },
+     {
+      "sec": 42.1,
+      "frame": 1263,
+      "what": "'اكتب إيه 👇' + green إيه button pulses"
+     }
+    ]
+   },
+   "onScreenText": "Part 2؟ اكتب \"إيه\" 👇",
+   "sfx": [
+    "glow",
+    "pop",
+    "type",
+    "stamp"
+   ],
+   "tool": "remotion",
+   "role": "CTA / part 2",
+   "reusesMainScene": 5
+  }
+ ]
+}

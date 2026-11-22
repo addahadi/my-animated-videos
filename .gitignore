@@ -19,3 +19,13 @@ render-bundle/
 *.[mM][pP][gG]
 *.[mM][tT][sS]
 *.[mM]2[tT][sS]
+
+# Renders and review stills (regenerable)
+out/
+
+# Python packages vendored by tools
+.graphify-deps/
+
+# Large raw audio (recordings, music/sfx drafts) and analysis arrays
+*.[wW][aA][vV]
+*.npy

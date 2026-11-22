@@ -1,0 +1,1216 @@
+{
+ "approximate": true,
+ "pages": [
+  {
+   "scene": 1,
+   "startMs": 80,
+   "endMs": 2070,
+   "words": [
+    {
+     "text": "صاحبك",
+     "startMs": 80,
+     "endMs": 637
+    },
+    {
+     "text": "بعثلك",
+     "startMs": 637,
+     "endMs": 1194
+    },
+    {
+     "text": "lien",
+     "startMs": 1194,
+     "endMs": 1672
+    },
+    {
+     "text": "فيه:",
+     "startMs": 1672,
+     "endMs": 2070
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 2070,
+   "endMs": 4060,
+   "words": [
+    {
+     "text": "حمّل",
+     "startMs": 2070,
+     "endMs": 2468
+    },
+    {
+     "text": "⁦GTA 6⁩",
+     "startMs": 2468,
+     "endMs": 2946
+    },
+    {
+     "text": "للـPC",
+     "startMs": 2946,
+     "endMs": 3503
+    },
+    {
+     "text": "مجانا.",
+     "startMs": 3503,
+     "endMs": 4060
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 4060,
+   "endMs": 5800,
+   "words": [
+    {
+     "text": "زعما",
+     "startMs": 4060,
+     "endMs": 4750
+    },
+    {
+     "text": "صح",
+     "startMs": 4750,
+     "endMs": 4930
+    },
+    {
+     "text": "ولا",
+     "startMs": 4930,
+     "endMs": 5575
+    },
+    {
+     "text": "كذب؟",
+     "startMs": 5575,
+     "endMs": 5800
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 6420,
+   "endMs": 6900,
+   "words": [
+    {
+     "text": "ماكاش",
+     "startMs": 6420,
+     "endMs": 6678
+    },
+    {
+     "text": "منها.",
+     "startMs": 6678,
+     "endMs": 6900
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 6900,
+   "endMs": 8551,
+   "words": [
+    {
+     "text": "⁦GTA 6⁩",
+     "startMs": 6900,
+     "endMs": 7467
+    },
+    {
+     "text": "خرجت",
+     "startMs": 7467,
+     "endMs": 7873
+    },
+    {
+     "text": "غير",
+     "startMs": 7873,
+     "endMs": 8212
+    },
+    {
+     "text": "على",
+     "startMs": 8212,
+     "endMs": 8551
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 8551,
+   "endMs": 9680,
+   "words": [
+    {
+     "text": "PS5",
+     "startMs": 8551,
+     "endMs": 8890
+    },
+    {
+     "text": "و",
+     "startMs": 8890,
+     "endMs": 9273
+    },
+    {
+     "text": "Xbox",
+     "startMs": 9273,
+     "endMs": 9680
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 10020,
+   "endMs": 10890,
+   "words": [
+    {
+     "text": "ما",
+     "startMs": 10020,
+     "endMs": 10186
+    },
+    {
+     "text": "كاين",
+     "startMs": 10186,
+     "endMs": 10434
+    },
+    {
+     "text": "حتى",
+     "startMs": 10434,
+     "endMs": 10641
+    },
+    {
+     "text": "نسخة",
+     "startMs": 10641,
+     "endMs": 10890
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 10890,
+   "endMs": 11056,
+   "words": [
+    {
+     "text": "PC،",
+     "startMs": 10890,
+     "endMs": 11056
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 11056,
+   "endMs": 11967,
+   "words": [
+    {
+     "text": "وما",
+     "startMs": 11056,
+     "endMs": 11263
+    },
+    {
+     "text": "كاين",
+     "startMs": 11263,
+     "endMs": 11511
+    },
+    {
+     "text": "حتى",
+     "startMs": 11511,
+     "endMs": 11719
+    },
+    {
+     "text": "نسخة",
+     "startMs": 11719,
+     "endMs": 11967
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 11967,
+   "endMs": 12340,
+   "words": [
+    {
+     "text": "Android",
+     "startMs": 11967,
+     "endMs": 12340
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 12780,
+   "endMs": 14210,
+   "words": [
+    {
+     "text": "إذن",
+     "startMs": 12780,
+     "endMs": 13066
+    },
+    {
+     "text": "أي",
+     "startMs": 13066,
+     "endMs": 13295
+    },
+    {
+     "text": "fichier",
+     "startMs": 13295,
+     "endMs": 13810
+    },
+    {
+     "text": "مكتوب",
+     "startMs": 13810,
+     "endMs": 14210
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 14210,
+   "endMs": 15477,
+   "words": [
+    {
+     "text": "عليه",
+     "startMs": 14210,
+     "endMs": 14554
+    },
+    {
+     "text": "⁦GTA 6 PC⁩",
+     "startMs": 14554,
+     "endMs": 15191
+    },
+    {
+     "text": "ولا",
+     "startMs": 15191,
+     "endMs": 15477
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 15477,
+   "endMs": 16107,
+   "words": [
+    {
+     "text": "⁦GTA 6⁩",
+     "startMs": 15477,
+     "endMs": 15821
+    },
+    {
+     "text": "APK…",
+     "startMs": 15821,
+     "endMs": 16107
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 16107,
+   "endMs": 17480,
+   "words": [
+    {
+     "text": "ماهيش",
+     "startMs": 16107,
+     "endMs": 16507
+    },
+    {
+     "text": "اللعبة",
+     "startMs": 16507,
+     "endMs": 16965
+    },
+    {
+     "text": "الأصلية.",
+     "startMs": 16965,
+     "endMs": 17480
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 17480,
+   "endMs": 18460,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 17480,
+     "endMs": 18115
+    },
+    {
+     "text": "السؤال",
+     "startMs": 18115,
+     "endMs": 18460
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 18820,
+   "endMs": 19558,
+   "words": [
+    {
+     "text": "واش",
+     "startMs": 18820,
+     "endMs": 18988
+    },
+    {
+     "text": "كاين",
+     "startMs": 18988,
+     "endMs": 19189
+    },
+    {
+     "text": "داخل",
+     "startMs": 19189,
+     "endMs": 19390
+    },
+    {
+     "text": "هذا",
+     "startMs": 19390,
+     "endMs": 19558
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 19558,
+   "endMs": 19960,
+   "words": [
+    {
+     "text": "الـfichier؟",
+     "startMs": 19558,
+     "endMs": 19960
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 20420,
+   "endMs": 21220,
+   "words": [
+    {
+     "text": "في",
+     "startMs": 20420,
+     "endMs": 20588
+    },
+    {
+     "text": "بزاف",
+     "startMs": 20588,
+     "endMs": 20841
+    },
+    {
+     "text": "الحالات،",
+     "startMs": 20841,
+     "endMs": 21220
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 21220,
+   "endMs": 22382,
+   "words": [
+    {
+     "text": "كاين",
+     "startMs": 21220,
+     "endMs": 21695
+    },
+    {
+     "text": "برنامج",
+     "startMs": 21695,
+     "endMs": 22087
+    },
+    {
+     "text": "اسمو",
+     "startMs": 22087,
+     "endMs": 22382
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 22382,
+   "endMs": 23020,
+   "words": [
+    {
+     "text": "infostealer،",
+     "startMs": 22382,
+     "endMs": 23020
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 23020,
+   "endMs": 23820,
+   "words": [
+    {
+     "text": "يعني",
+     "startMs": 23020,
+     "endMs": 23540
+    },
+    {
+     "text": "سارق.",
+     "startMs": 23540,
+     "endMs": 23820
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 23820,
+   "endMs": 24860,
+   "words": [
+    {
+     "text": "كي",
+     "startMs": 23820,
+     "endMs": 24580
+    },
+    {
+     "text": "تفتحو،",
+     "startMs": 24580,
+     "endMs": 24860
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 24860,
+   "endMs": 25660,
+   "words": [
+    {
+     "text": "يقرا",
+     "startMs": 24860,
+     "endMs": 25100
+    },
+    {
+     "text": "الـpasswords",
+     "startMs": 25100,
+     "endMs": 25660
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 25660,
+   "endMs": 26700,
+   "words": [
+    {
+     "text": "المسجلين",
+     "startMs": 25660,
+     "endMs": 26060
+    },
+    {
+     "text": "في",
+     "startMs": 26060,
+     "endMs": 26220
+    },
+    {
+     "text": "الـbrowser",
+     "startMs": 26220,
+     "endMs": 26700
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 27140,
+   "endMs": 28082,
+   "words": [
+    {
+     "text": "ويسرق",
+     "startMs": 27140,
+     "endMs": 27404
+    },
+    {
+     "text": "الـcookies",
+     "startMs": 27404,
+     "endMs": 27856
+    },
+    {
+     "text": "اللي",
+     "startMs": 27856,
+     "endMs": 28082
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 28082,
+   "endMs": 28760,
+   "words": [
+    {
+     "text": "يخليوك",
+     "startMs": 28082,
+     "endMs": 28383
+    },
+    {
+     "text": "connecté",
+     "startMs": 28383,
+     "endMs": 28760
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 29140,
+   "endMs": 29908,
+   "words": [
+    {
+     "text": "وبالـcookie",
+     "startMs": 29140,
+     "endMs": 29665
+    },
+    {
+     "text": "هادي،",
+     "startMs": 29665,
+     "endMs": 29908
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 29908,
+   "endMs": 30595,
+   "words": [
+    {
+     "text": "ما",
+     "startMs": 29908,
+     "endMs": 30069
+    },
+    {
+     "text": "يحتاجش",
+     "startMs": 30069,
+     "endMs": 30393
+    },
+    {
+     "text": "حتى",
+     "startMs": 30393,
+     "endMs": 30595
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 30595,
+   "endMs": 31120,
+   "words": [
+    {
+     "text": "الـpassword.",
+     "startMs": 30595,
+     "endMs": 31120
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 31120,
+   "endMs": 32583,
+   "words": [
+    {
+     "text": "يدخل",
+     "startMs": 31120,
+     "endMs": 31816
+    },
+    {
+     "text": "للـFacebook",
+     "startMs": 31816,
+     "endMs": 32370
+    },
+    {
+     "text": "ولا",
+     "startMs": 32370,
+     "endMs": 32583
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 32583,
+   "endMs": 33820,
+   "words": [
+    {
+     "text": "Instagram",
+     "startMs": 32583,
+     "endMs": 33052
+    },
+    {
+     "text": "نتاعك",
+     "startMs": 33052,
+     "endMs": 33351
+    },
+    {
+     "text": "كأنو",
+     "startMs": 33351,
+     "endMs": 33607
+    },
+    {
+     "text": "نتا",
+     "startMs": 33607,
+     "endMs": 33820
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 34320,
+   "endMs": 35560,
+   "words": [
+    {
+     "text": "ويبعث",
+     "startMs": 34320,
+     "endMs": 34619
+    },
+    {
+     "text": "نفس",
+     "startMs": 34619,
+     "endMs": 34833
+    },
+    {
+     "text": "الـlien",
+     "startMs": 34833,
+     "endMs": 35218
+    },
+    {
+     "text": "لصحابك.",
+     "startMs": 35218,
+     "endMs": 35560
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 35560,
+   "endMs": 37290,
+   "words": [
+    {
+     "text": "وهكا",
+     "startMs": 35560,
+     "endMs": 36369
+    },
+    {
+     "text": "وصلك",
+     "startMs": 36369,
+     "endMs": 36737
+    },
+    {
+     "text": "من",
+     "startMs": 36737,
+     "endMs": 36983
+    },
+    {
+     "text": "عند",
+     "startMs": 36983,
+     "endMs": 37290
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 37290,
+   "endMs": 37720,
+   "words": [
+    {
+     "text": "صاحبك",
+     "startMs": 37290,
+     "endMs": 37720
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 38320,
+   "endMs": 39100,
+   "words": [
+    {
+     "text": "وكاين",
+     "startMs": 38320,
+     "endMs": 38641
+    },
+    {
+     "text": "نوع",
+     "startMs": 38641,
+     "endMs": 38871
+    },
+    {
+     "text": "آخر:",
+     "startMs": 38871,
+     "endMs": 39100
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 39100,
+   "endMs": 40288,
+   "words": [
+    {
+     "text": "يخلي",
+     "startMs": 39100,
+     "endMs": 39513
+    },
+    {
+     "text": "الـPC",
+     "startMs": 39513,
+     "endMs": 39784
+    },
+    {
+     "text": "نتاعك",
+     "startMs": 39784,
+     "endMs": 40056
+    },
+    {
+     "text": "يخدم",
+     "startMs": 40056,
+     "endMs": 40288
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 40288,
+   "endMs": 41180,
+   "words": [
+    {
+     "text": "للـcrypto",
+     "startMs": 40288,
+     "endMs": 40715
+    },
+    {
+     "text": "في",
+     "startMs": 40715,
+     "endMs": 40870
+    },
+    {
+     "text": "الخفية.",
+     "startMs": 40870,
+     "endMs": 41180
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 41180,
+   "endMs": 41835,
+   "words": [
+    {
+     "text": "يسخن،",
+     "startMs": 41180,
+     "endMs": 41835
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 41835,
+   "endMs": 42150,
+   "words": [
+    {
+     "text": "يبطا،",
+     "startMs": 41835,
+     "endMs": 42150
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 42150,
+   "endMs": 43620,
+   "words": [
+    {
+     "text": "والـventilateur",
+     "startMs": 42150,
+     "endMs": 43042
+    },
+    {
+     "text": "ما",
+     "startMs": 43042,
+     "endMs": 43252
+    },
+    {
+     "text": "يحبسش",
+     "startMs": 43252,
+     "endMs": 43620
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 44020,
+   "endMs": 44932,
+   "words": [
+    {
+     "text": "إذن",
+     "startMs": 44020,
+     "endMs": 44273
+    },
+    {
+     "text": "كيفاش",
+     "startMs": 44273,
+     "endMs": 44628
+    },
+    {
+     "text": "تعرف",
+     "startMs": 44628,
+     "endMs": 44932
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 44932,
+   "endMs": 45540,
+   "words": [
+    {
+     "text": "الـarnaque؟",
+     "startMs": 44932,
+     "endMs": 45540
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 46100,
+   "endMs": 46341,
+   "words": [
+    {
+     "text": "واحد:",
+     "startMs": 46100,
+     "endMs": 46341
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 46341,
+   "endMs": 47508,
+   "words": [
+    {
+     "text": "اللعبة",
+     "startMs": 46341,
+     "endMs": 46663
+    },
+    {
+     "text": "ماهيش",
+     "startMs": 46663,
+     "endMs": 46945
+    },
+    {
+     "text": "في",
+     "startMs": 46945,
+     "endMs": 47106
+    },
+    {
+     "text": "الـstore",
+     "startMs": 47106,
+     "endMs": 47508
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 47508,
+   "endMs": 47830,
+   "words": [
+    {
+     "text": "الرسمي؟",
+     "startMs": 47508,
+     "endMs": 47830
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 48390,
+   "endMs": 48720,
+   "words": [
+    {
+     "text": "ماشي",
+     "startMs": 48390,
+     "endMs": 48588
+    },
+    {
+     "text": "هي.",
+     "startMs": 48588,
+     "endMs": 48720
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 48950,
+   "endMs": 49164,
+   "words": [
+    {
+     "text": "جوج:",
+     "startMs": 48950,
+     "endMs": 49164
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 49164,
+   "endMs": 50279,
+   "words": [
+    {
+     "text": "يقولك",
+     "startMs": 49164,
+     "endMs": 49464
+    },
+    {
+     "text": "طفّي",
+     "startMs": 49464,
+     "endMs": 49679
+    },
+    {
+     "text": "الـantivirus",
+     "startMs": 49679,
+     "endMs": 50279
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 50279,
+   "endMs": 50707,
+   "words": [
+    {
+     "text": "ولا",
+     "startMs": 50279,
+     "endMs": 50493
+    },
+    {
+     "text": "سمّح",
+     "startMs": 50493,
+     "endMs": 50707
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 50707,
+   "endMs": 51350,
+   "words": [
+    {
+     "text": "بـ⁦unknown apps⁩؟",
+     "startMs": 50707,
+     "endMs": 51350
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 51780,
+   "endMs": 52150,
+   "words": [
+    {
+     "text": "هرب.",
+     "startMs": 51780,
+     "endMs": 52150
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 52480,
+   "endMs": 52723,
+   "words": [
+    {
+     "text": "ثلاثة:",
+     "startMs": 52480,
+     "endMs": 52723
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 52723,
+   "endMs": 53140,
+   "words": [
+    {
+     "text": "يطلب",
+     "startMs": 52723,
+     "endMs": 52932
+    },
+    {
+     "text": "رقمك",
+     "startMs": 52932,
+     "endMs": 53140
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 53450,
+   "endMs": 54293,
+   "words": [
+    {
+     "text": "ولا",
+     "startMs": 53450,
+     "endMs": 53619
+    },
+    {
+     "text": "دراهم",
+     "startMs": 53619,
+     "endMs": 53855
+    },
+    {
+     "text": "باش",
+     "startMs": 53855,
+     "endMs": 54023
+    },
+    {
+     "text": "يفتحلك",
+     "startMs": 54023,
+     "endMs": 54293
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 54293,
+   "endMs": 54597,
+   "words": [
+    {
+     "text": "التحميل؟",
+     "startMs": 54293,
+     "endMs": 54597
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 54597,
+   "endMs": 54900,
+   "words": [
+    {
+     "text": "arnaque.",
+     "startMs": 54597,
+     "endMs": 54900
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 56040,
+   "endMs": 56646,
+   "words": [
+    {
+     "text": "⁦GTA 6 PC⁩؟",
+     "startMs": 56040,
+     "endMs": 56646
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 56646,
+   "endMs": 57630,
+   "words": [
+    {
+     "text": "ماكاش",
+     "startMs": 56646,
+     "endMs": 57176
+    },
+    {
+     "text": "منها.",
+     "startMs": 57176,
+     "endMs": 57630
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 58120,
+   "endMs": 59061,
+   "words": [
+    {
+     "text": "الـcrack",
+     "startMs": 58120,
+     "endMs": 58482
+    },
+    {
+     "text": "هذا",
+     "startMs": 58482,
+     "endMs": 58663
+    },
+    {
+     "text": "ما",
+     "startMs": 58663,
+     "endMs": 58807
+    },
+    {
+     "text": "يسرقش",
+     "startMs": 58807,
+     "endMs": 59061
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 59061,
+   "endMs": 59350,
+   "words": [
+    {
+     "text": "اللعبة…",
+     "startMs": 59061,
+     "endMs": 59350
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 59430,
+   "endMs": 60200,
+   "words": [
+    {
+     "text": "يسرقك",
+     "startMs": 59430,
+     "endMs": 59879
+    },
+    {
+     "text": "نتا",
+     "startMs": 59879,
+     "endMs": 60200
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "startMs": 60640,
+   "endMs": 61701,
+   "words": [
+    {
+     "text": "ابعث",
+     "startMs": 60640,
+     "endMs": 60860
+    },
+    {
+     "text": "الفيديو",
+     "startMs": 60860,
+     "endMs": 61189
+    },
+    {
+     "text": "لصاحبك",
+     "startMs": 61189,
+     "endMs": 61482
+    },
+    {
+     "text": "اللي",
+     "startMs": 61482,
+     "endMs": 61701
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "startMs": 61701,
+   "endMs": 62360,
+   "words": [
+    {
+     "text": "راهو",
+     "startMs": 61701,
+     "endMs": 61921
+    },
+    {
+     "text": "يستنى",
+     "startMs": 61921,
+     "endMs": 62177
+    },
+    {
+     "text": "فيه.",
+     "startMs": 62177,
+     "endMs": 62360
+    }
+   ]
+  }
+ ]
+}

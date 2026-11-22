@@ -1,0 +1,1913 @@
+[
+  {
+    "file": "audio1.ogg",
+    "sha256": "0ef6ffff02a533962cb6afd3d1ca96ae160857a1be0a7f36731f1ecb931f8a77",
+    "duration": 3.392,
+    "samples": 162816,
+    "sampleRate": 48000,
+    "cumulativeStart": 0.0,
+    "cumulativeEnd": 3.392,
+    "segments": [
+      {
+        "start": 0.11,
+        "end": 2.45,
+        "text": "تليفونك، بسقال ولا ثقق له",
+        "words": [
+          {
+            "start": 0.11,
+            "end": 1.23,
+            "word": " تليفونك،",
+            "probability": 0.6111666510502497
+          },
+          {
+            "start": 1.23,
+            "end": 1.73,
+            "word": " بسقال",
+            "probability": 0.6728944852948189
+          },
+          {
+            "start": 1.73,
+            "end": 1.97,
+            "word": " ولا",
+            "probability": 0.8572277426719666
+          },
+          {
+            "start": 1.97,
+            "end": 2.33,
+            "word": " ثقق",
+            "probability": 0.6931413114070892
+          },
+          {
+            "start": 2.33,
+            "end": 2.45,
+            "word": " له",
+            "probability": 0.26732882857322693
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  },
+  {
+    "file": "audio2.ogg",
+    "sha256": "61cb4b41e8e47459293d4f4990840b37ba06d46acd77f2915c208392f3acbec3",
+    "duration": 10.176,
+    "samples": 488448,
+    "sampleRate": 48000,
+    "cumulativeStart": 3.392,
+    "cumulativeEnd": 13.568,
+    "segments": [
+      {
+        "start": 0.11,
+        "end": 3.85,
+        "text": "ركحب تصور اللقطة تفتح الكاميرا تقعك وتستنى",
+        "words": [
+          {
+            "start": 0.11,
+            "end": 0.77,
+            "word": " ركحب",
+            "probability": 0.44422090239822865
+          },
+          {
+            "start": 0.77,
+            "end": 1.09,
+            "word": " تصور",
+            "probability": 0.669542928536733
+          },
+          {
+            "start": 1.09,
+            "end": 1.47,
+            "word": " اللقطة",
+            "probability": 0.6433165371417999
+          },
+          {
+            "start": 1.47,
+            "end": 1.99,
+            "word": " تفتح",
+            "probability": 0.8640144169330597
+          },
+          {
+            "start": 1.99,
+            "end": 2.47,
+            "word": " الكاميرا",
+            "probability": 0.8210233747959137
+          },
+          {
+            "start": 2.47,
+            "end": 3.03,
+            "word": " تقعك",
+            "probability": 0.524351067841053
+          },
+          {
+            "start": 3.03,
+            "end": 3.85,
+            "word": " وتستنى",
+            "probability": 0.776944175362587
+          }
+        ]
+      },
+      {
+        "start": 3.85,
+        "end": 5.81,
+        "text": "اتفوت اللقطة وهي مزال متحلج",
+        "words": [
+          {
+            "start": 3.85,
+            "end": 4.45,
+            "word": " اتفوت",
+            "probability": 0.6673227548599243
+          },
+          {
+            "start": 4.45,
+            "end": 4.83,
+            "word": " اللقطة",
+            "probability": 0.9934214949607849
+          },
+          {
+            "start": 4.83,
+            "end": 5.01,
+            "word": " وهي",
+            "probability": 0.6679260283708572
+          },
+          {
+            "start": 5.01,
+            "end": 5.31,
+            "word": " مزال",
+            "probability": 0.6219560305277506
+          },
+          {
+            "start": 5.31,
+            "end": 5.81,
+            "word": " متحلج",
+            "probability": 0.8031856715679169
+          }
+        ]
+      },
+      {
+        "start": 5.81,
+        "end": 8.15,
+        "text": "هذا نفس التليفون ليش ريتهم من عامين",
+        "words": [
+          {
+            "start": 5.81,
+            "end": 6.51,
+            "word": " هذا",
+            "probability": 0.48004260659217834
+          },
+          {
+            "start": 6.51,
+            "end": 6.83,
+            "word": " نفس",
+            "probability": 0.8486311137676239
+          },
+          {
+            "start": 6.83,
+            "end": 7.25,
+            "word": " التليفون",
+            "probability": 0.5721629932522774
+          },
+          {
+            "start": 7.25,
+            "end": 7.41,
+            "word": " ليش",
+            "probability": 0.7871694266796112
+          },
+          {
+            "start": 7.41,
+            "end": 7.67,
+            "word": " ريتهم",
+            "probability": 0.431158425907294
+          },
+          {
+            "start": 7.67,
+            "end": 7.77,
+            "word": " من",
+            "probability": 0.29472965002059937
+          },
+          {
+            "start": 7.77,
+            "end": 8.15,
+            "word": " عامين",
+            "probability": 0.7951184709866842
+          }
+        ]
+      },
+      {
+        "start": 8.15,
+        "end": 9.29,
+        "text": "بسها علاش ولا هاك",
+        "words": [
+          {
+            "start": 8.15,
+            "end": 8.51,
+            "word": " بسها",
+            "probability": 0.7072057624657949
+          },
+          {
+            "start": 8.51,
+            "end": 8.81,
+            "word": " علاش",
+            "probability": 0.5966404974460602
+          },
+          {
+            "start": 8.81,
+            "end": 8.95,
+            "word": " ولا",
+            "probability": 0.8334412574768066
+          },
+          {
+            "start": 8.95,
+            "end": 9.29,
+            "word": " هاك",
+            "probability": 0.696282813946406
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  },
+  {
+    "file": "audio3.ogg",
+    "sha256": "05a8b6ae4c61ee2c7dd9baba4bc453a71b1295ef0b83b076ee97f9748d56448f",
+    "duration": 9.664,
+    "samples": 463872,
+    "sampleRate": 48000,
+    "cumulativeStart": 13.568,
+    "cumulativeEnd": 23.232,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.86,
+        "text": "و تزيد شوف إعلان تعتليف و نجدد و يجيك الشك",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.2,
+            "word": " و",
+            "probability": 0.26797425746917725
+          },
+          {
+            "start": 0.2,
+            "end": 0.42,
+            "word": " تزيد",
+            "probability": 0.5480956335862478
+          },
+          {
+            "start": 0.42,
+            "end": 0.66,
+            "word": " شوف",
+            "probability": 0.8556860685348511
+          },
+          {
+            "start": 0.66,
+            "end": 1.0,
+            "word": " إعلان",
+            "probability": 0.8596817851066589
+          },
+          {
+            "start": 1.0,
+            "end": 1.48,
+            "word": " تعتليف",
+            "probability": 0.5605204664170742
+          },
+          {
+            "start": 1.48,
+            "end": 1.56,
+            "word": " و",
+            "probability": 0.4563620090484619
+          },
+          {
+            "start": 1.56,
+            "end": 2.02,
+            "word": " نجدد",
+            "probability": 0.7905502393841743
+          },
+          {
+            "start": 2.02,
+            "end": 2.3,
+            "word": " و",
+            "probability": 0.8916589617729187
+          },
+          {
+            "start": 2.3,
+            "end": 2.52,
+            "word": " يجيك",
+            "probability": 0.8865793347358704
+          },
+          {
+            "start": 2.52,
+            "end": 2.86,
+            "word": " الشك",
+            "probability": 0.8490033149719238
+          }
+        ]
+      },
+      {
+        "start": 2.86,
+        "end": 5.52,
+        "text": "زمارهم يثقلون القدام بشنشروع جدد",
+        "words": [
+          {
+            "start": 2.86,
+            "end": 3.72,
+            "word": " زمارهم",
+            "probability": 0.5692763961851597
+          },
+          {
+            "start": 3.72,
+            "end": 4.16,
+            "word": " يثقلون",
+            "probability": 0.9414397239685058
+          },
+          {
+            "start": 4.16,
+            "end": 4.58,
+            "word": " القدام",
+            "probability": 0.8529044389724731
+          },
+          {
+            "start": 4.58,
+            "end": 5.1,
+            "word": " بشنشروع",
+            "probability": 0.6442307978868484
+          },
+          {
+            "start": 5.1,
+            "end": 5.52,
+            "word": " جدد",
+            "probability": 0.8314168850580851
+          }
+        ]
+      },
+      {
+        "start": 5.52,
+        "end": 8.94,
+        "text": "الغريب أبل أتعرفت بحاجة قريبة لهذه في الدميل ديسات",
+        "words": [
+          {
+            "start": 5.52,
+            "end": 6.44,
+            "word": " الغريب",
+            "probability": 0.9046971499919891
+          },
+          {
+            "start": 6.44,
+            "end": 6.84,
+            "word": " أبل",
+            "probability": 0.3831944465637207
+          },
+          {
+            "start": 6.84,
+            "end": 7.32,
+            "word": " أتعرفت",
+            "probability": 0.6296606242656708
+          },
+          {
+            "start": 7.32,
+            "end": 7.62,
+            "word": " بحاجة",
+            "probability": 0.9628248363733292
+          },
+          {
+            "start": 7.62,
+            "end": 7.88,
+            "word": " قريبة",
+            "probability": 0.8784307241439819
+          },
+          {
+            "start": 7.88,
+            "end": 8.18,
+            "word": " لهذه",
+            "probability": 0.46798303723335266
+          },
+          {
+            "start": 8.18,
+            "end": 8.28,
+            "word": " في",
+            "probability": 0.9122799038887024
+          },
+          {
+            "start": 8.28,
+            "end": 8.56,
+            "word": " الدميل",
+            "probability": 0.5182798306147257
+          },
+          {
+            "start": 8.56,
+            "end": 8.94,
+            "word": " ديسات",
+            "probability": 0.6880791112780571
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  },
+  {
+    "file": "audio4.ogg",
+    "sha256": "bf5f880a5d0e1c81787c0708c2084a8f123eae0d22c6b418a6be40d5bb6d633e",
+    "duration": 11.178666666666667,
+    "samples": 536576,
+    "sampleRate": 48000,
+    "cumulativeStart": 23.232,
+    "cumulativeEnd": 34.410666666666664,
+    "segments": [
+      {
+        "start": 0.11,
+        "end": 3.97,
+        "text": "كانت تتنقص الآداء تعلي زايفون القدام كتغاف البطارياتهم",
+        "words": [
+          {
+            "start": 0.11,
+            "end": 0.77,
+            "word": " كانت",
+            "probability": 0.7564087808132172
+          },
+          {
+            "start": 0.77,
+            "end": 1.19,
+            "word": " تتنقص",
+            "probability": 0.9093823075294495
+          },
+          {
+            "start": 1.19,
+            "end": 1.59,
+            "word": " الآداء",
+            "probability": 0.6391249224543571
+          },
+          {
+            "start": 1.59,
+            "end": 1.91,
+            "word": " تعلي",
+            "probability": 0.8655374646186829
+          },
+          {
+            "start": 1.91,
+            "end": 2.29,
+            "word": " زايفون",
+            "probability": 0.6105978041887283
+          },
+          {
+            "start": 2.29,
+            "end": 2.67,
+            "word": " القدام",
+            "probability": 0.6937744319438934
+          },
+          {
+            "start": 2.67,
+            "end": 3.11,
+            "word": " كتغاف",
+            "probability": 0.8027308434247971
+          },
+          {
+            "start": 3.11,
+            "end": 3.97,
+            "word": " البطارياتهم",
+            "probability": 0.7819554557402929
+          }
+        ]
+      },
+      {
+        "start": 3.97,
+        "end": 6.87,
+        "text": "والمشكل موثحة شهاد شهاد من نسم ليه",
+        "words": [
+          {
+            "start": 3.97,
+            "end": 5.05,
+            "word": " والمشكل",
+            "probability": 0.821959376335144
+          },
+          {
+            "start": 5.05,
+            "end": 5.77,
+            "word": " موثحة",
+            "probability": 0.5133157730102539
+          },
+          {
+            "start": 5.77,
+            "end": 6.01,
+            "word": " شهاد",
+            "probability": 0.4777395228544871
+          },
+          {
+            "start": 6.01,
+            "end": 6.09,
+            "word": " شهاد",
+            "probability": 0.5674413541952769
+          },
+          {
+            "start": 6.09,
+            "end": 6.25,
+            "word": " من",
+            "probability": 0.6018425822257996
+          },
+          {
+            "start": 6.25,
+            "end": 6.49,
+            "word": " نسم",
+            "probability": 0.6817750036716461
+          },
+          {
+            "start": 6.49,
+            "end": 6.87,
+            "word": " ليه",
+            "probability": 0.3458743989467621
+          }
+        ]
+      },
+      {
+        "start": 6.87,
+        "end": 10.61,
+        "text": "ومن بعد خلصت غارامة في فرنسا ودارة التسويات قضاية في امريكا",
+        "words": [
+          {
+            "start": 6.87,
+            "end": 7.33,
+            "word": " ومن",
+            "probability": 0.8946548700332642
+          },
+          {
+            "start": 7.33,
+            "end": 7.53,
+            "word": " بعد",
+            "probability": 0.9704174995422363
+          },
+          {
+            "start": 7.53,
+            "end": 7.95,
+            "word": " خلصت",
+            "probability": 0.7769524455070496
+          },
+          {
+            "start": 7.95,
+            "end": 8.37,
+            "word": " غارامة",
+            "probability": 0.9323291033506393
+          },
+          {
+            "start": 8.37,
+            "end": 8.45,
+            "word": " في",
+            "probability": 0.9777986407279968
+          },
+          {
+            "start": 8.45,
+            "end": 8.89,
+            "word": " فرنسا",
+            "probability": 0.829176127910614
+          },
+          {
+            "start": 8.89,
+            "end": 9.29,
+            "word": " ودارة",
+            "probability": 0.7729111909866333
+          },
+          {
+            "start": 9.29,
+            "end": 9.71,
+            "word": " التسويات",
+            "probability": 0.8385144025087357
+          },
+          {
+            "start": 9.71,
+            "end": 10.09,
+            "word": " قضاية",
+            "probability": 0.7422106564044952
+          },
+          {
+            "start": 10.09,
+            "end": 10.21,
+            "word": " في",
+            "probability": 0.9964258074760437
+          },
+          {
+            "start": 10.21,
+            "end": 10.61,
+            "word": " امريكا",
+            "probability": 0.8841353535652161
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  },
+  {
+    "file": "audio5.ogg",
+    "sha256": "f433d20adfb86378daa0847bd71d42f9afbfb5e5f6a7c00f29ac65816011f618",
+    "duration": 18.026666666666667,
+    "samples": 865280,
+    "sampleRate": 48000,
+    "cumulativeStart": 34.410666666666664,
+    "cumulativeEnd": 52.437333333333335,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.48,
+        "text": "الناس حسوا بالتخذو بصعاب الجالت درنا هاكا بش تليفون ما يتفاش فجئاتا",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.5,
+            "word": " الناس",
+            "probability": 0.7753427525361379
+          },
+          {
+            "start": 0.5,
+            "end": 0.78,
+            "word": " حسوا",
+            "probability": 0.6918380856513977
+          },
+          {
+            "start": 0.78,
+            "end": 1.3,
+            "word": " بالتخذو",
+            "probability": 0.6797590732574463
+          },
+          {
+            "start": 1.3,
+            "end": 1.96,
+            "word": " بصعاب",
+            "probability": 0.6552442014217377
+          },
+          {
+            "start": 1.96,
+            "end": 2.42,
+            "word": " الجالت",
+            "probability": 0.4868476490179698
+          },
+          {
+            "start": 2.42,
+            "end": 2.78,
+            "word": " درنا",
+            "probability": 0.8116779923439026
+          },
+          {
+            "start": 2.78,
+            "end": 3.1,
+            "word": " هاكا",
+            "probability": 0.689030110836029
+          },
+          {
+            "start": 3.1,
+            "end": 3.32,
+            "word": " بش",
+            "probability": 0.7707033753395081
+          },
+          {
+            "start": 3.32,
+            "end": 3.66,
+            "word": " تليفون",
+            "probability": 0.7285971231758595
+          },
+          {
+            "start": 3.66,
+            "end": 3.78,
+            "word": " ما",
+            "probability": 0.5501164197921753
+          },
+          {
+            "start": 3.78,
+            "end": 4.02,
+            "word": " يتفاش",
+            "probability": 0.876180574297905
+          },
+          {
+            "start": 4.02,
+            "end": 4.48,
+            "word": " فجئاتا",
+            "probability": 0.6308993935585022
+          }
+        ]
+      },
+      {
+        "start": 4.48,
+        "end": 8.76,
+        "text": "وانا لازم نفهموا هاجل بطارية كي تقدم مشي غير تولي تخذ التفرغة بالخف",
+        "words": [
+          {
+            "start": 4.48,
+            "end": 5.24,
+            "word": " وانا",
+            "probability": 0.6236207882563273
+          },
+          {
+            "start": 5.24,
+            "end": 5.44,
+            "word": " لازم",
+            "probability": 0.9727510809898376
+          },
+          {
+            "start": 5.44,
+            "end": 5.84,
+            "word": " نفهموا",
+            "probability": 0.8490074276924133
+          },
+          {
+            "start": 5.84,
+            "end": 6.16,
+            "word": " هاجل",
+            "probability": 0.8148549993832906
+          },
+          {
+            "start": 6.16,
+            "end": 6.68,
+            "word": " بطارية",
+            "probability": 0.8966789096593857
+          },
+          {
+            "start": 6.68,
+            "end": 6.86,
+            "word": " كي",
+            "probability": 0.5793203711509705
+          },
+          {
+            "start": 6.86,
+            "end": 7.16,
+            "word": " تقدم",
+            "probability": 0.9697843988736471
+          },
+          {
+            "start": 7.16,
+            "end": 7.46,
+            "word": " مشي",
+            "probability": 0.48206567764282227
+          },
+          {
+            "start": 7.46,
+            "end": 7.58,
+            "word": " غير",
+            "probability": 0.4952249974012375
+          },
+          {
+            "start": 7.58,
+            "end": 7.82,
+            "word": " تولي",
+            "probability": 0.6664747794469198
+          },
+          {
+            "start": 7.82,
+            "end": 8.04,
+            "word": " تخذ",
+            "probability": 0.7198999424775442
+          },
+          {
+            "start": 8.04,
+            "end": 8.38,
+            "word": " التفرغة",
+            "probability": 0.6168444454669952
+          },
+          {
+            "start": 8.38,
+            "end": 8.76,
+            "word": " بالخف",
+            "probability": 0.9093315005302429
+          }
+        ]
+      },
+      {
+        "start": 8.76,
+        "end": 12.92,
+        "text": "تقدر تكون مشهونا بصعب تقدر ستمت الطاقة بسرعا ليحتاجات تليفون",
+        "words": [
+          {
+            "start": 8.76,
+            "end": 9.56,
+            "word": " تقدر",
+            "probability": 0.9527950882911682
+          },
+          {
+            "start": 9.56,
+            "end": 9.72,
+            "word": " تكون",
+            "probability": 0.9855204224586487
+          },
+          {
+            "start": 9.72,
+            "end": 10.22,
+            "word": " مشهونا",
+            "probability": 0.7397727519273758
+          },
+          {
+            "start": 10.22,
+            "end": 10.58,
+            "word": " بصعب",
+            "probability": 0.7451887279748917
+          },
+          {
+            "start": 10.58,
+            "end": 10.92,
+            "word": " تقدر",
+            "probability": 0.8760265707969666
+          },
+          {
+            "start": 10.92,
+            "end": 11.2,
+            "word": " ستمت",
+            "probability": 0.43493374188741046
+          },
+          {
+            "start": 11.2,
+            "end": 11.56,
+            "word": " الطاقة",
+            "probability": 0.7745321194330851
+          },
+          {
+            "start": 11.56,
+            "end": 11.98,
+            "word": " بسرعا",
+            "probability": 0.8086401939392089
+          },
+          {
+            "start": 11.98,
+            "end": 12.42,
+            "word": " ليحتاجات",
+            "probability": 0.7183337509632111
+          },
+          {
+            "start": 12.42,
+            "end": 12.92,
+            "word": " تليفون",
+            "probability": 0.9589864313602448
+          }
+        ]
+      },
+      {
+        "start": 12.92,
+        "end": 17.38,
+        "text": "كما الروبيني الماكاين بصعب كي تحتاج دفع كبيرة ما يخرش بالكيفاية",
+        "words": [
+          {
+            "start": 12.92,
+            "end": 13.62,
+            "word": " كما",
+            "probability": 0.8451721966266632
+          },
+          {
+            "start": 13.62,
+            "end": 14.32,
+            "word": " الروبيني",
+            "probability": 0.7736484289169312
+          },
+          {
+            "start": 14.32,
+            "end": 15.0,
+            "word": " الماكاين",
+            "probability": 0.8100983023643493
+          },
+          {
+            "start": 15.0,
+            "end": 15.36,
+            "word": " بصعب",
+            "probability": 0.7580036222934723
+          },
+          {
+            "start": 15.36,
+            "end": 15.46,
+            "word": " كي",
+            "probability": 0.880176842212677
+          },
+          {
+            "start": 15.46,
+            "end": 15.74,
+            "word": " تحتاج",
+            "probability": 0.9887535373369852
+          },
+          {
+            "start": 15.74,
+            "end": 15.98,
+            "word": " دفع",
+            "probability": 0.8327620029449463
+          },
+          {
+            "start": 15.98,
+            "end": 16.32,
+            "word": " كبيرة",
+            "probability": 0.9083522955576578
+          },
+          {
+            "start": 16.32,
+            "end": 16.5,
+            "word": " ما",
+            "probability": 0.7752101421356201
+          },
+          {
+            "start": 16.5,
+            "end": 16.84,
+            "word": " يخرش",
+            "probability": 0.7246175855398178
+          },
+          {
+            "start": 16.84,
+            "end": 17.38,
+            "word": " بالكيفاية",
+            "probability": 0.7434241890907287
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  },
+  {
+    "file": "audio6.ogg",
+    "sha256": "3d08b44341a60feb7b57595e92abfd5e27e8662b12be4aae2309781553f39aea",
+    "duration": 10.752,
+    "samples": 516096,
+    "sampleRate": 48000,
+    "cumulativeStart": 52.437333333333335,
+    "cumulativeEnd": 63.18933333333333,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.12,
+        "text": "كل بطارية تاجز تمطاق المطلوبة",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.22,
+            "word": " كل",
+            "probability": 0.6285384893417358
+          },
+          {
+            "start": 0.22,
+            "end": 0.74,
+            "word": " بطارية",
+            "probability": 0.9344114363193512
+          },
+          {
+            "start": 0.74,
+            "end": 1.12,
+            "word": " تاجز",
+            "probability": 0.8673284848531088
+          },
+          {
+            "start": 1.12,
+            "end": 1.6,
+            "word": " تمطاق",
+            "probability": 0.6560204029083252
+          },
+          {
+            "start": 1.6,
+            "end": 2.12,
+            "word": " المطلوبة",
+            "probability": 0.9563449382781982
+          }
+        ]
+      },
+      {
+        "start": 2.12,
+        "end": 3.18,
+        "text": "تليفون يقدر يطفى",
+        "words": [
+          {
+            "start": 2.12,
+            "end": 2.5,
+            "word": " تليفون",
+            "probability": 0.6229307875037193
+          },
+          {
+            "start": 2.5,
+            "end": 2.8,
+            "word": " يقدر",
+            "probability": 0.9636302987734476
+          },
+          {
+            "start": 2.8,
+            "end": 3.18,
+            "word": " يطفى",
+            "probability": 0.7635246962308884
+          }
+        ]
+      },
+      {
+        "start": 3.52,
+        "end": 3.98,
+        "text": "الحل",
+        "words": [
+          {
+            "start": 3.52,
+            "end": 3.98,
+            "word": " الحل",
+            "probability": 0.6864315569400787
+          }
+        ]
+      },
+      {
+        "start": 3.98,
+        "end": 5.68,
+        "text": "النظام ينقص سرعة المعالج",
+        "words": [
+          {
+            "start": 3.98,
+            "end": 4.58,
+            "word": " النظام",
+            "probability": 0.7635949452718099
+          },
+          {
+            "start": 4.58,
+            "end": 4.88,
+            "word": " ينقص",
+            "probability": 0.8805026859045029
+          },
+          {
+            "start": 4.88,
+            "end": 5.16,
+            "word": " سرعة",
+            "probability": 0.8241581320762634
+          },
+          {
+            "start": 5.16,
+            "end": 5.68,
+            "word": " المعالج",
+            "probability": 0.9069334864616394
+          }
+        ]
+      },
+      {
+        "start": 5.68,
+        "end": 7.18,
+        "text": "لينفذ الخدمة داخل تليفون",
+        "words": [
+          {
+            "start": 5.68,
+            "end": 6.18,
+            "word": " لينفذ",
+            "probability": 0.6758449077606201
+          },
+          {
+            "start": 6.18,
+            "end": 6.56,
+            "word": " الخدمة",
+            "probability": 0.9697646896044413
+          },
+          {
+            "start": 6.56,
+            "end": 6.8,
+            "word": " داخل",
+            "probability": 0.9459291696548462
+          },
+          {
+            "start": 6.8,
+            "end": 7.18,
+            "word": " تليفون",
+            "probability": 0.973472386598587
+          }
+        ]
+      },
+      {
+        "start": 7.6,
+        "end": 10.08,
+        "text": "يستالك أقل ويخدم أبطاء بصحيح بقى شعال",
+        "words": [
+          {
+            "start": 7.6,
+            "end": 8.18,
+            "word": " يستالك",
+            "probability": 0.8908175826072693
+          },
+          {
+            "start": 8.18,
+            "end": 8.52,
+            "word": " أقل",
+            "probability": 0.8075181047121683
+          },
+          {
+            "start": 8.52,
+            "end": 8.9,
+            "word": " ويخدم",
+            "probability": 0.8800771087408066
+          },
+          {
+            "start": 8.9,
+            "end": 9.26,
+            "word": " أبطاء",
+            "probability": 0.7513010129332542
+          },
+          {
+            "start": 9.26,
+            "end": 9.58,
+            "word": " بصحيح",
+            "probability": 0.6211179584264755
+          },
+          {
+            "start": 9.58,
+            "end": 9.8,
+            "word": " بقى",
+            "probability": 0.5968911498785019
+          },
+          {
+            "start": 9.8,
+            "end": 10.08,
+            "word": " شعال",
+            "probability": 0.605326235294342
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  },
+  {
+    "file": "audio7.ogg",
+    "sha256": "594fcfb56812190d1b201f376c929e94a5d40f2051e4209388e968dbb015de92",
+    "duration": 9.237333333333334,
+    "samples": 443392,
+    "sampleRate": 48000,
+    "cumulativeStart": 63.18933333333333,
+    "cumulativeEnd": 72.42666666666666,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.3,
+        "text": "بصح مشيكل تيليفون اتقل عندو هذا المشكل",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.42,
+            "word": " بصح",
+            "probability": 0.6498450835545858
+          },
+          {
+            "start": 0.42,
+            "end": 0.78,
+            "word": " مشيكل",
+            "probability": 0.544107178846995
+          },
+          {
+            "start": 0.78,
+            "end": 1.2,
+            "word": " تيليفون",
+            "probability": 0.6874207735061646
+          },
+          {
+            "start": 1.2,
+            "end": 1.5,
+            "word": " اتقل",
+            "probability": 0.4976773113012314
+          },
+          {
+            "start": 1.5,
+            "end": 1.74,
+            "word": " عندو",
+            "probability": 0.6308918744325638
+          },
+          {
+            "start": 1.74,
+            "end": 1.86,
+            "word": " هذا",
+            "probability": 0.7399405837059021
+          },
+          {
+            "start": 1.86,
+            "end": 2.3,
+            "word": " المشكل",
+            "probability": 0.987096925576528
+          }
+        ]
+      },
+      {
+        "start": 2.3,
+        "end": 5.02,
+        "text": "كانت تطبيقات تتزيد فيها الميزات مع التحديثات",
+        "words": [
+          {
+            "start": 2.3,
+            "end": 2.94,
+            "word": " كانت",
+            "probability": 0.6313675343990326
+          },
+          {
+            "start": 2.94,
+            "end": 3.38,
+            "word": " تطبيقات",
+            "probability": 0.9682757616043091
+          },
+          {
+            "start": 3.38,
+            "end": 3.64,
+            "word": " تتزيد",
+            "probability": 0.769045814871788
+          },
+          {
+            "start": 3.64,
+            "end": 3.88,
+            "word": " فيها",
+            "probability": 0.9462430775165558
+          },
+          {
+            "start": 3.88,
+            "end": 4.28,
+            "word": " الميزات",
+            "probability": 0.9703096151351929
+          },
+          {
+            "start": 4.28,
+            "end": 4.4,
+            "word": " مع",
+            "probability": 0.9748516082763672
+          },
+          {
+            "start": 4.4,
+            "end": 5.02,
+            "word": " التحديثات",
+            "probability": 0.968308687210083
+          }
+        ]
+      },
+      {
+        "start": 5.02,
+        "end": 8.66,
+        "text": "وتولي تحتاج خدمة أكثر من المعالج ومساحة أكبر في الذاكير",
+        "words": [
+          {
+            "start": 5.02,
+            "end": 5.76,
+            "word": " وتولي",
+            "probability": 0.8512417475382487
+          },
+          {
+            "start": 5.76,
+            "end": 6.16,
+            "word": " تحتاج",
+            "probability": 0.9436163902282715
+          },
+          {
+            "start": 6.16,
+            "end": 6.5,
+            "word": " خدمة",
+            "probability": 0.9697888096173605
+          },
+          {
+            "start": 6.5,
+            "end": 6.74,
+            "word": " أكثر",
+            "probability": 0.8486886620521545
+          },
+          {
+            "start": 6.74,
+            "end": 6.86,
+            "word": " من",
+            "probability": 0.9710243940353394
+          },
+          {
+            "start": 6.86,
+            "end": 7.34,
+            "word": " المعالج",
+            "probability": 0.901943027973175
+          },
+          {
+            "start": 7.34,
+            "end": 7.88,
+            "word": " ومساحة",
+            "probability": 0.7408310174942017
+          },
+          {
+            "start": 7.88,
+            "end": 8.12,
+            "word": " أكبر",
+            "probability": 0.9867471853892008
+          },
+          {
+            "start": 8.12,
+            "end": 8.26,
+            "word": " في",
+            "probability": 0.9751070737838745
+          },
+          {
+            "start": 8.26,
+            "end": 8.66,
+            "word": " الذاكير",
+            "probability": 0.7079662084579468
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  },
+  {
+    "file": "audio8.ogg",
+    "sha256": "46d0f79a41e2e200efc2f1ddaa8f8676458c9fe462c131510fbb3cefd02766ef",
+    "duration": 11.264,
+    "samples": 540672,
+    "sampleRate": 48000,
+    "cumulativeStart": 72.42666666666666,
+    "cumulativeEnd": 83.69066666666667,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.4,
+        "text": "والتالي فونتاك أبقى بنفس الإمكانية نفس الجهاز بسعى الخدمة زي تتعليه",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.3,
+            "word": " والتالي",
+            "probability": 0.5273401997983456
+          },
+          {
+            "start": 0.3,
+            "end": 0.86,
+            "word": " فونتاك",
+            "probability": 0.7650214433670044
+          },
+          {
+            "start": 0.86,
+            "end": 1.22,
+            "word": " أبقى",
+            "probability": 0.8352649435400963
+          },
+          {
+            "start": 1.22,
+            "end": 1.5,
+            "word": " بنفس",
+            "probability": 0.8700712621212006
+          },
+          {
+            "start": 1.5,
+            "end": 2.1,
+            "word": " الإمكانية",
+            "probability": 0.8542702794075012
+          },
+          {
+            "start": 2.1,
+            "end": 2.4,
+            "word": " نفس",
+            "probability": 0.629124715924263
+          },
+          {
+            "start": 2.4,
+            "end": 2.86,
+            "word": " الجهاز",
+            "probability": 0.9767085313796997
+          },
+          {
+            "start": 2.86,
+            "end": 3.1,
+            "word": " بسعى",
+            "probability": 0.6613242477178574
+          },
+          {
+            "start": 3.1,
+            "end": 3.44,
+            "word": " الخدمة",
+            "probability": 0.958602507909139
+          },
+          {
+            "start": 3.44,
+            "end": 3.6,
+            "word": " زي",
+            "probability": 0.49412156641483307
+          },
+          {
+            "start": 3.6,
+            "end": 4.4,
+            "word": " تتعليه",
+            "probability": 0.6641655564308167
+          }
+        ]
+      },
+      {
+        "start": 4.4,
+        "end": 7.46,
+        "text": "لهذا التطبيق لكان يخدم عندك خفيف يقدري وليثقيل",
+        "words": [
+          {
+            "start": 4.4,
+            "end": 4.76,
+            "word": " لهذا",
+            "probability": 0.6969107389450073
+          },
+          {
+            "start": 4.76,
+            "end": 5.26,
+            "word": " التطبيق",
+            "probability": 0.9450388997793198
+          },
+          {
+            "start": 5.26,
+            "end": 5.5,
+            "word": " لكان",
+            "probability": 0.28970423340797424
+          },
+          {
+            "start": 5.5,
+            "end": 5.74,
+            "word": " يخدم",
+            "probability": 0.8292612036069235
+          },
+          {
+            "start": 5.74,
+            "end": 6.06,
+            "word": " عندك",
+            "probability": 0.9245266914367676
+          },
+          {
+            "start": 6.06,
+            "end": 6.36,
+            "word": " خفيف",
+            "probability": 0.8223694364229838
+          },
+          {
+            "start": 6.36,
+            "end": 6.76,
+            "word": " يقدري",
+            "probability": 0.8719730377197266
+          },
+          {
+            "start": 6.76,
+            "end": 7.46,
+            "word": " وليثقيل",
+            "probability": 0.7849810481071472
+          }
+        ]
+      },
+      {
+        "start": 7.46,
+        "end": 10.86,
+        "text": "ومشي كل تحديث يدير هكذا كان تحديثات فعلا تزيد الأداء",
+        "words": [
+          {
+            "start": 7.46,
+            "end": 8.0,
+            "word": " ومشي",
+            "probability": 0.8121801167726517
+          },
+          {
+            "start": 8.0,
+            "end": 8.12,
+            "word": " كل",
+            "probability": 0.8248764276504517
+          },
+          {
+            "start": 8.12,
+            "end": 8.5,
+            "word": " تحديث",
+            "probability": 0.9276796728372574
+          },
+          {
+            "start": 8.5,
+            "end": 8.74,
+            "word": " يدير",
+            "probability": 0.7781074047088623
+          },
+          {
+            "start": 8.74,
+            "end": 9.04,
+            "word": " هكذا",
+            "probability": 0.5430698494116465
+          },
+          {
+            "start": 9.04,
+            "end": 9.2,
+            "word": " كان",
+            "probability": 0.795581042766571
+          },
+          {
+            "start": 9.2,
+            "end": 9.78,
+            "word": " تحديثات",
+            "probability": 0.8043935328722001
+          },
+          {
+            "start": 9.78,
+            "end": 10.12,
+            "word": " فعلا",
+            "probability": 0.850848933060964
+          },
+          {
+            "start": 10.12,
+            "end": 10.46,
+            "word": " تزيد",
+            "probability": 0.8323864539464315
+          },
+          {
+            "start": 10.46,
+            "end": 10.86,
+            "word": " الأداء",
+            "probability": 0.5542651414871216
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  },
+  {
+    "file": "audio9.ogg",
+    "sha256": "2ec19dfdb9ffe341a8480a728b751f3c696606bad8f47b47729a6c031c5a51aa",
+    "duration": 9.450666666666667,
+    "samples": 453632,
+    "sampleRate": 48000,
+    "cumulativeStart": 83.69066666666667,
+    "cumulativeEnd": 93.14133333333334,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 2.94,
+        "text": "وزيد كالتخزين يقرب عمر يقدر التليفون يثقال",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.5,
+            "word": " وزيد",
+            "probability": 0.7962761123975118
+          },
+          {
+            "start": 0.5,
+            "end": 1.16,
+            "word": " كالتخزين",
+            "probability": 0.7207624589403471
+          },
+          {
+            "start": 1.16,
+            "end": 1.34,
+            "word": " يقرب",
+            "probability": 0.9295803705851237
+          },
+          {
+            "start": 1.34,
+            "end": 1.72,
+            "word": " عمر",
+            "probability": 0.5885636657476425
+          },
+          {
+            "start": 1.72,
+            "end": 2.1,
+            "word": " يقدر",
+            "probability": 0.9116600950558981
+          },
+          {
+            "start": 2.1,
+            "end": 2.54,
+            "word": " التليفون",
+            "probability": 0.6417892053723335
+          },
+          {
+            "start": 2.54,
+            "end": 2.94,
+            "word": " يثقال",
+            "probability": 0.7949218899011612
+          }
+        ]
+      },
+      {
+        "start": 2.94,
+        "end": 5.9,
+        "text": "وكي يسخن بالزاف يقدر ينقص صراعا بش احميره",
+        "words": [
+          {
+            "start": 2.94,
+            "end": 3.68,
+            "word": " وكي",
+            "probability": 0.8650112350781759
+          },
+          {
+            "start": 3.68,
+            "end": 3.9,
+            "word": " يسخن",
+            "probability": 0.8685172945261002
+          },
+          {
+            "start": 3.9,
+            "end": 4.22,
+            "word": " بالزاف",
+            "probability": 0.7777034242947897
+          },
+          {
+            "start": 4.22,
+            "end": 4.58,
+            "word": " يقدر",
+            "probability": 0.9671384493509928
+          },
+          {
+            "start": 4.58,
+            "end": 4.9,
+            "word": " ينقص",
+            "probability": 0.7947480231523514
+          },
+          {
+            "start": 4.9,
+            "end": 5.3,
+            "word": " صراعا",
+            "probability": 0.591913603246212
+          },
+          {
+            "start": 5.3,
+            "end": 5.44,
+            "word": " بش",
+            "probability": 0.737773060798645
+          },
+          {
+            "start": 5.44,
+            "end": 5.9,
+            "word": " احميره",
+            "probability": 0.6293754726648331
+          }
+        ]
+      },
+      {
+        "start": 5.9,
+        "end": 9.06,
+        "text": "ركب تشوف نفس التقطع بصعب السابب مشي داي من واحد",
+        "words": [
+          {
+            "start": 5.9,
+            "end": 6.58,
+            "word": " ركب",
+            "probability": 0.5961012889941534
+          },
+          {
+            "start": 6.58,
+            "end": 6.78,
+            "word": " تشوف",
+            "probability": 0.8228857318560282
+          },
+          {
+            "start": 6.78,
+            "end": 6.96,
+            "word": " نفس",
+            "probability": 0.988693505525589
+          },
+          {
+            "start": 6.96,
+            "end": 7.46,
+            "word": " التقطع",
+            "probability": 0.7247507870197296
+          },
+          {
+            "start": 7.46,
+            "end": 7.92,
+            "word": " بصعب",
+            "probability": 0.9147307574748993
+          },
+          {
+            "start": 7.92,
+            "end": 8.28,
+            "word": " السابب",
+            "probability": 0.9341698288917542
+          },
+          {
+            "start": 8.28,
+            "end": 8.56,
+            "word": " مشي",
+            "probability": 0.4373037964105606
+          },
+          {
+            "start": 8.56,
+            "end": 8.68,
+            "word": " داي",
+            "probability": 0.6601877212524414
+          },
+          {
+            "start": 8.68,
+            "end": 8.78,
+            "word": " من",
+            "probability": 0.4825776517391205
+          },
+          {
+            "start": 8.78,
+            "end": 9.06,
+            "word": " واحد",
+            "probability": 0.7627848386764526
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  },
+  {
+    "file": "audio10.ogg",
+    "sha256": "56d981bcd8ebcbd624e297a2cf61a2e217c3844df53ac54202f8ff43a699f717",
+    "duration": 13.013333333333334,
+    "samples": 624640,
+    "sampleRate": 48000,
+    "cumulativeStart": 93.14133333333334,
+    "cumulativeEnd": 106.15466666666667,
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.4,
+        "text": "نونك يقدر يبطوه بالعاني وي في بعض الحالات بس هالبطوه وحده ما يثبج باليحبين اكتشري جديد",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.4,
+            "word": " نونك",
+            "probability": 0.47357576092084247
+          },
+          {
+            "start": 0.4,
+            "end": 0.68,
+            "word": " يقدر",
+            "probability": 0.9616910020510355
+          },
+          {
+            "start": 0.68,
+            "end": 1.02,
+            "word": " يبطوه",
+            "probability": 0.7011858820915222
+          },
+          {
+            "start": 1.02,
+            "end": 1.46,
+            "word": " بالعاني",
+            "probability": 0.7396173104643822
+          },
+          {
+            "start": 1.46,
+            "end": 1.82,
+            "word": " وي",
+            "probability": 0.6120684146881104
+          },
+          {
+            "start": 1.82,
+            "end": 1.98,
+            "word": " في",
+            "probability": 0.16694404184818268
+          },
+          {
+            "start": 1.98,
+            "end": 2.18,
+            "word": " بعض",
+            "probability": 0.9764701724052429
+          },
+          {
+            "start": 2.18,
+            "end": 2.64,
+            "word": " الحالات",
+            "probability": 0.9348384936650594
+          },
+          {
+            "start": 2.64,
+            "end": 2.88,
+            "word": " بس",
+            "probability": 0.6331455260515213
+          },
+          {
+            "start": 2.88,
+            "end": 3.38,
+            "word": " هالبطوه",
+            "probability": 0.7725350360075632
+          },
+          {
+            "start": 3.38,
+            "end": 3.64,
+            "word": " وحده",
+            "probability": 0.7190069158871969
+          },
+          {
+            "start": 3.64,
+            "end": 3.8,
+            "word": " ما",
+            "probability": 0.7508058547973633
+          },
+          {
+            "start": 3.8,
+            "end": 4.1,
+            "word": " يثبج",
+            "probability": 0.8747029155492783
+          },
+          {
+            "start": 4.1,
+            "end": 4.66,
+            "word": " باليحبين",
+            "probability": 0.6165562748908997
+          },
+          {
+            "start": 4.66,
+            "end": 4.98,
+            "word": " اكتشري",
+            "probability": 0.8743836879730225
+          },
+          {
+            "start": 4.98,
+            "end": 5.4,
+            "word": " جديد",
+            "probability": 0.9688945412635803
+          }
+        ]
+      },
+      {
+        "start": 5.4,
+        "end": 8.86,
+        "text": "نونك قبل ما تبدل تليفون شوف حالة البطارية والتخزين",
+        "words": [
+          {
+            "start": 5.4,
+            "end": 5.98,
+            "word": " نونك",
+            "probability": 0.9588615894317627
+          },
+          {
+            "start": 5.98,
+            "end": 6.2,
+            "word": " قبل",
+            "probability": 0.9470921158790588
+          },
+          {
+            "start": 6.2,
+            "end": 6.32,
+            "word": " ما",
+            "probability": 0.5584270358085632
+          },
+          {
+            "start": 6.32,
+            "end": 6.64,
+            "word": " تبدل",
+            "probability": 0.7221476833025614
+          },
+          {
+            "start": 6.64,
+            "end": 7.14,
+            "word": " تليفون",
+            "probability": 0.7283019348978996
+          },
+          {
+            "start": 7.14,
+            "end": 7.48,
+            "word": " شوف",
+            "probability": 0.9165825247764587
+          },
+          {
+            "start": 7.48,
+            "end": 7.76,
+            "word": " حالة",
+            "probability": 0.9561212658882141
+          },
+          {
+            "start": 7.76,
+            "end": 8.32,
+            "word": " البطارية",
+            "probability": 0.9558556973934174
+          },
+          {
+            "start": 8.32,
+            "end": 8.86,
+            "word": " والتخزين",
+            "probability": 0.9791466593742371
+          }
+        ]
+      },
+      {
+        "start": 8.86,
+        "end": 12.48,
+        "text": "وإذا البطارية السبب تبديلها يقدر يحس الأداء ويوفر الدرام",
+        "words": [
+          {
+            "start": 8.86,
+            "end": 9.32,
+            "word": " وإذا",
+            "probability": 0.7790887157122294
+          },
+          {
+            "start": 9.32,
+            "end": 9.8,
+            "word": " البطارية",
+            "probability": 0.9787566512823105
+          },
+          {
+            "start": 9.8,
+            "end": 10.26,
+            "word": " السبب",
+            "probability": 0.8502293626467387
+          },
+          {
+            "start": 10.26,
+            "end": 10.78,
+            "word": " تبديلها",
+            "probability": 0.778356596827507
+          },
+          {
+            "start": 10.78,
+            "end": 11.1,
+            "word": " يقدر",
+            "probability": 0.959780752658844
+          },
+          {
+            "start": 11.1,
+            "end": 11.34,
+            "word": " يحس",
+            "probability": 0.852463165918986
+          },
+          {
+            "start": 11.34,
+            "end": 11.8,
+            "word": " الأداء",
+            "probability": 0.44124063352743786
+          },
+          {
+            "start": 11.8,
+            "end": 12.18,
+            "word": " ويوفر",
+            "probability": 0.906493216753006
+          },
+          {
+            "start": 12.18,
+            "end": 12.48,
+            "word": " الدرام",
+            "probability": 0.559107373158137
+          }
+        ]
+      }
+    ],
+    "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+  }
+]

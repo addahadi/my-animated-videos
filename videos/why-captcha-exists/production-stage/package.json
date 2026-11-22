@@ -1,0 +1,9 @@
+{
+  "name": "why-captcha-exists",
+  "private": true,
+  "scripts": {
+    "review": "node render.cjs review",
+    "render": "node render.cjs final"
+  },
+  "description": "Uses the existing motion/node_modules through a local directory junction; no dependency installation."
+}

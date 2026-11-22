@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TikTok vs Instagram</title>
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f6f6f4; --surface:#fcfcfb; --surface-2:#f0efec; --border:#e2e1dc;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#7a7974;
+  --ig:#2a78d6; --tt:#eb6834;
+  --good:#008300; --warn:#b26f00; --bad:#c93a39;
+  --grid:#e6e5e0;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#121211; --surface:#1a1a19; --surface-2:#232321; --border:#33332f;
+    --text:#f0efec; --text-2:#c3c2b7; --muted:#8f8e86;
+    --ig:#3987e5; --tt:#d95926;
+    --good:#0ca30c; --warn:#d39a2a; --bad:#e66767;
+    --grid:#2c2c29;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121211; --surface:#1a1a19; --surface-2:#232321; --border:#33332f;
+  --text:#f0efec; --text-2:#c3c2b7; --muted:#8f8e86;
+  --ig:#3987e5; --tt:#d95926;
+  --good:#0ca30c; --warn:#d39a2a; --bad:#e66767;
+  --grid:#2c2c29;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Arabic",sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 16px 64px}
+header h1{font-size:28px;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+header p{margin:0;color:var(--text-2)}
+.brand{font-weight:600;color:var(--text-2);font-size:13px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:10px}
+h2{font-size:20px;margin:40px 0 4px}
+h2 + .sub{color:var(--text-2);margin:0 0 16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;margin-top:24px}
+.tile{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px}
+.tile .label{font-size:13px;color:var(--text-2)}
+.tile .pair{display:flex;gap:18px;margin-top:6px;align-items:baseline;flex-wrap:wrap}
+.tile .v{font-size:24px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .k{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px}
+.sw{display:inline-block;width:10px;height:10px;border-radius:3px}
+.sw.ig{background:var(--ig)} .sw.tt{background:var(--tt)}
+.verdict{margin-top:24px;border-left:4px solid var(--tt);padding:14px 18px;background:var(--surface);border-radius:0 12px 12px 0;border-top:1px solid var(--border);border-right:1px solid var(--border);border-bottom:1px solid var(--border)}
+.verdict strong{display:block;margin-bottom:4px}
+.legend{display:flex;gap:16px;font-size:13px;color:var(--text-2);margin-bottom:12px;flex-wrap:wrap}
+.legend span{display:flex;align-items:center;gap:6px}
+svg text{fill:var(--text-2);font-size:12px}
+svg .val{fill:var(--text);font-size:11.5px;font-variant-numeric:tabular-nums}
+.chart-scroll{width:100%}
+#tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:12.5px;box-shadow:0 4px 18px rgba(0,0,0,.18);opacity:0;transition:opacity .08s;z-index:10;max-width:260px}
+#tip b{display:block;margin-bottom:2px}
+table{width:100%;border-collapse:collapse;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal}
+th{font-weight:600;color:var(--text-2);font-size:12.5px}
+.tbl{overflow-x:auto}
+.reasons{display:grid;gap:12px}
+.reason{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+.reason h3{margin:0 0 6px;font-size:16px;display:flex;gap:10px;align-items:baseline}
+.reason h3 .n{color:var(--tt);font-variant-numeric:tabular-nums}
+.reason p{margin:6px 0;color:var(--text-2)}
+.reason .ev{font-size:13px;background:var(--surface-2);border-radius:8px;padding:8px 10px;color:var(--text);margin-top:8px}
+.fix{border-left:3px solid var(--good);padding-left:12px;margin-top:10px}
+.fix b{color:var(--text)}
+.tag{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid var(--border);color:var(--text-2);white-space:nowrap}
+.tag.high{color:var(--bad);border-color:currentColor}
+.tag.med{color:var(--warn);border-color:currentColor}
+ol.plan{padding-left:20px;margin:0}
+ol.plan li{margin:8px 0}
+.kpi td:nth-child(2){color:var(--bad)} .kpi td:nth-child(3){color:var(--good);font-weight:600}
+.note{font-size:13px;color:var(--muted);margin-top:28px}
+.ar{direction:rtl;unicode-bidi:plaintext}
+@media (max-width:600px){header h1{font-size:23px}.tile .v{font-size:21px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">Runtime.tech · @runtime.elhadi</div>
+  <h1>Why TikTok gets less than half of Instagram's views</h1>
+  <p>Last 30 days (Oct 20 – Nov 18, 2026), from the Windsor.ai Instagram and TikTok Organic connectors. Report made Nov 19, 2026.</p>
+</header>
+
+<div class="tiles">
+  <div class="tile"><div class="label">Total views</div>
+    <div class="pair"><div><div class="v">7,896</div><div class="k"><i class="sw ig"></i>Instagram · 10 reels</div></div>
+    <div><div class="v">3,997</div><div class="k"><i class="sw tt"></i>TikTok · 11 videos</div></div></div></div>
+  <div class="tile"><div class="label">Average views per video</div>
+    <div class="pair"><div><div class="v">790</div><div class="k"><i class="sw ig"></i>Instagram</div></div>
+    <div><div class="v">363</div><div class="k"><i class="sw tt"></i>TikTok</div></div></div></div>
+  <div class="tile"><div class="label">Best video</div>
+    <div class="pair"><div><div class="v">1,748</div><div class="k"><i class="sw ig"></i>GTA 6</div></div>
+    <div><div class="v">653</div><div class="k"><i class="sw tt"></i>Apple fine</div></div></div></div>
+  <div class="tile"><div class="label">Still watching at 3 seconds</div>
+    <div class="pair"><div><div class="v">39%</div><div class="k"><i class="sw ig"></i>100% − skip rate</div></div>
+    <div><div class="v">38%</div><div class="k"><i class="sw tt"></i>retention curve</div></div></div></div>
+  <div class="tile"><div class="label">Average watch time</div>
+    <div class="pair"><div><div class="v">11.4s</div><div class="k"><i class="sw ig"></i>Instagram</div></div>
+    <div><div class="v">10.8s</div><div class="k"><i class="sw tt"></i>of ~92s videos</div></div></div></div>
+  <div class="tile"><div class="label">Shares</div>
+    <div class="pair"><div><div class="v">21</div><div class="k"><i class="sw ig"></i>0.27% of views</div></div>
+    <div><div class="v">5</div><div class="k"><i class="sw tt"></i>0.13% of views</div></div></div></div>
+</div>
+
+<div class="verdict">
+  <strong>The short answer</strong>
+  People watch your videos for about as long on both apps: around 38–39% are still there at 3 seconds, and they watch about 11 seconds on average. TikTok viewers even like and save at slightly higher rates. The difference is in how each app spreads a video. Instagram is currently giving Reels to lots of people who don't follow you (98% of your views), so a video with an average hook can still reach 1,000–1,700 views. TikTok first shows each video to a small test group of a few hundred people and only pushes it further if most of them watch to the end and share it. On TikTok, only <b>0.4–6% of viewers watch to the end</b> of your ~90-second videos, and the videos got 5 shares in total. So every video stopped at the test group: all 11 landed between 170 and 653 views.
+</div>
+
+<h2>Views for each video on each app</h2>
+<p class="sub">The same videos, posted on both apps, matched by date and caption. On TikTok, every video lands in the same narrow range. On Instagram, half of them broke out.</p>
+<div class="card">
+  <div class="legend"><span><i class="sw ig"></i>Instagram</span><span><i class="sw tt"></i>TikTok</span></div>
+  <div class="chart-scroll"><svg id="bars" width="100%" role="img" aria-label="Views per video, Instagram vs TikTok"></svg></div>
+</div>
+
+<h2>Where TikTok viewers leave</h2>
+<p class="sub">Average share of TikTok viewers still watching at each second, across all 11 videos. By 10 seconds only 18% are left, and your videos run 64–113 seconds.</p>
+<div class="card">
+  <svg id="ret" width="100%" role="img" aria-label="TikTok average retention curve"></svg>
+</div>
+
+<h2>Full data</h2>
+<p class="sub">IG skip = share of Instagram views that left in the first 3 seconds. TT @3s = share of TikTok viewers still watching at second 3. TT full = share who watched to the end.</p>
+<div class="card tbl">
+<table id="tbl">
+  <thead><tr><th>Video</th><th>IG views</th><th>TT views</th><th>IG skip</th><th>TT @3s</th><th>IG avg watch</th><th>TT avg watch</th><th>TT length</th><th>TT full</th><th>TT shares</th></tr></thead>
+  <tbody></tbody>
+</table>
+</div>
+
+<h2>7 reasons TikTok views are low</h2>
+<p class="sub">Ranked by how much each one is likely holding views back. Each comes with the numbers behind it and a fix.</p>
+<div class="reasons">
+
+  <div class="reason">
+    <h3><span class="n">1</span> Almost nobody reaches the end of a 90-second video <span class="tag high">Biggest impact</span></h3>
+    <p>TikTok's main signal for pushing a video beyond the first test group is how much of the video people watch and whether they rewatch it. Your videos run 64–113 seconds (92s on average), and people watch about 11 seconds, which is roughly 12% of each video. Instagram cares more about watch time in seconds, so it treats an 11-second watch as acceptable. TikTok treats a video that 98% of viewers abandon as one not worth pushing.</p>
+    <div class="ev">Watched to the end: CAPTCHA 0.4%, Claude Code router 0.4%, Selling a phone 0.6%, GTA 6 1.0%. Best: Knight Capital 5.9%. Average watch time is 4.5–19 seconds on videos lasting 64–113 seconds.</div>
+    <div class="fix"><b>Fix:</b> Make a separate TikTok version of each video that runs <b>30–50 seconds</b>: one idea, one example, one takeaway. Split longer topics into "Part 1 / Part 2", which also brings people back to your profile. Aim for at least <b>15% full watches</b>.</div>
+  </div>
+
+  <div class="reason">
+    <h3><span class="n">2</span> More than 60% of viewers leave in the first 3 seconds <span class="tag high">Biggest impact</span></h3>
+    <p>Your hooks are average on both apps. Instagram still spreads average hooks right now; TikTok doesn't. The Instagram videos that broke out were the ones with the strongest openings (GTA 6: only 34% skipped; Apple fine and Phone listening: 47–48% skipped). That shows a better hook works for your channel.</p>
+    <div class="ev">TikTok, share still watching at second 1 / 3 / 10: average 68% / 38% / 18%. Worst: Untitled (Oct 21) 78% / 25% / 8%. Best: Knight Capital 74% / 49% / 24% and GTA 6 61% / 47% / 30%.</div>
+    <div class="fix"><b>Fix:</b> The first frame has to be the hook. Put a big on-screen question or claim in the frame from 0.0s ("تحميل GTA 6 مجانا؟ ❌"), start talking right away, and show the result or the most surprising visual first. No logo, title card or "السلام عليكم" intro. Aim for <b>at least 55% still watching at 3s</b>.</div>
+  </div>
+
+  <div class="reason">
+    <h3><span class="n">3</span> Almost no shares, so videos don't spread beyond the test group <span class="tag high">Biggest impact</span></h3>
+    <p>On both apps, shares and DMs are the strongest sign that a video deserves more reach. Your TikTok videos got 5 shares across 11 videos, and 8 of the 11 got none. Comments are almost zero too (3 in total).</p>
+    <div class="ev">TikTok: 5 shares and 3 comments on 3,997 views. Instagram: 21 shares on 7,896 views. TikTok saves are good (47 saves, 1.2% of views), so people value the information but don't send it to anyone.</div>
+    <div class="fix"><b>Fix:</b> Write one line that makes people share and say it out loud near the end: "ابعثو لصاحبك اللي ديما يضغط Accept all". Ask a comment question people can answer in one word ("Accept ولا Reject؟"). Pin your own comment with the question, and reply to comments with a video reply. Each one is a new post that sends people back to the original.</div>
+  </div>
+
+  <div class="reason">
+    <h3><span class="n">4</span> The account is too new to get extra help <span class="tag med">Medium</span></h3>
+    <p>TikTok has 31 followers (up from 5 a month ago) and 12 public videos. 0% of views came from the Following feed and about 93% came from For You. Every video starts from zero and depends entirely on its own test group. Instagram, meanwhile, is sending your Reels mostly to people who don't follow you.</p>
+    <div class="ev">Following feed share on all 11 videos: 0%. For You: 63–98%. Profile visits that came from videos: about 14 in the whole month.</div>
+    <div class="fix"><b>Fix:</b> More attempts in the first months: post <b>4–5 short TikTok versions a week</b>, for example the main video plus a short clip from it. Keep one niche (everyday tech for Algerians) so TikTok learns who to show your videos to.</div>
+  </div>
+
+  <div class="reason">
+    <h3><span class="n">5</span> Captions and hashtags are hurting search and discovery <span class="tag med">Medium</span></h3>
+    <p>TikTok search is a real source of views for you. "Selling a phone" got 27% of its views from Search, and GTA 6 got 7%. But two videos were posted with no caption at all, one has its hashtags stuck together, and one uses hashtags unrelated to the video.</p>
+    <div class="ev">Oct 21 and Oct 25 videos: empty caption. Knight Capital: "#R#RuntimeTechK#KnightCapitalT#TechStories…" (merged into one broken hashtag). Phone listening: #dzfashion (unrelated) and #يرئازج_كيت (Arabic letters reversed; also on Instagram).</div>
+    <div class="fix"><b>Fix:</b> Every caption should start with the exact words someone would search for, in Darija and French or English ("كيفاش تعرف تليفونك يسمعك – micro"). Use 3–5 hashtags about the topic, with a space between each. Say the keyword in the first sentence of the video and show it as on-screen text, because TikTok reads both.</div>
+  </div>
+
+  <div class="reason">
+    <h3><span class="n">6</span> The Instagram cut is posted unchanged on TikTok <span class="tag med">Medium</span></h3>
+    <p>The same edit, length and caption style go to both apps. What made a video break out on Instagram (phone slowing down 1,452, phone listening 1,245, CAPTCHA 1,239) did nothing on TikTok (223, 193, 229). TikTok's best ones were different videos (Apple fine 653, Untitled Oct 21 617, Cookies 454). With 11 videos, that ranking is partly luck. What it does show is that copying the Instagram version isn't enough.</p>
+    <div class="ev">TikTok views range from only 170 to 653, which means none of them got past the first test group. Even TikTok's strongest openings (Knight Capital 49% at 3s) got only 414 views because full watches stayed under 6%.</div>
+    <div class="fix"><b>Fix:</b> Make a TikTok version of each video: shorter, faster cuts, captions placed where TikTok's buttons don't cover them, a quiet trending sound under your voice, and a cover with a short title. Make sure the export has no other app's watermark.</div>
+  </div>
+
+  <div class="reason">
+    <h3><span class="n">7</span> Posting times change from video to video <span class="tag med">Smaller impact</span></h3>
+    <p>Videos went out anywhere from 09:29 to 20:45. With a small audience, the first hour decides how the test group reacts. Windsor didn't return hourly follower activity for this account yet, so this one is still an open question.</p>
+    <div class="fix"><b>Fix:</b> Pick one evening time (for example 19:00–21:00 Algeria time) for 3 weeks, then compare. Reply to every comment in the first 30 minutes after posting.</div>
+  </div>
+</div>
+
+<h2>Plan for the next 14 days</h2>
+<div class="card">
+<ol class="plan">
+  <li><b>Re-cut your 3 best Instagram topics for TikTok</b> (GTA 6, Apple fine and phone slowing down, phone listening) to 35–45 seconds each, with a new first 2 seconds. Post them as new edits, not the same file again.</li>
+  <li><b>Use a fixed hook for every video:</b> on-screen claim or question at 0.0s, then the surprising visual, then the answer comes later. No intro.</li>
+  <li><b>End with a loop or a cliffhanger:</b> the last line leads back to the first frame, or ends with "Part 2 غدوة".</li>
+  <li><b>Add one share line and one comment question</b> to every script. <code>$reel-script-writer</code> can write a separate TikTok version.</li>
+  <li><b>Caption checklist:</b> search keyword first, 3–5 spaced hashtags, never leave it empty.</li>
+  <li><b>Post 4–5 times a week</b> at the same evening time, and reply to comments with video replies.</li>
+  <li><b>Check the numbers again on Dec 3</b> with this same report.</li>
+</ol>
+</div>
+
+<h2>Numbers to check each week</h2>
+<div class="card tbl">
+<table class="kpi">
+  <thead><tr><th>TikTok metric</th><th>Now</th><th>Target</th></tr></thead>
+  <tbody>
+    <tr><td>Still watching at 3s</td><td>38%</td><td>≥ 55%</td></tr>
+    <tr><td>Watched to the end</td><td>0.4–6% (≈2%)</td><td>≥ 15%</td></tr>
+    <tr><td>Video length</td><td>64–113s</td><td>30–50s</td></tr>
+    <tr><td>Shares per 1,000 views</td><td>1.3</td><td>≥ 5</td></tr>
+    <tr><td>Views per video</td><td>363 avg</td><td>1,000+ on at least 1 in 3</td></tr>
+    <tr><td>Videos with empty or broken captions</td><td>3 of 11</td><td>0</td></tr>
+  </tbody>
+</table>
+</div>
+
+<p class="note">Notes on the data: GTA 6 was posted Nov 18, so both apps' numbers for it are still growing, and TikTok hasn't reported its unique viewers yet. Videos were matched across apps by date and caption. The Oct 25 TikTok video has no caption and is probably n8n Ep.01 (posted Oct 26 on Instagram). The Oct 21 TikTok video has no Instagram match in this window. Instagram's "skip rate" and TikTok's "still watching at 3s" are measured a little differently, so compare them as approximate. 91–99% of TikTok viewers were in Algeria, so the right audience is being reached.</p>
+</div>
+
+<div id="tip"></div>
+
+<script>
+const rows = [
+  {n:"Untitled (Oct 21)", ig:null, tt:617, igSkip:null, tt3:.25, igW:null, ttW:4.47, len:70.2, full:.0104, sh:0},
+  {n:"Claude Code router", ig:145, tt:240, igSkip:.712, tt3:.33, igW:7.99, ttW:6.86, len:96.0, full:.0037, sh:0},
+  {n:"n8n Ep.01 (likely)", ig:137, tt:391, igSkip:.793, tt3:.40, igW:5.49, ttW:8.51, len:98.8, full:.0212, sh:2},
+  {n:"Selling a phone", ig:151, tt:413, igSkip:.734, tt3:.37, igW:6.16, ttW:7.72, len:113.0, full:.0061, sh:2},
+  {n:"CAPTCHA", ig:1239, tt:229, igSkip:.605, tt3:.34, igW:14.87, ttW:6.34, len:95.7, full:.0039, sh:0},
+  {n:"Knight Capital", ig:231, tt:414, igSkip:.704, tt3:.49, igW:5.57, ttW:15.28, len:93.3, full:.0586, sh:0},
+  {n:"Phone slowing down", ig:1452, tt:223, igSkip:.593, tt3:.40, igW:9.75, ttW:12.4, len:106.2, full:.0311, sh:0},
+  {n:"Phone listening", ig:1245, tt:193, igSkip:.479, tt3:.34, igW:19.14, ttW:11.41, len:94.1, full:.0213, sh:0},
+  {n:"Cookies", ig:139, tt:454, igSkip:.672, tt3:.38, igW:7.0, ttW:19.23, len:84.5, full:.0399, sh:0},
+  {n:"Apple fine", ig:1409, tt:653, igSkip:.472, tt3:.40, igW:16.02, ttW:13.01, len:94.0, full:.0212, sh:0},
+  {n:"GTA 6 (1 day old)", ig:1748, tt:170, igSkip:.336, tt3:.47, igW:21.55, ttW:13.54, len:64.5, full:.0100, sh:1},
+];
+const fmt = n => n==null ? "—" : n.toLocaleString("en-US");
+const pct = (v,d=0) => v==null ? "—" : (v*100).toFixed(d)+"%";
+const sec = v => v==null ? "—" : v.toFixed(1)+"s";
+
+const tip = document.getElementById("tip");
+function showTip(e, html){ tip.innerHTML = html; tip.style.opacity = 1; moveTip(e); }
+function moveTip(e){
+  const x = Math.min(e.clientX + 14, innerWidth - tip.offsetWidth - 8);
+  const y = Math.min(e.clientY + 14, innerHeight - tip.offsetHeight - 8);
+  tip.style.left = x+"px"; tip.style.top = y+"px";
+}
+function hideTip(){ tip.style.opacity = 0; }
+const NS = "http://www.w3.org/2000/svg";
+const el = (t, a={}, p) => { const n = document.createElementNS(NS,t); for(const k in a) n.setAttribute(k,a[k]); if(p) p.appendChild(n); return n; };
+
+function drawBars(){
+  const svg = document.getElementById("bars");
+  svg.innerHTML = "";
+  const W = svg.clientWidth || 800;
+  const narrow = W < 560;
+  const labelW = narrow ? 118 : 170, right = 44, barH = 9, gap = 2, rowH = 34, top = 18;
+  const H = top + rows.length*rowH + 6;
+  svg.setAttribute("height", H); svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+  const max = 1800, plotW = W - labelW - right;
+  const x = v => labelW + (v/max)*plotW;
+  [0,500,1000,1500].forEach(t=>{
+    el("line",{x1:x(t),x2:x(t),y1:top-4,y2:H-4,stroke:"var(--grid)","stroke-width":1},svg);
+    const tx = el("text",{x:x(t),y:11,"text-anchor":"middle"},svg); tx.textContent = t.toLocaleString("en-US");
+  });
+  rows.forEach((r,i)=>{
+    const y0 = top + i*rowH + 6;
+    const lb = el("text",{x:labelW-10,y:y0+barH+gap/2+4,"text-anchor":"end"},svg);
+    lb.textContent = r.n; lb.style.fill = "var(--text)"; lb.style.fontSize = narrow ? "11px" : "12.5px";
+    [["ig",r.ig,"Instagram"],["tt",r.tt,"TikTok"]].forEach(([k,v,name],j)=>{
+      const y = y0 + j*(barH+gap);
+      if(v==null){
+        const t = el("text",{x:labelW+4,y:y+barH-1},svg); t.textContent = "not on IG in this window"; t.style.fontSize="11px"; t.style.fill="var(--muted)";
+        return;
+      }
+      const w = Math.max(2, x(v)-labelW);
+      el("path",{d:`M${labelW},${y} h${w-4} a4,4 0 0 1 4,4 v${barH-8} a4,4 0 0 1 -4,4 h-${w-4} z`,fill:`var(--${k})`},svg);
+      const t = el("text",{x:labelW+w+6,y:y+barH-1,class:"val"},svg); t.textContent = fmt(v);
+      const hit = el("rect",{x:labelW,y:y-1,width:Math.max(w+40,60),height:barH+2,fill:"transparent"},svg);
+      hit.style.cursor="default";
+      hit.addEventListener("mousemove",e=>showTip(e,`<b>${r.n}</b>${name}: ${fmt(v)} views<br>${k==="ig"?`Skipped in first 3s: ${pct(r.igSkip)} · avg watch ${sec(r.igW)}`:`Still watching at 3s: ${pct(r.tt3)} · watched to the end ${pct(r.full,1)}`}`));
+      hit.addEventListener("mouseleave",hideTip);
+    });
+  });
+}
+
+function drawRet(){
+  const svg = document.getElementById("ret");
+  svg.innerHTML = "";
+  const W = svg.clientWidth || 800, H = 240;
+  svg.setAttribute("height",H); svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  const L = 44, R = 20, T = 16, B = 34;
+  const pts = [[0,1],[1,.678],[2,.464],[3,.379],[5,.277],[10,.181]];
+  const x = s => L + (s/10)*(W-L-R), y = v => T + (1-v)*(H-T-B);
+  [0,.25,.5,.75,1].forEach(v=>{
+    el("line",{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:"var(--grid)"},svg);
+    const t = el("text",{x:L-8,y:y(v)+4,"text-anchor":"end"},svg); t.textContent = (v*100)+"%";
+  });
+  [0,1,2,3,5,10].forEach(s=>{ const t = el("text",{x:x(s),y:H-12,"text-anchor":"middle"},svg); t.textContent = s+"s"; });
+  el("line",{x1:x(3),x2:x(3),y1:T,y2:H-B,stroke:"var(--text-2)","stroke-dasharray":"3 4","stroke-width":1},svg);
+  const a = el("text",{x:x(3)+6,y:T+12},svg); a.textContent = "3s: 62% already gone"; a.style.fill="var(--text)";
+  el("polyline",{points:pts.map(p=>`${x(p[0])},${y(p[1])}`).join(" "),fill:"none",stroke:"var(--tt)","stroke-width":2,"stroke-linejoin":"round"},svg);
+  pts.forEach(p=>{
+    el("circle",{cx:x(p[0]),cy:y(p[1]),r:4.5,fill:"var(--tt)",stroke:"var(--surface)","stroke-width":2},svg);
+    const hit = el("circle",{cx:x(p[0]),cy:y(p[1]),r:14,fill:"transparent"},svg);
+    hit.addEventListener("mousemove",e=>showTip(e,`<b>Second ${p[0]}</b>${Math.round(p[1]*100)}% of TikTok viewers still watching (average of 11 videos)`));
+    hit.addEventListener("mouseleave",hideTip);
+  });
+  const e = el("text",{x:x(10)-4,y:y(.181)-10,"text-anchor":"end",class:"val"},svg); e.textContent = "18% left at 10s";
+}
+
+function fillTable(){
+  const tb = document.querySelector("#tbl tbody");
+  tb.innerHTML = rows.map(r=>`<tr><td>${r.n}</td><td>${fmt(r.ig)}</td><td>${fmt(r.tt)}</td><td>${pct(r.igSkip)}</td><td>${pct(r.tt3)}</td><td>${sec(r.igW)}</td><td>${sec(r.ttW)}</td><td>${Math.round(r.len)}s</td><td>${pct(r.full,1)}</td><td>${r.sh}</td></tr>`).join("")
+   + `<tr style="font-weight:600"><td>Total / average</td><td>7,896</td><td>3,997</td><td>61%</td><td>38%</td><td>11.4s</td><td>10.8s</td><td>92s</td><td>≈2%</td><td>5</td></tr>`;
+}
+function draw(){ drawBars(); drawRet(); }
+fillTable(); draw();
+let rt; addEventListener("resize",()=>{ clearTimeout(rt); rt = setTimeout(draw,120); });
+</script>
+</body>
+</html>

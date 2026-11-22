@@ -1,0 +1,66 @@
+{
+  "file": "narration-master.wav",
+  "samples": 4510080,
+  "durationSec": 93.96,
+  "speechEndSec": 91.96,
+  "gapSec": 0.25,
+  "tailSec": 2.0,
+  "narrationEdit": [
+    {
+      "clip": "audio_2026-11-15_20-01-11.ogg",
+      "srcInSec": 0.85,
+      "srcOutSec": 12.08,
+      "masterStartSec": 0.0,
+      "masterEndSec": 11.23
+    },
+    {
+      "clip": "audio4.ogg",
+      "srcInSec": 0.42,
+      "srcOutSec": 10.8,
+      "masterStartSec": 11.48,
+      "masterEndSec": 21.86
+    },
+    {
+      "clip": "audio5.ogg",
+      "srcInSec": 0.04,
+      "srcOutSec": 17.41,
+      "masterStartSec": 22.11,
+      "masterEndSec": 39.48
+    },
+    {
+      "clip": "audio6.ogg",
+      "srcInSec": 0.06,
+      "srcOutSec": 10.12,
+      "masterStartSec": 39.73,
+      "masterEndSec": 49.79
+    },
+    {
+      "clip": "audio7.ogg",
+      "srcInSec": 0.12,
+      "srcOutSec": 8.91,
+      "masterStartSec": 50.04,
+      "masterEndSec": 58.83
+    },
+    {
+      "clip": "audio8.ogg",
+      "srcInSec": 0.0,
+      "srcOutSec": 10.92,
+      "masterStartSec": 59.08,
+      "masterEndSec": 70.0
+    },
+    {
+      "clip": "audio9.ogg",
+      "srcInSec": 0.08,
+      "srcOutSec": 9.14,
+      "masterStartSec": 70.25,
+      "masterEndSec": 79.31
+    },
+    {
+      "clip": "audio10.ogg",
+      "srcInSec": 0.17,
+      "srcOutSec": 12.57,
+      "masterStartSec": 79.56,
+      "masterEndSec": 91.96
+    }
+  ]
+}

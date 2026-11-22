@@ -1,0 +1,1863 @@
+{
+ "approximate": true,
+ "pages": [
+  {
+   "scene": 1,
+   "startMs": 80,
+   "endMs": 1360,
+   "words": [
+    {
+     "text": "Apple",
+     "startMs": 80,
+     "endMs": 528
+    },
+    {
+     "text": "خلّصت",
+     "startMs": 528,
+     "endMs": 912
+    },
+    {
+     "text": "غرامة…",
+     "startMs": 912,
+     "endMs": 1360
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 1360,
+   "endMs": 2662,
+   "words": [
+    {
+     "text": "على",
+     "startMs": 1360,
+     "endMs": 1748
+    },
+    {
+     "text": "خاطر",
+     "startMs": 1748,
+     "endMs": 1997
+    },
+    {
+     "text": "ثقّلت",
+     "startMs": 1997,
+     "endMs": 2247
+    },
+    {
+     "text": "تليفونات",
+     "startMs": 2247,
+     "endMs": 2662
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 2662,
+   "endMs": 3660,
+   "words": [
+    {
+     "text": "الناس",
+     "startMs": 2662,
+     "endMs": 2953
+    },
+    {
+     "text": "بلا",
+     "startMs": 2953,
+     "endMs": 3161
+    },
+    {
+     "text": "ما",
+     "startMs": 3161,
+     "endMs": 3327
+    },
+    {
+     "text": "تقولهم",
+     "startMs": 3327,
+     "endMs": 3660
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 4220,
+   "endMs": 4760,
+   "words": [
+    {
+     "text": "وانت؟",
+     "startMs": 4220,
+     "endMs": 4760
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 4940,
+   "endMs": 5976,
+   "words": [
+    {
+     "text": "تفتح",
+     "startMs": 4940,
+     "endMs": 5546
+    },
+    {
+     "text": "الكاميرا،",
+     "startMs": 5546,
+     "endMs": 5976
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 5976,
+   "endMs": 6276,
+   "words": [
+    {
+     "text": "تستنى…",
+     "startMs": 5976,
+     "endMs": 6276
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 6276,
+   "endMs": 6920,
+   "words": [
+    {
+     "text": "واللقطة",
+     "startMs": 6276,
+     "endMs": 6663
+    },
+    {
+     "text": "تفوت",
+     "startMs": 6663,
+     "endMs": 6920
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 7220,
+   "endMs": 8810,
+   "words": [
+    {
+     "text": "زعما",
+     "startMs": 7220,
+     "endMs": 7573
+    },
+    {
+     "text": "حتى",
+     "startMs": 7573,
+     "endMs": 7867
+    },
+    {
+     "text": "تليفونك",
+     "startMs": 7867,
+     "endMs": 8398
+    },
+    {
+     "text": "ثقّلوه؟",
+     "startMs": 8398,
+     "endMs": 8810
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 9200,
+   "endMs": 10718,
+   "words": [
+    {
+     "text": "نبداو",
+     "startMs": 9200,
+     "endMs": 9878
+    },
+    {
+     "text": "بواش",
+     "startMs": 9878,
+     "endMs": 10143
+    },
+    {
+     "text": "دارت",
+     "startMs": 10143,
+     "endMs": 10409
+    },
+    {
+     "text": "Apple",
+     "startMs": 10409,
+     "endMs": 10718
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 10718,
+   "endMs": 11160,
+   "words": [
+    {
+     "text": "في",
+     "startMs": 10718,
+     "endMs": 10894
+    },
+    {
+     "text": "2017",
+     "startMs": 10894,
+     "endMs": 11160
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 11550,
+   "endMs": 12759,
+   "words": [
+    {
+     "text": "كانت",
+     "startMs": 11550,
+     "endMs": 11840
+    },
+    {
+     "text": "تنقّص",
+     "startMs": 11840,
+     "endMs": 12131
+    },
+    {
+     "text": "الأداء",
+     "startMs": 12131,
+     "endMs": 12517
+    },
+    {
+     "text": "تاع",
+     "startMs": 12517,
+     "endMs": 12759
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 12759,
+   "endMs": 13968,
+   "words": [
+    {
+     "text": "بعض",
+     "startMs": 12759,
+     "endMs": 13001
+    },
+    {
+     "text": "iPhone",
+     "startMs": 13001,
+     "endMs": 13387
+    },
+    {
+     "text": "القدام",
+     "startMs": 13387,
+     "endMs": 13774
+    },
+    {
+     "text": "كي",
+     "startMs": 13774,
+     "endMs": 13968
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 13968,
+   "endMs": 15080,
+   "words": [
+    {
+     "text": "تضعف",
+     "startMs": 13968,
+     "endMs": 14258
+    },
+    {
+     "text": "البطارية",
+     "startMs": 14258,
+     "endMs": 14741
+    },
+    {
+     "text": "تاعهم",
+     "startMs": 14741,
+     "endMs": 15080
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 15590,
+   "endMs": 16507,
+   "words": [
+    {
+     "text": "والمشكل؟",
+     "startMs": 15590,
+     "endMs": 16507
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 16507,
+   "endMs": 17630,
+   "words": [
+    {
+     "text": "ما",
+     "startMs": 16507,
+     "endMs": 16808
+    },
+    {
+     "text": "وضّحتش",
+     "startMs": 16808,
+     "endMs": 17112
+    },
+    {
+     "text": "هذا",
+     "startMs": 17112,
+     "endMs": 17328
+    },
+    {
+     "text": "للناس",
+     "startMs": 17328,
+     "endMs": 17630
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 17630,
+   "endMs": 17890,
+   "words": [
+    {
+     "text": "مليح",
+     "startMs": 17630,
+     "endMs": 17890
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 18250,
+   "endMs": 19100,
+   "words": [
+    {
+     "text": "ومن",
+     "startMs": 18250,
+     "endMs": 18869
+    },
+    {
+     "text": "بعد،",
+     "startMs": 18869,
+     "endMs": 19100
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 19100,
+   "endMs": 20213,
+   "words": [
+    {
+     "text": "خلّصت",
+     "startMs": 19100,
+     "endMs": 19379
+    },
+    {
+     "text": "غرامة",
+     "startMs": 19379,
+     "endMs": 19704
+    },
+    {
+     "text": "في",
+     "startMs": 19704,
+     "endMs": 19888
+    },
+    {
+     "text": "فرنسا،",
+     "startMs": 19888,
+     "endMs": 20213
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 20213,
+   "endMs": 21419,
+   "words": [
+    {
+     "text": "ودارت",
+     "startMs": 20213,
+     "endMs": 20538
+    },
+    {
+     "text": "تسويات",
+     "startMs": 20538,
+     "endMs": 20909
+    },
+    {
+     "text": "قضايا",
+     "startMs": 20909,
+     "endMs": 21234
+    },
+    {
+     "text": "في",
+     "startMs": 21234,
+     "endMs": 21419
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 21419,
+   "endMs": 21790,
+   "words": [
+    {
+     "text": "أمريكا",
+     "startMs": 21419,
+     "endMs": 21790
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 22180,
+   "endMs": 23380,
+   "words": [
+    {
+     "text": "الناس",
+     "startMs": 22180,
+     "endMs": 22530
+    },
+    {
+     "text": "حسّو",
+     "startMs": 22530,
+     "endMs": 22780
+    },
+    {
+     "text": "بلي",
+     "startMs": 22780,
+     "endMs": 23030
+    },
+    {
+     "text": "تخدعو",
+     "startMs": 23030,
+     "endMs": 23380
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 23620,
+   "endMs": 24665,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 23620,
+     "endMs": 24084
+    },
+    {
+     "text": "Apple",
+     "startMs": 24084,
+     "endMs": 24397
+    },
+    {
+     "text": "قالت:",
+     "startMs": 24397,
+     "endMs": 24665
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 24665,
+   "endMs": 25829,
+   "words": [
+    {
+     "text": "درنا",
+     "startMs": 24665,
+     "endMs": 24934
+    },
+    {
+     "text": "هكّا",
+     "startMs": 24934,
+     "endMs": 25158
+    },
+    {
+     "text": "باش",
+     "startMs": 25158,
+     "endMs": 25382
+    },
+    {
+     "text": "التليفون",
+     "startMs": 25382,
+     "endMs": 25829
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 25829,
+   "endMs": 26590,
+   "words": [
+    {
+     "text": "ما",
+     "startMs": 25829,
+     "endMs": 26008
+    },
+    {
+     "text": "يطفاش",
+     "startMs": 26008,
+     "endMs": 26322
+    },
+    {
+     "text": "فجأة",
+     "startMs": 26322,
+     "endMs": 26590
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 26770,
+   "endMs": 28434,
+   "words": [
+    {
+     "text": "وهنا",
+     "startMs": 26770,
+     "endMs": 27562
+    },
+    {
+     "text": "لازم",
+     "startMs": 27562,
+     "endMs": 27837
+    },
+    {
+     "text": "نفهمو",
+     "startMs": 27837,
+     "endMs": 28159
+    },
+    {
+     "text": "حاجة:",
+     "startMs": 28159,
+     "endMs": 28434
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 28434,
+   "endMs": 29353,
+   "words": [
+    {
+     "text": "البطارية",
+     "startMs": 28434,
+     "endMs": 28893
+    },
+    {
+     "text": "كي",
+     "startMs": 28893,
+     "endMs": 29077
+    },
+    {
+     "text": "تقدّم،",
+     "startMs": 29077,
+     "endMs": 29353
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 29353,
+   "endMs": 30409,
+   "words": [
+    {
+     "text": "ماشي",
+     "startMs": 29353,
+     "endMs": 29628
+    },
+    {
+     "text": "غير",
+     "startMs": 29628,
+     "endMs": 29858
+    },
+    {
+     "text": "تولّي",
+     "startMs": 29858,
+     "endMs": 30133
+    },
+    {
+     "text": "تفرغ",
+     "startMs": 30133,
+     "endMs": 30409
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 30409,
+   "endMs": 30730,
+   "words": [
+    {
+     "text": "بالخف",
+     "startMs": 30409,
+     "endMs": 30730
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 31020,
+   "endMs": 31922,
+   "words": [
+    {
+     "text": "تقدر",
+     "startMs": 31020,
+     "endMs": 31291
+    },
+    {
+     "text": "تكون",
+     "startMs": 31291,
+     "endMs": 31562
+    },
+    {
+     "text": "مشحونة،",
+     "startMs": 31562,
+     "endMs": 31922
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 31922,
+   "endMs": 32871,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 31922,
+     "endMs": 32148
+    },
+    {
+     "text": "ما",
+     "startMs": 32148,
+     "endMs": 32329
+    },
+    {
+     "text": "تقدرش",
+     "startMs": 32329,
+     "endMs": 32645
+    },
+    {
+     "text": "تمدّ",
+     "startMs": 32645,
+     "endMs": 32871
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 32871,
+   "endMs": 34063,
+   "words": [
+    {
+     "text": "الطاقة",
+     "startMs": 32871,
+     "endMs": 33385
+    },
+    {
+     "text": "بالسرعة",
+     "startMs": 33385,
+     "endMs": 33792
+    },
+    {
+     "text": "اللي",
+     "startMs": 33792,
+     "endMs": 34063
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 34063,
+   "endMs": 34920,
+   "words": [
+    {
+     "text": "يحتاجها",
+     "startMs": 34063,
+     "endMs": 34468
+    },
+    {
+     "text": "التليفون",
+     "startMs": 34468,
+     "endMs": 34920
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 35540,
+   "endMs": 36130,
+   "words": [
+    {
+     "text": "كيما",
+     "startMs": 35540,
+     "endMs": 35967
+    },
+    {
+     "text": "روبيني:",
+     "startMs": 35967,
+     "endMs": 36130
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 36510,
+   "endMs": 37403,
+   "words": [
+    {
+     "text": "الماء",
+     "startMs": 36510,
+     "endMs": 37147
+    },
+    {
+     "text": "كاين،",
+     "startMs": 37147,
+     "endMs": 37403
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 37403,
+   "endMs": 38343,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 37403,
+     "endMs": 37617
+    },
+    {
+     "text": "كي",
+     "startMs": 37617,
+     "endMs": 37787
+    },
+    {
+     "text": "تحتاج",
+     "startMs": 37787,
+     "endMs": 38086
+    },
+    {
+     "text": "دفعة",
+     "startMs": 38086,
+     "endMs": 38343
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 38343,
+   "endMs": 38641,
+   "words": [
+    {
+     "text": "كبيرة،",
+     "startMs": 38343,
+     "endMs": 38641
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 38641,
+   "endMs": 39410,
+   "words": [
+    {
+     "text": "ما",
+     "startMs": 38641,
+     "endMs": 38812
+    },
+    {
+     "text": "يخرجش",
+     "startMs": 38812,
+     "endMs": 39111
+    },
+    {
+     "text": "كفاية",
+     "startMs": 39111,
+     "endMs": 39410
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 39800,
+   "endMs": 40946,
+   "words": [
+    {
+     "text": "كي",
+     "startMs": 39800,
+     "endMs": 39983
+    },
+    {
+     "text": "البطارية",
+     "startMs": 39983,
+     "endMs": 40442
+    },
+    {
+     "text": "تعجز",
+     "startMs": 40442,
+     "endMs": 40717
+    },
+    {
+     "text": "تمدّ",
+     "startMs": 40717,
+     "endMs": 40946
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 40946,
+   "endMs": 41771,
+   "words": [
+    {
+     "text": "الطاقة",
+     "startMs": 40946,
+     "endMs": 41313
+    },
+    {
+     "text": "المطلوبة،",
+     "startMs": 41313,
+     "endMs": 41771
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 41771,
+   "endMs": 42780,
+   "words": [
+    {
+     "text": "التليفون",
+     "startMs": 41771,
+     "endMs": 42230
+    },
+    {
+     "text": "يقدر",
+     "startMs": 42230,
+     "endMs": 42505
+    },
+    {
+     "text": "يطفى",
+     "startMs": 42505,
+     "endMs": 42780
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 43320,
+   "endMs": 44045,
+   "words": [
+    {
+     "text": "الحل؟",
+     "startMs": 43320,
+     "endMs": 44045
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 44045,
+   "endMs": 45018,
+   "words": [
+    {
+     "text": "النظام",
+     "startMs": 44045,
+     "endMs": 44508
+    },
+    {
+     "text": "ينقّص",
+     "startMs": 44508,
+     "endMs": 44763
+    },
+    {
+     "text": "سرعة",
+     "startMs": 44763,
+     "endMs": 45018
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 45018,
+   "endMs": 45401,
+   "words": [
+    {
+     "text": "المعالج،",
+     "startMs": 45018,
+     "endMs": 45401
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 45401,
+   "endMs": 46505,
+   "words": [
+    {
+     "text": "اللي",
+     "startMs": 45401,
+     "endMs": 45655
+    },
+    {
+     "text": "ينفّذ",
+     "startMs": 45655,
+     "endMs": 45910
+    },
+    {
+     "text": "الخدمة",
+     "startMs": 45910,
+     "endMs": 46250
+    },
+    {
+     "text": "داخل",
+     "startMs": 46250,
+     "endMs": 46505
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 46505,
+   "endMs": 46930,
+   "words": [
+    {
+     "text": "التليفون",
+     "startMs": 46505,
+     "endMs": 46930
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 47410,
+   "endMs": 48388,
+   "words": [
+    {
+     "text": "يستهلك",
+     "startMs": 47410,
+     "endMs": 48167
+    },
+    {
+     "text": "أقل،",
+     "startMs": 48167,
+     "endMs": 48388
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 48388,
+   "endMs": 48966,
+   "words": [
+    {
+     "text": "ويخدم",
+     "startMs": 48388,
+     "endMs": 48699
+    },
+    {
+     "text": "أبطأ،",
+     "startMs": 48699,
+     "endMs": 48966
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 48966,
+   "endMs": 49720,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 48966,
+     "endMs": 49188
+    },
+    {
+     "text": "يبقى",
+     "startMs": 49188,
+     "endMs": 49454
+    },
+    {
+     "text": "شاعل",
+     "startMs": 49454,
+     "endMs": 49720
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 50100,
+   "endMs": 51097,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 50100,
+     "endMs": 50317
+    },
+    {
+     "text": "ماشي",
+     "startMs": 50317,
+     "endMs": 50577
+    },
+    {
+     "text": "كل",
+     "startMs": 50577,
+     "endMs": 50750
+    },
+    {
+     "text": "تليفون",
+     "startMs": 50750,
+     "endMs": 51097
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 51097,
+   "endMs": 52180,
+   "words": [
+    {
+     "text": "ثقيل",
+     "startMs": 51097,
+     "endMs": 51357
+    },
+    {
+     "text": "عندو",
+     "startMs": 51357,
+     "endMs": 51617
+    },
+    {
+     "text": "هاذ",
+     "startMs": 51617,
+     "endMs": 51833
+    },
+    {
+     "text": "المشكل",
+     "startMs": 51833,
+     "endMs": 52180
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 52180,
+   "endMs": 53865,
+   "words": [
+    {
+     "text": "كاين",
+     "startMs": 52180,
+     "endMs": 52897
+    },
+    {
+     "text": "تطبيقات",
+     "startMs": 52897,
+     "endMs": 53312
+    },
+    {
+     "text": "تزيد",
+     "startMs": 53312,
+     "endMs": 53589
+    },
+    {
+     "text": "فيها",
+     "startMs": 53589,
+     "endMs": 53865
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 53865,
+   "endMs": 54880,
+   "words": [
+    {
+     "text": "ميزات",
+     "startMs": 53865,
+     "endMs": 54188
+    },
+    {
+     "text": "مع",
+     "startMs": 54188,
+     "endMs": 54373
+    },
+    {
+     "text": "التحديثات،",
+     "startMs": 54373,
+     "endMs": 54880
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 54880,
+   "endMs": 56596,
+   "words": [
+    {
+     "text": "وتولّي",
+     "startMs": 54880,
+     "endMs": 55664
+    },
+    {
+     "text": "تحتاج",
+     "startMs": 55664,
+     "endMs": 56007
+    },
+    {
+     "text": "خدمة",
+     "startMs": 56007,
+     "endMs": 56302
+    },
+    {
+     "text": "أكثر",
+     "startMs": 56302,
+     "endMs": 56596
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 56596,
+   "endMs": 57235,
+   "words": [
+    {
+     "text": "من",
+     "startMs": 56596,
+     "endMs": 56793
+    },
+    {
+     "text": "المعالج،",
+     "startMs": 56793,
+     "endMs": 57235
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 57235,
+   "endMs": 58560,
+   "words": [
+    {
+     "text": "ومساحة",
+     "startMs": 57235,
+     "endMs": 57627
+    },
+    {
+     "text": "أكبر",
+     "startMs": 57627,
+     "endMs": 57922
+    },
+    {
+     "text": "في",
+     "startMs": 57922,
+     "endMs": 58118
+    },
+    {
+     "text": "الذاكرة",
+     "startMs": 58118,
+     "endMs": 58560
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 59130,
+   "endMs": 59920,
+   "words": [
+    {
+     "text": "والتليفون",
+     "startMs": 59130,
+     "endMs": 59641
+    },
+    {
+     "text": "تاعك؟",
+     "startMs": 59641,
+     "endMs": 59920
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 60110,
+   "endMs": 61340,
+   "words": [
+    {
+     "text": "بقى",
+     "startMs": 60110,
+     "endMs": 60524
+    },
+    {
+     "text": "بنفس",
+     "startMs": 60524,
+     "endMs": 60796
+    },
+    {
+     "text": "الإمكانيات",
+     "startMs": 60796,
+     "endMs": 61340
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 61340,
+   "endMs": 61928,
+   "words": [
+    {
+     "text": "نفس",
+     "startMs": 61340,
+     "endMs": 61566
+    },
+    {
+     "text": "الجهاز،",
+     "startMs": 61566,
+     "endMs": 61928
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 61928,
+   "endMs": 63060,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 61928,
+     "endMs": 62154
+    },
+    {
+     "text": "الخدمة",
+     "startMs": 62154,
+     "endMs": 62517
+    },
+    {
+     "text": "زادت",
+     "startMs": 62517,
+     "endMs": 62788
+    },
+    {
+     "text": "عليه",
+     "startMs": 62788,
+     "endMs": 63060
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 63360,
+   "endMs": 64818,
+   "words": [
+    {
+     "text": "لهذا",
+     "startMs": 63360,
+     "endMs": 64032
+    },
+    {
+     "text": "التطبيق",
+     "startMs": 64032,
+     "endMs": 64385
+    },
+    {
+     "text": "اللي",
+     "startMs": 64385,
+     "endMs": 64622
+    },
+    {
+     "text": "كان",
+     "startMs": 64622,
+     "endMs": 64818
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 64818,
+   "endMs": 65888,
+   "words": [
+    {
+     "text": "يخدم",
+     "startMs": 64818,
+     "endMs": 65054
+    },
+    {
+     "text": "عندك",
+     "startMs": 65054,
+     "endMs": 65290
+    },
+    {
+     "text": "خفيف",
+     "startMs": 65290,
+     "endMs": 65653
+    },
+    {
+     "text": "يقدر",
+     "startMs": 65653,
+     "endMs": 65888
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 65888,
+   "endMs": 66360,
+   "words": [
+    {
+     "text": "يولّي",
+     "startMs": 65888,
+     "endMs": 66125
+    },
+    {
+     "text": "ثقيل",
+     "startMs": 66125,
+     "endMs": 66360
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 66570,
+   "endMs": 68100,
+   "words": [
+    {
+     "text": "وماشي",
+     "startMs": 66570,
+     "endMs": 67322
+    },
+    {
+     "text": "كل",
+     "startMs": 67322,
+     "endMs": 67505
+    },
+    {
+     "text": "تحديث",
+     "startMs": 67505,
+     "endMs": 67826
+    },
+    {
+     "text": "يدير",
+     "startMs": 67826,
+     "endMs": 68100
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 68100,
+   "endMs": 68329,
+   "words": [
+    {
+     "text": "هكّا،",
+     "startMs": 68100,
+     "endMs": 68329
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 68329,
+   "endMs": 69564,
+   "words": [
+    {
+     "text": "كاين",
+     "startMs": 68329,
+     "endMs": 68603
+    },
+    {
+     "text": "تحديثات",
+     "startMs": 68603,
+     "endMs": 69015
+    },
+    {
+     "text": "فعلاً",
+     "startMs": 69015,
+     "endMs": 69290
+    },
+    {
+     "text": "تزيد",
+     "startMs": 69290,
+     "endMs": 69564
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 69564,
+   "endMs": 69930,
+   "words": [
+    {
+     "text": "الأداء",
+     "startMs": 69564,
+     "endMs": 69930
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 70320,
+   "endMs": 70700,
+   "words": [
+    {
+     "text": "وزيد،",
+     "startMs": 70320,
+     "endMs": 70700
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 70880,
+   "endMs": 72123,
+   "words": [
+    {
+     "text": "كي",
+     "startMs": 70880,
+     "endMs": 71250
+    },
+    {
+     "text": "التخزين",
+     "startMs": 71250,
+     "endMs": 71624
+    },
+    {
+     "text": "يقرب",
+     "startMs": 71624,
+     "endMs": 71874
+    },
+    {
+     "text": "يعمر،",
+     "startMs": 71874,
+     "endMs": 72123
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 72123,
+   "endMs": 73080,
+   "words": [
+    {
+     "text": "يقدر",
+     "startMs": 72123,
+     "endMs": 72373
+    },
+    {
+     "text": "التليفون",
+     "startMs": 72373,
+     "endMs": 72789
+    },
+    {
+     "text": "يثقال",
+     "startMs": 72789,
+     "endMs": 73080
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 73310,
+   "endMs": 74545,
+   "words": [
+    {
+     "text": "وكي",
+     "startMs": 73310,
+     "endMs": 74053
+    },
+    {
+     "text": "يسخن",
+     "startMs": 74053,
+     "endMs": 74299
+    },
+    {
+     "text": "بزاف،",
+     "startMs": 74299,
+     "endMs": 74545
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 74545,
+   "endMs": 75569,
+   "words": [
+    {
+     "text": "يقدر",
+     "startMs": 74545,
+     "endMs": 74791
+    },
+    {
+     "text": "ينقّص",
+     "startMs": 74791,
+     "endMs": 75036
+    },
+    {
+     "text": "السرعة",
+     "startMs": 75036,
+     "endMs": 75364
+    },
+    {
+     "text": "باش",
+     "startMs": 75364,
+     "endMs": 75569
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 75569,
+   "endMs": 76060,
+   "words": [
+    {
+     "text": "يحمي",
+     "startMs": 75569,
+     "endMs": 75815
+    },
+    {
+     "text": "روحو",
+     "startMs": 75815,
+     "endMs": 76060
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 76550,
+   "endMs": 77912,
+   "words": [
+    {
+     "text": "تشوف",
+     "startMs": 76550,
+     "endMs": 77292
+    },
+    {
+     "text": "نفس",
+     "startMs": 77292,
+     "endMs": 77514
+    },
+    {
+     "text": "التقطيع،",
+     "startMs": 77514,
+     "endMs": 77912
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 77912,
+   "endMs": 78974,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 77912,
+     "endMs": 78133
+    },
+    {
+     "text": "السبب",
+     "startMs": 78133,
+     "endMs": 78443
+    },
+    {
+     "text": "ماشي",
+     "startMs": 78443,
+     "endMs": 78709
+    },
+    {
+     "text": "ديما",
+     "startMs": 78709,
+     "endMs": 78974
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 78974,
+   "endMs": 79240,
+   "words": [
+    {
+     "text": "واحد",
+     "startMs": 78974,
+     "endMs": 79240
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 79640,
+   "endMs": 80480,
+   "words": [
+    {
+     "text": "يعني",
+     "startMs": 79640,
+     "endMs": 79880
+    },
+    {
+     "text": "يقدرو",
+     "startMs": 79880,
+     "endMs": 80160
+    },
+    {
+     "text": "يبطّؤوه",
+     "startMs": 80160,
+     "endMs": 80480
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 80480,
+   "endMs": 80840,
+   "words": [
+    {
+     "text": "بالعاني؟",
+     "startMs": 80480,
+     "endMs": 80840
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 80840,
+   "endMs": 81200,
+   "words": [
+    {
+     "text": "إيه،",
+     "startMs": 80840,
+     "endMs": 81200
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 81200,
+   "endMs": 81920,
+   "words": [
+    {
+     "text": "في",
+     "startMs": 81200,
+     "endMs": 81360
+    },
+    {
+     "text": "بعض",
+     "startMs": 81360,
+     "endMs": 81560
+    },
+    {
+     "text": "الحالات",
+     "startMs": 81560,
+     "endMs": 81920
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 81920,
+   "endMs": 83166,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 81920,
+     "endMs": 82358
+    },
+    {
+     "text": "البطء",
+     "startMs": 82358,
+     "endMs": 82691
+    },
+    {
+     "text": "وحدو",
+     "startMs": 82691,
+     "endMs": 82976
+    },
+    {
+     "text": "ما",
+     "startMs": 82976,
+     "endMs": 83166
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 83166,
+   "endMs": 84355,
+   "words": [
+    {
+     "text": "يثبتش",
+     "startMs": 83166,
+     "endMs": 83499
+    },
+    {
+     "text": "بلي",
+     "startMs": 83499,
+     "endMs": 83737
+    },
+    {
+     "text": "يحبوك",
+     "startMs": 83737,
+     "endMs": 84069
+    },
+    {
+     "text": "تشري",
+     "startMs": 84069,
+     "endMs": 84355
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 84355,
+   "endMs": 84640,
+   "words": [
+    {
+     "text": "جديد",
+     "startMs": 84355,
+     "endMs": 84640
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 84860,
+   "endMs": 85980,
+   "words": [
+    {
+     "text": "يعني",
+     "startMs": 84860,
+     "endMs": 85180
+    },
+    {
+     "text": "قبل",
+     "startMs": 85180,
+     "endMs": 85446
+    },
+    {
+     "text": "ما",
+     "startMs": 85446,
+     "endMs": 85660
+    },
+    {
+     "text": "تبدّل",
+     "startMs": 85660,
+     "endMs": 85980
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 85980,
+   "endMs": 86586,
+   "words": [
+    {
+     "text": "تليفون،",
+     "startMs": 85980,
+     "endMs": 86586
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 86586,
+   "endMs": 87706,
+   "words": [
+    {
+     "text": "شوف",
+     "startMs": 86586,
+     "endMs": 86853
+    },
+    {
+     "text": "حالة",
+     "startMs": 86853,
+     "endMs": 87173
+    },
+    {
+     "text": "البطارية",
+     "startMs": 87173,
+     "endMs": 87706
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 87706,
+   "endMs": 88240,
+   "words": [
+    {
+     "text": "والتخزين",
+     "startMs": 87706,
+     "endMs": 88240
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 88550,
+   "endMs": 89885,
+   "words": [
+    {
+     "text": "وإذا",
+     "startMs": 88550,
+     "endMs": 89128
+    },
+    {
+     "text": "البطارية",
+     "startMs": 89128,
+     "endMs": 89573
+    },
+    {
+     "text": "السبب،",
+     "startMs": 89573,
+     "endMs": 89885
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 89885,
+   "endMs": 91177,
+   "words": [
+    {
+     "text": "تبديلها",
+     "startMs": 89885,
+     "endMs": 90286
+    },
+    {
+     "text": "يقدر",
+     "startMs": 90286,
+     "endMs": 90553
+    },
+    {
+     "text": "يحسّن",
+     "startMs": 90553,
+     "endMs": 90820
+    },
+    {
+     "text": "الأداء",
+     "startMs": 90820,
+     "endMs": 91177
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 91177,
+   "endMs": 91890,
+   "words": [
+    {
+     "text": "ويوفّر",
+     "startMs": 91177,
+     "endMs": 91489
+    },
+    {
+     "text": "الدراهم",
+     "startMs": 91489,
+     "endMs": 91890
+    }
+   ]
+  }
+ ]
+}

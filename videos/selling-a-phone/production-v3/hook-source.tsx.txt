@@ -1,0 +1,43 @@
+const Intro:React.FC<{t:number}>=({t})=>{
+ const rewind=ease((t-7.26)/1.65),returnData=ease((t-7.72)/.75);
+ const missing=t>=1.05,seekOld=t>=1.85;
+ const shake=t>=1.05&&t<1.38?Math.sin((t-1.05)*51)*2.8*(1-(t-1.05)/.33):0;
+ const newOpacity=1-ease((t-7.26)/.6);
+ const oldY=mix(385,390,rewind);
+ return <g>
+  <g opacity={newOpacity}>
+   <Device id="hook-new" x={386} y={300} w={280} label="الجديد" newPhone>
+    <AppHead title="تسجيل الدخول" subtitle="حسابك"/>
+    <T x={199} y={151} size={20} anchor="start">كلمة السر</T>
+    <rect x={25} y={168} width={190} height={51} rx={9} fill="#E6F2FF"/>
+    <T x={101} y={203} size={24} latin>••••••••</T>
+    <Check x={195} y={193} s={.64}/>
+    <T x={198} y={249} size={20} anchor="start">كود التحقق</T>
+    <g transform={`translate(${shake} 0)`}>
+     {[0,1,2,3,4,5].map(i=><g key={i}><rect x={26+i*32} y={267} width={27} height={43} rx={6} fill={missing?'#FFF8DF':C.white} stroke={missing?C.yellow:C.blue} strokeWidth={missing?2.5:1.4}/><path d={`M${34+i*32} 289h11`} stroke={missing?C.ink:C.gray} strokeWidth={2}/></g>)}
+    </g>
+    {missing&&<g><Icon kind="lock" x={39} y={341} s={.36} color={C.ink}/><T x={133} y={347} size={18}>يلزم كود باش تدخل</T></g>}
+    <Button x={120} y={395} w={190} text={missing?'الدخول متوقف':'تأكيد الدخول'} selected={!missing} gray={missing} size={20}/>
+   </Device>
+   <Tap x={526} y={761} t={t} at={.72}/>
+  </g>
+  <Device id="hook-old" x={55} y={oldY} label={rewind>.65?'القديم قبل الفورماط':'القديم بعد الفورماط'} blue={returnData<1}>
+   <g opacity={1-returnData}><Ready language/></g>
+   {returnData>0&&<g opacity={returnData}><rect x={13} y={58} width={214} height={391} fill={C.white}/><DataRows/></g>}
+  </Device>
+  {seekOld&&rewind<1&&<g opacity={ease((t-1.85)/.45)*(1-rewind)}>
+   <path d="M297 607H307M371 630H382" stroke={C.gray} strokeWidth={2} strokeDasharray="5 5" fill="none"/>
+   <rect x={309} y={572} width={65} height={82} rx={12} fill={C.white} stroke={C.gray} strokeWidth={1.5} strokeDasharray="4 4"/>
+   <Icon kind="key" x={341} y={607} s={.62} color="#ACB2BE"/>
+   <path d="M319 640L365 587" stroke={C.yellow} strokeWidth={5} strokeLinecap="round"/>
+  </g>}
+  <Tap x={175} y={628} t={t} at={2.1}/>
+  {t>=3.32&&t<7.26&&<g opacity={ease((t-3.32)/.3)}><path d="M354 626l-12 16m12 0l-12-16" stroke={C.ink} strokeWidth={3} strokeLinecap="round"/></g>}
+  {t>=7.26&&t<9.25&&<g opacity={Math.sin(clamp((t-7.26)/1.99)*Math.PI)}>
+   <circle cx={486} cy={589} r={51} fill={C.blue}/>
+   <path d="M487 565L461 589L487 613ZM512 565L486 589L512 613Z" fill={C.white}/>
+  </g>}
+  {rewind>.7&&<g opacity={ease((rewind-.7)/.3)}><Panel x={397} y={433} w={270} h={358} title="نسخة احتياطية">{data.map((d,i)=><g key={d.kind} opacity={.18}><Icon kind={d.kind} x={39} y={102+i*66} s={.55}/><T x={157} y={111+i*66} size={23} latin={i===3}>{d.name}</T></g>)}</Panel></g>}
+ </g>;
+};
+

@@ -1,0 +1,60 @@
+{
+  "samples": 5384192,
+  "duration": 112.17066666666666,
+  "clips": [
+    {
+      "file": "audio1.ogg",
+      "start": 0.0,
+      "end": 9.664,
+      "samples": 463872
+    },
+    {
+      "file": "audio2.ogg",
+      "start": 9.664,
+      "end": 25.642666666666667,
+      "samples": 766976
+    },
+    {
+      "file": "audio3.ogg",
+      "start": 25.642666666666667,
+      "end": 45.034666666666666,
+      "samples": 930816
+    },
+    {
+      "file": "audio4.ogg",
+      "start": 45.034666666666666,
+      "end": 53.86666666666667,
+      "samples": 423936
+    },
+    {
+      "file": "audio5.ogg",
+      "start": 53.86666666666667,
+      "end": 66.21866666666666,
+      "samples": 592896
+    },
+    {
+      "file": "audio6.ogg",
+      "start": 66.21866666666666,
+      "end": 84.608,
+      "samples": 882688
+    },
+    {
+      "file": "audio7.ogg",
+      "start": 84.608,
+      "end": 92.75733333333334,
+      "samples": 391168
+    },
+    {
+      "file": "audio8.ogg",
+      "start": 92.75733333333334,
+      "end": 105.28,
+      "samples": 601088
+    },
+    {
+      "file": "audio9.ogg",
+      "start": 105.28,
+      "end": 112.17066666666666,
+      "samples": 330752
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+analysis/
+exports/
+media/
+inputs/
+plans/
+node_modules/
+graphify-out/
+__pycache__/

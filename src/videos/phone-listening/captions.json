@@ -1,0 +1,1933 @@
+{
+ "approximate": true,
+ "pages": [
+  {
+   "scene": 1,
+   "startMs": 160,
+   "endMs": 1204,
+   "words": [
+    {
+     "text": "هدرت",
+     "startMs": 160,
+     "endMs": 445
+    },
+    {
+     "text": "مع",
+     "startMs": 445,
+     "endMs": 634
+    },
+    {
+     "text": "صاحبك",
+     "startMs": 634,
+     "endMs": 967
+    },
+    {
+     "text": "على",
+     "startMs": 967,
+     "endMs": 1204
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 1204,
+   "endMs": 1488,
+   "words": [
+    {
+     "text": "صبّاط…",
+     "startMs": 1204,
+     "endMs": 1488
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 1488,
+   "endMs": 2692,
+   "words": [
+    {
+     "text": "وخمس",
+     "startMs": 1488,
+     "endMs": 1933
+    },
+    {
+     "text": "دقايق",
+     "startMs": 1933,
+     "endMs": 2265
+    },
+    {
+     "text": "من",
+     "startMs": 2265,
+     "endMs": 2455
+    },
+    {
+     "text": "بعد،",
+     "startMs": 2455,
+     "endMs": 2692
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 2692,
+   "endMs": 3926,
+   "words": [
+    {
+     "text": "التيليفون",
+     "startMs": 2692,
+     "endMs": 3214
+    },
+    {
+     "text": "عمّرلك",
+     "startMs": 3214,
+     "endMs": 3546
+    },
+    {
+     "text": "الشاشة",
+     "startMs": 3546,
+     "endMs": 3926
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 3950,
+   "endMs": 4520,
+   "words": [
+    {
+     "text": "بالصبابط.",
+     "startMs": 3950,
+     "endMs": 4520
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 5020,
+   "endMs": 5400,
+   "words": [
+    {
+     "text": "صدفة؟",
+     "startMs": 5020,
+     "endMs": 5400
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 5760,
+   "endMs": 6060,
+   "words": [
+    {
+     "text": "لا.",
+     "startMs": 5760,
+     "endMs": 6060
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 6400,
+   "endMs": 6950,
+   "words": [
+    {
+     "text": "يسمعك؟",
+     "startMs": 6400,
+     "endMs": 6950
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 6950,
+   "endMs": 7500,
+   "words": [
+    {
+     "text": "حتى",
+     "startMs": 6950,
+     "endMs": 7250
+    },
+    {
+     "text": "هي",
+     "startMs": 7250,
+     "endMs": 7500
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 7800,
+   "endMs": 8420,
+   "words": [
+    {
+     "text": "لا.",
+     "startMs": 7800,
+     "endMs": 8420
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 8940,
+   "endMs": 10200,
+   "words": [
+    {
+     "text": "كامل",
+     "startMs": 8940,
+     "endMs": 9201
+    },
+    {
+     "text": "الناس",
+     "startMs": 9201,
+     "endMs": 9505
+    },
+    {
+     "text": "يقولو",
+     "startMs": 9505,
+     "endMs": 9809
+    },
+    {
+     "text": "الميكرو.",
+     "startMs": 9809,
+     "endMs": 10200
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 10200,
+   "endMs": 12038,
+   "words": [
+    {
+     "text": "تعالى",
+     "startMs": 10200,
+     "endMs": 10917
+    },
+    {
+     "text": "نشوفو",
+     "startMs": 10917,
+     "endMs": 11273
+    },
+    {
+     "text": "علاش",
+     "startMs": 11273,
+     "endMs": 11579
+    },
+    {
+     "text": "الميكرو",
+     "startMs": 11579,
+     "endMs": 12038
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 12038,
+   "endMs": 12700,
+   "words": [
+    {
+     "text": "ماشي",
+     "startMs": 12038,
+     "endMs": 12343
+    },
+    {
+     "text": "منطقي…",
+     "startMs": 12343,
+     "endMs": 12700
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 12700,
+   "endMs": 14400,
+   "words": [
+    {
+     "text": "والحقيقة",
+     "startMs": 12700,
+     "endMs": 13656
+    },
+    {
+     "text": "أغرب",
+     "startMs": 13656,
+     "endMs": 13954
+    },
+    {
+     "text": "من",
+     "startMs": 13954,
+     "endMs": 14152
+    },
+    {
+     "text": "هكا.",
+     "startMs": 14152,
+     "endMs": 14400
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 14740,
+   "endMs": 15053,
+   "words": [
+    {
+     "text": "أولا،",
+     "startMs": 14740,
+     "endMs": 15053
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 15053,
+   "endMs": 16408,
+   "words": [
+    {
+     "text": "لو",
+     "startMs": 15053,
+     "endMs": 15261
+    },
+    {
+     "text": "كان",
+     "startMs": 15261,
+     "endMs": 15522
+    },
+    {
+     "text": "التيليفون",
+     "startMs": 15522,
+     "endMs": 16095
+    },
+    {
+     "text": "يسجّل",
+     "startMs": 16095,
+     "endMs": 16408
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 16408,
+   "endMs": 17815,
+   "words": [
+    {
+     "text": "كلامك",
+     "startMs": 16408,
+     "endMs": 16772
+    },
+    {
+     "text": "نهار",
+     "startMs": 16772,
+     "endMs": 17085
+    },
+    {
+     "text": "كامل",
+     "startMs": 17085,
+     "endMs": 17398
+    },
+    {
+     "text": "ويبعثو",
+     "startMs": 17398,
+     "endMs": 17815
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 17815,
+   "endMs": 18440,
+   "words": [
+    {
+     "text": "لـ",
+     "startMs": 17815,
+     "endMs": 18023
+    },
+    {
+     "text": "server،",
+     "startMs": 18023,
+     "endMs": 18440
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 18440,
+   "endMs": 20036,
+   "words": [
+    {
+     "text": "الباتري",
+     "startMs": 18440,
+     "endMs": 19313
+    },
+    {
+     "text": "تفرغ",
+     "startMs": 19313,
+     "endMs": 19602
+    },
+    {
+     "text": "بالزربة،",
+     "startMs": 19602,
+     "endMs": 20036
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 20036,
+   "endMs": 21240,
+   "words": [
+    {
+     "text": "والـ",
+     "startMs": 20036,
+     "endMs": 20325
+    },
+    {
+     "text": "data",
+     "startMs": 20325,
+     "endMs": 20614
+    },
+    {
+     "text": "نتاعك",
+     "startMs": 20614,
+     "endMs": 20951
+    },
+    {
+     "text": "تطير.",
+     "startMs": 20951,
+     "endMs": 21240
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 21580,
+   "endMs": 21854,
+   "words": [
+    {
+     "text": "وزيد،",
+     "startMs": 21580,
+     "endMs": 21854
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 21854,
+   "endMs": 23042,
+   "words": [
+    {
+     "text": "Android",
+     "startMs": 21854,
+     "endMs": 22265
+    },
+    {
+     "text": "و",
+     "startMs": 22265,
+     "endMs": 22402
+    },
+    {
+     "text": "iPhone",
+     "startMs": 22402,
+     "endMs": 22768
+    },
+    {
+     "text": "دروك",
+     "startMs": 22768,
+     "endMs": 23042
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 23042,
+   "endMs": 24321,
+   "words": [
+    {
+     "text": "يحطولك",
+     "startMs": 23042,
+     "endMs": 23407
+    },
+    {
+     "text": "نقطة",
+     "startMs": 23407,
+     "endMs": 23682
+    },
+    {
+     "text": "صغيرة",
+     "startMs": 23682,
+     "endMs": 24001
+    },
+    {
+     "text": "ملونة",
+     "startMs": 24001,
+     "endMs": 24321
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 24321,
+   "endMs": 24915,
+   "words": [
+    {
+     "text": "فوق",
+     "startMs": 24321,
+     "endMs": 24550
+    },
+    {
+     "text": "الشاشة،",
+     "startMs": 24550,
+     "endMs": 24915
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 24915,
+   "endMs": 25966,
+   "words": [
+    {
+     "text": "كل",
+     "startMs": 24915,
+     "endMs": 25098
+    },
+    {
+     "text": "ما",
+     "startMs": 25098,
+     "endMs": 25281
+    },
+    {
+     "text": "يكون",
+     "startMs": 25281,
+     "endMs": 25555
+    },
+    {
+     "text": "الميكرو",
+     "startMs": 25555,
+     "endMs": 25966
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 25966,
+   "endMs": 26240,
+   "words": [
+    {
+     "text": "خدام.",
+     "startMs": 25966,
+     "endMs": 26240
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 26580,
+   "endMs": 27183,
+   "words": [
+    {
+     "text": "وفي",
+     "startMs": 26580,
+     "endMs": 26854
+    },
+    {
+     "text": "2018،",
+     "startMs": 26854,
+     "endMs": 27183
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 27183,
+   "endMs": 28717,
+   "words": [
+    {
+     "text": "باحثين",
+     "startMs": 27183,
+     "endMs": 27621
+    },
+    {
+     "text": "في",
+     "startMs": 27621,
+     "endMs": 27841
+    },
+    {
+     "text": "جامعة",
+     "startMs": 27841,
+     "endMs": 28224
+    },
+    {
+     "text": "أمريكية",
+     "startMs": 28224,
+     "endMs": 28717
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 28717,
+   "endMs": 29814,
+   "words": [
+    {
+     "text": "جربو",
+     "startMs": 28717,
+     "endMs": 29046
+    },
+    {
+     "text": "أكثر",
+     "startMs": 29046,
+     "endMs": 29375
+    },
+    {
+     "text": "من",
+     "startMs": 29375,
+     "endMs": 29594
+    },
+    {
+     "text": "17",
+     "startMs": 29594,
+     "endMs": 29814
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 29814,
+   "endMs": 30800,
+   "words": [
+    {
+     "text": "ألف",
+     "startMs": 29814,
+     "endMs": 30088
+    },
+    {
+     "text": "application.",
+     "startMs": 30088,
+     "endMs": 30800
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 30800,
+   "endMs": 32228,
+   "words": [
+    {
+     "text": "ما",
+     "startMs": 30800,
+     "endMs": 31469
+    },
+    {
+     "text": "لقاوش",
+     "startMs": 31469,
+     "endMs": 31764
+    },
+    {
+     "text": "ولا",
+     "startMs": 31764,
+     "endMs": 31975
+    },
+    {
+     "text": "وحدة",
+     "startMs": 31975,
+     "endMs": 32228
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 32228,
+   "endMs": 33240,
+   "words": [
+    {
+     "text": "تبعث",
+     "startMs": 32228,
+     "endMs": 32481
+    },
+    {
+     "text": "صوتك",
+     "startMs": 32481,
+     "endMs": 32734
+    },
+    {
+     "text": "في",
+     "startMs": 32734,
+     "endMs": 32903
+    },
+    {
+     "text": "الخفية.",
+     "startMs": 32903,
+     "endMs": 33240
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 33240,
+   "endMs": 34402,
+   "words": [
+    {
+     "text": "ماشي",
+     "startMs": 33240,
+     "endMs": 34058
+    },
+    {
+     "text": "مستحيل،",
+     "startMs": 34058,
+     "endMs": 34402
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 34402,
+   "endMs": 35262,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 34402,
+     "endMs": 34617
+    },
+    {
+     "text": "ما",
+     "startMs": 34617,
+     "endMs": 34789
+    },
+    {
+     "text": "كاين",
+     "startMs": 34789,
+     "endMs": 35047
+    },
+    {
+     "text": "حتى",
+     "startMs": 35047,
+     "endMs": 35262
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 35262,
+   "endMs": 35520,
+   "words": [
+    {
+     "text": "دليل.",
+     "startMs": 35262,
+     "endMs": 35520
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 36300,
+   "endMs": 37500,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 36300,
+     "endMs": 36561
+    },
+    {
+     "text": "لقاو",
+     "startMs": 36561,
+     "endMs": 36874
+    },
+    {
+     "text": "حاجة",
+     "startMs": 36874,
+     "endMs": 37187
+    },
+    {
+     "text": "أخرى:",
+     "startMs": 37187,
+     "endMs": 37500
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 37500,
+   "endMs": 38977,
+   "words": [
+    {
+     "text": "تطبيقات",
+     "startMs": 37500,
+     "endMs": 38208
+    },
+    {
+     "text": "كانت",
+     "startMs": 38208,
+     "endMs": 38479
+    },
+    {
+     "text": "تصوّر",
+     "startMs": 38479,
+     "endMs": 38751
+    },
+    {
+     "text": "واش",
+     "startMs": 38751,
+     "endMs": 38977
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 38977,
+   "endMs": 40229,
+   "words": [
+    {
+     "text": "يصرا",
+     "startMs": 38977,
+     "endMs": 39249
+    },
+    {
+     "text": "في",
+     "startMs": 39249,
+     "endMs": 39430
+    },
+    {
+     "text": "الشاشة",
+     "startMs": 39430,
+     "endMs": 39792
+    },
+    {
+     "text": "نتاعك",
+     "startMs": 39792,
+     "endMs": 40229
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 40229,
+   "endMs": 41180,
+   "words": [
+    {
+     "text": "وتبعثو",
+     "startMs": 40229,
+     "endMs": 40591
+    },
+    {
+     "text": "لشركة",
+     "startMs": 40591,
+     "endMs": 40908
+    },
+    {
+     "text": "أخرى.",
+     "startMs": 40908,
+     "endMs": 41180
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 41780,
+   "endMs": 42650,
+   "words": [
+    {
+     "text": "إذن",
+     "startMs": 41780,
+     "endMs": 41978
+    },
+    {
+     "text": "كيفاش",
+     "startMs": 41978,
+     "endMs": 42255
+    },
+    {
+     "text": "عرف",
+     "startMs": 42255,
+     "endMs": 42452
+    },
+    {
+     "text": "بلي",
+     "startMs": 42452,
+     "endMs": 42650
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 42650,
+   "endMs": 43520,
+   "words": [
+    {
+     "text": "راك",
+     "startMs": 42650,
+     "endMs": 42848
+    },
+    {
+     "text": "حاب",
+     "startMs": 42848,
+     "endMs": 43045
+    },
+    {
+     "text": "تشري",
+     "startMs": 43045,
+     "endMs": 43283
+    },
+    {
+     "text": "صبّاط؟",
+     "startMs": 43283,
+     "endMs": 43520
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 43520,
+   "endMs": 45080,
+   "words": [
+    {
+     "text": "ما",
+     "startMs": 43520,
+     "endMs": 44306
+    },
+    {
+     "text": "يحتاجش",
+     "startMs": 44306,
+     "endMs": 44719
+    },
+    {
+     "text": "يسمعك.",
+     "startMs": 44719,
+     "endMs": 45080
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 45080,
+   "endMs": 46020,
+   "words": [
+    {
+     "text": "يكفي",
+     "startMs": 45080,
+     "endMs": 45611
+    },
+    {
+     "text": "يشوفك.",
+     "startMs": 45611,
+     "endMs": 46020
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 46320,
+   "endMs": 47491,
+   "words": [
+    {
+     "text": "الـ",
+     "startMs": 46320,
+     "endMs": 46537
+    },
+    {
+     "text": "GPS",
+     "startMs": 46537,
+     "endMs": 46754
+    },
+    {
+     "text": "نتاع",
+     "startMs": 46754,
+     "endMs": 47014
+    },
+    {
+     "text": "التيليفون",
+     "startMs": 47014,
+     "endMs": 47491
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 47491,
+   "endMs": 48402,
+   "words": [
+    {
+     "text": "يعرف",
+     "startMs": 47491,
+     "endMs": 47751
+    },
+    {
+     "text": "بلي",
+     "startMs": 47751,
+     "endMs": 47968
+    },
+    {
+     "text": "فت",
+     "startMs": 47968,
+     "endMs": 48141
+    },
+    {
+     "text": "قدام",
+     "startMs": 48141,
+     "endMs": 48402
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 48402,
+   "endMs": 49009,
+   "words": [
+    {
+     "text": "حانوت",
+     "startMs": 48402,
+     "endMs": 48705
+    },
+    {
+     "text": "صبابط،",
+     "startMs": 48705,
+     "endMs": 49009
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 49009,
+   "endMs": 49963,
+   "words": [
+    {
+     "text": "ولا",
+     "startMs": 49009,
+     "endMs": 49226
+    },
+    {
+     "text": "قعدت",
+     "startMs": 49226,
+     "endMs": 49486
+    },
+    {
+     "text": "ربع",
+     "startMs": 49486,
+     "endMs": 49703
+    },
+    {
+     "text": "ساعة",
+     "startMs": 49703,
+     "endMs": 49963
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 49963,
+   "endMs": 50440,
+   "words": [
+    {
+     "text": "في",
+     "startMs": 49963,
+     "endMs": 50136
+    },
+    {
+     "text": "المول.",
+     "startMs": 50136,
+     "endMs": 50440
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 50780,
+   "endMs": 51747,
+   "words": [
+    {
+     "text": "وصاحبك",
+     "startMs": 50780,
+     "endMs": 51078
+    },
+    {
+     "text": "اللي",
+     "startMs": 51078,
+     "endMs": 51301
+    },
+    {
+     "text": "هدرت",
+     "startMs": 51301,
+     "endMs": 51524
+    },
+    {
+     "text": "معاه،",
+     "startMs": 51524,
+     "endMs": 51747
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 51747,
+   "endMs": 52528,
+   "words": [
+    {
+     "text": "حوّس",
+     "startMs": 51747,
+     "endMs": 51933
+    },
+    {
+     "text": "على",
+     "startMs": 51933,
+     "endMs": 52119
+    },
+    {
+     "text": "صبابط",
+     "startMs": 52119,
+     "endMs": 52380
+    },
+    {
+     "text": "في",
+     "startMs": 52380,
+     "endMs": 52528
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 52528,
+   "endMs": 53086,
+   "words": [
+    {
+     "text": "الـ",
+     "startMs": 52528,
+     "endMs": 52714
+    },
+    {
+     "text": "internet…",
+     "startMs": 52714,
+     "endMs": 53086
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 53086,
+   "endMs": 54091,
+   "words": [
+    {
+     "text": "وأنتوما",
+     "startMs": 53086,
+     "endMs": 53421
+    },
+    {
+     "text": "مربوطين",
+     "startMs": 53421,
+     "endMs": 53756
+    },
+    {
+     "text": "في",
+     "startMs": 53756,
+     "endMs": 53905
+    },
+    {
+     "text": "نفس",
+     "startMs": 53905,
+     "endMs": 54091
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 54091,
+   "endMs": 54500,
+   "words": [
+    {
+     "text": "الـ",
+     "startMs": 54091,
+     "endMs": 54277
+    },
+    {
+     "text": "WiFi.",
+     "startMs": 54277,
+     "endMs": 54500
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 54500,
+   "endMs": 55679,
+   "words": [
+    {
+     "text": "بشكل",
+     "startMs": 54500,
+     "endMs": 55400
+    },
+    {
+     "text": "مبسط،",
+     "startMs": 55400,
+     "endMs": 55679
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 55679,
+   "endMs": 56611,
+   "words": [
+    {
+     "text": "بالنسبة",
+     "startMs": 55679,
+     "endMs": 56098
+    },
+    {
+     "text": "للإعلانات،",
+     "startMs": 56098,
+     "endMs": 56611
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 56611,
+   "endMs": 57682,
+   "words": [
+    {
+     "text": "نفس",
+     "startMs": 56611,
+     "endMs": 56844
+    },
+    {
+     "text": "الـ",
+     "startMs": 56844,
+     "endMs": 57077
+    },
+    {
+     "text": "WiFi",
+     "startMs": 57077,
+     "endMs": 57356
+    },
+    {
+     "text": "معناه",
+     "startMs": 57356,
+     "endMs": 57682
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 57682,
+   "endMs": 58241,
+   "words": [
+    {
+     "text": "نفس",
+     "startMs": 57682,
+     "endMs": 57915
+    },
+    {
+     "text": "الدار،",
+     "startMs": 57915,
+     "endMs": 58241
+    }
+   ]
+  },
+  {
+   "scene": 9,
+   "startMs": 58241,
+   "endMs": 59080,
+   "words": [
+    {
+     "text": "ونفس",
+     "startMs": 58241,
+     "endMs": 58521
+    },
+    {
+     "text": "الاهتمامات.",
+     "startMs": 58521,
+     "endMs": 59080
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 59440,
+   "endMs": 60374,
+   "words": [
+    {
+     "text": "وزيد",
+     "startMs": 59440,
+     "endMs": 59770
+    },
+    {
+     "text": "كل",
+     "startMs": 59770,
+     "endMs": 59990
+    },
+    {
+     "text": "click،",
+     "startMs": 59990,
+     "endMs": 60374
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 60374,
+   "endMs": 61693,
+   "words": [
+    {
+     "text": "كل",
+     "startMs": 60374,
+     "endMs": 60594
+    },
+    {
+     "text": "vidéo",
+     "startMs": 60594,
+     "endMs": 60979
+    },
+    {
+     "text": "وقفت",
+     "startMs": 60979,
+     "endMs": 61308
+    },
+    {
+     "text": "عليها",
+     "startMs": 61308,
+     "endMs": 61693
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 61693,
+   "endMs": 62352,
+   "words": [
+    {
+     "text": "جوج",
+     "startMs": 61693,
+     "endMs": 61968
+    },
+    {
+     "text": "ثواني،",
+     "startMs": 61968,
+     "endMs": 62352
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 62352,
+   "endMs": 63342,
+   "words": [
+    {
+     "text": "كل",
+     "startMs": 62352,
+     "endMs": 62572
+    },
+    {
+     "text": "حاجة",
+     "startMs": 62572,
+     "endMs": 62902
+    },
+    {
+     "text": "شريتها…",
+     "startMs": 62902,
+     "endMs": 63342
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 63342,
+   "endMs": 64550,
+   "words": [
+    {
+     "text": "كلش",
+     "startMs": 63342,
+     "endMs": 63616
+    },
+    {
+     "text": "يدخل",
+     "startMs": 63616,
+     "endMs": 63946
+    },
+    {
+     "text": "في",
+     "startMs": 63946,
+     "endMs": 64166
+    },
+    {
+     "text": "model",
+     "startMs": 64166,
+     "endMs": 64550
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 64550,
+   "endMs": 65100,
+   "words": [
+    {
+     "text": "نتاع",
+     "startMs": 64550,
+     "endMs": 64880
+    },
+    {
+     "text": "AI،",
+     "startMs": 64880,
+     "endMs": 65100
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 65100,
+   "endMs": 67084,
+   "words": [
+    {
+     "text": "يعني",
+     "startMs": 65100,
+     "endMs": 66031
+    },
+    {
+     "text": "برنامج",
+     "startMs": 66031,
+     "endMs": 66499
+    },
+    {
+     "text": "تعلّم",
+     "startMs": 66499,
+     "endMs": 66850
+    },
+    {
+     "text": "من",
+     "startMs": 66850,
+     "endMs": 67084
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 67084,
+   "endMs": 67961,
+   "words": [
+    {
+     "text": "ملايين",
+     "startMs": 67084,
+     "endMs": 67552
+    },
+    {
+     "text": "الناس.",
+     "startMs": 67552,
+     "endMs": 67961
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 67961,
+   "endMs": 68780,
+   "words": [
+    {
+     "text": "وخدمتو",
+     "startMs": 67961,
+     "endMs": 68429
+    },
+    {
+     "text": "وحدة:",
+     "startMs": 68429,
+     "endMs": 68780
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 68780,
+   "endMs": 70180,
+   "words": [
+    {
+     "text": "يتوقع",
+     "startMs": 68780,
+     "endMs": 69553
+    },
+    {
+     "text": "واش",
+     "startMs": 69553,
+     "endMs": 69762
+    },
+    {
+     "text": "راح",
+     "startMs": 69762,
+     "endMs": 69971
+    },
+    {
+     "text": "تحب،",
+     "startMs": 69971,
+     "endMs": 70180
+    }
+   ]
+  },
+  {
+   "scene": 10,
+   "startMs": 70180,
+   "endMs": 71240,
+   "words": [
+    {
+     "text": "قبل",
+     "startMs": 70180,
+     "endMs": 70625
+    },
+    {
+     "text": "ما",
+     "startMs": 70625,
+     "endMs": 70789
+    },
+    {
+     "text": "تعرف",
+     "startMs": 70789,
+     "endMs": 71035
+    },
+    {
+     "text": "أنت.",
+     "startMs": 71035,
+     "endMs": 71240
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 71580,
+   "endMs": 72322,
+   "words": [
+    {
+     "text": "والحاجة",
+     "startMs": 71580,
+     "endMs": 71951
+    },
+    {
+     "text": "الأخيرة…",
+     "startMs": 71951,
+     "endMs": 72322
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 72322,
+   "endMs": 72940,
+   "words": [
+    {
+     "text": "راهي",
+     "startMs": 72322,
+     "endMs": 72569
+    },
+    {
+     "text": "في",
+     "startMs": 72569,
+     "endMs": 72734
+    },
+    {
+     "text": "مخك.",
+     "startMs": 72734,
+     "endMs": 72940
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 72940,
+   "endMs": 74282,
+   "words": [
+    {
+     "text": "الإعلانات",
+     "startMs": 72940,
+     "endMs": 73669
+    },
+    {
+     "text": "نتاع",
+     "startMs": 73669,
+     "endMs": 73914
+    },
+    {
+     "text": "الصبابط",
+     "startMs": 73914,
+     "endMs": 74282
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 74282,
+   "endMs": 75180,
+   "words": [
+    {
+     "text": "كانو",
+     "startMs": 74282,
+     "endMs": 74527
+    },
+    {
+     "text": "قدامك",
+     "startMs": 74527,
+     "endMs": 74812
+    },
+    {
+     "text": "من",
+     "startMs": 74812,
+     "endMs": 74976
+    },
+    {
+     "text": "قبل،",
+     "startMs": 74976,
+     "endMs": 75180
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 75180,
+   "endMs": 76480,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 75180,
+     "endMs": 75736
+    },
+    {
+     "text": "ما",
+     "startMs": 75736,
+     "endMs": 75893
+    },
+    {
+     "text": "كنتش",
+     "startMs": 75893,
+     "endMs": 76128
+    },
+    {
+     "text": "تلاحظهم.",
+     "startMs": 76128,
+     "endMs": 76480
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 76480,
+   "endMs": 77553,
+   "words": [
+    {
+     "text": "كي",
+     "startMs": 76480,
+     "endMs": 77038
+    },
+    {
+     "text": "هدرت",
+     "startMs": 77038,
+     "endMs": 77276
+    },
+    {
+     "text": "عليهم،",
+     "startMs": 77276,
+     "endMs": 77553
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 77553,
+   "endMs": 78424,
+   "words": [
+    {
+     "text": "مخك",
+     "startMs": 77553,
+     "endMs": 77751
+    },
+    {
+     "text": "ولّى",
+     "startMs": 77751,
+     "endMs": 77949
+    },
+    {
+     "text": "يشوفهم",
+     "startMs": 77949,
+     "endMs": 78266
+    },
+    {
+     "text": "في",
+     "startMs": 78266,
+     "endMs": 78424
+    }
+   ]
+  },
+  {
+   "scene": 11,
+   "startMs": 78424,
+   "endMs": 78860,
+   "words": [
+    {
+     "text": "كل",
+     "startMs": 78424,
+     "endMs": 78583
+    },
+    {
+     "text": "بلاصة.",
+     "startMs": 78583,
+     "endMs": 78860
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 80020,
+   "endMs": 80754,
+   "words": [
+    {
+     "text": "إذن",
+     "startMs": 80020,
+     "endMs": 80282
+    },
+    {
+     "text": "الخلاصة:",
+     "startMs": 80282,
+     "endMs": 80754
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 80754,
+   "endMs": 81961,
+   "words": [
+    {
+     "text": "التيليفون",
+     "startMs": 80754,
+     "endMs": 81331
+    },
+    {
+     "text": "ما",
+     "startMs": 81331,
+     "endMs": 81541
+    },
+    {
+     "text": "يسمعكش.",
+     "startMs": 81541,
+     "endMs": 81961
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 81961,
+   "endMs": 82800,
+   "words": [
+    {
+     "text": "يعرف",
+     "startMs": 81961,
+     "endMs": 82275
+    },
+    {
+     "text": "وين",
+     "startMs": 82275,
+     "endMs": 82538
+    },
+    {
+     "text": "رحت،",
+     "startMs": 82538,
+     "endMs": 82800
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 82800,
+   "endMs": 83720,
+   "words": [
+    {
+     "text": "مع",
+     "startMs": 82800,
+     "endMs": 83249
+    },
+    {
+     "text": "من",
+     "startMs": 83249,
+     "endMs": 83458
+    },
+    {
+     "text": "كنت،",
+     "startMs": 83458,
+     "endMs": 83720
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 83720,
+   "endMs": 84300,
+   "words": [
+    {
+     "text": "وواش",
+     "startMs": 83720,
+     "endMs": 84118
+    },
+    {
+     "text": "شفت.",
+     "startMs": 84118,
+     "endMs": 84300
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 84300,
+   "endMs": 86287,
+   "words": [
+    {
+     "text": "ما",
+     "startMs": 84300,
+     "endMs": 85223
+    },
+    {
+     "text": "يحتاجش",
+     "startMs": 85223,
+     "endMs": 85628
+    },
+    {
+     "text": "يتجسس",
+     "startMs": 85628,
+     "endMs": 85983
+    },
+    {
+     "text": "عليك…",
+     "startMs": 85983,
+     "endMs": 86287
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 86287,
+   "endMs": 87503,
+   "words": [
+    {
+     "text": "خاطر",
+     "startMs": 86287,
+     "endMs": 86591
+    },
+    {
+     "text": "يعرفك",
+     "startMs": 86591,
+     "endMs": 86945
+    },
+    {
+     "text": "مليح",
+     "startMs": 86945,
+     "endMs": 87249
+    },
+    {
+     "text": "بلا",
+     "startMs": 87249,
+     "endMs": 87503
+    }
+   ]
+  },
+  {
+   "scene": 12,
+   "startMs": 87503,
+   "endMs": 88060,
+   "words": [
+    {
+     "text": "ما",
+     "startMs": 87503,
+     "endMs": 87705
+    },
+    {
+     "text": "يسمعك.",
+     "startMs": 87705,
+     "endMs": 88060
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "startMs": 88540,
+   "endMs": 89599,
+   "words": [
+    {
+     "text": "وإذا",
+     "startMs": 88540,
+     "endMs": 88794
+    },
+    {
+     "text": "حبيت",
+     "startMs": 88794,
+     "endMs": 89048
+    },
+    {
+     "text": "تعرف",
+     "startMs": 89048,
+     "endMs": 89302
+    },
+    {
+     "text": "كيفاش",
+     "startMs": 89302,
+     "endMs": 89599
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "startMs": 89599,
+   "endMs": 90700,
+   "words": [
+    {
+     "text": "تنقص",
+     "startMs": 89599,
+     "endMs": 89853
+    },
+    {
+     "text": "هاد",
+     "startMs": 89853,
+     "endMs": 90065
+    },
+    {
+     "text": "الـ",
+     "startMs": 90065,
+     "endMs": 90276
+    },
+    {
+     "text": "tracking،",
+     "startMs": 90276,
+     "endMs": 90700
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "startMs": 90700,
+   "endMs": 91929,
+   "words": [
+    {
+     "text": "كتبلي",
+     "startMs": 90700,
+     "endMs": 91325
+    },
+    {
+     "text": "part",
+     "startMs": 91325,
+     "endMs": 91604
+    },
+    {
+     "text": "2",
+     "startMs": 91604,
+     "endMs": 91743
+    },
+    {
+     "text": "في",
+     "startMs": 91743,
+     "endMs": 91929
+    }
+   ]
+  },
+  {
+   "scene": 13,
+   "startMs": 91929,
+   "endMs": 92440,
+   "words": [
+    {
+     "text": "الكومنتار.",
+     "startMs": 91929,
+     "endMs": 92440
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,689 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 2535,
+ "audioDurationSec": 84.485,
+ "audioFile": "public/why-cookies-exist/voice.wav",
+ "audioSourceNote": "Assembled from videos/why-cookies-exist/inputs/audio1-9.ogg (originals untouched). Only leading/trailing silence trimmed, 0.2 s gaps added, 1.6 s tail for the end card. No words cut. Internal event times come from silencedetect and must be checked by ear.",
+ "narrationEdit": [
+  {
+   "beat": 1,
+   "clip": "audio1.ogg",
+   "srcInSec": 0.12,
+   "srcOutSec": 8.97,
+   "masterStartSec": 0,
+   "masterEndSec": 8.85
+  },
+  {
+   "beat": 2,
+   "clip": "audio2.ogg",
+   "srcInSec": 0.0,
+   "srcOutSec": 3.79,
+   "masterStartSec": 9.05,
+   "masterEndSec": 12.84
+  },
+  {
+   "beat": 3,
+   "clip": "audio3.ogg",
+   "srcInSec": 0.0,
+   "srcOutSec": 8.57,
+   "masterStartSec": 13.04,
+   "masterEndSec": 21.61
+  },
+  {
+   "beat": 4,
+   "clip": "audio4.ogg",
+   "srcInSec": 1.1,
+   "srcOutSec": 13.845,
+   "masterStartSec": 21.81,
+   "masterEndSec": 34.555
+  },
+  {
+   "beat": 5,
+   "clip": "audio5.ogg",
+   "srcInSec": 0.2,
+   "srcOutSec": 6.45,
+   "masterStartSec": 34.755,
+   "masterEndSec": 41.005
+  },
+  {
+   "beat": 6,
+   "clip": "audio6.ogg",
+   "srcInSec": 1.0,
+   "srcOutSec": 12.16,
+   "masterStartSec": 41.205,
+   "masterEndSec": 52.365
+  },
+  {
+   "beat": 7,
+   "clip": "audio7.ogg",
+   "srcInSec": 0.62,
+   "srcOutSec": 12.92,
+   "masterStartSec": 52.565,
+   "masterEndSec": 64.865
+  },
+  {
+   "beat": 8,
+   "clip": "audio8.ogg",
+   "srcInSec": 0.43,
+   "srcOutSec": 12.67,
+   "masterStartSec": 65.065,
+   "masterEndSec": 77.305
+  },
+  {
+   "beat": 9,
+   "clip": "audio9.ogg",
+   "srcInSec": 1.09,
+   "srcOutSec": 6.47,
+   "masterStartSec": 77.505,
+   "masterEndSec": 82.885
+  }
+ ],
+ "scenes": [
+  {
+   "id": 1,
+   "startSec": 0,
+   "endSec": 8.95,
+   "startFrame": 0,
+   "endFrame": 268,
+   "speechStartSec": 0,
+   "speechEndSec": 8.85,
+   "voiceover": "كاين شركات تعرف واش قريت، واش شفت، وواش حبيت تشري... وعمرك ما دخلت للموقع نتاعهم. والمفتاح هو زر تضغط عليه كل يوم: Accept cookies.",
+   "component": "HookProfile",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 0,
+      "what": "scene start",
+      "frame": 0
+     },
+     {
+      "sec": 1.124,
+      "what": "profile row 1: read news",
+      "frame": 34
+     },
+     {
+      "sec": 1.753,
+      "what": "row 2: looked at shoes",
+      "frame": 53
+     },
+     {
+      "sec": 2.383,
+      "what": "row 3: wanted to buy a phone",
+      "frame": 71
+     },
+     {
+      "sec": 3.36,
+      "what": "pull back: the card lives inside ADS CO.",
+      "frame": 101
+     },
+     {
+      "sec": 4.164,
+      "what": "0 VISITS sticker",
+      "frame": 125
+     },
+     {
+      "sec": 5.49,
+      "what": "phone + cookie banner rise",
+      "frame": 165
+     },
+     {
+      "sec": 7.6,
+      "what": "cursor taps Accept",
+      "frame": 228
+     }
+    ]
+   },
+   "onScreenText": "يعرفوك... وما دخلتلهمش",
+   "sfx": [
+    "whoosh",
+    "pop",
+    "stamp",
+    "click"
+   ],
+   "tool": "remotion",
+   "role": "hook"
+  },
+  {
+   "id": 2,
+   "startSec": 8.95,
+   "endSec": 12.94,
+   "startFrame": 268,
+   "endFrame": 388,
+   "speechStartSec": 9.05,
+   "speechEndSec": 12.84,
+   "voiceover": "الحكاية بدات بمشكل صغير: الموقع ما يعقلش عليك.",
+   "component": "StatelessIntro",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "HOW IT WORKS · COOKIES",
+    "chapterPill": "المشكل",
+    "events": [
+     {
+      "sec": 8.95,
+      "what": "scene start",
+      "frame": 268
+     },
+     {
+      "sec": 10.34,
+      "what": "browser + server pop",
+      "frame": 310
+     },
+     {
+      "sec": 11.58,
+      "what": "? bubble over the server",
+      "frame": 347
+     }
+    ]
+   },
+   "onScreenText": "الموقع ما يعقلش عليك",
+   "sfx": [
+    "whoosh",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "open loop"
+  },
+  {
+   "id": 3,
+   "startSec": 12.94,
+   "endSec": 21.71,
+   "startFrame": 388,
+   "endFrame": 651,
+   "speechStartSec": 13.04,
+   "speechEndSec": 21.61,
+   "voiceover": "الويب مبني على HTTP، وHTTP ما عندوش ذاكرة. كل صفحة جديدة، الـserver يشوفك كأنك واحد جديد. تدير login، تروح للصفحة الموالية... ونساك.",
+   "component": "StatelessServer",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "HOW IT WORKS · COOKIES",
+    "chapterPill": "بلا ذاكرة",
+    "events": [
+     {
+      "sec": 12.94,
+      "what": "scene start",
+      "frame": 388
+     },
+     {
+      "sec": 13.806,
+      "what": "HTTP packet travels",
+      "frame": 414
+     },
+     {
+      "sec": 15.473,
+      "what": "memory slashed + term label",
+      "frame": 464
+     },
+     {
+      "sec": 16.769,
+      "what": "page strip, new request",
+      "frame": 503
+     },
+     {
+      "sec": 17.691,
+      "what": "server: شكون نتا؟",
+      "frame": 531
+     },
+     {
+      "sec": 19.781,
+      "what": "login -> green check",
+      "frame": 593
+     },
+     {
+      "sec": 20.565,
+      "what": "next page request",
+      "frame": 617
+     },
+     {
+      "sec": 20.938,
+      "what": "check fades to ?",
+      "frame": 628
+     }
+    ]
+   },
+   "onScreenText": "HTTP = بلا ذاكرة",
+   "sfx": [
+    "pop",
+    "tick",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 4,
+   "startSec": 21.71,
+   "endSec": 34.655,
+   "startFrame": 651,
+   "endFrame": 1040,
+   "speechStartSec": 21.81,
+   "speechEndSec": 34.555,
+   "voiceover": "في 1994، مهندس في Netscape لقى الحل: الـcookie. ملف صغير، الموقع يحطو في الـbrowser نتاعك، فيه رقم يعرفك بيه. كيما الـpressing: تخلي القشّ، يعطيك تيكي فيه رقم. كي ترجع، تمدلو التيكي، يعرف ديراكت واش نتاعك.",
+   "component": "CookieTicket",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "HOW IT WORKS · COOKIES",
+    "chapterPill": "الحل · 1994",
+    "events": [
+     {
+      "sec": 21.71,
+      "what": "scene start",
+      "frame": 651
+     },
+     {
+      "sec": 21.774,
+      "what": "1994 sticker",
+      "frame": 653
+     },
+     {
+      "sec": 22.685,
+      "what": "NETSCAPE label",
+      "frame": 681
+     },
+     {
+      "sec": 24.2,
+      "what": "ticket is born",
+      "frame": 726
+     },
+     {
+      "sec": 26.021,
+      "what": "ticket slides into the browser",
+      "frame": 781
+     },
+     {
+      "sec": 27.72,
+      "what": "ID number glows",
+      "frame": 832
+     },
+     {
+      "sec": 29.151,
+      "what": "pressing counter",
+      "frame": 875
+     },
+     {
+      "sec": 29.981,
+      "what": "shirt hung with tag",
+      "frame": 899
+     },
+     {
+      "sec": 30.207,
+      "what": "ticket handed over",
+      "frame": 906
+     },
+     {
+      "sec": 31.958,
+      "what": "customer comes back",
+      "frame": 959
+     },
+     {
+      "sec": 32.203,
+      "what": "ticket handed back",
+      "frame": 966
+     },
+     {
+      "sec": 33.062,
+      "what": "matching shirt slides out + check",
+      "frame": 992
+     }
+    ]
+   },
+   "onScreenText": "cookie = تيكي فيه رقم",
+   "sfx": [
+    "whoosh",
+    "pop",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "aha"
+  },
+  {
+   "id": 5,
+   "startSec": 34.655,
+   "endSec": 41.105,
+   "startFrame": 1040,
+   "endFrame": 1233,
+   "speechStartSec": 34.755,
+   "speechEndSec": 41.005,
+   "voiceover": "هكا تدير login مرة وحدة وتبقى connecté، وكي تزيد سبّاط للسلة وتخرج، ترجع غدوة تلقاه مازال تما.",
+   "component": "RememberedShop",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "HOW IT WORKS · COOKIES",
+    "chapterPill": "الموقع يتفكرك",
+    "events": [
+     {
+      "sec": 34.655,
+      "what": "scene start",
+      "frame": 1040
+     },
+     {
+      "sec": 35.092,
+      "what": "login check",
+      "frame": 1053
+     },
+     {
+      "sec": 36.255,
+      "what": "pages flip, still logged in",
+      "frame": 1088
+     },
+     {
+      "sec": 37.885,
+      "what": "shoe drops in cart",
+      "frame": 1137
+     },
+     {
+      "sec": 38.506,
+      "what": "tab closes",
+      "frame": 1155
+     },
+     {
+      "sec": 39.415,
+      "what": "tomorrow sticker",
+      "frame": 1182
+     },
+     {
+      "sec": 39.671,
+      "what": "site reopens, cart still 1",
+      "frame": 1190
+     }
+    ]
+   },
+   "onScreenText": "الموقع يتفكرك",
+   "sfx": [
+    "click",
+    "pop",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 6,
+   "startSec": 41.105,
+   "endSec": 52.465,
+   "startFrame": 1233,
+   "endFrame": 1574,
+   "speechStartSec": 41.205,
+   "speechEndSec": 52.365,
+   "voiceover": "بصح كاين مشكل. شركات الإشهار حطو cookies نتاعهم في آلاف المواقع. نفس الرقم يتبعك من موقع لموقع: واش قريت، واش شفت، واش حوست باش تشري. هادو سماوهم third-party cookies.",
+   "component": "TrackerWeb",
+   "props": {
+    "canvas": "dark",
+    "header": true,
+    "headerTag": "HOW IT WORKS · COOKIES",
+    "chapterPill": "بصح...",
+    "events": [
+     {
+      "sec": 41.105,
+      "what": "scene start",
+      "frame": 1233
+     },
+     {
+      "sec": 41.476,
+      "what": "warning beat",
+      "frame": 1244
+     },
+     {
+      "sec": 42.506,
+      "what": "ADS CO. box",
+      "frame": 1275
+     },
+     {
+      "sec": 44.178,
+      "what": "site grid",
+      "frame": 1325
+     },
+     {
+      "sec": 45.823,
+      "what": "same ID on tiles",
+      "frame": 1375
+     },
+     {
+      "sec": 46.079,
+      "what": "lines run to ADS CO.",
+      "frame": 1382
+     },
+     {
+      "sec": 47.137,
+      "what": "profile row 1",
+      "frame": 1414
+     },
+     {
+      "sec": 47.947,
+      "what": "profile row 2",
+      "frame": 1438
+     },
+     {
+      "sec": 48.489,
+      "what": "profile row 3",
+      "frame": 1455
+     },
+     {
+      "sec": 50.291,
+      "what": "3RD PARTY label",
+      "frame": 1509
+     }
+    ]
+   },
+   "onScreenText": "يتبعك من موقع لموقع",
+   "sfx": [
+    "whoosh",
+    "tick",
+    "tick",
+    "tick",
+    "stamp"
+   ],
+   "tool": "remotion",
+   "role": "explain / re-hook"
+  },
+  {
+   "id": 7,
+   "startSec": 52.465,
+   "endSec": 64.965,
+   "startFrame": 1574,
+   "endFrame": 1949,
+   "speechStartSec": 52.565,
+   "speechEndSec": 64.865,
+   "voiceover": "هنا دخلت أوروبا. قانون ePrivacy، ومن بعد GDPR في 2018، قالو بشكل مبسط: ما تحطش cookie يتبع الناس بلا ما تسقسيهم. والمواقع، خاطر عندها زوار من كل بلاد، حطو الـbanner للعالم كامل.",
+   "component": "LawBanner",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "HOW IT WORKS · COOKIES",
+    "chapterPill": "القانون",
+    "events": [
+     {
+      "sec": 52.465,
+      "what": "scene start",
+      "frame": 1574
+     },
+     {
+      "sec": 52.959,
+      "what": "stars circle",
+      "frame": 1589
+     },
+     {
+      "sec": 53.897,
+      "what": "ePrivacy label",
+      "frame": 1617
+     },
+     {
+      "sec": 54.942,
+      "what": "GDPR 2018 stamp",
+      "frame": 1648
+     },
+     {
+      "sec": 57.29,
+      "what": "rule card",
+      "frame": 1719
+     },
+     {
+      "sec": 59.442,
+      "what": "consent lock",
+      "frame": 1783
+     },
+     {
+      "sec": 61.638,
+      "what": "world map",
+      "frame": 1849
+     },
+     {
+      "sec": 63.019,
+      "what": "banners pop worldwide",
+      "frame": 1891
+     },
+     {
+      "sec": 64.069,
+      "what": "all lit",
+      "frame": 1922
+     }
+    ]
+   },
+   "onScreenText": "القانون: لازم تسقسي",
+   "sfx": [
+    "stamp",
+    "pop",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 8,
+   "startSec": 64.965,
+   "endSec": 77.405,
+   "startFrame": 1949,
+   "endFrame": 2322,
+   "speechStartSec": 65.065,
+   "speechEndSec": 77.305,
+   "voiceover": "إذن الـbanner ماشي كرم من الموقع، راهو مجبور يسقسيك. كي تضغط Accept all، راك تعطيهم الإذن يتبعوك. في بزاف المواقع تقدر تختار Reject ولا Necessary only، والموقع يخدم عادي.",
+   "component": "ChoiceBanner",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "HOW IT WORKS · COOKIES",
+    "chapterPill": "واش تختار؟",
+    "events": [
+     {
+      "sec": 64.965,
+      "what": "scene start",
+      "frame": 1949
+     },
+     {
+      "sec": 66.225,
+      "what": "save card enters",
+      "frame": 1987
+     },
+     {
+      "sec": 68.431,
+      "what": "مجبور sticker",
+      "frame": 2053
+     },
+     {
+      "sec": 70.637,
+      "what": "Accept all row red",
+      "frame": 2119
+     },
+     {
+      "sec": 72.029,
+      "what": "tracking lines",
+      "frame": 2161
+     },
+     {
+      "sec": 73.587,
+      "what": "Reject row green",
+      "frame": 2208
+     },
+     {
+      "sec": 74.007,
+      "what": "Necessary only row green",
+      "frame": 2220
+     },
+     {
+      "sec": 75.434,
+      "what": "cursor taps Necessary only, site works",
+      "frame": 2263
+     }
+    ]
+   },
+   "onScreenText": "Accept all = إذن بالتتبع",
+   "sfx": [
+    "pop",
+    "click",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "save frame"
+  },
+  {
+   "id": 9,
+   "startSec": 77.405,
+   "endSec": 84.485,
+   "startFrame": 2322,
+   "endFrame": 2535,
+   "speechStartSec": 77.505,
+   "speechEndSec": 82.885,
+   "voiceover": "الـcookie تخلي الموقع يتفكرك... السؤال هو: شكون آخر راهو يتفكرك معاه؟",
+   "component": "LoopEnd",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 77.405,
+      "what": "scene start",
+      "frame": 2322
+     },
+     {
+      "sec": 77.405,
+      "what": "ticket centered",
+      "frame": 2322
+     },
+     {
+      "sec": 79.04,
+      "what": "question beat",
+      "frame": 2371
+     },
+     {
+      "sec": 80.06,
+      "what": "ADS outlines appear",
+      "frame": 2402
+     },
+     {
+      "sec": 82.045,
+      "what": "hold",
+      "frame": 2461
+     },
+     {
+      "sec": 82.89,
+      "what": "end card: wordmark",
+      "frame": 2487
+     },
+     {
+      "sec": 83.79,
+      "what": "follow button + comment prompt",
+      "frame": 2514
+     }
+    ]
+   },
+   "onScreenText": "شكون آخر يتفكرك؟",
+   "sfx": [
+    "whoosh",
+    "stamp"
+   ],
+   "tool": "remotion",
+   "role": "CTA / loop"
+  }
+ ]
+}

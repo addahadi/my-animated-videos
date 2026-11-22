@@ -1,0 +1,671 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 1934,
+ "audioDurationSec": 64.46,
+ "audioFile": "public/gta6-fake-download/voice.wav",
+ "audioSourceNote": "audio1-3 + audio5-9 in order; audio4 (earlier take of the audio5 line) unused. Only edge silence trimmed; 0.45 s gap before the verdict, 1.0 s save-frame hold after the checklist, 0.25 s elsewhere, 2.0 s end-card tail. No words cut or reordered. Voiceover text is the recorded wording from draft ASR: check by ear before captions.",
+ "colorMeanings": {
+  "red": "fake / trap / stolen (stamp, crosses, flags, thief)",
+  "green": "real and official (platform checks); the gate opening is shown green only as access granted",
+  "yellow": "the cookie ticket and highlight stickers",
+  "blue": "neutral UI icons",
+  "dark canvas": "inside the malware (what you cannot see)"
+ },
+ "narrationEdit": [
+  {
+   "clip": "audio1.ogg",
+   "srcInSec": 1.93,
+   "srcOutSec": 7.83,
+   "masterStartSec": 0.0,
+   "masterEndSec": 5.9
+  },
+  {
+   "clip": "audio2.ogg",
+   "srcInSec": 1.53,
+   "srcOutSec": 7.63,
+   "masterStartSec": 6.35,
+   "masterEndSec": 12.45
+  },
+  {
+   "clip": "audio3.ogg",
+   "srcInSec": 1.84,
+   "srcOutSec": 9.2,
+   "masterStartSec": 12.7,
+   "masterEndSec": 20.06
+  },
+  {
+   "clip": "audio5.ogg",
+   "srcInSec": 1.5,
+   "srcOutSec": 10.02,
+   "masterStartSec": 20.31,
+   "masterEndSec": 28.83
+  },
+  {
+   "clip": "audio6.ogg",
+   "srcInSec": 1.19,
+   "srcOutSec": 10.1,
+   "masterStartSec": 29.08,
+   "masterEndSec": 37.99
+  },
+  {
+   "clip": "audio7.ogg",
+   "srcInSec": 1.37,
+   "srcOutSec": 6.83,
+   "masterStartSec": 38.24,
+   "masterEndSec": 43.7
+  },
+  {
+   "clip": "audio8.ogg",
+   "srcInSec": 1.51,
+   "srcOutSec": 12.53,
+   "masterStartSec": 43.95,
+   "masterEndSec": 54.97
+  },
+  {
+   "clip": "audio9.ogg",
+   "srcInSec": 1.24,
+   "srcOutSec": 7.73,
+   "masterStartSec": 55.97,
+   "masterEndSec": 62.46
+  }
+ ],
+ "scenes": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 6.35,
+   "startFrame": 0,
+   "endFrame": 191,
+   "voiceover": "صاحبك بعثلك lien فيه: حمّل GTA 6 للـPC مجانا. زعما صح ولا كذب؟",
+   "component": "HookLink",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 0,
+      "frame": 0,
+      "what": "phone already rising, chat bubble sliding in, phone buzz (motion on frame 0)"
+     },
+     {
+      "sec": 0.28,
+      "frame": 8,
+      "what": "link card unfolds: neon-city thumbnail, 'GTA 6 PC · FREE · 2.1 GB'"
+     },
+     {
+      "sec": 1.68,
+      "frame": 50,
+      "what": "green DOWNLOAD chip pulses; cursor glides toward it"
+     },
+     {
+      "sec": 3.4,
+      "frame": 102,
+      "what": "sticker 'مجانا' slaps on the card (yellow)"
+     },
+     {
+      "sec": 4.38,
+      "frame": 131,
+      "what": "two buttons pop under the card: صح (green) / كذب (red), cursor hovers between them"
+     },
+     {
+      "sec": 5.9,
+      "frame": 177,
+      "what": "hold 0.45 s: cursor freezes, buttons wobble (open loop)"
+     }
+    ]
+   },
+   "onScreenText": "GTA 6 PC مجانا؟",
+   "sfx": [
+    "buzz",
+    "pop",
+    "pop-soft"
+   ],
+   "tool": "remotion",
+   "role": "hook"
+  },
+  {
+   "id": 2,
+   "startSec": 6.35,
+   "endSec": 9.7,
+   "startFrame": 191,
+   "endFrame": 291,
+   "voiceover": "ماكاش منها. GTA 6 خرجت غير على PS5 و Xbox",
+   "component": "VerdictPlatforms",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "صح ولا كذب؟",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 6.15,
+      "frame": 184,
+      "what": "red Stamp 'كذب' slams on the link card (hit)"
+     },
+     {
+      "sec": 7.01,
+      "frame": 210,
+      "what": "card slides up and shrinks; platform row builds below"
+     },
+     {
+      "sec": 8.53,
+      "frame": 256,
+      "what": "console box 'PS5' + green check"
+     },
+     {
+      "sec": 8.85,
+      "frame": 266,
+      "what": "console box 'XBOX SERIES' + green check"
+     }
+    ]
+   },
+   "onScreenText": "كذب",
+   "sfx": [
+    "stamp",
+    "pop",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "aha"
+  },
+  {
+   "id": 3,
+   "startSec": 9.7,
+   "endSec": 12.7,
+   "startFrame": 291,
+   "endFrame": 381,
+   "voiceover": "ما كاين حتى نسخة PC، وما كاين حتى نسخة Android",
+   "component": "VerdictPlatforms",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "صح ولا كذب؟",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 10.55,
+      "frame": 317,
+      "what": "PC monitor slides in, XStamp (hit)"
+     },
+     {
+      "sec": 11.81,
+      "frame": 354,
+      "what": "phone slides in, XStamp 'ANDROID' (hit)"
+     }
+    ]
+   },
+   "onScreenText": "PC ❌ Android ❌",
+   "sfx": [
+    "hit",
+    "hit"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 4,
+   "startSec": 12.7,
+   "endSec": 18.47,
+   "startFrame": 381,
+   "endFrame": 554,
+   "voiceover": "إذن أي fichier مكتوب عليه GTA 6 PC ولا GTA 6 APK... ماهيش اللعبة الأصلية. بصح السؤال",
+   "component": "FakeDownloadPage",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "صح ولا كذب؟",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 12.52,
+      "frame": 376,
+      "what": "BrowserCard 'gta6-free-pc.download' drops in: 3 flashing DOWNLOAD buttons, countdown 00:09"
+     },
+     {
+      "sec": 13.73,
+      "frame": 412,
+      "what": "file chip 'GTA6_Setup.exe' falls out"
+     },
+     {
+      "sec": 15.53,
+      "frame": 466,
+      "what": "file chip 'GTA6.apk' falls out"
+     },
+     {
+      "sec": 16.23,
+      "frame": 487,
+      "what": "sticker 'ماشي اللعبة' (red) over both files"
+     }
+    ]
+   },
+   "onScreenText": "ماشي اللعبة",
+   "sfx": [
+    "whoosh",
+    "pop",
+    "pop",
+    "strike"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 5,
+   "startSec": 18.47,
+   "endSec": 20.31,
+   "startFrame": 554,
+   "endFrame": 609,
+   "voiceover": "واش كاين داخل هذا الـfichier؟",
+   "component": "FakeDownloadPage",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "صح ولا كذب؟",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 18.17,
+      "frame": 545,
+      "what": "camera pushes into GTA6_Setup.exe; LockedChip 'INSIDE · ?' shakes"
+     },
+     {
+      "sec": 19.6,
+      "frame": 588,
+      "what": "icon wobbles, '?' pulses"
+     }
+    ]
+   },
+   "onScreenText": "واش داخلو؟",
+   "sfx": [
+    "zoom",
+    "lock"
+   ],
+   "tool": "remotion",
+   "role": "open loop"
+  },
+  {
+   "id": 6,
+   "startSec": 20.31,
+   "endSec": 26.78,
+   "startFrame": 609,
+   "endFrame": 803,
+   "voiceover": "في بزاف الحالات، كاين برنامج اسمو infostealer، يعني سارق. كي تفتحو، يقرا الـpasswords المسجلين في الـbrowser",
+   "component": "Infostealer",
+   "props": {
+    "canvas": "dark",
+    "header": true,
+    "headerTag": "INSIDE THE FILE",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 20.11,
+      "frame": 603,
+      "what": "chip unlocks; dark blueprint; thief glyph (hooked hand) crawls out"
+     },
+     {
+      "sec": 22.08,
+      "frame": 662,
+      "what": "TermLabel 'INFOSTEALER' pops"
+     },
+     {
+      "sec": 23.22,
+      "frame": 697,
+      "what": "gloss 'سارق' snaps under it"
+     },
+     {
+      "sec": 23.7,
+      "frame": 711,
+      "what": "BrowserCard 'SAVED PASSWORDS' opens: 3 rows ●●●●●●"
+     },
+     {
+      "sec": 24.94,
+      "frame": 748,
+      "what": "rows pulled one by one along DrawPath into bag 'SERVER' (scan + tick)"
+     }
+    ]
+   },
+   "onScreenText": "infostealer = سارق",
+   "sfx": [
+    "unlock",
+    "pop",
+    "scan",
+    "tick"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 7,
+   "startSec": 26.78,
+   "endSec": 29.08,
+   "startFrame": 803,
+   "endFrame": 872,
+   "voiceover": "ويسرق الـcookies اللي يخليوك connecté",
+   "component": "Infostealer",
+   "props": {
+    "canvas": "dark",
+    "header": true,
+    "headerTag": "INSIDE THE FILE",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 26.73,
+      "frame": 802,
+      "what": "TicketChip cookie (yellow, from the cookies video) pulled out after the passwords"
+     },
+     {
+      "sec": 28.06,
+      "frame": 842,
+      "what": "green pill 'CONNECTÉ' on the ticket as it flies into the bag"
+     }
+    ]
+   },
+   "onScreenText": "+ cookies",
+   "sfx": [
+    "pop",
+    "whoosh-short"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 8,
+   "startSec": 29.08,
+   "endSec": 33.83,
+   "startFrame": 872,
+   "endFrame": 1015,
+   "voiceover": "وبالـcookie هادي، ما يحتاجش حتى الـpassword. يدخل للـFacebook ولا Instagram نتاعك كأنو نتا",
+   "component": "CookieEntry",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "صح ولا كذب؟",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 28.88,
+      "frame": 866,
+      "what": "thief holds the yellow ticket in front of a login gate (NodeBox 'ACCOUNT')"
+     },
+     {
+      "sec": 30.42,
+      "frame": 913,
+      "what": "password field ●●●● gets struck through (small XStamp)"
+     },
+     {
+      "sec": 31.31,
+      "frame": 939,
+      "what": "ticket slides in, gate turns green 'WELCOME BACK' (unlock)"
+     },
+     {
+      "sec": 32.22,
+      "frame": 967,
+      "what": "generic ProfileCard (invented name, no platform logo)"
+     },
+     {
+      "sec": 33.02,
+      "frame": 991,
+      "what": "card flips: same avatar, thief glyph behind it (morph); footnote '* ماشي ديما'"
+     }
+    ]
+   },
+   "onScreenText": "يدخل كأنو نتا",
+   "sfx": [
+    "pop",
+    "strike",
+    "unlock",
+    "morph"
+   ],
+   "tool": "remotion",
+   "role": "aha"
+  },
+  {
+   "id": 9,
+   "startSec": 33.83,
+   "endSec": 38.24,
+   "startFrame": 1015,
+   "endFrame": 1147,
+   "voiceover": "ويبعث نفس الـlien لصحابك. وهكا وصلك من عند صاحبك",
+   "component": "SpreadToFriends",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "صح ولا كذب؟",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 34.1,
+      "frame": 1023,
+      "what": "link bubble from scene 1 clones out to 5 friend chats along DrawPaths"
+     },
+     {
+      "sec": 35.75,
+      "frame": 1073,
+      "what": "camera zooms into the last chat"
+     },
+     {
+      "sec": 37.28,
+      "frame": 1118,
+      "what": "it is exactly the frame-1 chat: 'صاحبي' + same link card (loop closed, hit)"
+     }
+    ]
+   },
+   "onScreenText": "وهكا وصلك",
+   "sfx": [
+    "whoosh",
+    "pop",
+    "zoom"
+   ],
+   "tool": "remotion",
+   "role": "aha"
+  },
+  {
+   "id": 10,
+   "startSec": 38.24,
+   "endSec": 43.95,
+   "startFrame": 1147,
+   "endFrame": 1319,
+   "voiceover": "وكاين نوع آخر: يخلي الـPC نتاعك يخدم للـcrypto في الخفية. يسخن، يبطا، والـventilateur ما يحبسش",
+   "component": "HiddenMiner",
+   "props": {
+    "canvas": "dark",
+    "header": true,
+    "headerTag": "TYPE 2 · MINER",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 38.06,
+      "frame": 1142,
+      "what": "PC tower on blueprint, fan idle"
+     },
+     {
+      "sec": 39.26,
+      "frame": 1178,
+      "what": "SpeedDial 'CPU' sweeps to 100%"
+     },
+     {
+      "sec": 40.08,
+      "frame": 1202,
+      "what": "small coins float out the back toward a far NodeBox 'NOT YOU'"
+     },
+     {
+      "sec": 41.27,
+      "frame": 1238,
+      "what": "Thermometer rises to red ('يسخن')"
+     },
+     {
+      "sec": 41.78,
+      "frame": 1253,
+      "what": "SpeedBar drops red ('يبطا')"
+     },
+     {
+      "sec": 42.18,
+      "frame": 1265,
+      "what": "fan spins faster and faster, hum rises; sticker 'PC يخدم لغيرك'"
+     }
+    ]
+   },
+   "onScreenText": "PC يخدم لغيرك",
+   "sfx": [
+    "hum",
+    "tick-roll",
+    "glow"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 11,
+   "startSec": 43.95,
+   "endSec": 55.97,
+   "startFrame": 1319,
+   "endFrame": 1679,
+   "voiceover": "إذن كيفاش تعرف الـarnaque؟ واحد: اللعبة ماهيش في الـstore الرسمي؟ ماشي هي. جوج: يقولك طفّي الـantivirus ولا سمّح بـunknown apps؟ هرب. ثلاثة: يطلب رقمك ولا دراهم باش يفتحلك التحميل؟ arnaque.",
+   "component": "ScamChecklist",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "صح ولا كذب؟",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 43.77,
+      "frame": 1313,
+      "what": "MiniUI card title '3 علامات الـarnaque' + counter 0/3"
+     },
+     {
+      "sec": 45.85,
+      "frame": 1376,
+      "what": "row 1: store icon + cross 'ماشي في الـstore الرسمي'"
+     },
+     {
+      "sec": 48.14,
+      "frame": 1444,
+      "what": "red flag on row 1 ('ماشي هي')"
+     },
+     {
+      "sec": 48.7,
+      "frame": 1461,
+      "what": "row 2: shield switching off 'طفّي الـantivirus / unknown apps'"
+     },
+     {
+      "sec": 51.53,
+      "frame": 1546,
+      "what": "red flag + mini stamp 'هرب' on row 2"
+     },
+     {
+      "sec": 52.23,
+      "frame": 1567,
+      "what": "row 3: number field + coin 'رقمك ولا دراهم'"
+     },
+     {
+      "sec": 54.15,
+      "frame": 1625,
+      "what": "red flag row 3; stamp 'ARNAQUE' on the card"
+     },
+     {
+      "sec": 54.97,
+      "frame": 1649,
+      "what": "full card held 1.0 s, all rows at full opacity, pin chip 'سيفيها' (silent save cue)"
+     }
+    ]
+   },
+   "onScreenText": "3 علامات الـarnaque",
+   "sfx": [
+    "pop",
+    "pop",
+    "stamp",
+    "pop",
+    "stamp",
+    "pop",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "save frame"
+  },
+  {
+   "id": 12,
+   "startSec": 55.97,
+   "endSec": 60.65,
+   "startFrame": 1679,
+   "endFrame": 1820,
+   "voiceover": "GTA 6 PC؟ ماكاش منها. الـcrack هذا ما يسرقش اللعبة... يسرقك نتا",
+   "component": "PayoffStrike",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 55.77,
+      "frame": 1673,
+      "what": "frame-1 link card returns with red 'كذب' stamp"
+     },
+     {
+      "sec": 57.87,
+      "frame": 1736,
+      "what": "headline types 'ما يسرقش اللعبة'"
+     },
+     {
+      "sec": 59.13,
+      "frame": 1774,
+      "what": "'اللعبة' struck through, replaced by 'يسرقك نتا' in red (hit)"
+     }
+    ]
+   },
+   "onScreenText": "يسرقك نتا.",
+   "sfx": [
+    "stamp",
+    "type",
+    "strike",
+    "hit"
+   ],
+   "tool": "remotion",
+   "role": "aha"
+  },
+  {
+   "id": 13,
+   "startSec": 60.65,
+   "endSec": 64.46,
+   "startFrame": 1820,
+   "endFrame": 1934,
+   "voiceover": "ابعث الفيديو لصاحبك اللي راهو يستنى فيه.",
+   "component": "EndCardShare",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 60.4,
+      "frame": 1812,
+      "what": "send arrow flies the link card into a chat labelled 'صاحبك' (share cue)"
+     },
+     {
+      "sec": 62.46,
+      "frame": 1874,
+      "what": "end card: Runtime.tech wordmark + ScanLine, series pill 'صح ولا كذب؟ · 01', teaser chip 'الجاي: كيفاش ترجع الـaccount', FOLLOW button"
+     },
+     {
+      "sec": 64.06,
+      "frame": 1922,
+      "what": "chat bubble pops in at the same spot as frame 1 (loop)"
+     }
+    ]
+   },
+   "onScreenText": "ابعثها لصاحبك",
+   "sfx": [
+    "whoosh",
+    "pop",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "CTA"
+  }
+ ]
+}

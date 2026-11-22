@@ -1,0 +1,66 @@
+{
+  "sampleRate": 48000,
+  "channels": 1,
+  "samples": 4592640,
+  "durationSec": 95.68,
+  "processing": "Decode to PCM16 and concatenate in numeric order; no trimming, reordering, time-stretch, normalization or added music.",
+  "clips": [
+    {
+      "file": "audio1.ogg",
+      "sha256": "4eec5087dd516723d2d054200c9ced8a3302e18bda868c966a6ac9c9f41bc21d",
+      "startSample": 0,
+      "samples": 478208,
+      "endSample": 478208
+    },
+    {
+      "file": "audio2.ogg",
+      "sha256": "e7e66b1882db90d3c7b5a864176299cec67de5c567ac69f4c7fc71c3eb851b27",
+      "startSample": 478208,
+      "samples": 590848,
+      "endSample": 1069056
+    },
+    {
+      "file": "audio3.ogg",
+      "sha256": "c23d58b33e2f2e90477f9acfd739700ac2abb7ac8f72115c73798ab807a8f7be",
+      "startSample": 1069056,
+      "samples": 701440,
+      "endSample": 1770496
+    },
+    {
+      "file": "audio4.ogg",
+      "sha256": "00200e781f42dfe516fef43498e2a1e3fcac29a1cf37a01ed539a0d07f1659f4",
+      "startSample": 1770496,
+      "samples": 631808,
+      "endSample": 2402304
+    },
+    {
+      "file": "audio5.ogg",
+      "sha256": "9fb97a61a75e511372142170572bf0c4e48ffdce48a84259263f15f797e65017",
+      "startSample": 2402304,
+      "samples": 541696,
+      "endSample": 2944000
+    },
+    {
+      "file": "audio6.ogg",
+      "sha256": "91306a8a54a3f5a5220527b56961d59de7ec3cc704ffd79e9b36200c09a5d70b",
+      "startSample": 2944000,
+      "samples": 616448,
+      "endSample": 3560448
+    },
+    {
+      "file": "audio7.ogg",
+      "sha256": "6846ef4a079f8a8d8a0e3f3ce2d3b4a8c07eb49cc1f5813a0192dc133d4a60e1",
+      "startSample": 3560448,
+      "samples": 570368,
+      "endSample": 4130816
+    },
+    {
+      "file": "audio8.ogg",
+      "sha256": "81f184c68ccf36fe96141c2e78c090607c9eab2c511f2c93332cda614ded73f3",
+      "startSample": 4130816,
+      "samples": 461824,
+      "endSample": 4592640
+    }
+  ],
+  "narrationSha256": "995c8a7a2cc07868ace907cfe27b60f778a7142d7d2e3920f961999d3c3d9382"
+}

@@ -1,0 +1,95 @@
+{
+  "timing": "MEASURED",
+  "method": "ffprobe metadata plus PyAV decoded sample counts; numeric order without trimming; decoded durations are authoritative",
+  "totalDurationSec": 95.68,
+  "clips": [
+    {
+      "id": 1,
+      "file": "inputs/audio1.ogg",
+      "containerDurationSec": 9.962667,
+      "decodedSamples": 478208,
+      "durationSec": 9.962666666666667,
+      "startSec": 0.0,
+      "endSec": 9.962666666666667,
+      "sampleRate": 48000,
+      "channels": 1
+    },
+    {
+      "id": 2,
+      "file": "inputs/audio2.ogg",
+      "containerDurationSec": 12.309333,
+      "decodedSamples": 590848,
+      "durationSec": 12.309333333333333,
+      "startSec": 9.962666666666667,
+      "endSec": 22.272,
+      "sampleRate": 48000,
+      "channels": 1
+    },
+    {
+      "id": 3,
+      "file": "inputs/audio3.ogg",
+      "containerDurationSec": 14.613333,
+      "decodedSamples": 701440,
+      "durationSec": 14.613333333333333,
+      "startSec": 22.272,
+      "endSec": 36.885333333333335,
+      "sampleRate": 48000,
+      "channels": 1
+    },
+    {
+      "id": 4,
+      "file": "inputs/audio4.ogg",
+      "containerDurationSec": 13.162667,
+      "decodedSamples": 631808,
+      "durationSec": 13.162666666666667,
+      "startSec": 36.885333333333335,
+      "endSec": 50.048,
+      "sampleRate": 48000,
+      "channels": 1
+    },
+    {
+      "id": 5,
+      "file": "inputs/audio5.ogg",
+      "containerDurationSec": 11.285333,
+      "decodedSamples": 541696,
+      "durationSec": 11.285333333333334,
+      "startSec": 50.048,
+      "endSec": 61.333333333333336,
+      "sampleRate": 48000,
+      "channels": 1
+    },
+    {
+      "id": 6,
+      "file": "inputs/audio6.ogg",
+      "containerDurationSec": 12.842667,
+      "decodedSamples": 616448,
+      "durationSec": 12.842666666666666,
+      "startSec": 61.333333333333336,
+      "endSec": 74.176,
+      "sampleRate": 48000,
+      "channels": 1
+    },
+    {
+      "id": 7,
+      "file": "inputs/audio7.ogg",
+      "containerDurationSec": 11.882667,
+      "decodedSamples": 570368,
+      "durationSec": 11.882666666666667,
+      "startSec": 74.176,
+      "endSec": 86.05866666666667,
+      "sampleRate": 48000,
+      "channels": 1
+    },
+    {
+      "id": 8,
+      "file": "inputs/audio8.ogg",
+      "containerDurationSec": 9.621333,
+      "decodedSamples": 461824,
+      "durationSec": 9.621333333333334,
+      "startSec": 86.05866666666667,
+      "endSec": 95.68,
+      "sampleRate": 48000,
+      "channels": 1
+    }
+  ]
+}

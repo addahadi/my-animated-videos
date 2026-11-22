@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Competitors and Trends</title>
+<style>
+:root{
+  color-scheme: light;
+  --bg:#f6f6f4; --surface:#fcfcfb; --surface-2:#f0efec; --border:#e2e1dc;
+  --text:#0b0b0b; --text-2:#52514e; --muted:#7a7974;
+  --bar:#2a78d6; --accent:#eb6834; --good:#008300; --warn:#b26f00; --bad:#c93a39; --grid:#e6e5e0;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme: dark;
+    --bg:#121211; --surface:#1a1a19; --surface-2:#232321; --border:#33332f;
+    --text:#f0efec; --text-2:#c3c2b7; --muted:#8f8e86;
+    --bar:#3987e5; --accent:#d95926; --good:#0ca30c; --warn:#d39a2a; --bad:#e66767; --grid:#2c2c29;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme: dark;
+  --bg:#121211; --surface:#1a1a19; --surface-2:#232321; --border:#33332f;
+  --text:#f0efec; --text-2:#c3c2b7; --muted:#8f8e86;
+  --bar:#3987e5; --accent:#d95926; --good:#0ca30c; --warn:#d39a2a; --bad:#e66767; --grid:#2c2c29;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Arabic",sans-serif}
+.wrap{max-width:1060px;margin:0 auto;padding:32px 16px 64px}
+.brand{font-weight:600;color:var(--text-2);font-size:13px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:10px}
+h1{font-size:28px;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+header p{margin:0;color:var(--text-2)}
+h2{font-size:20px;margin:42px 0 4px}
+.sub{color:var(--text-2);margin:0 0 16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:20px}
+.verdict{margin-top:24px;border-left:4px solid var(--accent);padding:14px 18px;background:var(--surface);border-radius:0 12px 12px 0;border:1px solid var(--border);border-left-width:4px}
+.verdict ul{margin:8px 0 0;padding-left:20px}.verdict li{margin:4px 0}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{padding:8px 10px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}
+th{font-weight:600;color:var(--text-2);font-size:12.5px;white-space:nowrap}
+td.n{text-align:right;white-space:nowrap}
+.fit{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.fit.hi{color:var(--good)}.fit.md{color:var(--warn)}.fit.lo{color:var(--muted)}
+svg text{fill:var(--text-2);font-size:12px}
+svg .val{fill:var(--text);font-size:11.5px;font-variant-numeric:tabular-nums}
+#tip{position:fixed;pointer-events:none;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-size:12.5px;box-shadow:0 4px 18px rgba(0,0,0,.18);opacity:0;transition:opacity .08s;z-index:10;max-width:280px}
+#tip b{display:block;margin-bottom:2px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.pat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px}
+.pat h3{margin:0 0 6px;font-size:16px}
+.pat p{margin:6px 0;color:var(--text-2)}
+.ev{font-size:13px;background:var(--surface-2);border-radius:8px;padding:8px 10px;margin-top:8px}
+.ar{direction:rtl;unicode-bidi:plaintext;font-family:"Noto Sans Arabic","Segoe UI",system-ui,sans-serif}
+.idea{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px 18px;display:grid;grid-template-columns:44px 1fr;gap:4px 14px}
+.idea .rank{font-size:22px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;grid-row:span 4}
+.idea h3{margin:0;font-size:16px}
+.idea .hook{font-size:16px;color:var(--text);background:var(--surface-2);border-radius:8px;padding:8px 12px;margin:6px 0}
+.idea .why{color:var(--text-2);font-size:13.5px}
+.idea .meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:6px}
+.chip{font-size:11.5px;padding:2px 9px;border-radius:999px;background:var(--surface-2);color:var(--text-2);border:1px solid var(--border)}
+.chip.now{color:var(--bad);border-color:currentColor;background:transparent;font-weight:600}
+.ideas{display:grid;gap:12px}
+.trend td:nth-child(2){white-space:nowrap}
+.note{font-size:13px;color:var(--muted);margin-top:28px}
+.stat{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:20px}
+.stat .tile{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:16px}
+.tile .label{font-size:13px;color:var(--text-2)}
+.tile .v{font-size:24px;font-weight:650;font-variant-numeric:tabular-nums}
+.tile .k{font-size:12px;color:var(--muted)}
+@media (max-width:600px){h1{font-size:23px}.idea{grid-template-columns:1fr}.idea .rank{grid-row:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand">Runtime.tech · competitor & trend analysis</div>
+  <h1>What blows up for Algerian tech creators, and what you should post next</h1>
+  <p>8 Algerian tech accounts on TikTok and Instagram, ~350 videos checked, plus Google Trends for Algeria (last 7 days). Data collected from public profiles on Nov 19, 2026.</p>
+</header>
+
+<div class="stat">
+  <div class="tile"><div class="label">Biggest hit in the last 90 days</div><div class="v">10.1M</div><div class="k">yakoub tech: Realme 15T price and specs in Algeria</div></div>
+  <div class="tile"><div class="label">Biggest jump over a creator's usual views</div><div class="v">79×</div><div class="k">@djalildrh: "phones allowed in schools" (535K vs a 6.7K median)</div></div>
+  <div class="tile"><div class="label">Closest competitor to your format</div><div class="v">15×</div><div class="k">VisionDev: BaridiMob behind the scenes (32K vs a 2.2K median)</div></div>
+  <div class="tile"><div class="label">Instagram vs TikTok, same creator</div><div class="v">≈ 9×</div><div class="k">@djalildrh median: ~58K on IG vs 6.7K on TikTok</div></div>
+</div>
+
+<div class="verdict">
+  <strong>In short</strong>
+  <ul>
+    <li><b>The videos that blew up are about Algeria specifically, not tech in general.</b> Internet shutdowns in Algeria, free Djezzy and Ooredoo internet, phone prices in "ملاين", BaridiMob and Algérie Poste, school rules. Global tech news (Tesla, Nvidia, app updates) only does 1–12× the creator's usual views.</li>
+    <li><b>Speed wins on news.</b> When the internet was cut on Oct 26, two creators each got 224K–878K views from videos posted the same day.</li>
+    <li><b>The format closest to yours works.</b> VisionDev (faceless-ish Algerian software engineer, started July 2026, 1.4K followers) gets <b>12–15× his usual views</b> by explaining Algerian systems (BaridiMob, Sonelgaz, ATMs). That's your lane, and almost nobody else is in it.</li>
+    <li><b>It's not just your account that's weaker on TikTok.</b> The leading Algerian tech creator gets about 9× more views on Instagram than on TikTok.</li>
+    <li><b>Trending right now (Google, Algeria, last 7 days):</b> GTA 6 / Rockstar (10K+ searches), <b>BaridiMob + online scams</b> (5K+), Algérie Poste, Nvidia's Jensen Huang, Kick, Outlook / Microsoft 365. Black Friday is Nov 27.</li>
+  </ul>
+</div>
+
+<h2>The competitors</h2>
+<p class="sub">Median = the middle value of each account's views on posts from the last 90 days (pinned videos excluded). "Biggest hit ×" = the top video divided by that median.</p>
+<div class="card tbl">
+<table>
+<thead><tr><th>Account</th><th>Followers</th><th>Posts / 90 days</th><th>Median views</th><th>Biggest hit</th><th>Format</th><th>Fit with you</th></tr></thead>
+<tbody>
+<tr><td><b>@yakoubtech</b><br><span class="ar">yakoub tech</span></td><td class="n">1.9M</td><td class="n">16</td><td class="n">176K</td><td class="n">10.1M · 57×</td><td>Face to camera. Phone prices in Algeria, telecom offers, giveaways</td><td><span class="fit lo">Different</span></td></tr>
+<tr><td><b>@anislebsir25</b><br>Anis Lebsir</td><td class="n">467K</td><td class="n">11</td><td class="n">67K</td><td class="n">6.8M · 102×</td><td>Face to camera. Phone reviews with price; all-time high 13.2M (Realme Note 70)</td><td><span class="fit lo">Different</span></td></tr>
+<tr><td><b>@labophonedz_formation</b></td><td class="n">317K</td><td class="n">2</td><td class="n">151K</td><td class="n">151K</td><td>Phone repair training (a business)</td><td><span class="fit lo">Different</span></td></tr>
+<tr><td><b>@djalildrh</b><br><span class="ar">DJALIL | جـليـل</span></td><td class="n">170K (TT)<br>~322K (IG)</td><td class="n">54</td><td class="n">6.7K (TT)<br>~58K (IG)</td><td class="n">535K · 79× (TT)<br>987K (IG)</td><td>Face to camera. Phone tricks, apps, Algerian internet news. Covers: face + logo + 2-line text</td><td><span class="fit md">Same topics</span></td></tr>
+<tr><td><b>@deezedtec</b><br><span class="ar">التقني الجزائري</span></td><td class="n">51K</td><td class="n">0</td><td class="n">—</td><td class="n">—</td><td>Inactive for 90+ days</td><td><span class="fit lo">Inactive</span></td></tr>
+<tr><td><b>@anis.atcheba.officiel</b></td><td class="n">11.4K</td><td class="n">8</td><td class="n">24K</td><td class="n">1.2M · 51×</td><td>Face to camera. Apps and money; Temu series in 3 parts, reply-to-comment videos</td><td><span class="fit md">Uses series</span></td></tr>
+<tr><td><b>@visiondev_</b><br>VisionDev</td><td class="n">1.4K</td><td class="n">21</td><td class="n">2.2K</td><td class="n">32K · 15×</td><td>Software engineer, Darija, explains Algerian systems behind the scenes, system design, replies to comments</td><td><span class="fit hi">Direct competitor</span></td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>Videos that blew up, compared with each creator's usual views</h2>
+<p class="sub">Each bar shows how many times the creator's median the video got, which makes small and big accounts comparable. Hover over a bar for the details. TikTok unless marked IG.</p>
+<div class="card">
+  <svg id="bars" width="100%" role="img" aria-label="Breakout videos by multiple of creator median"></svg>
+</div>
+
+<h2>7 patterns behind the hits</h2>
+<p class="sub">These come up again and again across creators. Each one shows the evidence and how Runtime.tech can use it without a face on camera.</p>
+<div class="grid2">
+  <div class="pat"><h3>1 · Breaking news about Algeria's internet and telecoms</h3>
+    <p>Internet shutdowns, outages and free-data offers. Everyone in Algeria is affected, so everyone shares them.</p>
+    <div class="ev">Internet cut (Oct 26): djalil 311K TT / <b>878K IG</b>, yakoub 224K. Free month from Djezzy: <b>987K IG</b> (djalil), free internet Djezzy + Ooredoo: <b>1.3M</b> (yakoub).</div>
+    <p><b>Your angle:</b> explain how it works. "How do you cut a whole country's internet?" "Why does 'unlimited' internet have a limit?"</p></div>
+  <div class="pat"><h3>2 · Prices in "ملاين"</h3>
+    <p>Phone prices in Algerian money, "best phone under X ملاين", "why prices went up". This is the biggest category by far.</p>
+    <div class="ev">Realme 15T price: <b>10.1M</b>. Realme Note 70: 13.2M (all-time). "حقيقة زيادة الاسعار": 375K. Best 4 phones for 4–5 ملاين: 205K.</div>
+    <p><b>Your angle:</b> the explanation behind prices, not reviews. "Why the same phone costs double in Algeria" (customs, import, local assembly).</p></div>
+  <div class="pat"><h3>3 · Hidden phone tricks and "secret codes"</h3>
+    <p>Quick wins people can try right away. Lots of saves.</p>
+    <div class="ev">"The code everyone is looking for: network error": <b>945K IG</b>. Camera quality: 273K. iPhone keyboard: 200K. Block adult sites: 119K. Factory reset iPhone: 64K.</div>
+    <p><b>Your angle:</b> myth-busting. "Do secret codes really fix the network?" Explain what *#06# and similar codes actually do.</p></div>
+  <div class="pat"><h3>4 · Algerian systems explained from the inside</h3>
+    <p>BaridiMob, Algérie Poste, Sonelgaz, ATMs, OTP scams. Your exact format and close to empty. Only VisionDev does it, with a tiny account.</p>
+    <div class="ev">VisionDev: BaridiMob transfer stuck <b>32K (15×)</b>, Sonelgaz bill via BaridiMob <b>26K (12×)</b>, OTP scam 18K (8×), ATM vs app balance 10K (4.5×). His generic system design videos only get about 2.5×.</div>
+    <p><b>Your angle:</b> make this a recurring series, e.g. "علاش هادي كاينة: نسخة الجزائر".</p></div>
+  <div class="pat"><h3>5 · Rules that change daily life</h3>
+    <p>New rules about phones, internet, customs or taxes.</p>
+    <div class="ev">Phones allowed in schools: <b>535K, 79×</b>, the biggest jump in the whole dataset.</div>
+    <p><b>Your angle:</b> "What changes for you": the rule plus the tech behind it, posted within 24 hours.</p></div>
+  <div class="pat"><h3>6 · Series and reply-to-comment videos</h3>
+    <p>"Part 2?" in the caption and video replies to a commenter's question bring people back and feed the algorithm.</p>
+    <div class="ev">Temu series: Part 2 got 359K with the caption "نزيدو part 2؟", Part 3 replied to a comment (102K). VisionDev answers comments with video replies.</div>
+    <p><b>Your angle:</b> turn every comment question into a 30–40s TikTok cut (fits your new two-cut workflow).</p></div>
+  <div class="pat"><h3>7 · The cover sells the click</h3>
+    <p>Every hit has a 2-line Arabic cover: a white line plus <b>one keyword in orange or yellow</b>, a big icon or brand mark, and a strong emotion.</p>
+    <div class="ev">djalil: "شهر انترنت مجانا / من جيزي", "قطع الانترنت على الجزائر / لا تخف". Anis Lebsir: phone + model name in yellow.</div>
+    <p><b>Your angle:</b> you're faceless, so the cover text and visual have to do all the work. Use generic icons rather than real logos (as your style guide requires).</p></div>
+</div>
+
+<h2>Trending in Algeria right now</h2>
+<p class="sub">Google Trends, Algeria, last 7 days (Nov 19). Search volumes are Google's rough ranges. TikTok's Creative Center doesn't cover Algeria, so it couldn't be used.</p>
+<div class="card tbl">
+<table class="trend">
+<thead><tr><th>Trend</th><th>Searches</th><th>Related searches</th><th>Relevant for Runtime.tech?</th></tr></thead>
+<tbody>
+<tr><td>rockstar games gta vi / gta 6 / لعبة gta</td><td>10K+ / 5K+ / 1K+</td><td>gta6, gta twitter</td><td><span class="fit hi">Yes</span> Your GTA 6 reel is your best IG video so far (1,748). Make a follow-up.</td></tr>
+<tr><td>baridimob</td><td>5K+ (↑400%)</td><td><b>escroquerie en ligne</b> (online scam)</td><td><span class="fit hi">Yes, now</span> How BaridiMob scams work. Explainer, not fear.</td></tr>
+<tr><td>algérie poste</td><td>1K+</td><td>—</td><td><span class="fit hi">Yes</span> Same theme as above.</td></tr>
+<tr><td>nvidia jensen huang</td><td>5K+ (↑900%)</td><td>Technology category leader</td><td><span class="fit md">Maybe</span> "Why Nvidia became the biggest company in the world: GPUs and AI."</td></tr>
+<tr><td>kick</td><td>10K+</td><td>—</td><td><span class="fit md">Maybe</span> Streaming platform. Check why it's trending before making anything.</td></tr>
+<tr><td>outlook · microsoft 365</td><td>500+ · 100+</td><td>—</td><td><span class="fit lo">Weak</span> Probably an outage. Only worth it on the same day.</td></tr>
+<tr><td>taxe</td><td>10K+</td><td>—</td><td><span class="fit md">Check first</span> I couldn't confirm a new tax on phones. Don't make a video until you verify it.</td></tr>
+<tr><td>Togo – Algérie, MCA, CRB…</td><td>200K+</td><td>football</td><td><span class="fit lo">No</span> Not tech. Only if there's a real tech angle (VAR, goal-line tech).</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2>12 video ideas, ranked</h2>
+<p class="sub">Ranked by how strongly the evidence supports them and how well they fit your faceless explainer format. Hooks are drafts for <code>$reel-script-writer</code>. Check every fact marked [VERIFY] before recording.</p>
+<div class="ideas">
+
+<div class="idea"><div class="rank">1</div><h3>How BaridiMob scammers steal your money (3 tricks)</h3>
+<div class="hook ar">"وصلك SMS من بريد الجزائر؟ ما تحلّوش… هاذي هي الحيلة."</div>
+<div class="why">Trending now: BaridiMob 5K+ searches alongside "online scam". VisionDev's OTP scam video got 8× his usual views. Explain fake links, fake "new version" apps, and fake login screens drawn over the real app (overlay trojans). Algérie Poste has published warnings about all three [VERIFY current wording].</div>
+<div class="meta"><span class="chip now">Post this week</span><span class="chip">How things work</span><span class="chip">Share line: send to your parents</span></div></div>
+
+<div class="idea"><div class="rank">2</div><h3>How do you cut the internet of an entire country?</h3>
+<div class="hook ar">"كي يقطعو الانترنت في الجزائر… واش يصرا بالضبط؟"</div>
+<div class="why">The Oct 26 internet cut gave two creators 224K–878K. They covered the news; nobody explained how it works (throttling, DNS, cutting specific services, VPNs). It's evergreen and will spike again around exam season. Keep it accurate and neutral.</div>
+<div class="meta"><span class="chip">How things work</span><span class="chip">Repost when the news comes back</span></div></div>
+
+<div class="idea"><div class="rank">3</div><h3>"Free internet" from Djezzy and Ooredoo: how does it really work?</h3>
+<div class="hook ar">"انترنت باطل؟ شوف واش كاين مخبّي في الشروط."</div>
+<div class="why">Free-data offers got 987K (IG) and 1.3M. Explain how mobile data and offers work, what fair use means, and why speed drops after a certain number of GB. Practical and gets shared.</div>
+<div class="meta"><span class="chip">How things work</span><span class="chip">Post when the next offer launches</span></div></div>
+
+<div class="idea"><div class="rank">4</div><h3>Phone "secret codes": do they really fix the network?</h3>
+<div class="hook ar">"الكود اللي الناس كامل تقلب عليه… واش صح يصلّح الريزو؟"</div>
+<div class="why">The "secret code for network error" reel got 945K on IG. Do the honest myth-busting version: what *#06# and similar codes actually do, and what actually fixes network problems.</div>
+<div class="meta"><span class="chip">Myth break</span><span class="chip">Lots of saves</span></div></div>
+
+<div class="idea"><div class="rank">5</div><h3>Why is the same phone so much more expensive in Algeria?</h3>
+<div class="hook ar">"نفس التليفون… فرنسا بـ X وعندنا بـ Y ملاين. علاش؟"</div>
+<div class="why">Price videos are the biggest category (10.1M, 13.2M, 375K). Explain the "why": import, customs, exchange rate, local assembly (Condor, ARPCE approval). [VERIFY] every rule and number.</div>
+<div class="meta"><span class="chip">How things work</span><span class="chip">Very high reach potential</span></div></div>
+
+<div class="idea"><div class="rank">6</div><h3>GTA 6: why does a game take 10 years to make?</h3>
+<div class="hook ar">"GTA 6 قعدت أكثر من 10 سنين… واش يديرو فيها؟"</div>
+<div class="why">GTA 6 / Rockstar is trending (10K+), and your GTA 6 reel is your best Instagram video. A follow-up that explains game development (engine, open world, testing) keeps the momentum. [VERIFY] the timeline.</div>
+<div class="meta"><span class="chip now">Trending</span><span class="chip">Part 2 of your best reel</span></div></div>
+
+<div class="idea"><div class="rank">7</div><h3>"Your request is being processed": what happens to your BaridiMob transfer?</h3>
+<div class="hook ar">"حوّلت الدراهم… وما وصلوش؟ هاذي واش يصرا من اللوطة."</div>
+<div class="why">VisionDev got 15× his usual views with this exact topic, which shows demand. Do your own version with your animation style: queues, bank-side processing, why it's not instant. Make it Part 1 of an "Algeria systems" series.</div>
+<div class="meta"><span class="chip">Behind the scenes</span><span class="chip">Series starter</span></div></div>
+
+<div class="idea"><div class="rank">8</div><h3>Why do websites crash on Black Friday?</h3>
+<div class="hook ar">"ضغطت 'اشري'… والسيت طاح. علاش؟"</div>
+<div class="why">Black Friday is Nov 27, so it's timely. Explain servers, load and queues using a bakery-line analogy. VisionDev has a similar video, so make the visuals clearly better and post before the 27th.</div>
+<div class="meta"><span class="chip now">Before Nov 27</span><span class="chip">How things work</span></div></div>
+
+<div class="idea"><div class="rank">9</div><h3>Ordering from Temu or AliExpress: how does the package reach Algeria, and what do you pay?</h3>
+<div class="hook ar">"كوموندي من Temu… شحال تخلّص في الديوانة؟"</div>
+<div class="why">The Temu series got 359K and Algerians shop online a lot. Reported rule: packages over 50,000 DA are taxed 30%, and phones for personal use are exempt [VERIFY with the customs service before recording].</div>
+<div class="meta"><span class="chip">Practical</span><span class="chip">Lots of saves</span></div></div>
+
+<div class="idea"><div class="rank">10</div><h3>Why did Nvidia become the most valuable company in the world?</h3>
+<div class="hook ar">"شركة كانت تصنع كروت تاع ألعاب… ولات أغلى شركة في العالم."</div>
+<div class="why">Jensen Huang is the top tech search in Algeria this week (5K+, ↑900%). Fits your AI pillar: GPUs vs CPUs explained with a simple analogy.</div>
+<div class="meta"><span class="chip now">Trending</span><span class="chip">AI explained</span></div></div>
+
+<div class="idea"><div class="rank">11</div><h3>Is your phone "not approved"? What ARPCE approval means</h3>
+<div class="hook ar">"شريت تليفون من برّا… يقدر يتبلوكا في الجزائر؟"</div>
+<div class="why">ARPCE warned about unapproved devices in January 2026. This affects everyone who buys phones abroad, and it fits the "rules that change daily life" pattern. [VERIFY] the current status first.</div>
+<div class="meta"><span class="chip">Rules + tech</span></div></div>
+
+<div class="idea"><div class="rank">12</div><h3>Reply-to-comment series (always on)</h3>
+<div class="hook ar">"سقسيتوني: 'كيفاه ندير…'؟ هاذي الإجابة في 30 ثانية."</div>
+<div class="why">Reply videos sustain Anis Atcheba and VisionDev. You already have questions in your comments. Answer one each week as a 30–40s TikTok cut.</div>
+<div class="meta"><span class="chip">TikTok cut</span><span class="chip">Low effort</span></div></div>
+</div>
+
+<h2>What to change in your approach</h2>
+<div class="card">
+<ol style="margin:0;padding-left:20px">
+  <li style="margin:6px 0"><b>Put Algeria in the hook.</b> Say "في الجزائر", show the price in ملاين, name a local service (BaridiMob, Djezzy, Sonelgaz). Generic topics like cookies and Knight Capital were your weakest videos. Algeria-specific topics are where competitors get their hits.</li>
+  <li style="margin:6px 0"><b>Keep a fast-news slot.</b> When internet, telecom or phone news breaks in Algeria, post a 30–40s TikTok explainer within 24 hours, and the full Instagram version after.</li>
+  <li style="margin:6px 0"><b>Own the "Algerian systems from the inside" series.</b> Your direct competitor is tiny (1.4K followers) but gets 12–15× his usual views here. With your animation quality you can take this lane over.</li>
+  <li style="margin:6px 0"><b>Use the 2-line cover:</b> a white question plus one orange keyword, a big generic icon, and 5 words max.</li>
+  <li style="margin:6px 0"><b>Add "Part 2?" and reply videos.</b> They're cheap to make and they bring viewers back.</li>
+</ol>
+</div>
+
+<p class="note"><b>How this was measured:</b> view counts were read from public TikTok profile grids (about the last 30–128 videos of each account; medians use posts from the last 90 days, pinned videos excluded) and from @djalildrh's Instagram reels grid, on Nov 19, 2026. Posting dates come from TikTok video IDs. The accounts are very different sizes, so compare their "×" jumps, not raw views. Some hits have no caption (Anis Lebsir's 6.8M, Anis Atcheba's 1.2M), so their topic couldn't be confirmed and they're left out of the patterns. @protech_dz couldn't be read. Google Trends ranges are approximate. Competitors weren't contacted, and nothing was posted or followed. Hooks are drafts, and every fact marked [VERIFY] must be checked before recording.</p>
+<p class="note"><b>Sources for background facts:</b> <a href="https://www.algerie360.com/colis-aliexpress-shein-algerie-douane/">Algérie 360: parcel customs rules</a> · <a href="https://www.algerie360.com/baridimob-algerie-poste-mise-a-jour-securite/">Algérie 360: BaridiMob security update</a> · <a href="https://algeriatech.news/banking-trojan-mobile-malware-algerian-financial-apps-2026/">AlgeriaTech: banking trojans targeting Algerian apps</a> · <a href="https://www.dzair-tube.dz/en/arpce-sounds-the-alarm-on-unapproved-devices-algeria-poised-for-a-revival-of-domestic-smartphone-manufacturingsounds-the-alarm-on-unapproved-devices-algeria-poised-for-a-revival-of-domestic-smartpho">Dzair Tube: ARPCE and unapproved devices</a> · <a href="https://trends.google.com/trending?geo=DZ&hours=168">Google Trends: Algeria</a></p>
+</div>
+
+<div id="tip"></div>
+<script>
+const rows = [
+  {c:"@anislebsir25", t:"Phone video (no caption)", v:6800000, m:101.9, th:"Phone prices / reviews"},
+  {c:"@djalildrh", t:"Phones allowed in schools (Algeria)", v:535000, m:79.3, th:"Rules that change daily life"},
+  {c:"@yakoubtech", t:"Realme 15T price & specs in Algeria", v:10100000, m:57.3, th:"Phone prices"},
+  {c:"@anis.atcheba", t:"(no caption) — Temu-era post", v:1200000, m:50.8, th:"Apps & money"},
+  {c:"@djalildrh", t:"Internet cut in Algeria", v:311000, m:46.1, th:"Algeria internet news"},
+  {c:"@djalildrh", t:"High-quality camera trick", v:273000, m:40.4, th:"Phone tricks"},
+  {c:"@djalildrh", t:"iPhone keyboard trick", v:200000, m:29.6, th:"Phone tricks"},
+  {c:"@djalildrh", t:"Block adult sites on your phone", v:119000, m:17.7, th:"Phone tricks / safety"},
+  {c:"@anis.atcheba", t:"Temu series — \"Part 2?\"", v:359000, m:15.2, th:"Series"},
+  {c:"@visiondev_", t:"BaridiMob transfer didn't arrive", v:32000, m:14.9, th:"Algerian systems explained"},
+  {c:"@visiondev_", t:"Sonelgaz bill via BaridiMob 'processing'", v:26000, m:11.9, th:"Algerian systems explained"},
+  {c:"@djalildrh", t:"Elon Musk's new Tesla", v:78000, m:11.6, th:"Global tech news"},
+  {c:"@visiondev_", t:"OTP scam in Algeria", v:18000, m:8.3, th:"Scams"},
+  {c:"@yakoubtech", t:"Free internet Djezzy & Ooredoo", v:1300000, m:7.4, th:"Telecom offers"},
+  {c:"@anislebsir25", t:"The truth about price increases", v:375000, m:5.6, th:"Phone prices"},
+];
+const fmt = n => n>=1e6 ? (n/1e6).toFixed(1).replace(/\.0$/,"")+"M" : n>=1e3 ? Math.round(n/1e3)+"K" : String(n);
+const tip = document.getElementById("tip");
+const show=(e,h)=>{tip.innerHTML=h;tip.style.opacity=1;mv(e)}, mv=e=>{tip.style.left=Math.min(e.clientX+14,innerWidth-tip.offsetWidth-8)+"px";tip.style.top=Math.min(e.clientY+14,innerHeight-tip.offsetHeight-8)+"px"}, hide=()=>tip.style.opacity=0;
+const NS="http://www.w3.org/2000/svg"; const el=(t,a,p)=>{const n=document.createElementNS(NS,t);for(const k in a)n.setAttribute(k,a[k]);p&&p.appendChild(n);return n};
+function draw(){
+  const svg=document.getElementById("bars"); svg.innerHTML="";
+  const W=svg.clientWidth||900, narrow=W<620, L=narrow?150:300, R=54, rowH=28, T=22, bh=12;
+  const H=T+rows.length*rowH+4; svg.setAttribute("height",H); svg.setAttribute("viewBox",`0 0 ${W} ${H}`);
+  const max=110, x=v=>L+(v/max)*(W-L-R);
+  [0,25,50,75,100].forEach(t=>{el("line",{x1:x(t),x2:x(t),y1:T-6,y2:H-2,stroke:"var(--grid)"},svg);const tx=el("text",{x:x(t),y:12,"text-anchor":"middle"},svg);tx.textContent=t+"×";});
+  rows.forEach((r,i)=>{
+    const y=T+i*rowH+(rowH-bh)/2;
+    const lb=el("text",{x:L-10,y:y+bh-1,"text-anchor":"end"},svg); lb.textContent=narrow?r.c:`${r.c} · ${r.t}`; lb.style.fill="var(--text)"; lb.style.fontSize=narrow?"11px":"12.5px";
+    const w=Math.max(3,x(r.m)-L);
+    el("path",{d:`M${L},${y} h${w-4} a4,4 0 0 1 4,4 v${bh-8} a4,4 0 0 1 -4,4 h-${w-4} z`,fill:"var(--bar)"},svg);
+    const v=el("text",{x:L+w+6,y:y+bh-1,class:"val"},svg); v.textContent=`${r.m.toFixed(0)}× · ${fmt(r.v)}`;
+    const hit=el("rect",{x:0,y:y-6,width:W,height:bh+12,fill:"transparent"},svg);
+    hit.addEventListener("mousemove",e=>show(e,`<b>${r.t}</b>${r.c}<br>${fmt(r.v)} views · ${r.m.toFixed(1)}× their median<br>Pattern: ${r.th}`));
+    hit.addEventListener("mouseleave",hide);
+  });
+}
+draw(); let rt; addEventListener("resize",()=>{clearTimeout(rt);rt=setTimeout(draw,120)});
+</script>
+</body>
+</html>

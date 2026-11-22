@@ -1,0 +1,78 @@
+{
+  "audioDurationSec": 106.15466666666667,
+  "pictureDurationSec": 106.16666666666667,
+  "totalFrames": 3185,
+  "pictureTailSec": 0.012000000000000455,
+  "sceneCount": 12,
+  "noSceneGapsOrOverlaps": true,
+  "startsAtZero": true,
+  "coversAllAudio": true,
+  "secondsAndFramesAgree": true,
+  "originalVoiceoverPreserved": true,
+  "scriptBeatCount": 13,
+  "scriptBeat13NotInRecording": true,
+  "maxMeaningfulChangeGapSec": 3.3666666666666667,
+  "meaningfulChangesPer10Sec": [
+    {
+      "startSec": 0.0,
+      "endSec": 10.0,
+      "meaningfulChanges": 9
+    },
+    {
+      "startSec": 10.0,
+      "endSec": 20.0,
+      "meaningfulChanges": 5
+    },
+    {
+      "startSec": 20.0,
+      "endSec": 30.0,
+      "meaningfulChanges": 5
+    },
+    {
+      "startSec": 30.0,
+      "endSec": 40.0,
+      "meaningfulChanges": 6
+    },
+    {
+      "startSec": 40.0,
+      "endSec": 50.0,
+      "meaningfulChanges": 5
+    },
+    {
+      "startSec": 50.0,
+      "endSec": 60.0,
+      "meaningfulChanges": 6
+    },
+    {
+      "startSec": 60.0,
+      "endSec": 70.0,
+      "meaningfulChanges": 5
+    },
+    {
+      "startSec": 70.0,
+      "endSec": 80.0,
+      "meaningfulChanges": 4
+    },
+    {
+      "startSec": 80.0,
+      "endSec": 90.0,
+      "meaningfulChanges": 4
+    },
+    {
+      "startSec": 90.0,
+      "endSec": 100.0,
+      "meaningfulChanges": 5
+    },
+    {
+      "startSec": 100.0,
+      "endSec": 106.16666666666667,
+      "meaningfulChanges": 4
+    }
+  ],
+  "cueStatus": "PROVISIONAL_NOT_LISTENED_BY_EAR",
+  "fullNarrationCaptions": false,
+  "allTenSourcesUsed": true,
+  "assembledWavSamplesAgree": true,
+  "assembledWavSampleRate": 48000,
+  "scriptVisualDirectionsRemoved": true
+}

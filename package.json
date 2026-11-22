@@ -12,8 +12,11 @@
   },
   "dependencies": {
     "@remotion/bundler": "4.0.530",
+    "@remotion/captions": "4.0.530",
     "@remotion/cli": "4.0.530",
     "@remotion/fonts": "4.0.530",
+    "@remotion/google-fonts": "4.0.530",
+    "@remotion/media": "4.0.530",
     "@remotion/renderer": "4.0.530",
     "react": "^19.3.0",
     "react-dom": "^19.3.0",

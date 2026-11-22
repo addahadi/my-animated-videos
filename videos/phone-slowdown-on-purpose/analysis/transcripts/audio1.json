@@ -1,0 +1,764 @@
+{
+  "file": "audio1.ogg",
+  "sha256": "0ef6ffff02a533962cb6afd3d1ca96ae160857a1be0a7f36731f1ecb931f8a77",
+  "duration": 3.392,
+  "samples": 162816,
+  "sampleRate": 48000,
+  "cumulativeStart": 0.0,
+  "cumulativeEnd": 3.392,
+  "ffprobe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "aac",
+        "codec_long_name": "unknown",
+        "profile": "1",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x1",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 162816,
+        "duration": "3.392000",
+        "bit_rate": "66983",
+        "nb_frames": "159",
+        "extradata_size": 2,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-11-08T17:06:12.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Audio",
+          "vendor_id": "[0][0][0][0]"
+        }
+      }
+    ],
+    "format": {
+      "filename": "C:\\Users\\hecin\\Videos\\my-animated-video\\videos\\phone-slowdown-on-purpose\\inputs\\audio1.ogg",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "start_time": "0.000000",
+      "duration": "3.392000",
+      "size": "31893",
+      "bit_rate": "75219",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "M4A ",
+        "minor_version": "0",
+        "compatible_brands": "M4A isommp42",
+        "creation_time": "2026-11-08T17:06:12.000000Z",
+        "voice-memo-uuid": "D44425AA-24B4-4765-BFAA-EEB89CB67CBF",
+        "encoder": "com.apple.VoiceMemos (iPhone Version 18.7.2 (Build 22H124))"
+      }
+    }
+  },
+  "segments": [
+    {
+      "start": 0.11,
+      "end": 2.45,
+      "text": "تليفونك، بسقال ولا ثقق له",
+      "words": [
+        {
+          "start": 0.11,
+          "end": 1.23,
+          "word": " تليفونك،",
+          "probability": 0.6111666510502497
+        },
+        {
+          "start": 1.23,
+          "end": 1.73,
+          "word": " بسقال",
+          "probability": 0.6728944852948189
+        },
+        {
+          "start": 1.73,
+          "end": 1.97,
+          "word": " ولا",
+          "probability": 0.8572277426719666
+        },
+        {
+          "start": 1.97,
+          "end": 2.33,
+          "word": " ثقق",
+          "probability": 0.6931413114070892
+        },
+        {
+          "start": 2.33,
+          "end": 2.45,
+          "word": " له",
+          "probability": 0.26732882857322693
+        }
+      ]
+    }
+  ],
+  "envelope": [
+    {
+      "endSample": 1024,
+      "rms": 0.0
+    },
+    {
+      "endSample": 2048,
+      "rms": 0.0
+    },
+    {
+      "endSample": 3072,
+      "rms": 23.59764040772933
+    },
+    {
+      "endSample": 4096,
+      "rms": 48.73788912065745
+    },
+    {
+      "endSample": 5120,
+      "rms": 83.83845608519995
+    },
+    {
+      "endSample": 6144,
+      "rms": 97.82145526097534
+    },
+    {
+      "endSample": 7168,
+      "rms": 139.31065989699962
+    },
+    {
+      "endSample": 8192,
+      "rms": 159.6991923312388
+    },
+    {
+      "endSample": 9216,
+      "rms": 142.71503785954022
+    },
+    {
+      "endSample": 10240,
+      "rms": 222.08331989720097
+    },
+    {
+      "endSample": 11264,
+      "rms": 158.31118608811255
+    },
+    {
+      "endSample": 12288,
+      "rms": 208.02037770147064
+    },
+    {
+      "endSample": 13312,
+      "rms": 131.55909660087173
+    },
+    {
+      "endSample": 14336,
+      "rms": 161.8139061835385
+    },
+    {
+      "endSample": 15360,
+      "rms": 191.6848100561179
+    },
+    {
+      "endSample": 16384,
+      "rms": 133.8543693253978
+    },
+    {
+      "endSample": 17408,
+      "rms": 188.2965994780575
+    },
+    {
+      "endSample": 18432,
+      "rms": 169.13317896427802
+    },
+    {
+      "endSample": 19456,
+      "rms": 122.64452969481557
+    },
+    {
+      "endSample": 20480,
+      "rms": 193.2066221125068
+    },
+    {
+      "endSample": 21504,
+      "rms": 229.66906601197405
+    },
+    {
+      "endSample": 22528,
+      "rms": 275.6864497117831
+    },
+    {
+      "endSample": 23552,
+      "rms": 395.01497202637773
+    },
+    {
+      "endSample": 24576,
+      "rms": 2555.633121051232
+    },
+    {
+      "endSample": 25600,
+      "rms": 4015.7155879860006
+    },
+    {
+      "endSample": 26624,
+      "rms": 11035.19607134408
+    },
+    {
+      "endSample": 27648,
+      "rms": 15554.04561367069
+    },
+    {
+      "endSample": 28672,
+      "rms": 15403.530937222946
+    },
+    {
+      "endSample": 29696,
+      "rms": 9206.236595373812
+    },
+    {
+      "endSample": 30720,
+      "rms": 13336.250332446805
+    },
+    {
+      "endSample": 31744,
+      "rms": 14518.51703718339
+    },
+    {
+      "endSample": 32768,
+      "rms": 14179.013513217618
+    },
+    {
+      "endSample": 33792,
+      "rms": 11934.445382091495
+    },
+    {
+      "endSample": 34816,
+      "rms": 5134.046641489751
+    },
+    {
+      "endSample": 35840,
+      "rms": 3636.028146162719
+    },
+    {
+      "endSample": 36864,
+      "rms": 3543.7089032559693
+    },
+    {
+      "endSample": 37888,
+      "rms": 9228.619987147997
+    },
+    {
+      "endSample": 38912,
+      "rms": 11839.74410519765
+    },
+    {
+      "endSample": 39936,
+      "rms": 11547.164441145687
+    },
+    {
+      "endSample": 40960,
+      "rms": 10447.414514794811
+    },
+    {
+      "endSample": 41984,
+      "rms": 9267.888339868658
+    },
+    {
+      "endSample": 43008,
+      "rms": 6364.586091507517
+    },
+    {
+      "endSample": 44032,
+      "rms": 4875.7854360260835
+    },
+    {
+      "endSample": 45056,
+      "rms": 3600.181748884353
+    },
+    {
+      "endSample": 46080,
+      "rms": 2398.3872688143874
+    },
+    {
+      "endSample": 47104,
+      "rms": 775.538125926524
+    },
+    {
+      "endSample": 48128,
+      "rms": 475.72056673764644
+    },
+    {
+      "endSample": 49152,
+      "rms": 1002.1892140225442
+    },
+    {
+      "endSample": 50176,
+      "rms": 809.7615202802381
+    },
+    {
+      "endSample": 51200,
+      "rms": 565.4181951012564
+    },
+    {
+      "endSample": 52224,
+      "rms": 527.4801332899895
+    },
+    {
+      "endSample": 53248,
+      "rms": 338.89320658394735
+    },
+    {
+      "endSample": 54272,
+      "rms": 301.62255069198244
+    },
+    {
+      "endSample": 55296,
+      "rms": 383.8878493250014
+    },
+    {
+      "endSample": 56320,
+      "rms": 320.42202243437873
+    },
+    {
+      "endSample": 57344,
+      "rms": 135.34448236352304
+    },
+    {
+      "endSample": 58368,
+      "rms": 155.6562154938729
+    },
+    {
+      "endSample": 59392,
+      "rms": 120.36301699182769
+    },
+    {
+      "endSample": 60416,
+      "rms": 125.05083341385614
+    },
+    {
+      "endSample": 61440,
+      "rms": 96.70402250552972
+    },
+    {
+      "endSample": 62464,
+      "rms": 615.5655015664458
+    },
+    {
+      "endSample": 63488,
+      "rms": 1447.3860342117614
+    },
+    {
+      "endSample": 64512,
+      "rms": 1638.9846796945471
+    },
+    {
+      "endSample": 65536,
+      "rms": 1126.1634248945898
+    },
+    {
+      "endSample": 66560,
+      "rms": 608.8278737728854
+    },
+    {
+      "endSample": 67584,
+      "rms": 263.1592168963497
+    },
+    {
+      "endSample": 68608,
+      "rms": 864.2729603545398
+    },
+    {
+      "endSample": 69632,
+      "rms": 6723.1353052729655
+    },
+    {
+      "endSample": 70656,
+      "rms": 14276.071571673045
+    },
+    {
+      "endSample": 71680,
+      "rms": 14461.132725080108
+    },
+    {
+      "endSample": 72704,
+      "rms": 15470.602805830846
+    },
+    {
+      "endSample": 73728,
+      "rms": 14751.04383587978
+    },
+    {
+      "endSample": 74752,
+      "rms": 13425.212171384097
+    },
+    {
+      "endSample": 75776,
+      "rms": 14409.335097130826
+    },
+    {
+      "endSample": 76800,
+      "rms": 13719.410925316557
+    },
+    {
+      "endSample": 77824,
+      "rms": 14393.361435301573
+    },
+    {
+      "endSample": 78848,
+      "rms": 5330.018135082891
+    },
+    {
+      "endSample": 79872,
+      "rms": 5272.074928133283
+    },
+    {
+      "endSample": 80896,
+      "rms": 4463.1225342644775
+    },
+    {
+      "endSample": 81920,
+      "rms": 3871.057860075807
+    },
+    {
+      "endSample": 82944,
+      "rms": 2456.9917288156976
+    },
+    {
+      "endSample": 83968,
+      "rms": 378.9947306485606
+    },
+    {
+      "endSample": 84992,
+      "rms": 245.40084396503204
+    },
+    {
+      "endSample": 86016,
+      "rms": 138.7452561125965
+    },
+    {
+      "endSample": 87040,
+      "rms": 156.8457112848085
+    },
+    {
+      "endSample": 88064,
+      "rms": 350.9244306894114
+    },
+    {
+      "endSample": 89088,
+      "rms": 3882.984341770837
+    },
+    {
+      "endSample": 90112,
+      "rms": 5845.498825719185
+    },
+    {
+      "endSample": 91136,
+      "rms": 9811.284361502607
+    },
+    {
+      "endSample": 92160,
+      "rms": 12112.956886256976
+    },
+    {
+      "endSample": 93184,
+      "rms": 7669.944622976834
+    },
+    {
+      "endSample": 94208,
+      "rms": 9654.113747011394
+    },
+    {
+      "endSample": 95232,
+      "rms": 9066.569264422045
+    },
+    {
+      "endSample": 96256,
+      "rms": 10943.532532194671
+    },
+    {
+      "endSample": 97280,
+      "rms": 8099.580724705176
+    },
+    {
+      "endSample": 98304,
+      "rms": 4873.6274449999
+    },
+    {
+      "endSample": 99328,
+      "rms": 2013.9412698677593
+    },
+    {
+      "endSample": 100352,
+      "rms": 711.1299430472869
+    },
+    {
+      "endSample": 101376,
+      "rms": 2231.2665965769306
+    },
+    {
+      "endSample": 102400,
+      "rms": 4441.619669564528
+    },
+    {
+      "endSample": 103424,
+      "rms": 2461.2497500317295
+    },
+    {
+      "endSample": 104448,
+      "rms": 252.99646813863825
+    },
+    {
+      "endSample": 105472,
+      "rms": 169.3766662740916
+    },
+    {
+      "endSample": 106496,
+      "rms": 177.87061056161724
+    },
+    {
+      "endSample": 107520,
+      "rms": 148.7778729137838
+    },
+    {
+      "endSample": 108544,
+      "rms": 1473.690843477165
+    },
+    {
+      "endSample": 109568,
+      "rms": 4361.839083845181
+    },
+    {
+      "endSample": 110592,
+      "rms": 4683.853071636608
+    },
+    {
+      "endSample": 111616,
+      "rms": 4460.8672769210125
+    },
+    {
+      "endSample": 112640,
+      "rms": 5331.188805151424
+    },
+    {
+      "endSample": 113664,
+      "rms": 7724.117750363751
+    },
+    {
+      "endSample": 114688,
+      "rms": 7402.554365077617
+    },
+    {
+      "endSample": 115712,
+      "rms": 6510.91084730266
+    },
+    {
+      "endSample": 116736,
+      "rms": 2883.3542082502413
+    },
+    {
+      "endSample": 117760,
+      "rms": 1675.630524690165
+    },
+    {
+      "endSample": 118784,
+      "rms": 1695.6710686471226
+    },
+    {
+      "endSample": 119808,
+      "rms": 785.3069587946168
+    },
+    {
+      "endSample": 120832,
+      "rms": 664.305371027935
+    },
+    {
+      "endSample": 121856,
+      "rms": 262.26096817804876
+    },
+    {
+      "endSample": 122880,
+      "rms": 150.303079226608
+    },
+    {
+      "endSample": 123904,
+      "rms": 141.8574328331089
+    },
+    {
+      "endSample": 124928,
+      "rms": 156.42137476820423
+    },
+    {
+      "endSample": 125952,
+      "rms": 144.87203068031283
+    },
+    {
+      "endSample": 126976,
+      "rms": 66.58189271491162
+    },
+    {
+      "endSample": 128000,
+      "rms": 86.11385314294675
+    },
+    {
+      "endSample": 129024,
+      "rms": 94.01260096723736
+    },
+    {
+      "endSample": 130048,
+      "rms": 90.55693564686253
+    },
+    {
+      "endSample": 131072,
+      "rms": 114.4593694968874
+    },
+    {
+      "endSample": 132096,
+      "rms": 178.18985935389955
+    },
+    {
+      "endSample": 133120,
+      "rms": 120.22650335668504
+    },
+    {
+      "endSample": 134144,
+      "rms": 122.71077609693657
+    },
+    {
+      "endSample": 135168,
+      "rms": 122.99835650578832
+    },
+    {
+      "endSample": 136192,
+      "rms": 306.4495730463864
+    },
+    {
+      "endSample": 137216,
+      "rms": 145.50593643924807
+    },
+    {
+      "endSample": 138240,
+      "rms": 115.73419252888274
+    },
+    {
+      "endSample": 139264,
+      "rms": 148.7993648392442
+    },
+    {
+      "endSample": 140288,
+      "rms": 165.16374155194444
+    },
+    {
+      "endSample": 141312,
+      "rms": 209.20307540237667
+    },
+    {
+      "endSample": 142336,
+      "rms": 621.982193179847
+    },
+    {
+      "endSample": 143360,
+      "rms": 534.0867378569585
+    },
+    {
+      "endSample": 144384,
+      "rms": 863.8163155168609
+    },
+    {
+      "endSample": 145408,
+      "rms": 933.6002949561378
+    },
+    {
+      "endSample": 146432,
+      "rms": 283.7492135864653
+    },
+    {
+      "endSample": 147456,
+      "rms": 189.56974052690344
+    },
+    {
+      "endSample": 148480,
+      "rms": 183.52638391727223
+    },
+    {
+      "endSample": 149504,
+      "rms": 102.43613673589512
+    },
+    {
+      "endSample": 150528,
+      "rms": 162.21445765848833
+    },
+    {
+      "endSample": 151552,
+      "rms": 164.33785523750302
+    },
+    {
+      "endSample": 152576,
+      "rms": 193.13917322587616
+    },
+    {
+      "endSample": 153600,
+      "rms": 116.84150589580742
+    },
+    {
+      "endSample": 154624,
+      "rms": 130.63838522927517
+    },
+    {
+      "endSample": 155648,
+      "rms": 116.68488882991662
+    },
+    {
+      "endSample": 156672,
+      "rms": 124.98431151548581
+    },
+    {
+      "endSample": 157696,
+      "rms": 134.97975832046077
+    },
+    {
+      "endSample": 158720,
+      "rms": 139.03231413955535
+    },
+    {
+      "endSample": 159744,
+      "rms": 166.2922673008655
+    },
+    {
+      "endSample": 160768,
+      "rms": 132.8771901277642
+    },
+    {
+      "endSample": 161792,
+      "rms": 197.2301855542148
+    },
+    {
+      "endSample": 162816,
+      "rms": 108.0284747980249
+    }
+  ],
+  "note": "ASR draft is boundary evidence only. Keep approved script wording; check internal boundaries by ear."
+}

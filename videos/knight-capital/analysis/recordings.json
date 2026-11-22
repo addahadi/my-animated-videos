@@ -1,0 +1,120 @@
+{
+  "durationMeasurement": "PyAV decoded samples; ffprobe unavailable on PATH",
+  "timing": "MEASURED",
+  "alignment": "ASSUMED_ONE_CLIP_PER_BEAT_REVIEW_BY_EAR_REQUIRED",
+  "asrError": "mkl_malloc: failed to allocate memory",
+  "order": "Timestamp-named opening clip, then clips 2 through 10; verify by speech",
+  "totalDurationSec": 93.312,
+  "clips": [
+    {
+      "scriptBeat": 1,
+      "file": "audio_2026-11-04_21-34-19.ogg",
+      "sampleRate": 48000,
+      "samples": 184320,
+      "durationSec": 3.84,
+      "startSec": 0,
+      "endSec": 3.84,
+      "sha256": "721fbf59620f9017a0fbd8f55f0a71fd0429b136d68aae33a2547ee5a4af68fe",
+      "segments": []
+    },
+    {
+      "scriptBeat": 2,
+      "file": "audio2.ogg",
+      "sampleRate": 48000,
+      "samples": 362496,
+      "durationSec": 7.552,
+      "startSec": 3.84,
+      "endSec": 11.392,
+      "sha256": "9c2c9897ee580c104a656703df6fd2e8849426240083d4041e8e309e51b33991",
+      "segments": []
+    },
+    {
+      "scriptBeat": 3,
+      "file": "audio3.ogg",
+      "sampleRate": 48000,
+      "samples": 399360,
+      "durationSec": 8.32,
+      "startSec": 11.392,
+      "endSec": 19.712,
+      "sha256": "b7ac7cbbf0d7629bf203deb7adb16dd097b786bd03e10c336c44037db3e4db9e",
+      "segments": []
+    },
+    {
+      "scriptBeat": 4,
+      "file": "audio4.ogg",
+      "sampleRate": 48000,
+      "samples": 544768,
+      "durationSec": 11.349333333333334,
+      "startSec": 19.712,
+      "endSec": 31.061333333333334,
+      "sha256": "150a4538002947efd23f7a76ae74f7c71c3bc2e94db4e3cc765f3a87598be9e0",
+      "segments": []
+    },
+    {
+      "scriptBeat": 5,
+      "file": "audio5.ogg",
+      "sampleRate": 48000,
+      "samples": 588800,
+      "durationSec": 12.266666666666667,
+      "startSec": 31.061333333333334,
+      "endSec": 43.328,
+      "sha256": "2cd5ad7ee697e523659a0ba981e054e327ca99a79c1c5fac8976f65312615d0e",
+      "segments": []
+    },
+    {
+      "scriptBeat": 6,
+      "file": "audio6ogg.ogg",
+      "sampleRate": 48000,
+      "samples": 532480,
+      "durationSec": 11.093333333333334,
+      "startSec": 43.328,
+      "endSec": 54.42133333333334,
+      "sha256": "fc976e963f6677c717b78bc92cc217972354709f5bebbaebee5e656c2c2b7fa4",
+      "segments": []
+    },
+    {
+      "scriptBeat": 7,
+      "file": "audio7.ogg",
+      "sampleRate": 48000,
+      "samples": 497664,
+      "durationSec": 10.368,
+      "startSec": 54.42133333333334,
+      "endSec": 64.78933333333333,
+      "sha256": "bbf8d6aaee587a1ad023e0fabe80ec37ff853fd433127c5854fe70a2e401a197",
+      "segments": []
+    },
+    {
+      "scriptBeat": 8,
+      "file": "audio8.ogg",
+      "sampleRate": 48000,
+      "samples": 451584,
+      "durationSec": 9.408,
+      "startSec": 64.78933333333333,
+      "endSec": 74.19733333333333,
+      "sha256": "9dfd3394d44b9e2a833c648f3ac9f86ec2126a0695e0ea6a2b73b0e2e886d5e6",
+      "segments": []
+    },
+    {
+      "scriptBeat": 9,
+      "file": "audio9.ogg",
+      "sampleRate": 48000,
+      "samples": 500736,
+      "durationSec": 10.432,
+      "startSec": 74.19733333333333,
+      "endSec": 84.62933333333334,
+      "sha256": "6bade067ddc595571a503253617718275aaa33ca560996810bd46209f35c4ce5",
+      "segments": []
+    },
+    {
+      "scriptBeat": 10,
+      "file": "audio10.ogg",
+      "sampleRate": 48000,
+      "samples": 416768,
+      "durationSec": 8.682666666666666,
+      "startSec": 84.62933333333334,
+      "endSec": 93.312,
+      "sha256": "7e9a866bb91a55208569560373c4615057e320cd4ff6eda38271212b0826ab6f",
+      "segments": []
+    }
+  ]
+}

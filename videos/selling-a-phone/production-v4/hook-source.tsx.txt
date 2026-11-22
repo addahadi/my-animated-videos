@@ -1,0 +1,62 @@
+const HookPerson:React.FC<{x:number;buyer?:boolean;opacity?:number}>=({x,buyer=false,opacity=1})=><g opacity={opacity}>
+ <T x={x} y={375} size={25}>{buyer?'الشاري':'البائع'}</T>
+ <circle cx={x} cy={432} r={31} fill={C.white} stroke={C.ink} strokeWidth={3}/>
+ <path d={`M${x-30} 424Q${x-21} 394 ${x+3} 401Q${x+29} 402 ${x+30} 425`} fill={C.ink}/>
+ <circle cx={x+(buyer?-8:8)} cy={434} r={2.7} fill={C.ink}/>
+ <path d={`M${x-49} 735V534Q${x-48} 488 ${x} 488Q${x+48} 488 ${x+49} 534V735Z`} fill={buyer?C.gray:C.blue} stroke={C.ink} strokeWidth={3}/>
+ <path d={`M${x-38} 730H${x+37}`} stroke={buyer?'#B4BAC5':'#0067C4'} strokeWidth={10}/>
+</g>;
+
+const HookPersonalScreen:React.FC<{warning:number}>=({warning})=><g>
+ <AppHead title="تليفونك الشخصي"/>
+ <Photo x={27} y={136} w={186} h={100}/>
+ <g><rect x={27} y={251} width={186} height={67} rx={10} fill="#E9F2FF"/><Icon kind="chat" x={52} y={279} s={.47}/><T x={144} y={278} size={20}>رسائلك</T><path d="M89 297H194" stroke={C.blue} strokeWidth={2} opacity={.35}/></g>
+ <g><rect x={27} y={335} width={186} height={78} rx={10} fill="#F2F3F7"/><Icon kind="contact" x={54} y={367} s={.53}/><T x={145} y={367} size={20}>حساباتك</T><Icon kind="key" x={147} y={394} s={.35}/><path d="M86 394H122" stroke={C.gray} strokeWidth={3}/></g>
+ <g opacity={warning}>
+  <rect x={24} y={133} width={192} height={106} rx={10} fill="none" stroke={C.yellow} strokeWidth={4}/>
+  <rect x={24} y={332} width={192} height={84} rx={11} fill="none" stroke={C.yellow} strokeWidth={4}/>
+  {[{x:200,y:146},{x:200,y:330}].map(({x,y},i)=><g key={i}><path d={`M${x} ${y-17}L${x+17} ${y+13}H${x-17}Z`} fill={C.yellow} stroke={C.ink} strokeWidth={1.8}/><path d={`M${x} ${y-7}V${y+2}`} stroke={C.ink} strokeWidth={2.5} strokeLinecap="round"/><circle cx={x} cy={y+8} r={1.8} fill={C.ink}/></g>)}
+ </g>
+</g>;
+
+const HookSevenSteps:React.FC<{t:number;pullback:number}>=({t,pullback})=>{
+ const steps=[['file','نسخة احتياطية'],['key','أكواد التحقق'],['bluetooth','فصل الأجهزة'],['contact','Google / Apple'],['lock','التطبيقات الحساسة'],['gear','الفورماط'],['phone','التحقق الأخير']];
+ return <g opacity={1-ease((t-7.75)/.72)}>
+  {steps.map(([kind,name],i)=>{const p=ease((t-2.85-i*.22)/.38),col=i%2===0?1:0,row=Math.floor(i/2),x=col?389:51,y=859+row*63,active=t>=7.26&&i===0;return <g key={name} opacity={p} transform={`translate(0 ${10*(1-p)})`}>
+   <rect x={x} y={y-25} width={280} height={53} rx={12} fill={active?'#DDEEFF':C.white} stroke={active?C.blue:C.gray} strokeWidth={active?2.5:1.5}/>
+   <circle cx={x+24} cy={y+1} r={13} fill={C.blue}/><T x={x+24} y={y+7} size={17} color={C.white} latin>{i+1}</T>
+   <Icon kind={kind} x={x+61} y={y+1} s={.38}/><T x={x+183} y={y+9} size={i===4?19:22} latin={i===3}>{name}</T>
+  </g>;})}
+ </g>;
+};
+
+const Intro:React.FC<{t:number}>=({t})=>{
+ const forward=ease((Math.min(t,2.65)-.18)/2.35),pullback=ease((t-7.26)/2.15);
+ const phoneX=mix(mix(216,296,forward),55,pullback),phoneY=mix(313,390,pullback);
+ const people=1-ease((t-7.35)/.65),warning=ease((t-3.32)/.5)*(1-pullback);
+ const screenChange=ease((t-8.0)/.42);
+ const buyerHandX=mix(616,phoneX+255,forward);
+ return <g>
+  <HookPerson x={86} opacity={people}/><HookPerson x={638} buyer opacity={people}/>
+  <g opacity={people}>
+   <path d={`M105 548Q141 594 ${phoneX+6} ${phoneY+306}`} stroke={C.ink} strokeWidth={32} strokeLinecap="round" fill="none"/>
+   <path d={`M105 548Q141 594 ${phoneX+6} ${phoneY+306}`} stroke={C.blue} strokeWidth={25} strokeLinecap="round" fill="none"/>
+   <path d={`M619 547Q620 604 ${buyerHandX+37} ${phoneY+308}`} stroke={C.ink} strokeWidth={32} strokeLinecap="round" fill="none"/>
+   <path d={`M619 547Q620 604 ${buyerHandX+37} ${phoneY+308}`} stroke={C.gray} strokeWidth={25} strokeLinecap="round" fill="none"/>
+  </g>
+  <Device id="handover-hook-phone" x={phoneX} y={phoneY}>
+   <HookPersonalScreen warning={warning}/>
+   {screenChange>0&&<g><defs><clipPath id="hook-backup-view"><rect x={13} y={58} width={214*screenChange} height={391}/></clipPath></defs><g clipPath="url(#hook-backup-view)"><rect x={13} y={58} width={214} height={391} fill={C.white}/><DataRows/></g></g>}
+  </Device>
+  <g opacity={people}>
+   <g transform={`translate(${phoneX-2} ${phoneY+304})`}><path d="M-16-11L5-27Q16-33 20-22Q23-14 13-9L3-3L15 6Q24 14 15 21Q10 25 3 19L-14 12Z" fill={C.white} stroke={C.ink} strokeWidth={2.8}/></g>
+   <g transform={`translate(${buyerHandX} ${phoneY+304})`}><path d="M28-14H14L-3-31Q-10-37-16-30Q-20-24-14-18L-2-3L-13 8Q-19 16-11 21Q-6 24 1 17L13 8H29Z" fill={C.white} stroke={C.ink} strokeWidth={2.8}/></g>
+  </g>
+  {t>=2.65&&t<7.5&&<g opacity={ease((t-2.65)/.2)*(1-pullback)}>
+   <circle cx={phoneX+120} cy={272} r={25} fill={C.blue}/><path d={`M${phoneX+112} 261V283M${phoneX+128} 261V283`} stroke={C.white} strokeWidth={6} strokeLinecap="round"/>
+  </g>}
+  <HookSevenSteps t={t} pullback={pullback}/>
+  {pullback>.7&&<g opacity={ease((pullback-.7)/.3)}><Panel x={397} y={433} w={270} h={358} title="نسخة احتياطية">{data.map((d,i)=><g key={d.kind} opacity={.18}><Icon kind={d.kind} x={39} y={102+i*66} s={.55}/><T x={157} y={111+i*66} size={23} latin={i===3}>{d.name}</T></g>)}</Panel></g>}
+ </g>;
+};
+

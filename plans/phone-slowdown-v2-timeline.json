@@ -1,0 +1,613 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2819,
+  "audioDurationSec": 93.96,
+  "audioFile": "videos/phone-slowdown-on-purpose/v2/narration-master.wav",
+  "audioSourceNote": "New intro audio_2026-11-15_20-01-11.ogg (replaces audio1-3) + unchanged audio4-10. Only leading/trailing silence trimmed, 0.25 s gaps, 2.0 s end-card tail. No words cut or reordered. Internal event times come from RMS pause detection and draft ASR: check by ear.",
+  "colorMeanings": {
+    "red": "slowdown and its penalty (throttle, fine, stamp, overload)",
+    "green": "the phone keeps working / a fix that helps",
+    "yellow": "ink-on-yellow highlight tags only",
+    "blue": "neutral icons inside mini UI",
+    "dark.marker (mint)": "power the battery can deliver",
+    "dark.delta (yellow)": "gap between power needed and power delivered"
+  },
+  "narrationEdit": [
+    {
+      "clip": "audio_2026-11-15_20-01-11.ogg",
+      "srcInSec": 0.85,
+      "srcOutSec": 12.08,
+      "masterStartSec": 0.0,
+      "masterEndSec": 11.23
+    },
+    {
+      "clip": "audio4.ogg",
+      "srcInSec": 0.42,
+      "srcOutSec": 10.8,
+      "masterStartSec": 11.48,
+      "masterEndSec": 21.86
+    },
+    {
+      "clip": "audio5.ogg",
+      "srcInSec": 0.04,
+      "srcOutSec": 17.41,
+      "masterStartSec": 22.11,
+      "masterEndSec": 39.48
+    },
+    {
+      "clip": "audio6.ogg",
+      "srcInSec": 0.06,
+      "srcOutSec": 10.12,
+      "masterStartSec": 39.73,
+      "masterEndSec": 49.79
+    },
+    {
+      "clip": "audio7.ogg",
+      "srcInSec": 0.12,
+      "srcOutSec": 8.91,
+      "masterStartSec": 50.04,
+      "masterEndSec": 58.83
+    },
+    {
+      "clip": "audio8.ogg",
+      "srcInSec": 0.0,
+      "srcOutSec": 10.92,
+      "masterStartSec": 59.08,
+      "masterEndSec": 70.0
+    },
+    {
+      "clip": "audio9.ogg",
+      "srcInSec": 0.08,
+      "srcOutSec": 9.14,
+      "masterStartSec": 70.25,
+      "masterEndSec": 79.31
+    },
+    {
+      "clip": "audio10.ogg",
+      "srcInSec": 0.17,
+      "srcOutSec": 12.57,
+      "masterStartSec": 79.56,
+      "masterEndSec": 91.96
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "startSec": 0.0,
+      "endSec": 3.95,
+      "startFrame": 0,
+      "endFrame": 118,
+      "speechStartSec": 0.08,
+      "speechEndSec": 3.69,
+      "voiceover": "Apple خلّصت غرامة… على خاطر ثقّلت تليفونات الناس بلا ما تقولهم.",
+      "component": "HookFine",
+      "props": {},
+      "onScreenText": "غرامة… على التبطئة",
+      "events": [
+        {
+          "atSec": 0.0,
+          "note": "phone already sliding up, tag string swinging (motion on frame 0)"
+        },
+        {
+          "atSec": 0.65,
+          "note": "EUR 25M ValueTag lands just before 'غرامة' (~0.93)"
+        },
+        {
+          "atSec": 1.9,
+          "note": "phone screen: speed bar drains to slow, red sticker SLOWED (before 'ثقّلت' ~2.0)"
+        },
+        {
+          "atSec": 3.0,
+          "note": "red Stamp 'بلا ما يقولو' slams before 'بلا ما تقولهم' (~3.11)"
+        },
+        {
+          "atSec": 3.69,
+          "note": "pause 3.69-4.22: hold, everything still"
+        }
+      ],
+      "sfx": [
+        "whoosh",
+        "pop",
+        "stamp"
+      ],
+      "tool": "remotion",
+      "role": "hook"
+    },
+    {
+      "id": 2,
+      "startSec": 3.95,
+      "endSec": 7.07,
+      "startFrame": 118,
+      "endFrame": 212,
+      "speechStartSec": 4.22,
+      "speechEndSec": 6.92,
+      "voiceover": "وانت؟ تفتح الكاميرا، تستنى… واللقطة تفوت.",
+      "component": "YourCamera",
+      "props": {},
+      "onScreenText": "اللقطة فاتت",
+      "events": [
+        {
+          "atSec": 3.95,
+          "note": "tag flips: EUR 25M -> 'YOUR PHONE · 2 YEARS' (on 'وانت؟' 4.22)"
+        },
+        {
+          "atSec": 4.75,
+          "note": "camera app opens on the phone, spinner starts (before 'تفتح الكاميرا' 4.94)"
+        },
+        {
+          "atSec": 5.6,
+          "note": "subject (ball) visible in the viewfinder, still loading"
+        },
+        {
+          "atSec": 6.3,
+          "note": "subject flies out of frame, viewfinder loads empty, red sticker MISSED (on 'تفوت')"
+        }
+      ],
+      "sfx": [
+        "whoosh",
+        "tick",
+        "bloop"
+      ],
+      "tool": "remotion",
+      "role": "hook"
+    },
+    {
+      "id": 3,
+      "startSec": 7.07,
+      "endSec": 11.36,
+      "startFrame": 212,
+      "endFrame": 341,
+      "speechStartSec": 7.22,
+      "speechEndSec": 11.16,
+      "voiceover": "زعما حتى تليفونك ثقّلوه؟ نبداو بواش دارت Apple في 2017.",
+      "component": "VerdictLocked",
+      "props": {},
+      "onScreenText": "واش صرا في 2017؟",
+      "events": [
+        {
+          "atSec": 6.95,
+          "note": "LockedChip 'VERDICT · LOCKED' + '؟' pops beside the phone (before 'زعما' 7.22)"
+        },
+        {
+          "atSec": 8.81,
+          "note": "pause 8.81-9.20"
+        },
+        {
+          "atSec": 9.0,
+          "note": "ink StickerPill '2017' types in; HeaderStrip + ChapterPill 'القضية' arrive"
+        },
+        {
+          "atSec": 10.3,
+          "note": "phone slides left, case card starts to rise (before '2017' ~10.55)"
+        }
+      ],
+      "sfx": [
+        "pop",
+        "lock",
+        "whoosh"
+      ],
+      "tool": "remotion",
+      "role": "open loop"
+    },
+    {
+      "id": 4,
+      "startSec": 11.36,
+      "endSec": 21.98,
+      "startFrame": 341,
+      "endFrame": 659,
+      "speechStartSec": 11.55,
+      "speechEndSec": 21.79,
+      "voiceover": "كانت تنقّص الأداء تاع بعض iPhone القدام كي تضعف البطارية تاعهم. والمشكل؟ ما وضّحتش هذا للناس مليح. ومن بعد، خلّصت غرامة في فرنسا، ودارت تسويات قضايا في أمريكا.",
+      "component": "CaseFile",
+      "props": {},
+      "onScreenText": "بطّأتهم… بلا ما توضّح",
+      "events": [
+        {
+          "atSec": 11.3,
+          "note": "three generic older phones; only those with a weak battery icon get a red SLOWED sticker"
+        },
+        {
+          "atSec": 15.08,
+          "note": "pause 15.08-15.59"
+        },
+        {
+          "atSec": 15.3,
+          "note": "evidence card 1: 'ما وضّحتش' + red Stamp 'NOT TOLD' (on 'ما وضّحتش' ~15.9)"
+        },
+        {
+          "atSec": 17.89,
+          "note": "pause 17.89-18.25"
+        },
+        {
+          "atSec": 18.6,
+          "note": "evidence card 2 fans in: 'FRANCE · 2020' + EUR 25M ValueTag returns (hook payoff, before 'فرنسا' ~19.7)"
+        },
+        {
+          "atSec": 20.8,
+          "note": "evidence card 3: 'USA · SETTLEMENTS' (before 'أمريكا' ~21.5)"
+        }
+      ],
+      "sfx": [
+        "pop",
+        "pop",
+        "stamp",
+        "pop",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 5,
+      "startSec": 21.98,
+      "endSec": 30.87,
+      "startFrame": 659,
+      "endFrame": 926,
+      "speechStartSec": 22.18,
+      "speechEndSec": 30.73,
+      "voiceover": "الناس حسّو بلي تخدعو. بصح Apple قالت: درنا هكّا باش التليفون ما يطفاش فجأة. وهنا لازم نفهمو حاجة: البطارية كي تقدّم، ماشي غير تولّي تفرغ بالخف.",
+      "component": "ClaimVsReply",
+      "props": {},
+      "onScreenText": "علاش ينقّص السرعة أصلاً؟",
+      "events": [
+        {
+          "atSec": 21.95,
+          "note": "red SpeechBubble from the crowd: 'تخدعنا!'"
+        },
+        {
+          "atSec": 23.4,
+          "note": "pause 23.38-23.62; ink reply bubble 'باش ما يطفاش فجأة' (before 'بصح' 23.62)"
+        },
+        {
+          "atSec": 25.6,
+          "note": "phone screen flashes off/on once (on 'ما يطفاش فجأة' ~25.8)"
+        },
+        {
+          "atSec": 26.59,
+          "note": "pause 26.59-26.77; bubbles dim, ChapterPill 'البطارية'"
+        },
+        {
+          "atSec": 28.2,
+          "note": "battery ages: 'NEW' -> '2 YEARS'; drains faster (on 'تفرغ بالخف' ~29.8)"
+        }
+      ],
+      "sfx": [
+        "pop",
+        "pop",
+        "click",
+        "whoosh"
+      ],
+      "tool": "remotion",
+      "role": "explain / re-hook"
+    },
+    {
+      "id": 6,
+      "startSec": 30.87,
+      "endSec": 39.6,
+      "startFrame": 926,
+      "endFrame": 1188,
+      "speechStartSec": 31.02,
+      "speechEndSec": 39.41,
+      "voiceover": "تقدر تكون مشحونة، بصح ما تقدرش تمدّ الطاقة بالسرعة اللي يحتاجها التليفون. كيما روبيني: الماء كاين، بصح كي تحتاج دفعة كبيرة، ما يخرجش كفاية.",
+      "component": "BlueprintPower",
+      "props": {},
+      "onScreenText": "الشحن وحدو ما يكفيش",
+      "events": [
+        {
+          "atSec": 30.9,
+          "note": "hard cut to dark blueprint; ChapterPill 'CHARGE ≠ POWER' with glow"
+        },
+        {
+          "atSec": 31.0,
+          "note": "left: CHARGE tank 80% (mint) labelled 'مشحونة' (before 'مشحونة' ~31.6)"
+        },
+        {
+          "atSec": 32.6,
+          "note": "right: POWER ScaleBar; marker 'NEEDED' jumps high; supply bar stops short; yellow delta bracket = gap (on 'ما تقدرش تمدّ')"
+        },
+        {
+          "atSec": 34.92,
+          "note": "pause 34.92-35.54; tap inset slides in (analogy)"
+        },
+        {
+          "atSec": 36.2,
+          "note": "tank behind the tap is full: 'الماء كاين' label"
+        },
+        {
+          "atSec": 37.6,
+          "note": "tap opened wide: only a thin stream; same yellow bracket (on 'دفعة كبيرة')"
+        }
+      ],
+      "sfx": [
+        "whoosh",
+        "tick",
+        "pop",
+        "water"
+      ],
+      "tool": "remotion",
+      "role": "aha (hardest idea)"
+    },
+    {
+      "id": 7,
+      "startSec": 39.6,
+      "endSec": 49.91,
+      "startFrame": 1188,
+      "endFrame": 1497,
+      "speechStartSec": 39.8,
+      "speechEndSec": 49.72,
+      "voiceover": "كي البطارية تعجز تمدّ الطاقة المطلوبة، التليفون يقدر يطفى. الحل؟ النظام ينقّص سرعة المعالج، اللي ينفّذ الخدمة داخل التليفون. يستهلك أقل، ويخدم أبطأ، بصح يبقى شاعل.",
+      "component": "BlueprintThrottle",
+      "props": {},
+      "onScreenText": "سرعة أقل، طاقة أقل",
+      "events": [
+        {
+          "atSec": 39.7,
+          "note": "tap inset leaves; demand marker above supply turns red, warning blink"
+        },
+        {
+          "atSec": 41.8,
+          "note": "phone screen goes black for 0.4 s (on 'يطفى' ~42.5)"
+        },
+        {
+          "atSec": 42.78,
+          "note": "pause 42.78-43.32; '؟' then TermLabel 'CPU = المعالج' (on 'الحل؟' 43.32)"
+        },
+        {
+          "atSec": 44.3,
+          "note": "CPU speed dial turns down 100% -> 70% (on 'ينقّص سرعة المعالج')"
+        },
+        {
+          "atSec": 45.6,
+          "note": "demand marker slides down under the supply bar; bracket closes"
+        },
+        {
+          "atSec": 46.93,
+          "note": "pause 46.93-47.41"
+        },
+        {
+          "atSec": 47.2,
+          "note": "tags 'يستهلك أقل' (mint) / 'أبطأ' (red); phone screen ON + green sticker 'ON' (on 'يبقى شاعل' ~49.0)"
+        }
+      ],
+      "sfx": [
+        "tick",
+        "bloop",
+        "pop",
+        "ding"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 8,
+      "startSec": 49.91,
+      "endSec": 58.95,
+      "startFrame": 1497,
+      "endFrame": 1768,
+      "speechStartSec": 50.11,
+      "speechEndSec": 58.76,
+      "voiceover": "بصح ماشي كل تليفون ثقيل عندو هاذ المشكل. كاين تطبيقات تزيد فيها ميزات مع التحديثات، وتولّي تحتاج خدمة أكثر من المعالج، ومساحة أكبر في الذاكرة.",
+      "component": "AppGrowth",
+      "props": {},
+      "onScreenText": "التطبيقات تطلب خدمة أكثر",
+      "events": [
+        {
+          "atSec": 49.9,
+          "note": "back to light canvas; ChapterPill 'سبب 2 · التطبيقات'; battery case shrinks into diagnosis row 1 'BATTERY'"
+        },
+        {
+          "atSec": 50.6,
+          "note": "small red XStamp: not every slow phone has this problem"
+        },
+        {
+          "atSec": 52.0,
+          "note": "generic app card 'v1.0' -> 'v5.0': feature chips (VIDEO, FILTERS, AI) snap on one per ~0.6 s"
+        },
+        {
+          "atSec": 54.6,
+          "note": "CPU WORK bar grows (before 'المعالج' ~56.9)"
+        },
+        {
+          "atSec": 57.9,
+          "note": "RAM tray fills with blocks (before 'الذاكرة' ~58.3); TermLabel 'RAM = الذاكرة'"
+        }
+      ],
+      "sfx": [
+        "whoosh",
+        "pop",
+        "pop",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "re-hook / explain"
+    },
+    {
+      "id": 9,
+      "startSec": 58.95,
+      "endSec": 70.12,
+      "startFrame": 1768,
+      "endFrame": 2104,
+      "speechStartSec": 59.13,
+      "speechEndSec": 69.93,
+      "voiceover": "(recorded, last clause check by ear) والتليفون تاعك؟ بقى بنفس الإمكانيات. نفس الجهاز، بصح الخدمة زادت عليه. لهذا تطبيق كان يخدم عندك خفيف يقدر يولّي ثقيل. وماشي كل تحديث يدير هكّا؛ كاين تحديثات فعلاً تزيد الأداء.",
+      "component": "SamePhoneMoreWork",
+      "props": {},
+      "onScreenText": "نفس الجهاز، الخدمة زادت",
+      "events": [
+        {
+          "atSec": 58.9,
+          "note": "your phone (same as hook) with a fixed capacity box, tag 'SAME PHONE'"
+        },
+        {
+          "atSec": 60.4,
+          "note": "task blocks drop in one by one and overflow the box (on 'الخدمة زادت' ~62.3)"
+        },
+        {
+          "atSec": 63.36,
+          "note": "app weight tag 'LIGHT' -> 'HEAVY' red (on 'يولّي ثقيل' ~65.6)"
+        },
+        {
+          "atSec": 66.4,
+          "note": "green card 'UPDATE' slides in, blocks shrink, green sticker 'FASTER' (on 'تحديثات' ~68.5)"
+        },
+        {
+          "atSec": 69.5,
+          "note": "diagnosis row 2 'APPS' added"
+        }
+      ],
+      "sfx": [
+        "pop",
+        "tick",
+        "pop",
+        "ding"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 10,
+      "startSec": 70.12,
+      "endSec": 79.43,
+      "startFrame": 2104,
+      "endFrame": 2383,
+      "speechStartSec": 70.32,
+      "speechEndSec": 79.24,
+      "voiceover": "وزيد، كي التخزين يقرب يعمر، يقدر التليفون يثقال. وكي يسخن بزاف، يقدر ينقّص السرعة باش يحمي روحو. تشوف نفس التقطيع، بصح السبب ماشي ديما واحد.",
+      "component": "StorageHeatRecap",
+      "props": {},
+      "onScreenText": "نفس التقطيع… أسباب مختلفة",
+      "events": [
+        {
+          "atSec": 70.6,
+          "note": "STORAGE bar fills 60% -> 97%, last segment red (on 'يعمر' ~72.0); row 3 'STORAGE'"
+        },
+        {
+          "atSec": 73.1,
+          "note": "thermometer rises to red; speed dial dips (on 'يسخن بزاف'); row 4 'HEAT'"
+        },
+        {
+          "atSec": 76.06,
+          "note": "pause 76.06-76.55: recap frame builds"
+        },
+        {
+          "atSec": 76.3,
+          "note": "2x2 cause grid: BATTERY · APPS · STORAGE · HEAT, each with the same lag spinner"
+        }
+      ],
+      "sfx": [
+        "pop",
+        "tick",
+        "pop",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "recap"
+    },
+    {
+      "id": 11,
+      "startSec": 79.43,
+      "endSec": 84.75,
+      "startFrame": 2383,
+      "endFrame": 2542,
+      "speechStartSec": 79.63,
+      "speechEndSec": 84.65,
+      "voiceover": "(recorded, check by ear) يعني يقدرو يبطّؤوه بالعاني؟ إيه، في بعض الحالات. بصح البطء وحدو ما يثبتش بلي يحبوك تشري جديد.",
+      "component": "VerdictOpen",
+      "props": {},
+      "onScreenText": "البطء وحدو ما يثبتش النيّة",
+      "events": [
+        {
+          "atSec": 79.4,
+          "note": "LockedChip from scene 3 returns and unlocks"
+        },
+        {
+          "atSec": 80.8,
+          "note": "green check 'إيه · في حالات' attached to the BATTERY row (before 'إيه' ~81.0)"
+        },
+        {
+          "atSec": 82.0,
+          "note": "solid link 'BATTERY -> SLOWER' (proven) vs dotted red link 'SLOWER -> BUY NEW?'"
+        },
+        {
+          "atSec": 83.8,
+          "note": "Stamp 'ما يثبتش' over the dotted link"
+        }
+      ],
+      "sfx": [
+        "unlock",
+        "pop",
+        "stamp"
+      ],
+      "tool": "remotion",
+      "role": "aha / share moment"
+    },
+    {
+      "id": 12,
+      "startSec": 84.75,
+      "endSec": 92.1,
+      "startFrame": 2542,
+      "endFrame": 2763,
+      "speechStartSec": 84.86,
+      "speechEndSec": 91.89,
+      "voiceover": "(recorded, check by ear) يعني قبل ما تبدّل تليفون، شوف حالة البطارية والتخزين. وإذا البطارية السبب، تبديلها يقدر يحسّن الأداء ويوفّر الدراهم.",
+      "component": "CheckBeforeBuying",
+      "props": {},
+      "onScreenText": "قبل ما تبدّل… شوف",
+      "events": [
+        {
+          "atSec": 84.75,
+          "note": "MiniUI card 'قبل ما تبدّل' enters, centered"
+        },
+        {
+          "atSec": 86.9,
+          "note": "row 1 'BATTERY HEALTH' with a value tag (before 'البطارية' ~87.3)"
+        },
+        {
+          "atSec": 87.6,
+          "note": "row 2 'STORAGE FREE' (before 'التخزين' ~87.9)"
+        },
+        {
+          "atSec": 89.0,
+          "note": "row 3 highlighted gold/beige: 'بطارية جديدة = أداء أحسن' + green sticker 'SAVE MONEY'"
+        },
+        {
+          "atSec": 89.7,
+          "note": "hold the clean card >= 2 s (89.7-92.1)"
+        }
+      ],
+      "sfx": [
+        "whoosh",
+        "tick",
+        "tick",
+        "ding"
+      ],
+      "tool": "remotion",
+      "role": "save frame"
+    },
+    {
+      "id": 13,
+      "startSec": 92.1,
+      "endSec": 93.96,
+      "startFrame": 2763,
+      "endFrame": 2819,
+      "voiceover": "(no voice: end-card tail)",
+      "component": "EndCard",
+      "props": {},
+      "onScreenText": "شحال عندو تليفونك؟",
+      "events": [
+        {
+          "atSec": 92.1,
+          "note": "end card: your phone with the hanging tag (frame-0 echo), Stamp 'EXPLAINED', wordmark Runtime.tech + ScanLine, tagline 'TECH · EXPLAINED SIMPLY', ink sticker 'شحال عندو تليفونك؟', button 'تابع للجاية'"
+        }
+      ],
+      "sfx": [
+        "whoosh",
+        "stamp"
+      ],
+      "tool": "remotion",
+      "role": "CTA / loop"
+    }
+  ]
+}

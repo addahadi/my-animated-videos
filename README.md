@@ -10,6 +10,8 @@ following your narration and short Arabic headings or keywords. The illustrated
 2D approach from the first video is a starting point; future topics can use
 different creative directions.
 
+Saved animation option: **Design 2** now follows the user-approved selling-a-phone v4 design (2026-11-01). Its canonical guide is [style-guide.md](C:/Users/hecin/ai-video-editor/projects/qr-code-explainer/style-guide.md), also linked by `style.md` in that folder: light canvas, blue accents, clear vector demonstrations, narration-led actions and no bottom narration captions by default. Adapt its scenes and props to each new topic; see `AGENTS.md` for the saved selection rules.
+
 Workspace references:
 
 - [AGENTS.md](AGENTS.md): persistent context and instructions for future Codex sessions.

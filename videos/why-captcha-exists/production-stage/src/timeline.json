@@ -1,0 +1,656 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "timing": "MEASURED",
+  "cueTiming": "PROVISIONAL_ASR_ANCHORS_CHECK_BY_EAR",
+  "durationSec": 95.7,
+  "durationFrames": 2871,
+  "audioDurationSec": 95.68,
+  "tailHoldSec": 0.01999999999999602,
+  "frameConvention": "Half-open [startFrame,endFrame). Scene boundaries rounded cumulatively; final boundary ceiled to contain all audio. Seconds equal frames / fps.",
+  "scriptPolicy": "Script preserved verbatim as reference; recorded narration wins. ASR must not be used as captions or as a replacement script. Potential differences documented in plan.",
+  "audio": {
+    "placement": "Concatenate decoded audio1.ogg through audio8.ogg at their exact sample boundaries into a continuous 48000 Hz mono PCM track at time zero. Do not independently round each clip to a frame, trim silence, time-stretch, or reorder.",
+    "sampleRate": 48000,
+    "totalSamples": 4592640,
+    "clips": [
+      {
+        "id": 1,
+        "file": "inputs/audio1.ogg",
+        "containerDurationSec": 9.962667,
+        "decodedSamples": 478208,
+        "durationSec": 9.962666666666667,
+        "startSec": 0,
+        "endSec": 9.962666666666667,
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSample": 0,
+        "endSample": 478208
+      },
+      {
+        "id": 2,
+        "file": "inputs/audio2.ogg",
+        "containerDurationSec": 12.309333,
+        "decodedSamples": 590848,
+        "durationSec": 12.309333333333333,
+        "startSec": 9.962666666666667,
+        "endSec": 22.272,
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSample": 478208,
+        "endSample": 1069056
+      },
+      {
+        "id": 3,
+        "file": "inputs/audio3.ogg",
+        "containerDurationSec": 14.613333,
+        "decodedSamples": 701440,
+        "durationSec": 14.613333333333333,
+        "startSec": 22.272,
+        "endSec": 36.885333333333335,
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSample": 1069056,
+        "endSample": 1770496
+      },
+      {
+        "id": 4,
+        "file": "inputs/audio4.ogg",
+        "containerDurationSec": 13.162667,
+        "decodedSamples": 631808,
+        "durationSec": 13.162666666666667,
+        "startSec": 36.885333333333335,
+        "endSec": 50.048,
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSample": 1770496,
+        "endSample": 2402304
+      },
+      {
+        "id": 5,
+        "file": "inputs/audio5.ogg",
+        "containerDurationSec": 11.285333,
+        "decodedSamples": 541696,
+        "durationSec": 11.285333333333334,
+        "startSec": 50.048,
+        "endSec": 61.333333333333336,
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSample": 2402304,
+        "endSample": 2944000
+      },
+      {
+        "id": 6,
+        "file": "inputs/audio6.ogg",
+        "containerDurationSec": 12.842667,
+        "decodedSamples": 616448,
+        "durationSec": 12.842666666666666,
+        "startSec": 61.333333333333336,
+        "endSec": 74.176,
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSample": 2944000,
+        "endSample": 3560448
+      },
+      {
+        "id": 7,
+        "file": "inputs/audio7.ogg",
+        "containerDurationSec": 11.882667,
+        "decodedSamples": 570368,
+        "durationSec": 11.882666666666667,
+        "startSec": 74.176,
+        "endSec": 86.05866666666667,
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSample": 3560448,
+        "endSample": 4130816
+      },
+      {
+        "id": 8,
+        "file": "inputs/audio8.ogg",
+        "containerDurationSec": 9.621333,
+        "decodedSamples": 461824,
+        "durationSec": 9.621333333333334,
+        "startSec": 86.05866666666667,
+        "endSec": 95.68,
+        "sampleRate": 48000,
+        "channels": 1,
+        "startSample": 4130816,
+        "endSample": 4592640
+      }
+    ]
+  },
+  "visualSystem": "../../../plans/style.md",
+  "captions": "Short Arabic phrases only, per workspace preference; no full narration captions.",
+  "sync": {
+    "leadFrames": 9,
+    "leadMeaning": "Events are planned near 0.3 s before their illustrative word when speech provides setup; exact anchors require ear review. Do not subtract lead again.",
+    "cuts": "Use measured clip-boundary silence; no inserted pause or audio edit."
+  },
+  "scenes": [
+    {
+      "id": 1,
+      "startSec": 0,
+      "endSec": 9.966666666666667,
+      "startFrame": 0,
+      "endFrame": 299,
+      "voiceover": "علاش تثبت بلي راك إنسان؟ تدخل لموقع، حاب تفتح حساب برك، يخرجلك: اختار كامل الصور اللي فيهم feu rouge. تقول: واش دخلني أنا فالطريق؟",
+      "voiceoverStatus": "ORIGINAL_SCRIPT_REFERENCE_ONLY_RECORDING_IS_AUTHORITATIVE",
+      "audioSource": "inputs/audio1.ogg",
+      "audioStartSec": 0,
+      "audioEndSec": 9.962666666666667,
+      "component": "CaptchaCheckpoint",
+      "props": {
+        "representation": "A browser action is interrupted by the recurring checkpoint. The image grid makes the familiar annoyance understandable with the sound muted.",
+        "effort": "M",
+        "persistentObject": "SiteCheckpoint",
+        "cueTiming": "PROVISIONAL_ASR_ANCHORS_CHECK_BY_EAR",
+        "events": [
+          {
+            "localFrame": 0,
+            "frame": 0,
+            "timeSec": 0,
+            "anchor": "تدخل لموقع",
+            "action": "Browser form and blue request move immediately; closed checkpoint and question mark are visible."
+          },
+          {
+            "localFrame": 74,
+            "frame": 74,
+            "timeSec": 2.466666666666667,
+            "anchor": "يخرجلك",
+            "action": "Checkpoint unfolds into a progressively revealed 3×3 vector traffic-light grid; do not show the grid before the request is interrupted."
+          },
+          {
+            "localFrame": 165,
+            "frame": 165,
+            "timeSec": 5.5,
+            "anchor": "question about the extra step",
+            "action": "Cursor pauses; question mark above the extra checkpoint enlarges. Use the recording's question, without adding the missing spoken hook or joke."
+          },
+          {
+            "localFrame": 267,
+            "frame": 267,
+            "timeSec": 8.9,
+            "anchor": "breath / transition",
+            "action": "Grid compresses into the same checkpoint silhouette; hold the unanswered question into the queue scene."
+          }
+        ]
+      },
+      "onScreenText": "علاش نثبت بلي إنسان؟",
+      "sfx": [
+        "soft-click"
+      ],
+      "tool": "remotion",
+      "role": "hook"
+    },
+    {
+      "id": 2,
+      "startSec": 9.966666666666667,
+      "endSec": 22.266666666666666,
+      "startFrame": 299,
+      "endFrame": 668,
+      "voiceover": "باش تفهم علاش، تخيّل واحد قدّامك فالطابور، كل مرة يرجع بلبسة جديدة ويشد بلاصة. فالإنترنت، برنامج واحد يقدر يعاود نفس العملية آلياً، ويزاحم الناس اللي راهم يستعملو الموقع عادي.",
+      "voiceoverStatus": "ORIGINAL_SCRIPT_REFERENCE_ONLY_RECORDING_IS_AUTHORITATIVE",
+      "audioSource": "inputs/audio2.ogg",
+      "audioStartSec": 9.962666666666667,
+      "audioEndSec": 22.272,
+      "component": "QueueToRequests",
+      "props": {
+        "representation": "One repeated queue member becomes repeated request cards; one source producing many operations explains the unfair scale.",
+        "effort": "M",
+        "persistentObject": "SiteCheckpoint",
+        "cueTiming": "PROVISIONAL_ASR_ANCHORS_CHECK_BY_EAR",
+        "events": [
+          {
+            "localFrame": 0,
+            "frame": 299,
+            "timeSec": 9.966666666666667,
+            "anchor": "باش تفهم علاش",
+            "action": "Checkpoint stays in place as the site doorway; queue grows one figure at a time, maximum three initially."
+          },
+          {
+            "localFrame": 79,
+            "frame": 378,
+            "timeSec": 12.6,
+            "anchor": "كل مرة",
+            "action": "One violet figure changes its hat and rejoins; repeat twice, leaving other people waiting."
+          },
+          {
+            "localFrame": 172,
+            "frame": 471,
+            "timeSec": 15.7,
+            "anchor": "فالإنترنت",
+            "action": "Queue transforms into browser request cards; a small label marks the move from analogy to website, with no added narration."
+          },
+          {
+            "localFrame": 258,
+            "frame": 557,
+            "timeSec": 18.566666666666666,
+            "anchor": "نفس العملية",
+            "action": "One violet source duplicates numbered cards 01, 02, 03; these IDs are illustrative, not a measured rate."
+          },
+          {
+            "localFrame": 342,
+            "frame": 641,
+            "timeSec": 21.366666666666667,
+            "anchor": "يزاحم الناس",
+            "action": "Blue request waits behind the violet batch; question mark moves to the checkpoint."
+          }
+        ]
+      },
+      "onScreenText": "برنامج واحد، طلبات بزاف",
+      "sfx": [
+        "paper-tap"
+      ],
+      "tool": "remotion",
+      "role": "open loop"
+    },
+    {
+      "id": 3,
+      "startSec": 22.266666666666666,
+      "endSec": 36.9,
+      "startFrame": 668,
+      "endFrame": 1107,
+      "voiceover": "هذا يسمّوه bot: برنامج يخدم وحدو. وكاين اللي يستعملوه باش يفتح حسابات مزوّرة، يعمّر التعليقات بالإشهار، ولا يجرّب كلمات السر المسروقة. وهنا، الموقع يحتاج طريقة باش ينقص هاذ الاستغلال.",
+      "voiceoverStatus": "ORIGINAL_SCRIPT_REFERENCE_ONLY_RECORDING_IS_AUTHORITATIVE",
+      "audioSource": "inputs/audio3.ogg",
+      "audioStartSec": 22.272,
+      "audioEndSec": 36.885333333333335,
+      "component": "BotUseCases",
+      "props": {
+        "representation": "A neutral automation source produces cards; only the harmful examples receive a warning marker. Recorded examples provisionally follow account creation, stolen-password attempts, and bulk data collection.",
+        "effort": "M",
+        "persistentObject": "SiteCheckpoint",
+        "cueTiming": "PROVISIONAL_ASR_ANCHORS_CHECK_BY_EAR",
+        "events": [
+          {
+            "localFrame": 0,
+            "frame": 668,
+            "timeSec": 22.266666666666666,
+            "anchor": "bot",
+            "action": "Snap the label bot onto the existing violet source, with a three-word Arabic definition; no new mascot."
+          },
+          {
+            "localFrame": 102,
+            "frame": 770,
+            "timeSec": 25.666666666666668,
+            "anchor": "عند عدة استعمالات (ASR candidate)",
+            "action": "Show neutral tasks briefly with no warning, so automation itself is not branded malicious."
+          },
+          {
+            "localFrame": 140,
+            "frame": 808,
+            "timeSec": 26.933333333333334,
+            "anchor": "حسابات مزوّرة",
+            "action": "First example: source emits duplicate profile cards behind the checkpoint."
+          },
+          {
+            "localFrame": 183,
+            "frame": 851,
+            "timeSec": 28.366666666666667,
+            "anchor": "كلمات السر المسروقة",
+            "action": "Replace the cards with a lock and several invalid key attempts; no password-cracking code."
+          },
+          {
+            "localFrame": 235,
+            "frame": 903,
+            "timeSec": 30.1,
+            "anchor": "يجمع كمية كبيرة من المعلومات (ASR candidate)",
+            "action": "Replace the lock with document cards being pulled from a website into one batch, marked excessive collection, not all collection."
+          },
+          {
+            "localFrame": 325,
+            "frame": 993,
+            "timeSec": 33.1,
+            "anchor": "وهنا الموقع يحتاج",
+            "action": "Collapse examples into the incoming batch and highlight the site's need for a checkpoint."
+          },
+          {
+            "localFrame": 417,
+            "frame": 1085,
+            "timeSec": 36.166666666666664,
+            "anchor": "breath",
+            "action": "Briefly dim the source, leaving the checkpoint ready to open in scene 4."
+          }
+        ]
+      },
+      "onScreenText": "برنامج يخدم وحدو",
+      "sfx": [],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 4,
+      "startSec": 36.9,
+      "endSec": 50.03333333333333,
+      "startFrame": 1107,
+      "endFrame": 1501,
+      "voiceover": "من هنا جات فكرة CAPTCHA: اختبار يحاول يفرّق بين الإنسان والبرنامج. الفكرة الأصلية كانت تعطيك حاجة الإنسان يفهمها، بصح تصعاب على البرامج، كيما حروف معوّجة تقراها وتعاود تكتبها فالخانة اللي تحتها.",
+      "voiceoverStatus": "ORIGINAL_SCRIPT_REFERENCE_ONLY_RECORDING_IS_AUTHORITATIVE",
+      "audioSource": "inputs/audio4.ogg",
+      "audioStartSec": 36.885333333333335,
+      "audioEndSec": 50.048,
+      "component": "TextChallenge",
+      "props": {
+        "representation": "Open the same checkpoint and show one historical challenge example. Input and outcome are causally connected, without implying a perfect identity proof.",
+        "effort": "M",
+        "persistentObject": "SiteCheckpoint",
+        "cueTiming": "PROVISIONAL_ASR_ANCHORS_CHECK_BY_EAR",
+        "events": [
+          {
+            "localFrame": 0,
+            "frame": 1107,
+            "timeSec": 36.9,
+            "anchor": "من هنا",
+            "action": "Bring checkpoint forward; prior request batch remains dim in the background."
+          },
+          {
+            "localFrame": 32,
+            "frame": 1139,
+            "timeSec": 37.96666666666667,
+            "anchor": "CAPTCHA",
+            "action": "Reveal CAPTCHA label; add two simple source silhouettes in succession, then dim them."
+          },
+          {
+            "localFrame": 122,
+            "frame": 1229,
+            "timeSec": 40.96666666666667,
+            "anchor": "الفكرة الأصلية",
+            "action": "Small historical-example marker appears; show the challenge panel with empty content first."
+          },
+          {
+            "localFrame": 253,
+            "frame": 1360,
+            "timeSec": 45.333333333333336,
+            "anchor": "حروف معوّجة",
+            "action": "Reveal distorted Latin sample K7M2 with a readable input below; keep sample isolated LTR."
+          },
+          {
+            "localFrame": 325,
+            "frame": 1432,
+            "timeSec": 47.733333333333334,
+            "anchor": "تعاود تكتبها",
+            "action": "Type K7M2 into the input one character at a time; local demonstration only."
+          },
+          {
+            "localFrame": 381,
+            "frame": 1488,
+            "timeSec": 49.6,
+            "anchor": "end of example",
+            "action": "Checkpoint opens for the example request; retain the question mark outline rather than certifying a person."
+          }
+        ]
+      },
+      "onScreenText": "اختبار يفرّق بيناتنا",
+      "sfx": [
+        "soft-click",
+        "quiet-confirm"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 5,
+      "startSec": 50.03333333333333,
+      "endSec": 61.333333333333336,
+      "startFrame": 1501,
+      "endFrame": 1840,
+      "voiceover": "بصح علاش اليوم نشوفو صور وحوايج أخرى؟ خاطر البرامج تطوّرت، والاختبارات هاذي ماشي ضمان كامل. الحماية لازم تتبدّل هي ثاني. وحتى كي تغلط فصورة، هذا ما يعنيش بلي راك robot!",
+      "voiceoverStatus": "ORIGINAL_SCRIPT_REFERENCE_ONLY_RECORDING_IS_AUTHORITATIVE",
+      "audioSource": "inputs/audio5.ogg",
+      "audioStartSec": 50.048,
+      "audioEndSec": 61.333333333333336,
+      "component": "EvolvingChallenge",
+      "props": {
+        "representation": "A changing checkpoint and a retry show that tests evolve and a person's error is not proof of automation.",
+        "effort": "M",
+        "persistentObject": "SiteCheckpoint",
+        "cueTiming": "PROVISIONAL_ASR_ANCHORS_CHECK_BY_EAR",
+        "events": [
+          {
+            "localFrame": 0,
+            "frame": 1501,
+            "timeSec": 50.03333333333333,
+            "anchor": "صور وحوايج أخرى",
+            "action": "Historical text panel morphs into the familiar image grid, one row at a time."
+          },
+          {
+            "localFrame": 77,
+            "frame": 1578,
+            "timeSec": 52.6,
+            "anchor": "البرامج تطوّرت",
+            "action": "Violet source gains a small capability arrow; checkpoint outline remains visibly incomplete."
+          },
+          {
+            "localFrame": 179,
+            "frame": 1680,
+            "timeSec": 56,
+            "anchor": "الحماية لازم تتبدّل",
+            "action": "Checkpoint swaps its challenge module, keeping its position and request route unchanged."
+          },
+          {
+            "localFrame": 246,
+            "frame": 1747,
+            "timeSec": 58.233333333333334,
+            "anchor": "كي تغلط",
+            "action": "Cursor chooses one wrong tile; neutral retry icon, no malicious-bot label on the human."
+          },
+          {
+            "localFrame": 327,
+            "frame": 1828,
+            "timeSec": 60.93333333333333,
+            "anchor": "breath",
+            "action": "Retry panel settles, preparing to disappear in the next scene."
+          }
+        ]
+      },
+      "onScreenText": "الحماية تتبدّل مع البرامج",
+      "sfx": [
+        "gentle-retry"
+      ],
+      "tool": "remotion",
+      "role": "aha"
+    },
+    {
+      "id": 6,
+      "startSec": 61.333333333333336,
+      "endSec": 74.16666666666667,
+      "startFrame": 1840,
+      "endFrame": 2225,
+      "voiceover": "وزيد، ماشي كل تحقق يحتاج صور. كاين أنظمة كيما reCAPTCHA v3 تخدم فالخلفية: تحلّل التفاعل تاعك مع الموقع وتعطيه تقدير للخطر، باش يختار كيفاش يتعامل مع الطلب اللي راهو جايه.",
+      "voiceoverStatus": "ORIGINAL_SCRIPT_REFERENCE_ONLY_RECORDING_IS_AUTHORITATIVE",
+      "audioSource": "inputs/audio6.ogg",
+      "audioStartSec": 61.333333333333336,
+      "audioEndSec": 74.176,
+      "component": "BackgroundRiskCheck",
+      "props": {
+        "representation": "X-ray the same checkpoint: interaction context feeds a qualitative risk estimate, and the website chooses a response. This distinguishes assessment from certainty.",
+        "effort": "L",
+        "persistentObject": "SiteCheckpoint",
+        "cueTiming": "PROVISIONAL_ASR_ANCHORS_CHECK_BY_EAR",
+        "events": [
+          {
+            "localFrame": 0,
+            "frame": 1840,
+            "timeSec": 61.333333333333336,
+            "anchor": "ماشي كل تحقق يحتاج صور",
+            "action": "Visible challenge drawer closes; browser remains usable and request route stays visible."
+          },
+          {
+            "localFrame": 119,
+            "frame": 1959,
+            "timeSec": 65.3,
+            "anchor": "reCAPTCHA v3",
+            "action": "Attach reCAPTCHA v3 label to the background module, isolated LTR; no CAPTCHA image challenge inside v3."
+          },
+          {
+            "localFrame": 201,
+            "frame": 2041,
+            "timeSec": 68.03333333333333,
+            "anchor": "التفاعل تاعك مع الموقع",
+            "action": "Reveal one interaction card at a time flowing toward an assessment panel; do not invent exact telemetry or mouse rules."
+          },
+          {
+            "localFrame": 264,
+            "frame": 2104,
+            "timeSec": 70.13333333333334,
+            "anchor": "تقدير للخطر",
+            "action": "Qualitative risk indicator appears with uncertainty label; no invented score or threshold."
+          },
+          {
+            "localFrame": 303,
+            "frame": 2143,
+            "timeSec": 71.43333333333334,
+            "anchor": "يختار كيفاش يتعامل",
+            "action": "Only now reveal a separate site decision: proceed or request an additional check; make clear the website selects the action."
+          }
+        ]
+      },
+      "onScreenText": "تحقّق يخدم فالخلفية",
+      "sfx": [
+        "soft-reveal"
+      ],
+      "tool": "remotion",
+      "role": "aha"
+    },
+    {
+      "id": 7,
+      "startSec": 74.16666666666667,
+      "endSec": 86.06666666666666,
+      "startFrame": 2225,
+      "endFrame": 2582,
+      "voiceover": "يعني الهدف هو يصعّب الاستغلال الآلي: يخلي فتح الحسابات ولا إرسال التعليقات بالجملة أصعب على اللي يستعمل برامج للإزعاج. يقدر يعطّلهم، بصح ما يضمنش بلي كل واحد يفوت راهو إنسان مية بالمية.",
+      "voiceoverStatus": "ORIGINAL_SCRIPT_REFERENCE_ONLY_RECORDING_IS_AUTHORITATIVE",
+      "audioSource": "inputs/audio7.ogg",
+      "audioStartSec": 74.176,
+      "audioEndSec": 86.05866666666667,
+      "component": "AbuseRecap",
+      "props": {
+        "representation": "The batch slows at the checkpoint; one uncertain request slips through. Summarize reduced automated abuse rather than guaranteed humanity.",
+        "effort": "M",
+        "persistentObject": "SiteCheckpoint",
+        "cueTiming": "PROVISIONAL_ASR_ANCHORS_CHECK_BY_EAR",
+        "events": [
+          {
+            "localFrame": 0,
+            "frame": 2225,
+            "timeSec": 74.16666666666667,
+            "anchor": "الهدف",
+            "action": "Show the complete route using already introduced objects; emphasize the checkpoint's purpose."
+          },
+          {
+            "localFrame": 87,
+            "frame": 2312,
+            "timeSec": 77.06666666666666,
+            "anchor": "فتح الحسابات / تجميع البيانات (ASR candidate)",
+            "action": "Account cards and bulk document cards approach; match the recorded examples provisionally, not the script's comments example."
+          },
+          {
+            "localFrame": 203,
+            "frame": 2428,
+            "timeSec": 80.93333333333334,
+            "anchor": "يقدر يعطّلهم",
+            "action": "Batch visibly queues while a blue request continues; do not show an invented success rate."
+          },
+          {
+            "localFrame": 244,
+            "frame": 2469,
+            "timeSec": 82.3,
+            "anchor": "بصح ما يضمنش",
+            "action": "One violet card passes; keep its source marker so passing does not recolor it as human."
+          },
+          {
+            "localFrame": 279,
+            "frame": 2504,
+            "timeSec": 83.46666666666667,
+            "anchor": "ماشي ضمان كامل",
+            "action": "Settle into a clean save frame: batch → checkpoint → site, with a small uncertainty marker and the six-word takeaway. Hold through scene end."
+          }
+        ]
+      },
+      "onScreenText": "يصعّب الاستغلال، ماشي ضمان كامل",
+      "sfx": [],
+      "tool": "remotion",
+      "role": "recap"
+    },
+    {
+      "id": 8,
+      "startSec": 86.06666666666666,
+      "endSec": 95.7,
+      "startFrame": 2582,
+      "endFrame": 2871,
+      "voiceover": "هاذيك الثواني اللي تغيّضك كي تختار الصور، راها جزء من محاولة حماية الموقع. وهاك علاش، باش تدخل لعالم رقمي... يطلبو منك تثبت بلي راك إنسان.",
+      "voiceoverStatus": "ORIGINAL_SCRIPT_REFERENCE_ONLY_RECORDING_IS_AUTHORITATIVE",
+      "audioSource": "inputs/audio8.ogg",
+      "audioStartSec": 86.05866666666667,
+      "audioEndSec": 95.68,
+      "component": "CheckpointLoop",
+      "props": {
+        "representation": "Return from the system view to the familiar browser interruption: the inconvenience now has a purpose. End on the opening browser geometry for a loop.",
+        "effort": "S",
+        "persistentObject": "SiteCheckpoint",
+        "cueTiming": "PROVISIONAL_ASR_ANCHORS_CHECK_BY_EAR",
+        "events": [
+          {
+            "localFrame": 0,
+            "frame": 2582,
+            "timeSec": 86.06666666666666,
+            "anchor": "هاذيك الثواني",
+            "action": "Grid and checkpoint sit inside a partial shield; no impenetrable shield or identity-certified stamp."
+          },
+          {
+            "localFrame": 145,
+            "frame": 2727,
+            "timeSec": 90.9,
+            "anchor": "وهاك علاش",
+            "action": "Zoom back to the exact browser layout from frame 1; question mark becomes a short purpose tag, then fades."
+          },
+          {
+            "localFrame": 180,
+            "frame": 2762,
+            "timeSec": 92.06666666666666,
+            "anchor": "after payoff; visual-only comment question",
+            "action": "Show the sole CTA: حروف ولا صور؟ in the lower-middle phrase area for 2 s. Do not add a spoken line."
+          },
+          {
+            "localFrame": 227,
+            "frame": 2809,
+            "timeSec": 93.63333333333334,
+            "anchor": "تثبت بلي",
+            "action": "Emphasize the existing verification ring once, then return cursor and grid to their opening positions."
+          },
+          {
+            "localFrame": 240,
+            "frame": 2822,
+            "timeSec": 94.06666666666666,
+            "anchor": "loop reset",
+            "action": "Fade the question and return the phrase area to the opening question for the final composition."
+          },
+          {
+            "localFrame": 273,
+            "frame": 2855,
+            "timeSec": 95.16666666666667,
+            "anchor": "end / tail",
+            "action": "Finish matching the opening composition; retain all recorded trailing silence and the final partial-frame hold."
+          }
+        ],
+        "overlays": [
+          {
+            "text": "حروف ولا صور؟",
+            "startFrame": 2762,
+            "endFrame": 2822,
+            "role": "CTA",
+            "spoken": false
+          }
+        ]
+      },
+      "onScreenText": "باش تدخل، تثبت بلي إنسان",
+      "sfx": [
+        "soft-click"
+      ],
+      "tool": "remotion",
+      "role": "aha"
+    }
+  ]
+}

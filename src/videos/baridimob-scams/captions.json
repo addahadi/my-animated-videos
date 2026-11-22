@@ -1,0 +1,1425 @@
+{
+ "approximate": true,
+ "pages": [
+  {
+   "scene": 1,
+   "startMs": 100,
+   "endMs": 516,
+   "words": [
+    {
+     "text": "تخيل:",
+     "startMs": 100,
+     "endMs": 516
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 516,
+   "endMs": 1693,
+   "words": [
+    {
+     "text": "تحل",
+     "startMs": 516,
+     "endMs": 862
+    },
+    {
+     "text": "بريدي",
+     "startMs": 862,
+     "endMs": 1347
+    },
+    {
+     "text": "موب…",
+     "startMs": 1347,
+     "endMs": 1693
+    }
+   ]
+  },
+  {
+   "scene": 1,
+   "startMs": 1693,
+   "endMs": 2940,
+   "words": [
+    {
+     "text": "تلقى",
+     "startMs": 1693,
+     "endMs": 2109
+    },
+    {
+     "text": "صفر",
+     "startMs": 2109,
+     "endMs": 2455
+    },
+    {
+     "text": "دينار.",
+     "startMs": 2455,
+     "endMs": 2940
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 4110,
+   "endMs": 5220,
+   "words": [
+    {
+     "text": "واش",
+     "startMs": 4110,
+     "endMs": 4665
+    },
+    {
+     "text": "صرا؟",
+     "startMs": 4665,
+     "endMs": 5220
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 5520,
+   "endMs": 6220,
+   "words": [
+    {
+     "text": "ماكانش",
+     "startMs": 5520,
+     "endMs": 5870
+    },
+    {
+     "text": "hacker.",
+     "startMs": 5870,
+     "endMs": 6220
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 6460,
+   "endMs": 8365,
+   "words": [
+    {
+     "text": "انت",
+     "startMs": 6460,
+     "endMs": 6857
+    },
+    {
+     "text": "بيدك",
+     "startMs": 6857,
+     "endMs": 7333
+    },
+    {
+     "text": "عطيت",
+     "startMs": 7333,
+     "endMs": 7810
+    },
+    {
+     "text": "الكود",
+     "startMs": 7810,
+     "endMs": 8365
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 8365,
+   "endMs": 9080,
+   "words": [
+    {
+     "text": "للمحتال…",
+     "startMs": 8365,
+     "endMs": 9080
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 9210,
+   "endMs": 9780,
+   "words": [
+    {
+     "text": "وما",
+     "startMs": 9210,
+     "endMs": 9448
+    },
+    {
+     "text": "حسيتش.",
+     "startMs": 9448,
+     "endMs": 9780
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 10120,
+   "endMs": 11052,
+   "words": [
+    {
+     "text": "وهاذي",
+     "startMs": 10120,
+     "endMs": 10446
+    },
+    {
+     "text": "تصرا",
+     "startMs": 10446,
+     "endMs": 10726
+    },
+    {
+     "text": "بـ",
+     "startMs": 10726,
+     "endMs": 10912
+    },
+    {
+     "text": "3",
+     "startMs": 10912,
+     "endMs": 11052
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 11052,
+   "endMs": 11285,
+   "words": [
+    {
+     "text": "حيل،",
+     "startMs": 11052,
+     "endMs": 11285
+    }
+   ]
+  },
+  {
+   "scene": 2,
+   "startMs": 11285,
+   "endMs": 12030,
+   "words": [
+    {
+     "text": "خلينا",
+     "startMs": 11285,
+     "endMs": 11611
+    },
+    {
+     "text": "نشوفوهم.",
+     "startMs": 11611,
+     "endMs": 12030
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 12620,
+   "endMs": 13240,
+   "words": [
+    {
+     "text": "الحيلة",
+     "startMs": 12620,
+     "endMs": 12930
+    },
+    {
+     "text": "الأولى:",
+     "startMs": 12930,
+     "endMs": 13240
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 13240,
+   "endMs": 14924,
+   "words": [
+    {
+     "text": "SMS",
+     "startMs": 13240,
+     "endMs": 13749
+    },
+    {
+     "text": "يقولك",
+     "startMs": 13749,
+     "endMs": 14182
+    },
+    {
+     "text": "\"حسابك",
+     "startMs": 14182,
+     "endMs": 14615
+    },
+    {
+     "text": "راح",
+     "startMs": 14615,
+     "endMs": 14924
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 14924,
+   "endMs": 15480,
+   "words": [
+    {
+     "text": "يتبلوكا،",
+     "startMs": 14924,
+     "endMs": 15480
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 15480,
+   "endMs": 16560,
+   "words": [
+    {
+     "text": "دخل",
+     "startMs": 15480,
+     "endMs": 15941
+    },
+    {
+     "text": "لهاذ",
+     "startMs": 15941,
+     "endMs": 16206
+    },
+    {
+     "text": "اللينك\".",
+     "startMs": 16206,
+     "endMs": 16560
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 16560,
+   "endMs": 17274,
+   "words": [
+    {
+     "text": "تدخل…",
+     "startMs": 16560,
+     "endMs": 17274
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 17274,
+   "endMs": 18670,
+   "words": [
+    {
+     "text": "تلقى",
+     "startMs": 17274,
+     "endMs": 17728
+    },
+    {
+     "text": "صفحة",
+     "startMs": 17728,
+     "endMs": 18042
+    },
+    {
+     "text": "تشبه",
+     "startMs": 18042,
+     "endMs": 18356
+    },
+    {
+     "text": "بريد",
+     "startMs": 18356,
+     "endMs": 18670
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 18670,
+   "endMs": 19560,
+   "words": [
+    {
+     "text": "الجزائر",
+     "startMs": 18670,
+     "endMs": 19141
+    },
+    {
+     "text": "بالضبط.",
+     "startMs": 19141,
+     "endMs": 19560
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 19560,
+   "endMs": 20302,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 19560,
+     "endMs": 19981
+    },
+    {
+     "text": "هي",
+     "startMs": 19981,
+     "endMs": 20109
+    },
+    {
+     "text": "ماشي.",
+     "startMs": 20109,
+     "endMs": 20302
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 20302,
+   "endMs": 20720,
+   "words": [
+    {
+     "text": "تكتب",
+     "startMs": 20302,
+     "endMs": 20495
+    },
+    {
+     "text": "الكود،",
+     "startMs": 20495,
+     "endMs": 20720
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 20720,
+   "endMs": 22691,
+   "words": [
+    {
+     "text": "والمحتال",
+     "startMs": 20720,
+     "endMs": 21786
+    },
+    {
+     "text": "يقراه",
+     "startMs": 21786,
+     "endMs": 22182
+    },
+    {
+     "text": "في",
+     "startMs": 22182,
+     "endMs": 22408
+    },
+    {
+     "text": "نفس",
+     "startMs": 22408,
+     "endMs": 22691
+    }
+   ]
+  },
+  {
+   "scene": 3,
+   "startMs": 22691,
+   "endMs": 23200,
+   "words": [
+    {
+     "text": "الثانية.",
+     "startMs": 22691,
+     "endMs": 23200
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 23840,
+   "endMs": 24532,
+   "words": [
+    {
+     "text": "الحيلة",
+     "startMs": 23840,
+     "endMs": 24166
+    },
+    {
+     "text": "الثانية:",
+     "startMs": 24166,
+     "endMs": 24532
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 24532,
+   "endMs": 25549,
+   "words": [
+    {
+     "text": "يجيك",
+     "startMs": 24532,
+     "endMs": 24776
+    },
+    {
+     "text": "ميساج",
+     "startMs": 24776,
+     "endMs": 25061
+    },
+    {
+     "text": "في",
+     "startMs": 25061,
+     "endMs": 25224
+    },
+    {
+     "text": "فيسبوك",
+     "startMs": 25224,
+     "endMs": 25549
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 25549,
+   "endMs": 26160,
+   "words": [
+    {
+     "text": "ولا",
+     "startMs": 25549,
+     "endMs": 25753
+    },
+    {
+     "text": "تيليغرام:",
+     "startMs": 25753,
+     "endMs": 26160
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 26160,
+   "endMs": 27547,
+   "words": [
+    {
+     "text": "\"نسخة",
+     "startMs": 26160,
+     "endMs": 26792
+    },
+    {
+     "text": "جديدة",
+     "startMs": 26792,
+     "endMs": 27085
+    },
+    {
+     "text": "من",
+     "startMs": 27085,
+     "endMs": 27253
+    },
+    {
+     "text": "بريدي",
+     "startMs": 27253,
+     "endMs": 27547
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 27547,
+   "endMs": 27757,
+   "words": [
+    {
+     "text": "موب،",
+     "startMs": 27547,
+     "endMs": 27757
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 27757,
+   "endMs": 28428,
+   "words": [
+    {
+     "text": "حمّلها",
+     "startMs": 27757,
+     "endMs": 28051
+    },
+    {
+     "text": "من",
+     "startMs": 28051,
+     "endMs": 28218
+    },
+    {
+     "text": "هنا\".",
+     "startMs": 28218,
+     "endMs": 28428
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 28428,
+   "endMs": 28680,
+   "words": [
+    {
+     "text": "تحمّل…",
+     "startMs": 28428,
+     "endMs": 28680
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 28680,
+   "endMs": 30253,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 28680,
+     "endMs": 29347
+    },
+    {
+     "text": "هاذاك",
+     "startMs": 29347,
+     "endMs": 29664
+    },
+    {
+     "text": "ماشي",
+     "startMs": 29664,
+     "endMs": 29936
+    },
+    {
+     "text": "بريدي",
+     "startMs": 29936,
+     "endMs": 30253
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 30253,
+   "endMs": 30480,
+   "words": [
+    {
+     "text": "موب،",
+     "startMs": 30253,
+     "endMs": 30480
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 30480,
+   "endMs": 31740,
+   "words": [
+    {
+     "text": "هاذاك",
+     "startMs": 30480,
+     "endMs": 30915
+    },
+    {
+     "text": "تطبيق",
+     "startMs": 30915,
+     "endMs": 31190
+    },
+    {
+     "text": "تاع",
+     "startMs": 31190,
+     "endMs": 31386
+    },
+    {
+     "text": "المحتال.",
+     "startMs": 31386,
+     "endMs": 31740
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 31740,
+   "endMs": 33433,
+   "words": [
+    {
+     "text": "بريدي",
+     "startMs": 31740,
+     "endMs": 32389
+    },
+    {
+     "text": "موب",
+     "startMs": 32389,
+     "endMs": 32596
+    },
+    {
+     "text": "الصح",
+     "startMs": 32596,
+     "endMs": 32844
+    },
+    {
+     "text": "تحمّلو",
+     "startMs": 32844,
+     "endMs": 33433
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 33433,
+   "endMs": 34467,
+   "words": [
+    {
+     "text": "غير",
+     "startMs": 33433,
+     "endMs": 33640
+    },
+    {
+     "text": "من",
+     "startMs": 33640,
+     "endMs": 33805
+    },
+    {
+     "text": "⁦Play Store⁩",
+     "startMs": 33805,
+     "endMs": 34260
+    },
+    {
+     "text": "ولا",
+     "startMs": 34260,
+     "endMs": 34467
+    }
+   ]
+  },
+  {
+   "scene": 4,
+   "startMs": 34467,
+   "endMs": 34880,
+   "words": [
+    {
+     "text": "⁦App Store⁩.",
+     "startMs": 34467,
+     "endMs": 34880
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 35540,
+   "endMs": 36640,
+   "words": [
+    {
+     "text": "والحيلة",
+     "startMs": 35540,
+     "endMs": 35990
+    },
+    {
+     "text": "الثالثة",
+     "startMs": 35990,
+     "endMs": 36440
+    },
+    {
+     "text": "هي",
+     "startMs": 36440,
+     "endMs": 36640
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 36640,
+   "endMs": 37040,
+   "words": [
+    {
+     "text": "الأخطر،",
+     "startMs": 36640,
+     "endMs": 37040
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 37040,
+   "endMs": 38069,
+   "words": [
+    {
+     "text": "في",
+     "startMs": 37040,
+     "endMs": 37689
+    },
+    {
+     "text": "Android.",
+     "startMs": 37689,
+     "endMs": 38069
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 38069,
+   "endMs": 39039,
+   "words": [
+    {
+     "text": "كي",
+     "startMs": 38069,
+     "endMs": 38237
+    },
+    {
+     "text": "تحل",
+     "startMs": 38237,
+     "endMs": 38448
+    },
+    {
+     "text": "داك",
+     "startMs": 38448,
+     "endMs": 38659
+    },
+    {
+     "text": "التطبيق",
+     "startMs": 38659,
+     "endMs": 39039
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 39039,
+   "endMs": 39377,
+   "words": [
+    {
+     "text": "المزيف،",
+     "startMs": 39039,
+     "endMs": 39377
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 39377,
+   "endMs": 40347,
+   "words": [
+    {
+     "text": "يطلب",
+     "startMs": 39377,
+     "endMs": 39630
+    },
+    {
+     "text": "منك",
+     "startMs": 39630,
+     "endMs": 39841
+    },
+    {
+     "text": "إذن",
+     "startMs": 39841,
+     "endMs": 40052
+    },
+    {
+     "text": "يسموه",
+     "startMs": 40052,
+     "endMs": 40347
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 40347,
+   "endMs": 40980,
+   "words": [
+    {
+     "text": "Accessibility.",
+     "startMs": 40347,
+     "endMs": 40980
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 40980,
+   "endMs": 41725,
+   "words": [
+    {
+     "text": "تقبل…",
+     "startMs": 40980,
+     "endMs": 41725
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 41725,
+   "endMs": 42946,
+   "words": [
+    {
+     "text": "ودروك",
+     "startMs": 41725,
+     "endMs": 42081
+    },
+    {
+     "text": "راهو",
+     "startMs": 42081,
+     "endMs": 42386
+    },
+    {
+     "text": "يشوف",
+     "startMs": 42386,
+     "endMs": 42691
+    },
+    {
+     "text": "واش",
+     "startMs": 42691,
+     "endMs": 42946
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 42946,
+   "endMs": 44268,
+   "words": [
+    {
+     "text": "كاين",
+     "startMs": 42946,
+     "endMs": 43251
+    },
+    {
+     "text": "في",
+     "startMs": 43251,
+     "endMs": 43454
+    },
+    {
+     "text": "الشاشة",
+     "startMs": 43454,
+     "endMs": 43861
+    },
+    {
+     "text": "ويتحكم",
+     "startMs": 43861,
+     "endMs": 44268
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 44268,
+   "endMs": 44980,
+   "words": [
+    {
+     "text": "فيها",
+     "startMs": 44268,
+     "endMs": 44573
+    },
+    {
+     "text": "بلاصتك.",
+     "startMs": 44573,
+     "endMs": 44980
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 44980,
+   "endMs": 46456,
+   "words": [
+    {
+     "text": "تحل",
+     "startMs": 44980,
+     "endMs": 45866
+    },
+    {
+     "text": "بريدي",
+     "startMs": 45866,
+     "endMs": 46210
+    },
+    {
+     "text": "موب،",
+     "startMs": 46210,
+     "endMs": 46456
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 46456,
+   "endMs": 47734,
+   "words": [
+    {
+     "text": "يحطلك",
+     "startMs": 46456,
+     "endMs": 46800
+    },
+    {
+     "text": "فوقو",
+     "startMs": 46800,
+     "endMs": 47095
+    },
+    {
+     "text": "شاشة",
+     "startMs": 47095,
+     "endMs": 47389
+    },
+    {
+     "text": "مزيفة",
+     "startMs": 47389,
+     "endMs": 47734
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 47734,
+   "endMs": 48520,
+   "words": [
+    {
+     "text": "تشبهلو",
+     "startMs": 47734,
+     "endMs": 48127
+    },
+    {
+     "text": "بالضبط.",
+     "startMs": 48127,
+     "endMs": 48520
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 48520,
+   "endMs": 49820,
+   "words": [
+    {
+     "text": "تكتب",
+     "startMs": 48520,
+     "endMs": 49475
+    },
+    {
+     "text": "الكود…",
+     "startMs": 49475,
+     "endMs": 49820
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 49820,
+   "endMs": 51500,
+   "words": [
+    {
+     "text": "بصح",
+     "startMs": 49820,
+     "endMs": 50402
+    },
+    {
+     "text": "راك",
+     "startMs": 50402,
+     "endMs": 50663
+    },
+    {
+     "text": "تكتبو",
+     "startMs": 50663,
+     "endMs": 51029
+    },
+    {
+     "text": "للمحتال.",
+     "startMs": 51029,
+     "endMs": 51500
+    }
+   ]
+  },
+  {
+   "scene": 5,
+   "startMs": 51500,
+   "endMs": 53360,
+   "words": [
+    {
+     "text": "وحتى",
+     "startMs": 51500,
+     "endMs": 52314
+    },
+    {
+     "text": "SMS",
+     "startMs": 52314,
+     "endMs": 52575
+    },
+    {
+     "text": "الكود",
+     "startMs": 52575,
+     "endMs": 52942
+    },
+    {
+     "text": "يقراها.",
+     "startMs": 52942,
+     "endMs": 53360
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 53980,
+   "endMs": 54760,
+   "words": [
+    {
+     "text": "القاعدة",
+     "startMs": 53980,
+     "endMs": 54419
+    },
+    {
+     "text": "بسيطة:",
+     "startMs": 54419,
+     "endMs": 54760
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 54760,
+   "endMs": 56001,
+   "words": [
+    {
+     "text": "بريد",
+     "startMs": 54760,
+     "endMs": 55169
+    },
+    {
+     "text": "الجزائر",
+     "startMs": 55169,
+     "endMs": 55544
+    },
+    {
+     "text": "ما",
+     "startMs": 55544,
+     "endMs": 55710
+    },
+    {
+     "text": "يطلبش",
+     "startMs": 55710,
+     "endMs": 56001
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 56001,
+   "endMs": 56500,
+   "words": [
+    {
+     "text": "منك",
+     "startMs": 56001,
+     "endMs": 56209
+    },
+    {
+     "text": "الكود.",
+     "startMs": 56209,
+     "endMs": 56500
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 56500,
+   "endMs": 57344,
+   "words": [
+    {
+     "text": "لا",
+     "startMs": 56500,
+     "endMs": 56884
+    },
+    {
+     "text": "في",
+     "startMs": 56884,
+     "endMs": 57089
+    },
+    {
+     "text": "SMS،",
+     "startMs": 57089,
+     "endMs": 57344
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 57344,
+   "endMs": 58314,
+   "words": [
+    {
+     "text": "لا",
+     "startMs": 57344,
+     "endMs": 57548
+    },
+    {
+     "text": "في",
+     "startMs": 57548,
+     "endMs": 57752
+    },
+    {
+     "text": "التيليفون،",
+     "startMs": 57752,
+     "endMs": 58314
+    }
+   ]
+  },
+  {
+   "scene": 6,
+   "startMs": 58314,
+   "endMs": 59080,
+   "words": [
+    {
+     "text": "لا",
+     "startMs": 58314,
+     "endMs": 58518
+    },
+    {
+     "text": "في",
+     "startMs": 58518,
+     "endMs": 58723
+    },
+    {
+     "text": "ميساج.",
+     "startMs": 58723,
+     "endMs": 59080
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 59720,
+   "endMs": 60420,
+   "words": [
+    {
+     "text": "وإذا",
+     "startMs": 59720,
+     "endMs": 60043
+    },
+    {
+     "text": "صرالك؟",
+     "startMs": 60043,
+     "endMs": 60420
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 60420,
+   "endMs": 61927,
+   "words": [
+    {
+     "text": "روح",
+     "startMs": 60420,
+     "endMs": 60967
+    },
+    {
+     "text": "لأقرب",
+     "startMs": 60967,
+     "endMs": 61340
+    },
+    {
+     "text": "GAB",
+     "startMs": 61340,
+     "endMs": 61607
+    },
+    {
+     "text": "وبدّل",
+     "startMs": 61607,
+     "endMs": 61927
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 61927,
+   "endMs": 63260,
+   "words": [
+    {
+     "text": "الرقم",
+     "startMs": 61927,
+     "endMs": 62300
+    },
+    {
+     "text": "المربوط",
+     "startMs": 62300,
+     "endMs": 62780
+    },
+    {
+     "text": "بالحساب.",
+     "startMs": 62780,
+     "endMs": 63260
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 63260,
+   "endMs": 64415,
+   "words": [
+    {
+     "text": "عيّط",
+     "startMs": 63260,
+     "endMs": 63845
+    },
+    {
+     "text": "لـ",
+     "startMs": 63845,
+     "endMs": 64073
+    },
+    {
+     "text": "1530.",
+     "startMs": 64073,
+     "endMs": 64415
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 64415,
+   "endMs": 65896,
+   "words": [
+    {
+     "text": "وأودع",
+     "startMs": 64415,
+     "endMs": 64814
+    },
+    {
+     "text": "شكوى",
+     "startMs": 64814,
+     "endMs": 65155
+    },
+    {
+     "text": "عند",
+     "startMs": 65155,
+     "endMs": 65440
+    },
+    {
+     "text": "الشرطة",
+     "startMs": 65440,
+     "endMs": 65896
+    }
+   ]
+  },
+  {
+   "scene": 7,
+   "startMs": 65896,
+   "endMs": 66580,
+   "words": [
+    {
+     "text": "ولا",
+     "startMs": 65896,
+     "endMs": 66181
+    },
+    {
+     "text": "الدرك.",
+     "startMs": 66181,
+     "endMs": 66580
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 67150,
+   "endMs": 68396,
+   "words": [
+    {
+     "text": "ابعث",
+     "startMs": 67150,
+     "endMs": 67417
+    },
+    {
+     "text": "هاذ",
+     "startMs": 67417,
+     "endMs": 67640
+    },
+    {
+     "text": "الفيديو",
+     "startMs": 67640,
+     "endMs": 68040
+    },
+    {
+     "text": "لماماك",
+     "startMs": 68040,
+     "endMs": 68396
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 68396,
+   "endMs": 68930,
+   "words": [
+    {
+     "text": "ولا",
+     "startMs": 68396,
+     "endMs": 68619
+    },
+    {
+     "text": "باباك،",
+     "startMs": 68619,
+     "endMs": 68930
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 69080,
+   "endMs": 69820,
+   "words": [
+    {
+     "text": "باش",
+     "startMs": 69080,
+     "endMs": 69241
+    },
+    {
+     "text": "ما",
+     "startMs": 69241,
+     "endMs": 69370
+    },
+    {
+     "text": "يطيحوش",
+     "startMs": 69370,
+     "endMs": 69627
+    },
+    {
+     "text": "فيها.",
+     "startMs": 69627,
+     "endMs": 69820
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 70190,
+   "endMs": 70570,
+   "words": [
+    {
+     "text": "وانت؟",
+     "startMs": 70190,
+     "endMs": 70570
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 70720,
+   "endMs": 71500,
+   "words": [
+    {
+     "text": "وصلتك",
+     "startMs": 70720,
+     "endMs": 70930
+    },
+    {
+     "text": "رسالة",
+     "startMs": 70930,
+     "endMs": 71140
+    },
+    {
+     "text": "كيما",
+     "startMs": 71140,
+     "endMs": 71320
+    },
+    {
+     "text": "هاذي؟",
+     "startMs": 71320,
+     "endMs": 71500
+    }
+   ]
+  },
+  {
+   "scene": 8,
+   "startMs": 71500,
+   "endMs": 71920,
+   "words": [
+    {
+     "text": "إيه",
+     "startMs": 71500,
+     "endMs": 71650
+    },
+    {
+     "text": "ولا",
+     "startMs": 71650,
+     "endMs": 71800
+    },
+    {
+     "text": "لا؟",
+     "startMs": 71800,
+     "endMs": 71920
+    }
+   ]
+  }
+ ]
+}

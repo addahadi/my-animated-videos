@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Runtime.tech Reel Review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&family=Tajawal:wght@500;800&display=swap">
+<style>
+/* Layout: one reading column on the Runtime.tech grid paper; ink-outlined cards only for the data panels. */
+:root {
+  --bg: #DFE1DC;
+  --grid: #D3D5D0;
+  --surface: #EEEEEA;
+  --ink: #0B0F15;
+  --ink-soft: #474648;
+  --muted: #6C6C6C;
+  --faded: #BCC0C6;
+  --good: #32AF7A;
+  --bad: #E65856;
+  --hi: #EECE61;
+  --accent: #556BD1;
+  --display: "Archivo", "Inter", system-ui, sans-serif;
+  --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+  --arabic: "Tajawal", "Segoe UI", Tahoma, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #222B44; --grid: #2C3D5E; --surface: #2B3A58; --ink: #E2F5FF; --ink-soft: #B3E2FB;
+    --muted: #8FB3CC; --faded: #4A5D80; --good: #81E1C8; --bad: #F07A78; --hi: #E6CF6D; --accent: #8FA2F0;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #222B44; --grid: #2C3D5E; --surface: #2B3A58; --ink: #E2F5FF; --ink-soft: #B3E2FB;
+  --muted: #8FB3CC; --faded: #4A5D80; --good: #81E1C8; --bad: #F07A78; --hi: #E6CF6D; --accent: #8FA2F0;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+body {
+  margin: 0; font: 16px/1.6 var(--body); color: var(--ink);
+  background-color: var(--bg);
+  background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+main {
+  max-width: 920px; margin: 0 auto;
+  padding-block: 48px 80px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 56px;
+}
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.1; }
+h1 { font-size: clamp(2.2rem, 6vw, 3.6rem); font-weight: 900; letter-spacing: -0.02em; }
+h2 { font-size: clamp(1.5rem, 3.6vw, 2rem); font-weight: 900; }
+h3 { font-size: 1.1rem; font-weight: 700; }
+p { margin: 0; max-width: 65ch; }
+.label { font: 700 0.75rem/1.2 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.stack { display: grid; gap: 16px; }
+.section { display: grid; gap: 24px; }
+.card { background: var(--surface); border: 3px solid var(--ink); border-radius: 20px; box-shadow: 6px 6px 0 var(--ink); padding: 24px; min-width: 0; }
+.ar { font-family: var(--arabic); direction: rtl; unicode-bidi: isolate; }
+.num { font-variant-numeric: tabular-nums; }
+
+header.top { display: grid; gap: 16px; }
+.pill { display: inline-flex; gap: 10px; align-items: center; width: fit-content; background: var(--ink); color: var(--bg); padding: 6px 14px; border-radius: 999px; font: 700 0.8rem var(--mono); letter-spacing: 0.06em; }
+.lede { font-size: 1.15rem; color: var(--ink-soft); }
+
+.kpis { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.kpi { display: grid; gap: 4px; }
+.kpi b { font: 900 2rem/1 var(--display); font-variant-numeric: tabular-nums; }
+.kpi span { font-size: 0.85rem; color: var(--ink-soft); }
+@media (max-width: 720px) { .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.verdict { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.verdict .card { display: grid; gap: 8px; align-content: start; }
+.verdict b { font: 900 2.4rem/1 var(--display); font-variant-numeric: tabular-nums; }
+.tag { display: inline-block; width: fit-content; padding: 2px 10px; border-radius: 6px; font: 700 0.75rem var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: #0B0F15; }
+.tag.good { background: var(--good); }
+.tag.bad { background: var(--bad); }
+.tag.hi { background: var(--hi); }
+@media (max-width: 620px) { .verdict { grid-template-columns: 1fr; } }
+
+/* daily chart */
+.daily { display: grid; gap: 12px; }
+.cols { display: grid; grid-template-columns: repeat(30, minmax(0, 1fr)); gap: 3px; align-items: end; height: 180px; border-bottom: 2px solid var(--ink); position: relative; }
+.cols .c { background: var(--faded); border-radius: 3px 3px 0 0; min-height: 2px; }
+.cols .c.post { background: var(--accent); }
+.cols .c.win { background: var(--good); }
+.gridline { position: absolute; left: 0; right: 0; border-top: 1px dashed var(--faded); }
+.gridline span { position: absolute; right: 0; top: -1.2em; font: 500 0.7rem var(--mono); color: var(--muted); }
+.axis { display: flex; justify-content: space-between; font: 500 0.72rem var(--mono); color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 16px; font-size: 0.85rem; color: var(--ink-soft); }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+
+/* reel table */
+.tablewrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; min-width: 640px; font-variant-numeric: tabular-nums; }
+th { text-align: left; font: 700 0.72rem var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding: 0 10px 10px; border-bottom: 2px solid var(--ink); }
+td { padding: 12px 10px; border-bottom: 1px solid var(--faded); vertical-align: middle; }
+td.r, th.r { text-align: right; }
+tr.win td:first-child { box-shadow: inset 4px 0 0 var(--good); }
+.bar { display: flex; align-items: center; gap: 8px; }
+.bar i { display: block; height: 10px; border-radius: 5px; background: var(--faded); }
+tr.win .bar i { background: var(--good); }
+.bad-n { color: var(--bad); font-weight: 600; }
+.good-n { color: var(--good); font-weight: 600; }
+td a { color: var(--ink); }
+.date { font: 500 0.78rem var(--mono); color: var(--muted); white-space: nowrap; }
+
+.findings { display: grid; gap: 20px; counter-reset: f; }
+.finding { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 16px; }
+.finding::before { counter-increment: f; content: counter(f); font: 900 1.6rem/1 var(--display); width: 44px; height: 44px; border: 3px solid var(--ink); border-radius: 12px; display: grid; place-items: center; background: var(--surface); }
+.finding > div { display: grid; gap: 6px; min-width: 0; }
+
+.hooks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.hooks .card { display: grid; gap: 10px; align-content: start; }
+.hooks .ar { font-size: 1.2rem; font-weight: 800; line-height: 1.5; }
+@media (max-width: 620px) { .hooks { grid-template-columns: 1fr; } }
+
+.plan { display: grid; gap: 14px; }
+.plan li { padding-left: 4px; }
+.plan li::marker { font: 900 1rem var(--display); }
+ol, ul { margin: 0; padding-left: 1.4em; display: grid; gap: 10px; }
+
+.ideas { display: grid; gap: 12px; }
+.idea { display: grid; grid-template-columns: 40px minmax(0, 1fr) auto; gap: 14px; align-items: center; padding: 14px 18px; border: 2px solid var(--ink); border-radius: 14px; background: var(--surface); }
+.idea .rank { font: 900 1.4rem var(--display); }
+.idea .t { display: grid; gap: 2px; min-width: 0; }
+.idea .t strong { font-weight: 600; }
+.idea .t .ar { font-size: 1.05rem; color: var(--ink-soft); }
+.idea.pick { border-width: 3px; box-shadow: 5px 5px 0 var(--ink); }
+@media (max-width: 560px) { .idea { grid-template-columns: 32px minmax(0, 1fr); } .idea .tag { grid-column: 2; } }
+
+.note { font-size: 0.9rem; color: var(--ink-soft); border-top: 2px solid var(--ink); padding-top: 16px; display: grid; gap: 8px; }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+</style>
+</head>
+<body>
+<main>
+
+<header class="top">
+  <span class="pill">RUNTIME.TECH · INSTAGRAM · 18 OCT – 16 NOV 2026</span>
+  <h1>Your phone-suspicion Reels get about 9× the views of everything else.</h1>
+  <p class="lede">A review of 10 Reels and 30 days of account data from @runtime.elhadi, with what to make next and how to turn reach into followers.</p>
+</header>
+
+<section class="kpis" aria-label="30-day totals">
+  <div class="card kpi"><span class="label">Views</span><b class="num">6,273</b><span>sum of daily views</span></div>
+  <div class="card kpi"><span class="label">Reach</span><b class="num">5,322</b><span>sum of daily reach</span></div>
+  <div class="card kpi"><span class="label">From non‑followers</span><b class="num">98.6%</b><span>6,188 of 6,273 views</span></div>
+  <div class="card kpi"><span class="label">Followers</span><b class="num">21</b><span>following 30 · 13 posts</span></div>
+</section>
+
+<section class="section">
+  <div class="stack">
+    <span class="label">The split</span>
+    <h2>Every Reel landed in one of two groups</h2>
+    <p>No Reel landed between about 230 and 1,200 views. Instagram shows each Reel to a small test group first. The ones that kept people past the first 3 seconds were pushed further, and the rest stopped.</p>
+  </div>
+  <div class="verdict">
+    <div class="card">
+      <span class="tag good">Pushed · 4 Reels</span>
+      <b>1,334</b>
+      <span>average views</span>
+      <p><strong>54%</strong> skip rate · <strong>15.0 s</strong> average watch</p>
+      <p style="color:var(--ink-soft)">Phone slowdown ×2, phone listening, CAPTCHA</p>
+    </div>
+    <div class="card">
+      <span class="tag bad">Stalled · 6 Reels</span>
+      <b>164</b>
+      <span>average views</span>
+      <p><strong>73%</strong> skip rate · <strong>6.1 s</strong> average watch</p>
+      <p style="color:var(--ink-soft)">Claude Code router, n8n Ep.01, Knight Capital, selling a phone, cookies, Oct 19 Reel</p>
+    </div>
+  </div>
+</section>
+
+<section class="section card">
+  <div class="stack">
+    <span class="label">Daily views</span>
+    <h3>Each spike is a post day. The green ones are the four Reels that were pushed.</h3>
+  </div>
+  <div class="daily">
+    <div class="cols" id="cols" role="img" aria-label="Daily views from 18 October to 16 November 2026. Peaks of 860 on 1 Nov, 1,361 on 8 Nov, 835 on 11 Nov and 1,351 on 16 Nov; other post days 120 to 220.">
+      <div class="gridline" style="bottom:71.4%"><span>1,000</span></div>
+      <div class="gridline" style="bottom:35.7%"><span>500</span></div>
+    </div>
+    <div class="axis"><span>18 Oct</span><span>1 Nov</span><span>16 Nov</span></div>
+    <div class="legend">
+      <span><i style="background:var(--good)"></i>Post day, Reel pushed</span>
+      <span><i style="background:var(--accent)"></i>Post day, Reel stalled</span>
+      <span><i style="background:var(--faded)"></i>No post</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="stack">
+    <span class="label">Per Reel</span>
+    <h2>All 10 Reels, most viewed first</h2>
+  </div>
+  <div class="card tablewrap">
+    <table>
+      <thead><tr><th>Reel</th><th>Views</th><th class="r">Avg watch</th><th class="r">Skip 3 s</th><th class="r">Saves</th><th class="r">Shares</th></tr></thead>
+      <tbody id="reels"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="stack">
+    <span class="label">What the data says</span>
+    <h2>Five findings</h2>
+  </div>
+  <div class="findings">
+    <div class="finding"><div>
+      <h3>The winners all ask “is my phone or the internet doing something to me?”</h3>
+      <p>Each one starts from a suspicion the viewer already has about the device in their pocket. The stalled Reels were about a developer tool, an automation course, a finance history story and a how-to checklist. Those audiences hardly exist yet on a 21-follower account.</p>
+    </div></div>
+    <div class="finding"><div>
+      <h3>The hook decided the result as much as the topic</h3>
+      <p>Cookies is a privacy topic like phone listening, yet it stalled at 139 views with a 67% skip rate. Listening opens on a moment the viewer has lived. Cookies opens on a claim about faceless “companies”, then moves into HTTP and 1994 by second 10. The two openings are compared below.</p>
+    </div></div>
+    <div class="finding"><div>
+      <h3>Repeating a winning topic worked</h3>
+      <p>Phone slowdown reached 1,451 views, and a second version a week later reached 1,402. The second version opened on a concrete fact (Apple’s €25M fine in France) and kept people watching 65% longer: 16.1 s against 9.8 s.</p>
+    </div></div>
+    <div class="finding"><div>
+      <h3>Reach does not turn into followers</h3>
+      <p>Only 1.4% of views came from followers, so the algorithm keeps testing you on strangers, which is good. But after about 5,300 reach the account still has 21 followers. Shares are close to zero (22 in total), and saves are low except on CAPTCHA (15 of the 35).</p>
+    </div></div>
+    <div class="finding"><div>
+      <h3>The profile does not match the videos</h3>
+      <p>The bio is in English (“Tech explained in 60 seconds”), but every video is in Darija. The handle is runtime.elhadi, while the videos say Runtime.tech. A visitor who arrives from a Reel sees a different account from the one they just watched.</p>
+    </div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="stack">
+    <span class="label">Hook comparison</span>
+    <h2>A lived moment beat an abstract claim</h2>
+  </div>
+  <div class="hooks">
+    <div class="card">
+      <span class="tag good">Listening · 1,245 views · 48% skip</span>
+      <p class="ar" lang="ar">هدرت مع صاحبك على صبّاط... وخمس دقايق من بعد، التيليفون عمّرلك الشاشة بالصبابط. صدفة؟ لا. يسمعك؟ حتى هي لا.</p>
+      <p>A moment the viewer has lived, then two “no”s that rule out both answers they already had in mind.</p>
+    </div>
+    <div class="card">
+      <span class="tag bad">Cookies · 139 views · 67% skip</span>
+      <p class="ar" lang="ar">كاين شركات تعرف واش قريت، واش شفت، وواش حبيت تشري... وعمرك ما دخلت للموقع نتاعهم.</p>
+      <p>A claim about companies the viewer cannot picture, followed by HTTP and 1994 history by second 10.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="stack">
+    <span class="label">Recommended approach</span>
+    <h2>What to change</h2>
+  </div>
+  <ol class="plan card">
+    <li><strong>Focus the channel on everyday phone and internet mysteries,</strong> in Darija, for ordinary people. Pause the n8n 16-episode series and the Claude Code content on this account. A long series works once people already follow you for it, so bring them back later or try them as carousels.</li>
+    <li><strong>Use one hook formula: a lived moment, then the denial, then a promise.</strong> In the first 2 seconds, show the phone with something suspicious on it (a glowing mic dot, a falling battery, a notification). Keep history and definitions after second 40.</li>
+    <li><strong>Make it a named series with a verdict,</strong> for example <span class="ar" lang="ar">صح ولا كذب؟</span>, ending every Reel on a large TRUE / FALSE / HALF-TRUE stamp. The stamp is already part of your style system. A series gives people a reason to follow.</li>
+    <li><strong>End on something worth saving or sending.</strong> A 3-point checklist on the last frame (“check these 3 settings”) drives saves, which is probably why CAPTCHA got 15. A direct line such as “send it to the friend who always says…” drives shares.</li>
+    <li><strong>Fix the profile so visitors follow.</strong> Rewrite the bio in Darija, make the handle match Runtime.tech, and pin the three strongest Reels: slowdown v2, listening and CAPTCHA.</li>
+  </ol>
+</section>
+
+<section class="section">
+  <div class="stack">
+    <span class="label">Next videos</span>
+    <h2>Nine ideas, ranked</h2>
+    <p>All follow the winning pattern: a suspicion about a phone or the internet, with a clear verdict and a checklist to end on.</p>
+  </div>
+  <div class="ideas">
+    <div class="idea pick"><span class="rank">1</span><div class="t"><strong>Does deleting a photo really delete it?</strong><span class="ar" lang="ar">مسحت التصويرة… بصح راهي مازال كاينة؟</span></div><span class="tag good">Make next</span></div>
+    <div class="idea pick"><span class="rank">2</span><div class="t"><strong>Does fast charging or charging overnight kill your battery?</strong><span class="ar" lang="ar">تشارجي الليل كامل… تقتل الباتري؟</span></div><span class="tag good">Make next</span></div>
+    <div class="idea"><span class="rank">3</span><div class="t"><strong>Incognito mode does not hide you the way you think</strong><span class="ar" lang="ar">الـIncognito ما يخبيكش كيما تخمم</span></div><span class="tag hi">Planned follow-up</span></div>
+    <div class="idea"><span class="rank">4</span><div class="t"><strong>Does closing background apps save battery?</strong><span class="ar" lang="ar">تسكّر الـapps… توفّر الباتري؟</span></div><span class="tag hi">Myth</span></div>
+    <div class="idea"><span class="rank">5</span><div class="t"><strong>Can your neighbour see what you browse on their Wi‑Fi?</strong><span class="ar" lang="ar">الـWiFi تاع الجيران… يشوف واش راك تدير؟</span></div><span class="tag hi">Privacy</span></div>
+    <div class="idea"><span class="rank">6</span><div class="t"><strong>“You won 10,000 DA of Flexy”: how scams get your number</strong><span class="ar" lang="ar">ربحت فليكسي؟ كيفاش جابو رقمك</span></div><span class="tag hi">Scam</span></div>
+    <div class="idea"><span class="rank">7</span><div class="t"><strong>Full 4G bars but no internet: why?</strong><span class="ar" lang="ar">4G كاملة… والانترنت ما تمشيش؟</span></div><span class="tag hi">Mystery</span></div>
+    <div class="idea"><span class="rank">8</span><div class="t"><strong>Are free VPNs watching you?</strong><span class="ar" lang="ar">الـVPN بلاش… شكون يخلّص؟</span></div><span class="tag hi">Privacy</span></div>
+    <div class="idea"><span class="rank">9</span><div class="t"><strong>Cut tracking on your phone in 60 seconds</strong><span class="ar" lang="ar">نقّص الـtracking في 60 ثانية</span></div><span class="tag hi">Promised part 2</span></div>
+  </div>
+</section>
+
+<footer class="note">
+  <span class="label">About this data</span>
+  <p>Source: Instagram insights through Windsor.ai, read on 17 Nov 2026. The trial covers only the last 30 days. Likes, comments and audience demographics were not available: demographics need 100 followers, and the current Instagram connection does not return likes or comments. Daily reach and views are summed across days, so the same person can be counted more than once.</p>
+  <p>Ten Reels over one month is a small sample. The topic and skip-rate pattern is strong, but it is not enough to choose the best posting day or time.</p>
+</footer>
+
+</main>
+<script>
+(function () {
+  var daily = [8,166,23,2,129,12,2,9,120,4,3,144,6,3,860,374,3,0,220,10,2,1361,85,4,835,394,8,126,9,1351];
+  var start = new Date(Date.UTC(2026, 9, 18));
+  var winDays = { "2026-11-01": 1, "2026-11-08": 1, "2026-11-11": 1, "2026-11-16": 1 };
+  var postDays = { "2026-10-19": 1, "2026-10-22": 1, "2026-10-26": 1, "2026-10-29": 1, "2026-11-05": 1, "2026-11-14": 1 };
+  var cols = document.getElementById("cols");
+  daily.forEach(function (v, i) {
+    var d = new Date(start.getTime() + i * 86400000);
+    var key = d.toISOString().slice(0, 10);
+    var el = document.createElement("div");
+    el.className = "c" + (winDays[key] ? " win" : postDays[key] ? " post" : "");
+    el.style.height = (v / 1400 * 100) + "%";
+    el.title = key + ": " + v.toLocaleString("en-US") + " views";
+    cols.appendChild(el);
+  });
+
+  var reels = [
+    ["Phone slowing down on purpose (v1)", "8 Nov", "DffcDJ-oF-Q", 1451, 9.8, 59, 3, 3, 1],
+    ["Phone slowdown, Apple’s €25M fine (v2)", "16 Nov", "Df0CbIdINkg", 1402, 16.1, 47, 4, 2, 1],
+    ["Is your phone listening?", "11 Nov", "DfnDhG0oeef", 1245, 19.1, 48, 6, 3, 1],
+    ["CAPTCHA: why the site tests you", "1 Nov", "DfNCzgrItsT", 1239, 14.9, 60, 15, 3, 1],
+    ["Knight Capital", "5 Nov", "DfWtOj1oU-g", 231, 5.6, 70, 0, 0, 0],
+    ["Reel with no caption", "19 Oct", "DerW_0MIhaX", 179, 4.9, 79, 2, 4, 0],
+    ["Selling a phone: 7 steps", "29 Oct", "DfFf4rJIWSS", 151, 6.2, 73, 2, 0, 0],
+    ["Claude Code model router", "22 Oct", "Dezks9ro7eK", 145, 8.0, 71, 2, 3, 0],
+    ["Why every site asks for cookies", "14 Nov", "DfvAPAQIJdA", 139, 6.8, 67, 0, 0, 0],
+    ["n8n Episode 01/16", "26 Oct", "De9yU3nouci", 137, 5.5, 79, 1, 4, 0]
+  ];
+  var tb = document.getElementById("reels");
+  reels.forEach(function (r) {
+    var tr = document.createElement("tr");
+    if (r[8]) tr.className = "win";
+    var skipCls = r[5] <= 60 ? "good-n" : "bad-n";
+    tr.innerHTML =
+      '<td><a href="https://www.instagram.com/reel/' + r[2] + '/" target="_blank" rel="noopener">' + r[0] + '</a><br><span class="date">' + r[1] + '</span></td>' +
+      '<td><div class="bar"><i style="width:' + Math.max(4, r[3] / 1451 * 140) + 'px"></i><span>' + r[3].toLocaleString("en-US") + '</span></div></td>' +
+      '<td class="r">' + r[4].toFixed(1) + ' s</td>' +
+      '<td class="r ' + skipCls + '">' + r[5] + '%</td>' +
+      '<td class="r">' + r[6] + '</td>' +
+      '<td class="r">' + r[7] + '</td>';
+    tb.appendChild(tr);
+  });
+})();
+</script>
+</body>
+</html>

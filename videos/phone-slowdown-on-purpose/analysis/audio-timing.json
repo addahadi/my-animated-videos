@@ -1,0 +1,111 @@
+{
+  "sampleRate": 48000,
+  "totalSamples": 5095424,
+  "duration": 106.15466666666667,
+  "order": [
+    "audio1.ogg",
+    "audio2.ogg",
+    "audio3.ogg",
+    "audio4.ogg",
+    "audio5.ogg",
+    "audio6.ogg",
+    "audio7.ogg",
+    "audio8.ogg",
+    "audio9.ogg",
+    "audio10.ogg"
+  ],
+  "sources": [
+    {
+      "file": "audio1.ogg",
+      "sha256": "0ef6ffff02a533962cb6afd3d1ca96ae160857a1be0a7f36731f1ecb931f8a77",
+      "duration": 3.392,
+      "samples": 162816,
+      "sampleRate": 48000,
+      "cumulativeStart": 0.0,
+      "cumulativeEnd": 3.392
+    },
+    {
+      "file": "audio2.ogg",
+      "sha256": "61cb4b41e8e47459293d4f4990840b37ba06d46acd77f2915c208392f3acbec3",
+      "duration": 10.176,
+      "samples": 488448,
+      "sampleRate": 48000,
+      "cumulativeStart": 3.392,
+      "cumulativeEnd": 13.568
+    },
+    {
+      "file": "audio3.ogg",
+      "sha256": "05a8b6ae4c61ee2c7dd9baba4bc453a71b1295ef0b83b076ee97f9748d56448f",
+      "duration": 9.664,
+      "samples": 463872,
+      "sampleRate": 48000,
+      "cumulativeStart": 13.568,
+      "cumulativeEnd": 23.232
+    },
+    {
+      "file": "audio4.ogg",
+      "sha256": "bf5f880a5d0e1c81787c0708c2084a8f123eae0d22c6b418a6be40d5bb6d633e",
+      "duration": 11.178666666666667,
+      "samples": 536576,
+      "sampleRate": 48000,
+      "cumulativeStart": 23.232,
+      "cumulativeEnd": 34.410666666666664
+    },
+    {
+      "file": "audio5.ogg",
+      "sha256": "f433d20adfb86378daa0847bd71d42f9afbfb5e5f6a7c00f29ac65816011f618",
+      "duration": 18.026666666666667,
+      "samples": 865280,
+      "sampleRate": 48000,
+      "cumulativeStart": 34.410666666666664,
+      "cumulativeEnd": 52.437333333333335
+    },
+    {
+      "file": "audio6.ogg",
+      "sha256": "3d08b44341a60feb7b57595e92abfd5e27e8662b12be4aae2309781553f39aea",
+      "duration": 10.752,
+      "samples": 516096,
+      "sampleRate": 48000,
+      "cumulativeStart": 52.437333333333335,
+      "cumulativeEnd": 63.18933333333333
+    },
+    {
+      "file": "audio7.ogg",
+      "sha256": "594fcfb56812190d1b201f376c929e94a5d40f2051e4209388e968dbb015de92",
+      "duration": 9.237333333333334,
+      "samples": 443392,
+      "sampleRate": 48000,
+      "cumulativeStart": 63.18933333333333,
+      "cumulativeEnd": 72.42666666666666
+    },
+    {
+      "file": "audio8.ogg",
+      "sha256": "46d0f79a41e2e200efc2f1ddaa8f8676458c9fe462c131510fbb3cefd02766ef",
+      "duration": 11.264,
+      "samples": 540672,
+      "sampleRate": 48000,
+      "cumulativeStart": 72.42666666666666,
+      "cumulativeEnd": 83.69066666666667
+    },
+    {
+      "file": "audio9.ogg",
+      "sha256": "2ec19dfdb9ffe341a8480a728b751f3c696606bad8f47b47729a6c031c5a51aa",
+      "duration": 9.450666666666667,
+      "samples": 453632,
+      "sampleRate": 48000,
+      "cumulativeStart": 83.69066666666667,
+      "cumulativeEnd": 93.14133333333334
+    },
+    {
+      "file": "audio10.ogg",
+      "sha256": "56d981bcd8ebcbd624e297a2cf61a2e217c3844df53ac54202f8ff43a699f717",
+      "duration": 13.013333333333334,
+      "samples": 624640,
+      "sampleRate": 48000,
+      "cumulativeStart": 93.14133333333334,
+      "cumulativeEnd": 106.15466666666667
+    }
+  ],
+  "scriptWordsPreserved": true,
+  "audioPolicy": "All clips in numeric order, decoded end-to-end; no trimming, time stretch, inserted silence, or normalization."
+}

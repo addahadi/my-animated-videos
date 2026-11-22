@@ -1,0 +1,17 @@
+export const SellingPhoneV3:React.FC<{timeline?:Timeline}>=({timeline})=>{
+ const time=useCurrentFrame()/30;
+ const [handle]=useState(()=>delayRender('Tajawal Bold'));
+ useEffect(()=>{document.fonts.load('700 63px Tajawal').then(()=>continueRender(handle)).catch(()=>continueRender(handle));},[handle]);
+ if(!timeline)return <AbsoluteFill style={{background:C.bg}}/>;
+ const s=timeline.segments.find(s=>time>=s.start&&time<s.end)??timeline.segments[timeline.segments.length-1],t=time-s.start;
+ return <AbsoluteFill style={{background:C.bg,color:C.ink}}>
+  <style>{`@font-face{font-family:Tajawal;src:url('${staticFile('tajawal-bold.ttf')}') format('truetype');font-weight:700;font-display:block}*{box-sizing:border-box}`}</style>
+  <svg width={1080} height={1920} viewBox="0 0 720 1280" style={{position:'absolute',inset:0}}>
+   {s.step===0?<Intro t={t}/>:<g transform="translate(0 65)">{s.step===1?<Backup t={t}/>:s.step===2?<Auth t={t}/>:s.step===3?<Accessories t={t}/>:s.step===4?<Accounts t={t}/>:s.step===5?<Sensitive t={t}/>:s.step===6?<Reset t={t}/>:s.step===7?<Verify t={t}/>:<Outro t={t}/>}</g>}
+   <Pill x={360} y={188} text={s.step>0&&s.step<8?`${s.step}/7   ${s.name}`:s.step===0&&t>=7.26?'قبل الفورماط':s.name} w={360} size={23}/>
+  </svg>
+  <div style={{position:'absolute',top:123,left:65,fontFamily:'Segoe UI, sans-serif',fontSize:40,fontWeight:750,letterSpacing:-1}}>RunTime<span style={{color:C.blue}}>.tech</span></div>
+  <div dir="rtl" style={{position:'absolute',top:123,right:65,border:'2px solid #B8B7BE',borderRadius:35,padding:'5px 24px 2px',fontFamily:'Tajawal',fontSize:31}}>تقنية</div>
+ </AbsoluteFill>;
+};
+

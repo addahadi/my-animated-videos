@@ -1,0 +1,32 @@
+{
+  "C:\\Users\\hecin\\ai-video-editor\\projects\\qr-code-explainer\\style-guide-qr-reference-2026-10-28.md": {
+    "staged": "00-style-guide-qr-reference-2026-10-28.md",
+    "before_sha256": null,
+    "after_sha256": "b9f55416c3eee5dbb789dfedb4f61e32bb59b443ec8272c0b10a6920b47be803"
+  },
+  "C:\\Users\\hecin\\ai-video-editor\\projects\\qr-code-explainer\\style-guide.md": {
+    "staged": "01-style-guide.md",
+    "before_sha256": "b9f55416c3eee5dbb789dfedb4f61e32bb59b443ec8272c0b10a6920b47be803",
+    "after_sha256": "f9e03b9a62cdbd68f43a3fcbf1e6bd064fd18c09006a31cde0d9921d0a3fc29b"
+  },
+  "C:\\Users\\hecin\\ai-video-editor\\projects\\qr-code-explainer\\style.md": {
+    "staged": "02-style.md",
+    "before_sha256": null,
+    "after_sha256": "1e950fae9d1e424852cb956b649200f23941af3e65efa45040a743a6bdeedd67"
+  },
+  "C:\\Users\\hecin\\ai-video-editor\\AGENTS.md": {
+    "staged": "03-AGENTS.md",
+    "before_sha256": "c38e5e8d7b5ded7f7ebee32fc597511ed30526340790dba2e3c711fb0d77f4e9",
+    "after_sha256": "bb9c785e1e905efe03e109b93098c718adae832d1480e26a8c0bd68c1aea4c4c"
+  },
+  "C:\\Users\\hecin\\ai-video-editor\\CLAUDE.md": {
+    "staged": "04-CLAUDE.md",
+    "before_sha256": "768d904848f1354b99d9ce9a528ccc083810e483e797dfd814180821b9ffb716",
+    "after_sha256": "767aea02a213a5a76e58885e4c5662752289a039cd8812f63afed90bafcaa7e2"
+  },
+  "C:\\Users\\hecin\\ai-video-editor\\projects\\qr-code-explainer\\README.md": {
+    "staged": "05-README.md",
+    "before_sha256": "aee134eace9d75a7d78582bad9c5c51c392fe6cdc094f2fddeba179f90057251",
+    "after_sha256": "86ecbcca68a55d50c0cfad9bc6429b755ec781dc04a419c0bc857306e9114235"
+  }
+}

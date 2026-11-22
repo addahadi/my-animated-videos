@@ -1,0 +1,542 @@
+[
+  {
+    "source": 1,
+    "from": 0,
+    "to": null,
+    "script": [
+      1
+    ],
+    "title": "Hook: slow… or slowed?",
+    "component": "PhoneShell",
+    "role": "hook / open loop",
+    "effort": "M",
+    "text": "ثقال… ولا ثقّلوه؟",
+    "representation": "The same older phone opens Camera, stalls, and raises a question. Immediate visible cause/effect makes the hook work without sound.",
+    "events": [
+      [
+        0,
+        "opening",
+        "Phone already occupies the safe-zone center; tap Camera and animate the first spinner arc immediately.",
+        0
+      ],
+      [
+        1.23,
+        "ثقال",
+        "Freeze the camera preview; pulse only ثقال.",
+        0
+      ],
+      [
+        1.97,
+        "ولا ثقّلوه؟",
+        "Reveal the second half of the heading with a yellow question mark; no guilty-company stamp.",
+        0
+      ],
+      [
+        2.6,
+        "existing pause",
+        "Let the spinner complete one deliberate repeat while a fleeting bird/photo moment appears behind the phone.",
+        0
+      ]
+    ],
+    "sfx": "One soft tap at frame 0; silence under the question."
+  },
+  {
+    "source": 2,
+    "from": 0,
+    "to": null,
+    "script": [
+      2
+    ],
+    "title": "The missed photo",
+    "component": "CameraDelay",
+    "role": "explain / open loop",
+    "effort": "M",
+    "text": "اللقطة فاتت… والكاميرا تستنّى",
+    "representation": "A small vector bird perches behind the phone, then flies out before the camera preview becomes usable. Same subject and phone show the cost of latency.",
+    "events": [
+      [
+        0.11,
+        "تحب تصوّر لقطة",
+        "Set up the perched bird and viewfinder; phone remains at the same anchor.",
+        0
+      ],
+      [
+        2.3,
+        "وتستنى",
+        "Spinner stalls again; no shutter sound or saved image.",
+        9
+      ],
+      [
+        3.85,
+        "تفوت اللقطة",
+        "Bird leaves the viewfinder and an empty view is all that remains.",
+        9
+      ],
+      [
+        5.81,
+        "هذا نفس التليفون",
+        "Use a small same-phone comparison card labeled قبل عامين; camera opens immediately in that card.",
+        9
+      ],
+      [
+        8.15,
+        "علاش ولّى هكّا؟",
+        "Collapse the comparison; return to the delayed phone and hold the unanswered question.",
+        9
+      ]
+    ],
+    "sfx": "Optional tiny UI tick at comparison; no comedic overload."
+  },
+  {
+    "source": 3,
+    "from": 0,
+    "to": null,
+    "script": [
+      3
+    ],
+    "title": "Suspicion, then the Apple case",
+    "component": "LaunchAd",
+    "role": "open loop / re-hook / aha",
+    "effort": "M",
+    "text": "زعما باش تشري جديد؟ → Apple · 2017",
+    "representation": "A generic new-phone ad appears beside the stalled older phone. A dotted purchase inference remains a question until the historical example is introduced.",
+    "events": [
+      [
+        0,
+        "إعلان تاع تليفون جديد",
+        "Slide a neutral new-model launch card into the phone's side drawer; no invented price or brand claim.",
+        0
+      ],
+      [
+        2.86,
+        "زعما راهم يثقّلولنا",
+        "Draw an incomplete dotted connector between older-phone slowdown and the new purchase; attach ?.",
+        9
+      ],
+      [
+        5.52,
+        "الغريب",
+        "Dim the ad and move focus to a closed history card; use the existing breath as the reveal setup.",
+        0
+      ],
+      [
+        6.2,
+        "Apple اعترفت",
+        "Open the case card on Apple, retaining a small conditional battery badge rather than a deception verdict.",
+        0
+      ],
+      [
+        8.4,
+        "2017",
+        "Stamp 2017 exactly on its spoken anchor; no reveal SFX before the word.",
+        0
+      ]
+    ],
+    "sfx": "One quiet paper/reveal tick on the Apple/date turn."
+  },
+  {
+    "source": 4,
+    "from": 0,
+    "to": null,
+    "script": [
+      4
+    ],
+    "title": "What happened, and what was not disclosed",
+    "component": "HistoryDisclosure",
+    "role": "story / explain",
+    "effort": "M",
+    "text": "بطّأتو… بلا ما توضّح",
+    "representation": "Only the affected example phones get weak-battery/performance badges. Disclosure and later legal outcomes are separate neutral cards, avoiding a false claim about motive.",
+    "events": [
+      [
+        0.11,
+        "كانت تنقّص الأداء",
+        "Show one affected phone's task pulses slowing; add a second affected example only after the first is understood.",
+        0
+      ],
+      [
+        2.5,
+        "كي تضعف البطارية",
+        "Attach a worn-battery badge; do not suggest every old iPhone always slows.",
+        9
+      ],
+      [
+        3.97,
+        "والمشكل؟",
+        "Open a settings/disclosure panel missing its explanation; pulse a small question mark.",
+        0
+      ],
+      [
+        6.87,
+        "غرامة في فرنسا",
+        "Reveal a France card labeled غرامة; no amount or unspoken legal details.",
+        0
+      ],
+      [
+        9.1,
+        "تسويات قضايا في أمريكا",
+        "Add a separate US card labeled تسويات; keep this distinct from a court finding about sales intent.",
+        0
+      ]
+    ],
+    "sfx": "Two restrained card ticks; narration dominant."
+  },
+  {
+    "source": 5,
+    "from": 0,
+    "to": 8.76,
+    "script": [
+      5
+    ],
+    "title": "Why a charged phone can shut down",
+    "component": "PowerBudget",
+    "role": "re-hook / explain",
+    "effort": "L",
+    "text": "البطارية: الشحن وحدو ما يكفيش",
+    "representation": "Open the same phone only now, for a real explanatory reason. Introduce stored charge, then battery age, then a separate peak-power capacity; show them in sequence.",
+    "events": [
+      [
+        0,
+        "الناس حسّو بلي تخدعو",
+        "Retain the unanswered disclosure question for the reaction; no invented direct quotation.",
+        0
+      ],
+      [
+        1.5,
+        "Apple قالت",
+        "Put the stated reason in a neutral claim card attached to the same phone.",
+        0
+      ],
+      [
+        3.2,
+        "ما يطفاش فجأة",
+        "Briefly show the possible blank-screen outcome in a small ghost preview, then return to the still-on phone.",
+        9
+      ],
+      [
+        4.48,
+        "لازم نفهمو حاجة",
+        "Open a simple battery-only diagram inside the phone; the processor is not introduced yet.",
+        9
+      ],
+      [
+        7,
+        "ماشي غير تولّي تفرغ",
+        "Keep charge visibly present while adding a separate worn-battery badge and available-power gauge.",
+        9
+      ]
+    ],
+    "sfx": "Quiet drawer movement only; no alarming crash."
+  },
+  {
+    "source": 5,
+    "from": 8.76,
+    "to": null,
+    "script": [
+      6
+    ],
+    "title": "Charge versus delivery rate",
+    "component": "TapFlowInset",
+    "role": "explain / aha",
+    "effort": "L",
+    "text": "مشحونة ≠ تقدر تمدّ كفاية",
+    "representation": "A partly charged battery cannot meet the demand marker on a separate power gauge. The spoken tap analogy is a short inset of stored water and insufficient delivery rate.",
+    "events": [
+      [
+        8.76,
+        "تقدر تكون مشحونة",
+        "Hold the battery's illustrative charge fill steady; highlight it without a numeric health percentage.",
+        0
+      ],
+      [
+        11,
+        "الطاقة بالسرعة",
+        "Raise the demand marker beyond available peak power; the blue delivery line cannot reach it.",
+        9
+      ],
+      [
+        12.92,
+        "كيما روبيني",
+        "Morph only the delivery module into a water-tap inset; available water remains visible while the thin flow fails to meet a demand outline.",
+        0
+      ],
+      [
+        15.6,
+        "ما يخرجش كفاية",
+        "Highlight the flow shortfall, then collapse the inset back into the phone's power gauge; label تشبيه for the analogy.",
+        9
+      ]
+    ],
+    "sfx": "Optional low, short water cue confined to the analogy; no continuous running-water bed."
+  },
+  {
+    "source": 6,
+    "from": 0,
+    "to": null,
+    "script": [
+      7
+    ],
+    "title": "Performance management: the trade-off",
+    "component": "PowerBudget",
+    "role": "explain / aha",
+    "effort": "L",
+    "text": "سرعة أقل، طاقة أقل",
+    "representation": "Demand exceeds available power; the system reduces processor work until demand fits. Camera opens more slowly but the phone stays on. This is the central cause/effect demonstration.",
+    "events": [
+      [
+        0,
+        "البطارية تعجز",
+        "Reconnect the power gauge to the same phone; demand remains above supply.",
+        0
+      ],
+      [
+        2.12,
+        "يقدر يطفى",
+        "Show a labeled possible shutdown preview, not a mandatory event on every attempt.",
+        9
+      ],
+      [
+        3.52,
+        "الحل؟",
+        "Hold the question for the existing pause and bring in the processor outline without its result yet.",
+        0
+      ],
+      [
+        3.98,
+        "ينقّص سرعة المعالج",
+        "Label المعالج; slow the blue task pulses and lower the demand marker.",
+        0
+      ],
+      [
+        5.68,
+        "ينفّذ الخدمة",
+        "Pass three task blocks through the processor one at a time; define it through visible work.",
+        9
+      ],
+      [
+        7.6,
+        "يستهلك أقل",
+        "Set demand beneath available power and keep the screen lit; let Camera eventually open, visibly delayed.",
+        9
+      ],
+      [
+        9.6,
+        "يبقى شاعل",
+        "Hold the stable-on result with the original battery wear badge still present.",
+        0
+      ]
+    ],
+    "sfx": "One quiet relay-down tick; no success fanfare."
+  },
+  {
+    "source": 7,
+    "from": 0,
+    "to": null,
+    "script": [
+      8
+    ],
+    "title": "Other cause: growing applications",
+    "component": "TaskQueue",
+    "role": "re-hook / explain",
+    "effort": "M",
+    "text": "ميزات أكثر، خدمة أكثر",
+    "representation": "Exit the Apple-history case into a generic app. Added video/effects/chat features increase processor work and working-memory use, which is kept distinct from file storage.",
+    "events": [
+      [
+        0,
+        "ماشي كل تليفون",
+        "Close the case/history label; keep the same phone and replace only its diagnostic drawer.",
+        0
+      ],
+      [
+        2.3,
+        "تزيد فيها ميزات",
+        "Add one violet video-feature tile, then an effects tile; no full diagram at once.",
+        9
+      ],
+      [
+        5.02,
+        "خدمة أكثر من المعالج",
+        "Expand the task queue and show the processor taking longer to clear it.",
+        9
+      ],
+      [
+        7,
+        "مساحة أكبر في الذاكرة",
+        "Add a separate working-memory tray labeled ذاكرة الخدمة; do not show a storage-full warning here.",
+        9
+      ]
+    ],
+    "sfx": "Sparse feature-add clicks, at most two."
+  },
+  {
+    "source": 8,
+    "from": 0,
+    "to": null,
+    "script": [
+      9
+    ],
+    "title": "Same hardware, heavier workload; updates can help too",
+    "component": "TaskQueue",
+    "role": "explain / aha",
+    "effort": "M",
+    "text": "نفس الجهاز، الخدمة زادت",
+    "representation": "Keep phone capacity fixed while task count rises. Then demonstrate an optimized update clearing work more efficiently, making the conditional nature of updates explicit.",
+    "events": [
+      [
+        0,
+        "بقى بنفس الإمكانيات",
+        "Lock the phone capacity outline and show a fixed-width working-memory tray.",
+        0
+      ],
+      [
+        2.4,
+        "الخدمة زادت عليه",
+        "Add work blocks progressively; let the queue length change while hardware stays fixed.",
+        9
+      ],
+      [
+        4.4,
+        "كان خفيف",
+        "Show a small then/now strip with the same app doing less work before and more now.",
+        9
+      ],
+      [
+        7.46,
+        "ماشي كل تحديث",
+        "Introduce a neutral optimization-update card; do not make all updates a villain.",
+        0
+      ],
+      [
+        9,
+        "تزيد الأداء",
+        "Remove redundant tasks and shorten the queue on the same older phone; no new hardware appears.",
+        9
+      ]
+    ],
+    "sfx": "One restrained update tick; no implied benchmark."
+  },
+  {
+    "source": 9,
+    "from": 0,
+    "to": null,
+    "script": [
+      10
+    ],
+    "title": "Storage and heat; recap of the four causes",
+    "component": "DiagnosticDrawer",
+    "role": "explain / recap / save frame",
+    "effort": "M",
+    "text": "بطارية · تطبيقات · تخزين · سخانة",
+    "representation": "Storage fills, then temperature rises and work slows. Finally collect the already introduced four causes into a readable 2×2 diagnostic summary before the payoff.",
+    "events": [
+      [
+        0,
+        "التخزين يقرب يعمر",
+        "Show file-storage blocks approaching capacity, labeled التخزين; separate from working memory.",
+        0
+      ],
+      [
+        2.94,
+        "يسخن بزاف",
+        "Switch the same drawer to a thermometer; reduce task rate as heat rises.",
+        9
+      ],
+      [
+        5.9,
+        "نفس التقطيع",
+        "Bring back battery and app causes one at a time, then storage and heat, building a four-card summary.",
+        0
+      ],
+      [
+        6.9,
+        "السبب ماشي ديما واحد",
+        "Settle the complete 2×2 summary; hold it legible to the scene end for more than two seconds.",
+        0
+      ]
+    ],
+    "sfx": "Optional single drawer switch; none during the save frame."
+  },
+  {
+    "source": 10,
+    "from": 0,
+    "to": 5.4,
+    "script": [
+      11
+    ],
+    "title": "Payoff: mechanism versus motive",
+    "component": "FactVsInference",
+    "role": "aha / payoff",
+    "effort": "M",
+    "text": "التبطئة وحدها ما تثبتش النيّة",
+    "representation": "Solid connection: weak battery → limited performance. Separate dotted connection: slow phone → wants you to buy another. Keep the second unresolved; intentional control does not establish a sales motive.",
+    "events": [
+      [
+        0,
+        "يقدرو يبطّؤوه بالعاني",
+        "Use the known battery-to-performance route; label في حالات معيّنة.",
+        0
+      ],
+      [
+        2.2,
+        "في بعض الحالات",
+        "Pulse the solid mechanism arrow; no yes/no verdict about all manufacturers.",
+        0
+      ],
+      [
+        3,
+        "البطء وحدو ما يثبتش",
+        "Reveal the separate dotted purchase arrow and a large question mark; no crossed-out claim that sales motives are impossible.",
+        0
+      ]
+    ],
+    "sfx": "One soft distinction tick; leave the claim readable."
+  },
+  {
+    "source": 10,
+    "from": 5.4,
+    "to": null,
+    "script": [
+      12
+    ],
+    "title": "Check before replacing; visual loop",
+    "component": "SummaryGrid",
+    "role": "advice / save frame / loop",
+    "effort": "M",
+    "text": "شوف البطارية والتخزين قبل ما تبدّل",
+    "representation": "Two practical diagnostic rows show battery health and free storage. If battery aging is the cause, replacement improves that affected performance bar. Preserve the shortened recorded ending and return to the opening phone only in the trailing silence.",
+    "events": [
+      [
+        5.4,
+        "قبل ما تبدّل",
+        "Open the phone's Battery Health drawer with a worn-battery badge.",
+        0
+      ],
+      [
+        7.2,
+        "البطارية والتخزين",
+        "Add the free-storage row underneath; both checks remain readable.",
+        9
+      ],
+      [
+        8.86,
+        "وإذا البطارية هي السبب",
+        "Swap only the worn battery in a conditional inset; leave app-demand and heat icons muted rather than erasing every cause.",
+        0
+      ],
+      [
+        10.4,
+        "يحسّن الأداء",
+        "Improve the affected performance bar; settle the two-check save frame through the end of speech.",
+        9
+      ],
+      [
+        12.5,
+        "recorded trailing silence",
+        "During the original trailing silence only, fold the diagnostics into the original phone layout and crossfade to the opening Camera/spinner position; no extra spoken closing line.",
+        0
+      ]
+    ],
+    "sfx": "One optional soft drawer tap; no extra CTA or music sting."
+  }
+]

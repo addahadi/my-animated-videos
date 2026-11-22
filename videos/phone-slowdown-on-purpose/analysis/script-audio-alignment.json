@@ -1,0 +1,133 @@
+{
+  "note": "Reference alignment, not a corrected transcript. Original narration stays authoritative; check word boundaries by ear.",
+  "beats": [
+    {
+      "scriptBeat": 1,
+      "voiceover": "تليفونك ثقال… ولا ثقّلوه؟",
+      "sceneIds": [
+        1
+      ],
+      "startSec": 0.0,
+      "endSec": 3.392,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 2,
+      "voiceover": "تحب تصوّر لقطة، تفتح الكاميرا… وتستنى. تفوت اللقطة، وهي مازالت ما تحلّتش. هذا نفس التليفون اللي شريتو من عامين؟ علاش ولّى هكّا؟",
+      "sceneIds": [
+        2
+      ],
+      "startSec": 3.392,
+      "endSec": 13.568,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 3,
+      "voiceover": "وتزيد تشوف إعلان تاع تليفون جديد، يجيك الشك: زعما راهم يثقّلولنا القدام باش نشرو الجدد؟ الغريب، بلي Apple اعترفت بحاجة قريبة لهاذي في 2017.",
+      "sceneIds": [
+        3
+      ],
+      "startSec": 13.568,
+      "endSec": 23.232,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 4,
+      "voiceover": "كانت تنقّص الأداء تاع بعض iPhone القدام كي تضعف البطارية تاعهم. والمشكل؟ ما وضّحتش هذا للناس مليح. ومن بعد، خلّصت غرامة في فرنسا، ودارت تسويات قضايا في أمريكا.",
+      "sceneIds": [
+        4
+      ],
+      "startSec": 23.232,
+      "endSec": 34.410666666666664,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 5,
+      "voiceover": "الناس حسّو بلي تخدعو. بصح Apple قالت: درنا هكّا باش التليفون ما يطفاش فجأة. وهنا لازم نفهمو حاجة: البطارية كي تقدّم، ماشي غير تولّي تفرغ بالخف.",
+      "sceneIds": [
+        5
+      ],
+      "startSec": 34.410666666666664,
+      "endSec": 43.17066666666666,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 6,
+      "voiceover": "تقدر تكون مشحونة، بصح ما تقدرش تمدّ الطاقة بالسرعة اللي يحتاجها التليفون. كيما روبيني: الماء كاين، بصح كي تحتاج دفعة كبيرة، ما يخرجش كفاية.",
+      "sceneIds": [
+        6
+      ],
+      "startSec": 43.17066666666666,
+      "endSec": 52.43733333333333,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 7,
+      "voiceover": "كي البطارية تعجز تمدّ الطاقة المطلوبة، التليفون يقدر يطفى. الحل؟ النظام ينقّص سرعة المعالج، اللي ينفّذ الخدمة داخل التليفون. يستهلك أقل، ويخدم أبطأ، بصح يبقى شاعل.",
+      "sceneIds": [
+        7
+      ],
+      "startSec": 52.437333333333335,
+      "endSec": 63.18933333333334,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 8,
+      "voiceover": "بصح ماشي كل تليفون ثقيل عندو هاذ المشكل. كاين تطبيقات تزيد فيها ميزات مع التحديثات، وتولّي تحتاج خدمة أكثر من المعالج، ومساحة أكبر في الذاكرة.",
+      "sceneIds": [
+        8
+      ],
+      "startSec": 63.18933333333333,
+      "endSec": 72.42666666666666,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 9,
+      "voiceover": "والتليفون تاعك؟ بقى بنفس الإمكانيات. نفس الجهاز، بصح الخدمة زادت عليه. لهذا تطبيق كان خفيف يقدر يولّي ثقيل. وماشي كل تحديث يدير هكّا؛ كاين تحديثات تصلّح وتحسّن الأداء.",
+      "sceneIds": [
+        9
+      ],
+      "startSec": 72.42666666666666,
+      "endSec": 83.69066666666666,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 10,
+      "voiceover": "وزيد، كي التخزين يقرب يعمر، يقدر التليفون يثقال. وكي يسخن بزاف، يقدر ينقّص السرعة باش يحمي روحو. تشوف نفس التقطيع، بصح السبب ماشي ديما واحد.",
+      "sceneIds": [
+        10
+      ],
+      "startSec": 83.69066666666667,
+      "endSec": 93.14133333333334,
+      "status": "SCRIPT_REFERENCE_ALIGNED_TO_CLIP_OR_PROVISIONAL_ASR_SPLIT"
+    },
+    {
+      "scriptBeat": 11,
+      "voiceover": "يعني، يقدرو يبطّؤوه بالعاني؟ إيه، في حالات معيّنة. بصح من هنا، باش نقولو داروها باش تشري جديد؟ البطء وحدو ما يكفيش باش نعرفو النيّة.",
+      "sceneIds": [
+        11
+      ],
+      "startSec": 93.14133333333334,
+      "endSec": 98.54133333333334,
+      "status": "CONDENSED_RECORDED_VERSION_CHECK_BY_EAR"
+    },
+    {
+      "scriptBeat": 12,
+      "voiceover": "قبل ما تصرف على تليفون جديد، شوف حالة البطارية وشحال بقالك في التخزين. وإذا البطارية هي السبب، تبديلها يقدر يحسّن الأداء. حسب المشكل، تقدر تربح تليفونك وتوفّر دراهمك.",
+      "sceneIds": [
+        12
+      ],
+      "startSec": 98.54133333333334,
+      "endSec": 106.15466666666667,
+      "status": "CONDENSED_RECORDED_VERSION_CHECK_BY_EAR"
+    },
+    {
+      "scriptBeat": 13,
+      "voiceover": "ماشي كل تليفون ثقال… معناها ثقّلوه باش تبدّلو.",
+      "sceneIds": [],
+      "startSec": null,
+      "endSec": null,
+      "status": "NO_MATCH_DETECTED_NOT_SCHEDULED"
+    }
+  ]
+}

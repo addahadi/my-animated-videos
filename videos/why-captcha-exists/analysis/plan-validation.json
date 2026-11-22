@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scenes": 8,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "audioDurationSec": 95.68,
+  "pictureDurationSec": 95.7,
+  "durationFrames": 2871,
+  "tailHoldSec": 0.02,
+  "longestPlannedVisualGapSec": 4.833333,
+  "scriptPreserved": true,
+  "audioOrder": [
+    "inputs/audio1.ogg",
+    "inputs/audio2.ogg",
+    "inputs/audio3.ogg",
+    "inputs/audio4.ogg",
+    "inputs/audio5.ogg",
+    "inputs/audio6.ogg",
+    "inputs/audio7.ogg",
+    "inputs/audio8.ogg"
+  ],
+  "explicitCTAs": 1,
+  "saveFrameHoldSec": 2.6,
+  "limitations": [
+    "No animation has been rendered.",
+    "Visual event anchors and candidate narration differences require review by ear.",
+    "Planned safe zones and typography require inspection of rendered frames."
+  ]
+}

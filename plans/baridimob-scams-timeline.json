@@ -1,0 +1,491 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "audioFile": "public/baridimob-scams/voice.wav",
+ "note": "Event times are absolute seconds; inside-line anchors are approximate (pause-based).",
+ "scenes": [
+  {
+   "id": 1,
+   "startSec": 0.0,
+   "endSec": 3.8,
+   "startFrame": 0,
+   "endFrame": 114,
+   "voiceover": "تخيل: تحل بريدي موب… تلقى صفر دينار.",
+   "component": "WalletHook",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 0.0,
+      "frame": 0,
+      "what": "phone with generic wallet app, balance already falling from 48 750 DA; hook text on screen"
+     },
+     {
+      "sec": 2.3,
+      "frame": 69,
+      "what": "balance hits 0 DA, turns red, red sticker '0 DA' (hit)"
+     },
+     {
+      "sec": 2.7,
+      "frame": 81,
+      "what": "last-transaction row slides in: تحويل −48 750 DA"
+     }
+    ]
+   },
+   "onScreenText": "بريدي موب: 0 DA ⚠️",
+   "sfx": [
+    "tick-roll",
+    "hit"
+   ],
+   "tool": "remotion",
+   "role": "hook"
+  },
+  {
+   "id": 2,
+   "startSec": 3.8,
+   "endSec": 12.3667,
+   "startFrame": 114,
+   "endFrame": 371,
+   "voiceover": "واش صرا؟ ماكانش hacker. انت بيدك عطيت الكود للمحتال… وما حسيتش. وهاذي تصرا بـ 3 حيل، خلينا نشوفوهم.",
+   "component": "WhatHappened",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "SECURITY · BARIDIMOB",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 4.0,
+      "frame": 120,
+      "what": "phone shrinks left, big '؟' pops (واش صرا)"
+     },
+     {
+      "sec": 5.2,
+      "frame": 156,
+      "what": "hacker-hoodie photo in ImageCard enters"
+     },
+     {
+      "sec": 5.8,
+      "frame": 174,
+      "what": "XStamp over the photo (ماكانش hacker)"
+     },
+     {
+      "sec": 6.4,
+      "frame": 192,
+      "what": "photo exits; yellow CODE chip slides out of the phone toward ThiefGlyph + LootBag"
+     },
+     {
+      "sec": 8.0,
+      "frame": 240,
+      "what": "chip stops halfway (عطيت الكود)"
+     },
+     {
+      "sec": 9.2,
+      "frame": 276,
+      "what": "phone shows calm green ✓ + sticker 'ما حسيتش'"
+     },
+     {
+      "sec": 10.3,
+      "frame": 309,
+      "what": "pill ١"
+     },
+     {
+      "sec": 10.8,
+      "frame": 324,
+      "what": "pill ٢"
+     },
+     {
+      "sec": 11.3,
+      "frame": 339,
+      "what": "pill ٣ (pulses: open loop)"
+     }
+    ]
+   },
+   "onScreenText": "واش صرا؟ 🤔 → انت عطيتهولو 🔑 → 3 حيل",
+   "sfx": [
+    "pop",
+    "stamp",
+    "whoosh",
+    "pop",
+    "pop",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "open loop"
+  },
+  {
+   "id": 3,
+   "startSec": 12.3667,
+   "endSec": 23.5333,
+   "startFrame": 371,
+   "endFrame": 706,
+   "voiceover": "الحيلة الأولى: SMS يقولك \"حسابك راح يتبلوكا، دخل لهاذ اللينك\". تدخل… تلقى صفحة تشبه بريد الجزائر بالضبط. بصح هي ماشي. تكتب الكود، والمحتال يقراه في نفس الثانية.",
+   "component": "TrickSms",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "SECURITY · BARIDIMOB",
+    "chapterPill": "حيلة 1 · SMS",
+    "events": [
+     {
+      "sec": 12.45,
+      "frame": 374,
+      "what": "chapter pill + phone lock screen"
+     },
+     {
+      "sec": 13.3,
+      "frame": 399,
+      "what": "SmsNotif slides down: ALGERIE-POSTE, حسابك راح يتبلوكا…, link chip"
+     },
+     {
+      "sec": 16.9,
+      "frame": 507,
+      "what": "finger tap on the link (تدخل)"
+     },
+     {
+      "sec": 17.2,
+      "frame": 516,
+      "what": "fake login page builds in the phone browser"
+     },
+     {
+      "sec": 19.7,
+      "frame": 591,
+      "what": "magnifier over the URL poste-dz-verif.xyz + sticker 'ماشي هي'"
+     },
+     {
+      "sec": 21.2,
+      "frame": 636,
+      "what": "code digits type into the form"
+     },
+     {
+      "sec": 22.2,
+      "frame": 666,
+      "what": "CODE chip flies along a path to the LootBag; tag 0.0 s"
+     }
+    ]
+   },
+   "onScreenText": "① SMS + لينك مزيف",
+   "sfx": [
+    "whoosh-short",
+    "pop",
+    "type",
+    "scan",
+    "whoosh"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 4,
+   "startSec": 23.5333,
+   "endSec": 35.2667,
+   "startFrame": 706,
+   "endFrame": 1058,
+   "voiceover": "الحيلة الثانية: يجيك ميساج في فيسبوك ولا تيليغرام: \"نسخة جديدة من بريدي موب، حمّلها من هنا\". تحمّل… بصح هاذاك ماشي بريدي موب، هاذاك تطبيق تاع المحتال. بريدي موب الصح تحمّلو غير من Play Store ولا App Store.",
+   "component": "TrickFakeApp",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "SECURITY · BARIDIMOB",
+    "chapterPill": "حيلة 2 · تطبيق مزيف",
+    "events": [
+     {
+      "sec": 23.6,
+      "frame": 708,
+      "what": "chapter pill + phone with generic chat"
+     },
+     {
+      "sec": 24.6,
+      "frame": 738,
+      "what": "platform pills Facebook / Telegram (text only)"
+     },
+     {
+      "sec": 26.4,
+      "frame": 792,
+      "what": "LinkCard 'نسخة جديدة 🔥 حمّلها من هنا' with DOWNLOAD chip"
+     },
+     {
+      "sec": 29.1,
+      "frame": 873,
+      "what": "progress bar fills, blue wallet icon lands on the home screen"
+     },
+     {
+      "sec": 29.8,
+      "frame": 894,
+      "what": "icon flips: ThiefGlyph on its back + sticker 'تطبيق المحتال'"
+     },
+     {
+      "sec": 32.1,
+      "frame": 963,
+      "what": "split: chat download ❌ vs store ✅ 'Play Store · App Store'"
+     },
+     {
+      "sec": 33.2,
+      "frame": 996,
+      "what": "store side scales up"
+     }
+    ]
+   },
+   "onScreenText": "② تطبيق مزيف في الميساج",
+   "sfx": [
+    "pop",
+    "tick-roll",
+    "morph",
+    "stamp",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "explain"
+  },
+  {
+   "id": 5,
+   "startSec": 35.2667,
+   "endSec": 53.7,
+   "startFrame": 1058,
+   "endFrame": 1611,
+   "voiceover": "والحيلة الثالثة هي الأخطر، في Android. كي تحل داك التطبيق المزيف، يطلب منك إذن يسموه Accessibility. تقبل… ودروك راهو يشوف واش كاين في الشاشة ويتحكم فيها بلاصتك. تحل بريدي موب، يحطلك فوقو شاشة مزيفة تشبهلو بالضبط. تكتب الكود… بصح راك تكتبو للمحتال. وحتى SMS الكود يقراها.",
+   "component": "TrickOverlay",
+   "props": {
+    "canvas": "dark",
+    "header": true,
+    "headerTag": "SECURITY · BARIDIMOB",
+    "chapterPill": "حيلة 3 · الأخطر",
+    "events": [
+     {
+      "sec": 35.35,
+      "frame": 1060,
+      "what": "dark blueprint reveal + chapter pill + ANDROID sticker"
+     },
+     {
+      "sec": 37.5,
+      "frame": 1125,
+      "what": "the fake app opens in the phone"
+     },
+     {
+      "sec": 38.6,
+      "frame": 1158,
+      "what": "AccessibilityScreen slides up, fake row highlighted"
+     },
+     {
+      "sec": 40.0,
+      "frame": 1200,
+      "what": "TermLabel Accessibility = إذن"
+     },
+     {
+      "sec": 41.4,
+      "frame": 1242,
+      "what": "toggle flips ON + Allow tapped (تقبل)"
+     },
+     {
+      "sec": 42.0,
+      "frame": 1260,
+      "what": "eye spreads over the screen"
+     },
+     {
+      "sec": 42.6,
+      "frame": 1278,
+      "what": "ghost cursor moves by itself (until 45.0)"
+     },
+     {
+      "sec": 45.6,
+      "frame": 1368,
+      "what": "the real wallet app (blue) opens"
+     },
+     {
+      "sec": 46.3,
+      "frame": 1389,
+      "what": "red-edged fake layer slides down over it"
+     },
+     {
+      "sec": 47.2,
+      "frame": 1416,
+      "what": "tilt to 3D side view: two labelled layers"
+     },
+     {
+      "sec": 49.2,
+      "frame": 1476,
+      "what": "code typed on the top layer"
+     },
+     {
+      "sec": 50.1,
+      "frame": 1503,
+      "what": "CODE chip flies from the top layer to the LootBag"
+     },
+     {
+      "sec": 52.0,
+      "frame": 1560,
+      "what": "SMS code chip arrives, dotted copy to the LootBag"
+     }
+    ]
+   },
+   "onScreenText": "③ إذن Accessibility = شاشة مزيفة",
+   "sfx": [
+    "glow",
+    "stamp",
+    "scan",
+    "morph",
+    "whoosh",
+    "ding"
+   ],
+   "tool": "remotion",
+   "role": "aha"
+  },
+  {
+   "id": 6,
+   "startSec": 53.7,
+   "endSec": 59.5,
+   "startFrame": 1611,
+   "endFrame": 1785,
+   "voiceover": "القاعدة بسيطة: بريد الجزائر ما يطلبش منك الكود. لا في SMS، لا في التيليفون، لا في ميساج.",
+   "component": "RuleStamp",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "SECURITY · BARIDIMOB",
+    "chapterPill": "القاعدة",
+    "events": [
+     {
+      "sec": 53.8,
+      "frame": 1614,
+      "what": "three trick icons in a row"
+     },
+     {
+      "sec": 54.4,
+      "frame": 1632,
+      "what": "rule text types in"
+     },
+     {
+      "sec": 56.4,
+      "frame": 1692,
+      "what": "pill SMS ✕"
+     },
+     {
+      "sec": 57.3,
+      "frame": 1719,
+      "what": "pill تيليفون ✕"
+     },
+     {
+      "sec": 58.2,
+      "frame": 1746,
+      "what": "pill ميساج ✕"
+     },
+     {
+      "sec": 58.9,
+      "frame": 1767,
+      "what": "XStamp over the three trick icons"
+     }
+    ]
+   },
+   "onScreenText": "ما يطلبوش الكود ❌",
+   "sfx": [
+    "stamp",
+    "stamp",
+    "stamp",
+    "hit"
+   ],
+   "tool": "remotion",
+   "role": "recap"
+  },
+  {
+   "id": 7,
+   "startSec": 59.5,
+   "endSec": 66.9,
+   "startFrame": 1785,
+   "endFrame": 2007,
+   "voiceover": "وإذا صرالك؟ روح لأقرب GAB وبدّل الرقم المربوط بالحساب. عيّط لـ 1530. وأودع شكوى عند الشرطة ولا الدرك.",
+   "component": "RecoveryChecklist",
+   "props": {
+    "canvas": "light",
+    "header": true,
+    "headerTag": "SECURITY · BARIDIMOB",
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 59.6,
+      "frame": 1788,
+      "what": "MiniUI 'إذا صرالك' appears"
+     },
+     {
+      "sec": 60.5,
+      "frame": 1815,
+      "what": "AtmMock enters big (GAB)"
+     },
+     {
+      "sec": 62.6,
+      "frame": 1878,
+      "what": "AtmMock shrinks into row 1"
+     },
+     {
+      "sec": 63.4,
+      "frame": 1902,
+      "what": "row 2: 1530"
+     },
+     {
+      "sec": 64.3,
+      "frame": 1929,
+      "what": "gendarmerie photo enters big"
+     },
+     {
+      "sec": 64.9,
+      "frame": 1947,
+      "what": "photo shrinks into row 3; full list holds"
+     }
+    ]
+   },
+   "onScreenText": "GAB · 1530 · شكوى",
+   "sfx": [
+    "pop",
+    "ding",
+    "pop"
+   ],
+   "tool": "remotion",
+   "role": "save frame"
+  },
+  {
+   "id": 8,
+   "startSec": 66.9,
+   "endSec": 72.7667,
+   "startFrame": 2007,
+   "endFrame": 2183,
+   "voiceover": "ابعث هاذ الفيديو لماماك ولا باباك، باش ما يطيحوش فيها. وانت؟ وصلتك رسالة كيما هاذي؟ إيه ولا لا؟",
+   "component": "ShareLoop",
+   "props": {
+    "canvas": "light",
+    "header": false,
+    "headerTag": null,
+    "chapterPill": null,
+    "events": [
+     {
+      "sec": 67.0,
+      "frame": 2010,
+      "what": "send icon + 'ابعثو لماماك وباباك'"
+     },
+     {
+      "sec": 70.0,
+      "frame": 2100,
+      "what": "وانت؟ then the question; buttons إيه / لا from 70.75"
+     },
+     {
+      "sec": 72.1,
+      "frame": 2163,
+      "what": "loop: CODE chip back into the phone, balance counts back up, phone locks"
+     }
+    ]
+   },
+   "onScreenText": "ابعثو لماماك 📤 · وصلتك؟ إيه / لا",
+   "sfx": [
+    "whoosh",
+    "pop",
+    "pop",
+    "tick-roll",
+    "lock"
+   ],
+   "tool": "remotion",
+   "role": "CTA"
+  }
+ ]
+}

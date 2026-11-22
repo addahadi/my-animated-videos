@@ -1,0 +1,68 @@
+{
+  "file": "videos/GTA_6/narration-master.wav",
+  "samples": 3094080,
+  "durationSec": 64.46,
+  "speechEndSec": 62.46,
+  "tailSec": 2.0,
+  "unusedTakes": [
+    "audio4.ogg (earlier take of audio5)"
+  ],
+  "narrationEdit": [
+    {
+      "clip": "audio1.ogg",
+      "srcInSec": 1.93,
+      "srcOutSec": 7.83,
+      "masterStartSec": 0.0,
+      "masterEndSec": 5.9
+    },
+    {
+      "clip": "audio2.ogg",
+      "srcInSec": 1.53,
+      "srcOutSec": 7.63,
+      "masterStartSec": 6.35,
+      "masterEndSec": 12.45
+    },
+    {
+      "clip": "audio3.ogg",
+      "srcInSec": 1.84,
+      "srcOutSec": 9.2,
+      "masterStartSec": 12.7,
+      "masterEndSec": 20.06
+    },
+    {
+      "clip": "audio5.ogg",
+      "srcInSec": 1.5,
+      "srcOutSec": 10.02,
+      "masterStartSec": 20.31,
+      "masterEndSec": 28.83
+    },
+    {
+      "clip": "audio6.ogg",
+      "srcInSec": 1.19,
+      "srcOutSec": 10.1,
+      "masterStartSec": 29.08,
+      "masterEndSec": 37.99
+    },
+    {
+      "clip": "audio7.ogg",
+      "srcInSec": 1.37,
+      "srcOutSec": 6.83,
+      "masterStartSec": 38.24,
+      "masterEndSec": 43.7
+    },
+    {
+      "clip": "audio8.ogg",
+      "srcInSec": 1.51,
+      "srcOutSec": 12.53,
+      "masterStartSec": 43.95,
+      "masterEndSec": 54.97
+    },
+    {
+      "clip": "audio9.ogg",
+      "srcInSec": 1.24,
+      "srcOutSec": 7.73,
+      "masterStartSec": 55.97,
+      "masterEndSec": 62.46
+    }
+  ]
+}

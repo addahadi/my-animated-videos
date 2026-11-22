@@ -1,0 +1,871 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2822,
+  "audioDurationSec": 94.059,
+  "audioFile": "videos/phone-listening/narration-master.wav",
+  "audioSourceNote": "Assembled from videos/phone-listening/inputs/audio1-12.ogg (originals untouched). Only silence was trimmed or added; no words were cut. See narrationEdit.",
+  "narrationEdit": [
+    {
+      "beat": 1,
+      "clip": "audio1.ogg",
+      "srcInSec": 0.9,
+      "srcOutSec": 9.5,
+      "masterStartSec": 0.1,
+      "masterEndSec": 8.7
+    },
+    {
+      "beat": 2,
+      "clip": "audio2.ogg",
+      "srcInSec": 0.56,
+      "srcOutSec": 6.22,
+      "masterStartSec": 8.85,
+      "masterEndSec": 14.51
+    },
+    {
+      "beat": 3,
+      "clip": "audio3.ogg",
+      "srcInSec": 0.88,
+      "srcOutSec": 7.58,
+      "masterStartSec": 14.66,
+      "masterEndSec": 21.36
+    },
+    {
+      "beat": 4,
+      "clip": "audio4.ogg",
+      "srcInSec": 0.5,
+      "srcOutSec": 5.34,
+      "masterStartSec": 21.51,
+      "masterEndSec": 26.35
+    },
+    {
+      "beat": 5,
+      "clip": "audio5.ogg",
+      "srcInSec": 0.42,
+      "srcOutSec": 9.54,
+      "masterStartSec": 26.5,
+      "masterEndSec": 35.62
+    },
+    {
+      "beat": 6,
+      "clip": "audio6.ogg",
+      "srcInSec": 0.54,
+      "srcOutSec": 5.62,
+      "masterStartSec": 36.22,
+      "masterEndSec": 41.3
+    },
+    {
+      "beat": 7,
+      "clip": "audio7.ogg",
+      "srcInSec": 0.36,
+      "srcOutSec": 4.74,
+      "masterStartSec": 41.7,
+      "masterEndSec": 46.08
+    },
+    {
+      "beat": 8,
+      "clip": "audio8.ogg",
+      "srcInSec": 0.22,
+      "srcOutSec": 4.54,
+      "masterStartSec": 46.23,
+      "masterEndSec": 50.55
+    },
+    {
+      "beat": 9,
+      "clip": "audio9.ogg",
+      "srcInSec": 0.46,
+      "srcOutSec": 8.96,
+      "masterStartSec": 50.7,
+      "masterEndSec": 59.2
+    },
+    {
+      "beat": 10,
+      "clip": "audio10.ogg",
+      "srcInSec": 0.26,
+      "srcOutSec": 12.26,
+      "masterStartSec": 59.35,
+      "masterEndSec": 71.35
+    },
+    {
+      "beat": 11,
+      "clip": "audio11.ogg",
+      "srcInSec": 0.22,
+      "srcOutSec": 8.04,
+      "masterStartSec": 71.5,
+      "masterEndSec": 79.32
+    },
+    {
+      "beat": 12,
+      "clip": "audio11.ogg",
+      "srcInSec": 8.0,
+      "srcOutSec": 12.48,
+      "masterStartSec": 79.92,
+      "masterEndSec": 84.4
+    },
+    {
+      "beat": 13,
+      "clip": "audio12.ogg",
+      "srcInSec": 0.32,
+      "srcOutSec": 7.829,
+      "masterStartSec": 84.95,
+      "masterEndSec": 92.459
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "startSec": 0.0,
+      "endSec": 8.7,
+      "startFrame": 0,
+      "endFrame": 261,
+      "voiceover": "هدرت مع صاحبك على صبّاط... وخمس دقايق من بعد، التيليفون عمّرلك الشاشة بالصبابط. صدفة؟ لا. يسمعك؟ حتى هي لا.",
+      "component": "HookFeed",
+      "props": {
+        "canvas": "light",
+        "header": false,
+        "headerTag": null,
+        "chapterPill": null,
+        "events": [
+          {
+            "sec": 0.0,
+            "frame": 0,
+            "what": "phone (DeviceMock) centred with 3 shoe AdCards already sliding up the screen; motion on frame 1"
+          },
+          {
+            "sec": 0.2,
+            "frame": 6,
+            "what": "SpeechBubble pops left of phone with the word 'صبّاط'"
+          },
+          {
+            "sec": 1.35,
+            "frame": 40,
+            "what": "ValueTag '+5 MIN' hangs from the bubble"
+          },
+          {
+            "sec": 2.9,
+            "frame": 87,
+            "what": "feed fills: 4 more shoe AdCards cascade in (on 'عمّرلك')"
+          },
+          {
+            "sec": 4.7,
+            "frame": 141,
+            "what": "ink StickerPill 'صدفة؟' pops"
+          },
+          {
+            "sec": 5.6,
+            "frame": 168,
+            "what": "red Stamp X 'لا' slams over it (anchor: pause ends ~5.77)"
+          },
+          {
+            "sec": 6.15,
+            "frame": 184,
+            "what": "MicIcon on the phone + ink StickerPill 'يسمعك؟' (anchor ~6.41)"
+          },
+          {
+            "sec": 7.95,
+            "frame": 238,
+            "what": "second red Stamp X over the mic (anchor 'لا' ~8.2)"
+          }
+        ]
+      },
+      "onScreenText": "صدفة؟ لا. يسمعك؟ لا.",
+      "sfx": [
+        "pop",
+        "pop",
+        "stamp",
+        "pop",
+        "stamp"
+      ],
+      "tool": "remotion",
+      "role": "hook"
+    },
+    {
+      "id": 2,
+      "startSec": 8.7,
+      "endSec": 14.5,
+      "startFrame": 261,
+      "endFrame": 435,
+      "voiceover": "كامل الناس يقولو الميكرو. تعالى نشوفو علاش الميكرو ماشي منطقي... والحقيقة أغرب من هكا.",
+      "component": "SuspectCard",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "المشتبه فيه: الميكرو",
+        "events": [
+          {
+            "sec": 8.7,
+            "frame": 261,
+            "what": "header strip + chapter pill enter; phone shrinks to the left"
+          },
+          {
+            "sec": 9.4,
+            "frame": 282,
+            "what": "Card 'SUSPECT #1' with MicIcon slides up (anchor 'الميكرو' ~9.7)"
+          },
+          {
+            "sec": 11.2,
+            "frame": 336,
+            "what": "ink '?' sticker on the card (anchor 'ماشي منطقي' ~12.0)"
+          },
+          {
+            "sec": 12.3,
+            "frame": 369,
+            "what": "LockedChip 'TRUTH · LOCKED' drops into the top-right of the content zone; it stays visible until scene 12 (anchor 'والحقيقة' ~12.6)"
+          },
+          {
+            "sec": 13.6,
+            "frame": 408,
+            "what": "lock wiggles on 'أغرب' (~13.8)"
+          }
+        ]
+      },
+      "onScreenText": "الحقيقة أغرب",
+      "sfx": [
+        "whoosh",
+        "pop",
+        "lock"
+      ],
+      "tool": "remotion",
+      "role": "open loop"
+    },
+    {
+      "id": 3,
+      "startSec": 14.5,
+      "endSec": 21.367,
+      "startFrame": 435,
+      "endFrame": 641,
+      "voiceover": "أولا، لو كان التيليفون يسجّل كلامك نهار كامل ويبعثو لـ server، الباتري تفرغ بالزربة، والـ data نتاعك تطير.",
+      "component": "MicDrainTest",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "لو كان يسمع 24/7",
+        "events": [
+          {
+            "sec": 14.6,
+            "frame": 438,
+            "what": "phone (left) and NodeBox 'SERVER' (right), FlowArrow between them"
+          },
+          {
+            "sec": 16.0,
+            "frame": 480,
+            "what": "sound-wave PacketChips start streaming phone -> server (anchor 'يسجّل' ~16.3)"
+          },
+          {
+            "sec": 17.7,
+            "frame": 531,
+            "what": "server glows as chips arrive (anchor 'server' ~18.0)"
+          },
+          {
+            "sec": 19.0,
+            "frame": 570,
+            "what": "battery ValueTag drains 100% -> 9%, fill turns red (anchor 'تفرغ' ~19.2)"
+          },
+          {
+            "sec": 20.0,
+            "frame": 600,
+            "what": "DATA counter tag spins up with up arrows (anchor 'data' ~20.2)"
+          },
+          {
+            "sec": 20.8,
+            "frame": 624,
+            "what": "red Stamp 'ماشي منطقي' lands (anchor 'تطير' ~20.9)"
+          }
+        ]
+      },
+      "onScreenText": "MIC 24/7 = باتري فارغة",
+      "sfx": [
+        "whoosh",
+        "tick-loop",
+        "stamp"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 4,
+      "startSec": 21.367,
+      "endSec": 26.333,
+      "startFrame": 641,
+      "endFrame": 790,
+      "voiceover": "وزيد، Android و iPhone دروك يحطولك نقطة صغيرة ملونة فوق الشاشة، كل ما يكون الميكرو خدام.",
+      "component": "StatusBarZoom",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "الدليل: النقطة",
+        "events": [
+          {
+            "sec": 21.4,
+            "frame": 642,
+            "what": "enlarged generic status-bar Card ('9:41', signal, battery). No real OS logos"
+          },
+          {
+            "sec": 23.6,
+            "frame": 708,
+            "what": "green IndicatorDot appears and pulses (anchor 'نقطة' ~23.9)"
+          },
+          {
+            "sec": 24.3,
+            "frame": 729,
+            "what": "ring highlight + ink arrow onto the dot"
+          },
+          {
+            "sec": 25.2,
+            "frame": 756,
+            "what": "green StickerPill 'MIC ON' (anchor 'الميكرو خدام' ~25.4)"
+          }
+        ]
+      },
+      "onScreenText": "النقطة = الميكرو خدام",
+      "sfx": [
+        "zoom",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 5,
+      "startSec": 26.333,
+      "endSec": 36.0,
+      "startFrame": 790,
+      "endFrame": 1080,
+      "voiceover": "وفي 2018، باحثين في جامعة أمريكية جربو أكثر من 17 ألف application. ما لقاوش ولا وحدة تبعث صوتك في الخفية. ماشي مستحيل، بصح ما كاين حتى دليل.",
+      "component": "StudyGrid",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "تجربة · 2018",
+        "events": [
+          {
+            "sec": 26.4,
+            "frame": 792,
+            "what": "ValueTag '2018' + mono label 'UNIVERSITY STUDY'"
+          },
+          {
+            "sec": 28.0,
+            "frame": 840,
+            "what": "AppGrid of generic icons fills row by row"
+          },
+          {
+            "sec": 29.45,
+            "frame": 884,
+            "what": "counter rolls to '17,000+' (anchor '17' ~29.7) [VERIFY number]"
+          },
+          {
+            "sec": 30.5,
+            "frame": 915,
+            "what": "ScanLine sweeps the grid"
+          },
+          {
+            "sec": 31.5,
+            "frame": 945,
+            "what": "result Card 'AUDIO LEAKS' with a big green '0' (anchor 'ولا وحدة' ~31.7)"
+          },
+          {
+            "sec": 33.1,
+            "frame": 993,
+            "what": "ValueTag 'مستحيل؟' fades to the faded colour (anchor 'ماشي مستحيل' ~33.3)"
+          },
+          {
+            "sec": 34.5,
+            "frame": 1035,
+            "what": "new value pops in full ink: 'ما كاين حتى دليل' / NO EVIDENCE (anchor 'حتى دليل' ~34.9)"
+          },
+          {
+            "sec": 35.62,
+            "frame": 1069,
+            "what": "0.4 s hold on the result before the twist"
+          }
+        ]
+      },
+      "onScreenText": "+17,000 APP -> 0",
+      "sfx": [
+        "pop",
+        "tick-loop",
+        "scan",
+        "pop",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 6,
+      "startSec": 36.0,
+      "endSec": 41.467,
+      "startFrame": 1080,
+      "endFrame": 1244,
+      "voiceover": "بصح لقاو حاجة أخرى: تطبيقات كانت تصوّر واش يصرا في الشاشة نتاعك وتبعثو لشركة أخرى.",
+      "component": "ScreenLeak",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "بصح...",
+        "events": [
+          {
+            "sec": 36.0,
+            "frame": 1080,
+            "what": "AppGrid returns dimmed (hard cut on the pause)"
+          },
+          {
+            "sec": 36.9,
+            "frame": 1107,
+            "what": "one icon turns red and lifts out; red StickerPill 'حاجة أخرى' (anchor 'أخرى' ~37.2)"
+          },
+          {
+            "sec": 38.35,
+            "frame": 1150,
+            "what": "phone screenshots peel off as small frames, shutter flash (anchor 'تصوّر' ~38.6)"
+          },
+          {
+            "sec": 39.7,
+            "frame": 1191,
+            "what": "frames fly along a FlowArrow to NodeBox 'THIRD PARTY' (anchor 'تبعثو' ~39.9)"
+          },
+          {
+            "sec": 40.6,
+            "frame": 1218,
+            "what": "red tag 'SCREEN -> 3RD PARTY' on the box"
+          }
+        ]
+      },
+      "onScreenText": "تصوّر الشاشة",
+      "sfx": [
+        "hit",
+        "shutter",
+        "shutter",
+        "whoosh"
+      ],
+      "tool": "remotion",
+      "role": "aha"
+    },
+    {
+      "id": 7,
+      "startSec": 41.467,
+      "endSec": 46.067,
+      "startFrame": 1244,
+      "endFrame": 1382,
+      "voiceover": "إذن كيفاش عرف بلي راك حاب تشري صبّاط؟ ما يحتاجش يسمعك. يكفي يشوفك.",
+      "component": "EarToEye",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "إذن كيفاش عرف؟",
+        "events": [
+          {
+            "sec": 41.5,
+            "frame": 1245,
+            "what": "the shoe AdCard from the hook returns to centre with a big ink '?'"
+          },
+          {
+            "sec": 43.4,
+            "frame": 1302,
+            "what": "EarIcon pops beside it"
+          },
+          {
+            "sec": 44.5,
+            "frame": 1335,
+            "what": "red strike across the ear (anchor 'يسمعك' ~44.8)"
+          },
+          {
+            "sec": 45.4,
+            "frame": 1362,
+            "what": "ear morphs into EyeIcon with a yellow highlight ring (anchor 'يشوفك' ~45.8)"
+          }
+        ]
+      },
+      "onScreenText": "ما يسمعكش... يشوفك",
+      "sfx": [
+        "whoosh",
+        "stamp",
+        "morph"
+      ],
+      "tool": "remotion",
+      "role": "open loop"
+    },
+    {
+      "id": 8,
+      "startSec": 46.067,
+      "endSec": 50.533,
+      "startFrame": 1382,
+      "endFrame": 1516,
+      "voiceover": "الـ GPS نتاع التيليفون يعرف بلي فت قدام حانوت صبابط، ولا قعدت ربع ساعة في المول.",
+      "component": "MapPin",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "دليل 1 · GPS",
+        "events": [
+          {
+            "sec": 46.1,
+            "frame": 1383,
+            "what": "flat MapCard with streets; LocationPin drops"
+          },
+          {
+            "sec": 46.6,
+            "frame": 1398,
+            "what": "pin walks along a street"
+          },
+          {
+            "sec": 48.3,
+            "frame": 1449,
+            "what": "pin stops at a generic 'SHOE SHOP' block, which highlights yellow (anchor 'حانوت' ~48.5)"
+          },
+          {
+            "sec": 49.4,
+            "frame": 1482,
+            "what": "'15 MIN' ring fills around the pin (anchor 'ربع ساعة' ~49.6)"
+          },
+          {
+            "sec": 50.0,
+            "frame": 1500,
+            "what": "'MALL' block outline + yellow tag 'LOCATION' (anchor 'المول' ~50.2)"
+          }
+        ]
+      },
+      "onScreenText": "الموقع",
+      "sfx": [
+        "pop",
+        "step-loop",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 9,
+      "startSec": 50.533,
+      "endSec": 59.2,
+      "startFrame": 1516,
+      "endFrame": 1776,
+      "voiceover": "وصاحبك اللي هدرت معاه، حوّس على صبابط في الـ internet... وأنتوما مربوطين في نفس الـ WiFi. بشكل مبسط، بالنسبة للإعلانات، نفس الـ WiFi معناه نفس الدار، ونفس الاهتمامات.",
+      "component": "SharedWifi",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "دليل 2 · WiFi",
+        "events": [
+          {
+            "sec": 50.6,
+            "frame": 1518,
+            "what": "two phones: 'YOU' (right) and 'FRIEND' (left); friend's phone lifts slightly"
+          },
+          {
+            "sec": 51.4,
+            "frame": 1542,
+            "what": "SearchBar on the friend's phone types 'shoes' (anchor 'حوّس' ~51.7)"
+          },
+          {
+            "sec": 53.2,
+            "frame": 1596,
+            "what": "one WifiIcon above both phones, arcs connect them (anchor 'مربوطين' ~53.6)"
+          },
+          {
+            "sec": 54.5,
+            "frame": 1635,
+            "what": "small ink StickerPill 'بشكل مبسط' (the honesty label)"
+          },
+          {
+            "sec": 56.4,
+            "frame": 1692,
+            "what": "dashed HouseOutline draws around both phones (completes on 'نفس الدار' ~57.9)"
+          },
+          {
+            "sec": 58.2,
+            "frame": 1746,
+            "what": "yellow 'SHOES' interest tag copies from the friend's phone to yours (anchor 'نفس الاهتمامات' ~58.4)"
+          }
+        ]
+      },
+      "onScreenText": "نفس الـ WiFi = نفس الدار",
+      "sfx": [
+        "pop",
+        "type",
+        "pop",
+        "draw",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 10,
+      "startSec": 59.2,
+      "endSec": 71.333,
+      "startFrame": 1776,
+      "endFrame": 2140,
+      "voiceover": "وزيد كل click، كل vidéo وقفت عليها جوج ثواني، كل حاجة شريتها... كلش يدخل في model نتاع AI، يعني برنامج تعلّم من ملايين الناس. وخدمتو وحدة: يتوقع واش راح تحب، قبل ما تعرف أنت.",
+      "component": "ModelBlueprint",
+      "props": {
+        "canvas": "dark",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "دليل 3 · AI",
+        "events": [
+          {
+            "sec": 59.2,
+            "frame": 1776,
+            "what": "scan transition (<=0.4 s) into the dark blueprint canvas; glowing ModelBox in the centre"
+          },
+          {
+            "sec": 59.6,
+            "frame": 1788,
+            "what": "PacketChip 'CLICK' flies into the box (anchor 'click' ~59.9)"
+          },
+          {
+            "sec": 60.4,
+            "frame": 1812,
+            "what": "PacketChip 'VIDEO · 2s' (anchor 'vidéo' ~60.7)"
+          },
+          {
+            "sec": 62.6,
+            "frame": 1878,
+            "what": "PacketChip 'BUY' (anchor 'شريتها' ~63.0)"
+          },
+          {
+            "sec": 63.6,
+            "frame": 1908,
+            "what": "the box glows mint; inner layers light up (anchor 'يدخل' ~63.9)"
+          },
+          {
+            "sec": 64.8,
+            "frame": 1944,
+            "what": "TermLabel snaps on: 'MODEL = برنامج تعلّم' (anchor 'يعني برنامج' ~65.1)"
+          },
+          {
+            "sec": 66.8,
+            "frame": 2004,
+            "what": "a stream of tiny dots, 'MILLIONS', flows into the box (anchor 'ملايين' ~67.1)"
+          },
+          {
+            "sec": 68.2,
+            "frame": 2046,
+            "what": "output ScaleBar 'PREDICTION' draws below the box"
+          },
+          {
+            "sec": 68.9,
+            "frame": 2067,
+            "what": "mint marker slides to 'صبّاط 87%' with a mono 'EXAMPLE' label (anchor 'يتوقع' ~69.1)"
+          },
+          {
+            "sec": 70.1,
+            "frame": 2103,
+            "what": "yellow bracket + 'قبل ما تعرف' (anchor 'قبل' ~70.3)"
+          }
+        ]
+      },
+      "onScreenText": "AI يتوقع قبل ما تعرف",
+      "sfx": [
+        "scan",
+        "pop",
+        "pop",
+        "pop",
+        "hum",
+        "whoosh",
+        "hit"
+      ],
+      "tool": "remotion",
+      "role": "aha"
+    },
+    {
+      "id": 11,
+      "startSec": 71.333,
+      "endSec": 79.7,
+      "startFrame": 2140,
+      "endFrame": 2391,
+      "voiceover": "والحاجة الأخيرة... راهي في مخك. الإعلانات نتاع الصبابط كانو قدامك من قبل، بصح ما كنتش تلاحظهم. كي هدرت عليهم، مخك ولّى يشوفهم في كل بلاصة.",
+      "component": "FeedNotice",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "دليل 4 · مخك",
+        "events": [
+          {
+            "sec": 71.35,
+            "frame": 2140,
+            "what": "phone feed scrolls: mixed AdCards, the shoe ones in the faded colour"
+          },
+          {
+            "sec": 72.4,
+            "frame": 2172,
+            "what": "BrainIcon pops (anchor 'مخك' ~72.7)"
+          },
+          {
+            "sec": 73.6,
+            "frame": 2208,
+            "what": "mono tag 'ALREADY THERE' points at the faded shoe ads (enters with the line; anchor 'من قبل' ~74.9)"
+          },
+          {
+            "sec": 75.7,
+            "frame": 2271,
+            "what": "ink StickerPill 'ما لاحظتهمش' (anchor ~76.0)"
+          },
+          {
+            "sec": 76.9,
+            "frame": 2307,
+            "what": "brain lights up (anchor 'هدرت' ~77.0)"
+          },
+          {
+            "sec": 77.4,
+            "frame": 2322,
+            "what": "all shoe ads switch to full colour with yellow outlines at once (anchor 'يشوفهم' ~78.0)"
+          },
+          {
+            "sec": 78.5,
+            "frame": 2355,
+            "what": "highlights pulse across the feed (anchor 'كل بلاصة' ~78.6)"
+          },
+          {
+            "sec": 79.32,
+            "frame": 2380,
+            "what": "0.4 s hold before the recap"
+          }
+        ]
+      },
+      "onScreenText": "كانو قدامك من قبل",
+      "sfx": [
+        "whoosh",
+        "pop",
+        "pop",
+        "glow"
+      ],
+      "tool": "remotion",
+      "role": "aha"
+    },
+    {
+      "id": 12,
+      "startSec": 79.7,
+      "endSec": 88.2,
+      "startFrame": 2391,
+      "endFrame": 2646,
+      "voiceover": "إذن الخلاصة: التيليفون ما يسمعكش. يعرف وين رحت، مع من كنت، وواش شفت. ما يحتاجش يتجسس عليك... خاطر يعرفك مليح بلا ما يسمعك.",
+      "component": "CaseFileRecap",
+      "props": {
+        "canvas": "light",
+        "header": true,
+        "headerTag": "HOW IT WORKS · ADS",
+        "chapterPill": "الخلاصة",
+        "events": [
+          {
+            "sec": 79.7,
+            "frame": 2391,
+            "what": "LockedChip unlocks (closes the scene-2 open loop); MiniUI 'CASE FILE' card opens"
+          },
+          {
+            "sec": 80.8,
+            "frame": 2424,
+            "what": "row 0: MicIcon + 'الميكرو' struck through in red, label 'ما يسمعكش' (anchor ~81.1)"
+          },
+          {
+            "sec": 81.7,
+            "frame": 2451,
+            "what": "row 1: PinIcon 'وين رحت' + mono 'GPS' (anchor ~81.9)"
+          },
+          {
+            "sec": 82.7,
+            "frame": 2481,
+            "what": "row 2: WifiIcon 'مع من كنت' + mono 'WIFI' (anchor ~83.0)"
+          },
+          {
+            "sec": 83.7,
+            "frame": 2511,
+            "what": "row 3: EyeIcon 'واش شفت' + mono 'AI', gold/beige highlighted row (anchor ~84.0)"
+          },
+          {
+            "sec": 84.0,
+            "frame": 2520,
+            "what": "SAVE FRAME: the full card holds still until 86.6 (2.6 s)"
+          },
+          {
+            "sec": 86.5,
+            "frame": 2595,
+            "what": "the card dims and slides down; closing line types in large: 'يعرفك... بلا ما يسمعك' (anchor 'يعرفك' ~86.6)"
+          },
+          {
+            "sec": 87.4,
+            "frame": 2622,
+            "what": "small EarIcon fades out (anchor 'يسمعك' ~87.6)"
+          }
+        ]
+      },
+      "onScreenText": "يعرفك... بلا ما يسمعك",
+      "sfx": [
+        "unlock",
+        "pop",
+        "pop",
+        "pop",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "recap / save frame"
+    },
+    {
+      "id": 13,
+      "startSec": 88.2,
+      "endSec": 94.067,
+      "startFrame": 2646,
+      "endFrame": 2822,
+      "voiceover": "وإذا حبيت تعرف كيفاش تنقص هاد الـ tracking، كتبلي part 2 في الكومنتار.",
+      "component": "EndCard",
+      "props": {
+        "canvas": "light",
+        "header": false,
+        "headerTag": null,
+        "chapterPill": null,
+        "events": [
+          {
+            "sec": 88.2,
+            "frame": 2646,
+            "what": "clean canvas (no header); the hook's phone with the shoe-ad feed returns (loop echo)"
+          },
+          {
+            "sec": 88.8,
+            "frame": 2664,
+            "what": "red Stamp 'EXPLAINED' over the phone"
+          },
+          {
+            "sec": 89.4,
+            "frame": 2682,
+            "what": "wordmark 'Runtime.tech' with ScanLine; tagline 'TECH · EXPLAINED SIMPLY'"
+          },
+          {
+            "sec": 90.3,
+            "frame": 2709,
+            "what": "CommentIcon bubble 'PART 2?' next to the phone (anchor 'tracking' ~90.2)"
+          },
+          {
+            "sec": 91.0,
+            "frame": 2730,
+            "what": "dark button 'كتبلي PART 2' with arrow pops (anchor 'part 2' ~91.3)"
+          },
+          {
+            "sec": 92.46,
+            "frame": 2774,
+            "what": "voice ends; 1.6 s hold (music tail); last frame = phone with shoe ads, echoing frame 1"
+          }
+        ]
+      },
+      "onScreenText": "كتبلي PART 2",
+      "sfx": [
+        "whoosh",
+        "stamp",
+        "scan",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "CTA"
+    }
+  ]
+}

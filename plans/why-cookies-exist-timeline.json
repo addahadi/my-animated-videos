@@ -1,0 +1,320 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "durationInFrames": 2535,
+  "audioDurationSec": 84.485,
+  "audioFile": "videos/why-cookies-exist/narration-master.wav",
+  "audioSourceNote": "Assembled from videos/why-cookies-exist/inputs/audio1-9.ogg (originals untouched). Only leading/trailing silence trimmed, 0.2 s gaps added, 1.6 s tail for the end card. No words cut. Internal event times come from silencedetect and must be checked by ear.",
+  "narrationEdit": [
+    {
+      "beat": 1,
+      "clip": "audio1.ogg",
+      "srcInSec": 0.12,
+      "srcOutSec": 8.97,
+      "masterStartSec": 0,
+      "masterEndSec": 8.85
+    },
+    {
+      "beat": 2,
+      "clip": "audio2.ogg",
+      "srcInSec": 0.0,
+      "srcOutSec": 3.79,
+      "masterStartSec": 9.05,
+      "masterEndSec": 12.84
+    },
+    {
+      "beat": 3,
+      "clip": "audio3.ogg",
+      "srcInSec": 0.0,
+      "srcOutSec": 8.57,
+      "masterStartSec": 13.04,
+      "masterEndSec": 21.61
+    },
+    {
+      "beat": 4,
+      "clip": "audio4.ogg",
+      "srcInSec": 1.1,
+      "srcOutSec": 13.845,
+      "masterStartSec": 21.81,
+      "masterEndSec": 34.555
+    },
+    {
+      "beat": 5,
+      "clip": "audio5.ogg",
+      "srcInSec": 0.2,
+      "srcOutSec": 6.45,
+      "masterStartSec": 34.755,
+      "masterEndSec": 41.005
+    },
+    {
+      "beat": 6,
+      "clip": "audio6.ogg",
+      "srcInSec": 1.0,
+      "srcOutSec": 12.16,
+      "masterStartSec": 41.205,
+      "masterEndSec": 52.365
+    },
+    {
+      "beat": 7,
+      "clip": "audio7.ogg",
+      "srcInSec": 0.62,
+      "srcOutSec": 12.92,
+      "masterStartSec": 52.565,
+      "masterEndSec": 64.865
+    },
+    {
+      "beat": 8,
+      "clip": "audio8.ogg",
+      "srcInSec": 0.43,
+      "srcOutSec": 12.67,
+      "masterStartSec": 65.065,
+      "masterEndSec": 77.305
+    },
+    {
+      "beat": 9,
+      "clip": "audio9.ogg",
+      "srcInSec": 1.09,
+      "srcOutSec": 6.47,
+      "masterStartSec": 77.505,
+      "masterEndSec": 82.885
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "startSec": 0,
+      "endSec": 8.95,
+      "startFrame": 0,
+      "endFrame": 268,
+      "speechStartSec": 0,
+      "speechEndSec": 8.85,
+      "voiceover": "كاين شركات تعرف واش قريت، واش شفت، وواش حبيت تشري... وعمرك ما دخلت للموقع نتاعهم. والمفتاح هو زر تضغط عليه كل يوم: Accept cookies.",
+      "component": "HookProfile",
+      "props": {},
+      "onScreenText": "يعرفوك... وما دخلتلهمش",
+      "events": [
+        {
+          "atSec": 3.51,
+          "note": "pause after \"واش حبيت تشري\""
+        },
+        {
+          "atSec": 5.54,
+          "note": "pause after \"نتاعهم\""
+        },
+        {
+          "atSec": 7.77,
+          "note": "pause before \"Accept cookies\""
+        }
+      ],
+      "sfx": [
+        "whoosh",
+        "pop",
+        "stamp",
+        "click"
+      ],
+      "tool": "remotion",
+      "role": "hook"
+    },
+    {
+      "id": 2,
+      "startSec": 8.95,
+      "endSec": 12.94,
+      "startFrame": 268,
+      "endFrame": 388,
+      "speechStartSec": 9.05,
+      "speechEndSec": 12.84,
+      "voiceover": "الحكاية بدات بمشكل صغير: الموقع ما يعقلش عليك.",
+      "component": "StatelessIntro",
+      "props": {},
+      "onScreenText": "الموقع ما يعقلش عليك",
+      "events": [],
+      "sfx": [
+        "whoosh",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "open loop"
+    },
+    {
+      "id": 3,
+      "startSec": 12.94,
+      "endSec": 21.71,
+      "startFrame": 388,
+      "endFrame": 651,
+      "speechStartSec": 13.04,
+      "speechEndSec": 21.61,
+      "voiceover": "الويب مبني على HTTP، وHTTP ما عندوش ذاكرة. كل صفحة جديدة، الـserver يشوفك كأنك واحد جديد. تدير login، تروح للصفحة الموالية... ونساك.",
+      "component": "StatelessServer",
+      "props": {},
+      "onScreenText": "HTTP = بلا ذاكرة",
+      "events": [
+        {
+          "atSec": 14.57,
+          "note": "pause after \"مبني على HTTP\""
+        },
+        {
+          "atSec": 16.32,
+          "note": "pause after \"ما عندوش ذاكرة\""
+        },
+        {
+          "atSec": 19.19,
+          "note": "pause before the login line"
+        }
+      ],
+      "sfx": [
+        "pop",
+        "tick",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 4,
+      "startSec": 21.71,
+      "endSec": 34.655,
+      "startFrame": 651,
+      "endFrame": 1040,
+      "speechStartSec": 21.81,
+      "speechEndSec": 34.555,
+      "voiceover": "في 1994، مهندس في Netscape لقى الحل: الـcookie. ملف صغير، الموقع يحطو في الـbrowser نتاعك، فيه رقم يعرفك بيه. كيما الـpressing: تخلي القشّ، يعطيك تيكي فيه رقم. كي ترجع، تمدلو التيكي، يعرف ديراكت واش نتاعك.",
+      "component": "CookieTicket",
+      "props": {},
+      "onScreenText": "cookie = تيكي فيه رقم",
+      "events": [
+        {
+          "atSec": 24.31,
+          "note": "pause (approx. after \"لقى الحل: الـcookie\")"
+        }
+      ],
+      "sfx": [
+        "whoosh",
+        "pop",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "aha"
+    },
+    {
+      "id": 5,
+      "startSec": 34.655,
+      "endSec": 41.105,
+      "startFrame": 1040,
+      "endFrame": 1233,
+      "speechStartSec": 34.755,
+      "speechEndSec": 41.005,
+      "voiceover": "هكا تدير login مرة وحدة وتبقى connecté، وكي تزيد سبّاط للسلة وتخرج، ترجع غدوة تلقاه مازال تما.",
+      "component": "RememberedShop",
+      "props": {},
+      "onScreenText": "الموقع يتفكرك",
+      "events": [],
+      "sfx": [
+        "click",
+        "pop",
+        "ding"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 6,
+      "startSec": 41.105,
+      "endSec": 52.465,
+      "startFrame": 1233,
+      "endFrame": 1574,
+      "speechStartSec": 41.205,
+      "speechEndSec": 52.365,
+      "voiceover": "بصح كاين مشكل. شركات الإشهار حطو cookies نتاعهم في آلاف المواقع. نفس الرقم يتبعك من موقع لموقع: واش قريت، واش شفت، واش حوست باش تشري. هادو سماوهم third-party cookies.",
+      "component": "TrackerWeb",
+      "props": {},
+      "onScreenText": "يتبعك من موقع لموقع",
+      "events": [
+        {
+          "atSec": 45.31,
+          "note": "pause (approx. after \"آلاف المواقع\")"
+        }
+      ],
+      "sfx": [
+        "whoosh",
+        "tick",
+        "tick",
+        "tick",
+        "stamp"
+      ],
+      "tool": "remotion",
+      "role": "explain / re-hook"
+    },
+    {
+      "id": 7,
+      "startSec": 52.465,
+      "endSec": 64.965,
+      "startFrame": 1574,
+      "endFrame": 1949,
+      "speechStartSec": 52.565,
+      "speechEndSec": 64.865,
+      "voiceover": "هنا دخلت أوروبا. قانون ePrivacy، ومن بعد GDPR في 2018، قالو بشكل مبسط: ما تحطش cookie يتبع الناس بلا ما تسقسيهم. والمواقع، خاطر عندها زوار من كل بلاد، حطو الـbanner للعالم كامل.",
+      "component": "LawBanner",
+      "props": {},
+      "onScreenText": "القانون: لازم تسقسي",
+      "events": [],
+      "sfx": [
+        "stamp",
+        "pop",
+        "pop"
+      ],
+      "tool": "remotion",
+      "role": "explain"
+    },
+    {
+      "id": 8,
+      "startSec": 64.965,
+      "endSec": 77.405,
+      "startFrame": 1949,
+      "endFrame": 2322,
+      "speechStartSec": 65.065,
+      "speechEndSec": 77.305,
+      "voiceover": "إذن الـbanner ماشي كرم من الموقع، راهو مجبور يسقسيك. كي تضغط Accept all، راك تعطيهم الإذن يتبعوك. في بزاف المواقع تقدر تختار Reject ولا Necessary only، والموقع يخدم عادي.",
+      "component": "ChoiceBanner",
+      "props": {},
+      "onScreenText": "Accept all = إذن بالتتبع",
+      "events": [
+        {
+          "atSec": 66.17,
+          "note": "pause (approx. after the opening phrase)"
+        },
+        {
+          "atSec": 69.76,
+          "note": "pause (approx. before \"Accept all\")"
+        }
+      ],
+      "sfx": [
+        "pop",
+        "click",
+        "ding"
+      ],
+      "tool": "remotion",
+      "role": "save frame"
+    },
+    {
+      "id": 9,
+      "startSec": 77.405,
+      "endSec": 84.485,
+      "startFrame": 2322,
+      "endFrame": 2535,
+      "speechStartSec": 77.505,
+      "speechEndSec": 82.885,
+      "voiceover": "الـcookie تخلي الموقع يتفكرك... السؤال هو: شكون آخر راهو يتفكرك معاه؟",
+      "component": "LoopEnd",
+      "props": {},
+      "onScreenText": "شكون آخر يتفكرك؟",
+      "events": [],
+      "sfx": [
+        "whoosh",
+        "stamp"
+      ],
+      "tool": "remotion",
+      "role": "CTA / loop"
+    }
+  ]
+}
