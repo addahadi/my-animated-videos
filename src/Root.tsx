@@ -11,6 +11,7 @@ import { Gta6FakeDownload, scenes as gta6Scenes } from './videos/gta6-fake-downl
 import gta6Timeline from './videos/gta6-fake-download/timeline.json';
 import { BaridimobScams, BaridimobScamsTiktok, scenes as baridimobScenes, tiktokScenes as baridimobTiktokScenes } from './videos/baridimob-scams/Video';
 import baridimobTimeline from './videos/baridimob-scams/timeline.json';
+import { WorldStyleDemo, WORLD_DEMO_FRAMES } from './videos/world-style-demo/Video';
 import './fonts';
 
 export const RemotionRoot: React.FC = () => {
@@ -66,6 +67,15 @@ export const RemotionRoot: React.FC = () => {
         component={BaridimobScamsTiktok}
         durationInFrames={baridimobTiktokScenes[baridimobTiktokScenes.length - 1].endFrame}
         fps={baridimobTimeline.fps}
+        width={theme.canvas.width}
+        height={theme.canvas.height}
+        defaultProps={{ captions: true }}
+      />
+      <Composition
+        id="WorldStyleDemo"
+        component={WorldStyleDemo}
+        durationInFrames={WORLD_DEMO_FRAMES}
+        fps={30}
         width={theme.canvas.width}
         height={theme.canvas.height}
         defaultProps={{ captions: true }}

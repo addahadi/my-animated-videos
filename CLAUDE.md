@@ -28,8 +28,10 @@ plans/<slug>-timeline.json         scene timing in seconds and frames
 plans/<slug>-tiktok-plan.md        TikTok cut plan (reuses the main cut's scenes)
 plans/<slug>-tiktok-timeline.json  TikTok cut timing, from its own recording
 plans/<slug>-build-notes.md        deviations, approximations, missing assets
-plans/style.md                     the Runtime.tech visual system (already written, see below)
-references/runtime-style/          reference images for the visual system
+plans/style.md                     the Runtime.tech "Report" visual system (see below)
+plans/style-world.md               the Runtime.tech "World" visual system (see below)
+references/runtime-style/          reference images for the Report style
+references/world-style/            reference images for the World style
 public/<slug>/                     audio copy, captions.srt, artwork
 public/sfx/                        shared sound effects
 src/videos/<slug>/                 Video.tsx, scenes/, timeline.json copy
@@ -45,7 +47,7 @@ If the root `scripts/` folder already holds code scripts from the first video, l
 ## Context to read
 
 - Read `README.md` for the workspace structure and current project commands.
-- Before editing a video, read its `scripts/<slug>.md`, `plans/<slug>-plan.md`, `plans/<slug>-timeline.json` and `plans/style.md`. A video brief (`templates/video-brief.md`) is optional extra context if the user made one.
+- Before editing a video, read its `scripts/<slug>.md`, `plans/<slug>-plan.md`, `plans/<slug>-timeline.json` and its style guide (`plans/style.md` or `plans/style-world.md`). A video brief (`templates/video-brief.md`) is optional extra context if the user made one.
 - `VIDEO-MAKING-PROCESS.md` documents the first completed video. It is a historical reference, not a specification for every future video.
 
 ## Established user preferences
@@ -59,9 +61,13 @@ If the root `scripts/` folder already holds code scripts from the first video, l
 
 ## Visual style
 
-- `plans/style.md` is the Runtime.tech visual system, written from the user's chosen reference design. It is the style guide for every video. `$video-planner` reuses it and `$remotion-builder` generates `src/theme.ts` from it. Do not create a different style guide, and do not edit `plans/style.md` unless the user asks to change the style.
-- Before planning or building a scene, look at the images in `references/runtime-style/` (key frames, contact sheets and the annotated `layout-spec.png`). The written guide gives the numbers; the images show the look. If an optional `reference.mp4` is there, it is for reference only and never used as footage.
-- When reviewing stills, compare each one to the "Look-alike checklist" in `plans/style.md` and fix mismatches before reporting.
+- The channel has **two styles** (decided 2026-11-22), one chosen per video by `$video-planner`:
+  - **Report**: `plans/style.md`, the original Runtime.tech system (light paper, cards, tags). For evidence, prices, comparisons, decisions. `$remotion-builder` generates `src/theme.ts` from it.
+  - **World**: `plans/style-world.md`, the Report palette and card language applied to a top-down "paper city" map with moving tokens, a persistent HUD and top karaoke captions; only the storytelling devices come from `references/new_style/`, never its night look. For processes, tracking, flows, systems that react. Tokens in `src/theme-world.ts`, components in `src/components/world/`. Example composition: `WorldStyleDemo`.
+  - A World video may cut to a Report card for its save frame; both styles share the same end card. Section 0 of `plans/style-world.md` says which style fits which topic.
+- Do not create a third style guide, and do not edit either guide unless the user asks to change that style.
+- Before planning or building a scene, look at the images for the chosen style: `references/runtime-style/` (Report: key frames, contact sheets and the annotated `layout-spec.png`) or `references/world-style/` (World: key frames and contact sheets). The written guide gives the numbers; the images show the look. If an optional `reference.mp4` is there, it is for reference only and never used as footage.
+- When reviewing stills, compare each one to the "Look-alike checklist" of the chosen style (`plans/style.md` section 10 or `plans/style-world.md` section 10) and fix mismatches before reporting.
 - Copy the style system, not the reference's brand: no reference channel name, tagline, header wording, stamp word, products, prices or headlines from the reference. Use `Runtime.tech`, and invented example brands where the topic doesn't name a real one.
 - Brands the video is about are shown with their real logos (images), not drawn stand-ins. Rules in `plans/style.md` section 14.
 - Open items in section 12 of `plans/style.md` (tagline, stamp word, follow-button text) use the defaults written there until the user decides.
@@ -80,7 +86,7 @@ If the root `scripts/` folder already holds code scripts from the first video, l
 
 1. Establish the topic, intended language, and any new creative requirements. Run `$reel-script-writer` to produce `scripts/<slug>.md`.
 2. The user records the narration and gives its path.
-3. Run `$video-planner` with the script and the audio. It reuses `plans/style.md` and records the chosen direction in `plans/<slug>-plan.md`.
+3. Run `$video-planner` with the script and the audio. It picks the Report or World style guide and records the choice in `plans/<slug>-plan.md`.
 4. Run `$remotion-builder`. It builds, checks representative portrait frames against the look-alike checklist, renders a preview, then the final export.
 5. Checks for each video: source/type checks, dimensions, frame rate, duration, narration placement, and visual review of the stills.
 6. The deliverables are the final MP4 in `out/` and `plans/<slug>-build-notes.md`.

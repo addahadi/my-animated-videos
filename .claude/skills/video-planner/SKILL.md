@@ -23,7 +23,7 @@ Pipeline position: idea, then `reel-script-writer`, then record audio, then **th
 
 1. **Script** (required): ideally the markdown from `reel-script-writer` (`scripts/<slug>.md`). If the user pastes raw text, treat each sentence as a line.
 2. **Audio** (required): the recorded voice file. A CapCut SRT of the same recording is welcome as a timing aid, but it does not replace the audio.
-3. **Existing style guide** (if `plans/style.md` exists, reuse it).
+3. **Existing style guides.** The channel has two styles: **Report** (`plans/style.md`) and **World** (`plans/style-world.md`). Pick one per video with section 0 of `plans/style-world.md` (Report for evidence, prices, comparisons and decisions; World for processes that move through space and systems that watch and react). Say the choice and the reason in one line in the plan. A World video may cut to a Report card for its save frame, and both styles share the same end card. Look at the matching references folder (`references/runtime-style/` or `references/world-style/`) before planning scenes. If the user names a style, use it.
 
 If the script or the audio is missing, ask for it in one line and stop. Do not invent a script, and do not plan on estimated timing.
 
@@ -143,7 +143,7 @@ Platforms reward watching, finishing, rewatching, saving and sharing, but exact 
 
 ## Step 8: Visual system
 
-If `plans/style.md` does not exist, propose one and save it. Reuse it for every later video so the account is recognizable without a face.
+Both style guides already exist (`plans/style.md`, `plans/style-world.md`); reuse the chosen one and never write a third unless the creator asks. If `plans/style.md` does not exist, propose one and save it. Reuse it for every later video so the account is recognizable without a face.
 
 - Palette tokens (background, text, one primary accent, one secondary accent, one warning color) with hex values.
 - Fonts (one Arabic, one Latin or monospace for code) and sizes.
@@ -176,7 +176,7 @@ Save both files if the workspace allows it, and also show the plan in the reply.
 - Audience: general | tech | Length: <s> (measured from the audio)
 - Visual spine: <device + why>
 - Hardest idea: <idea> -> <visual solution>
-- Style: <reuse plans/style.md | new, summarized>
+- Style: <Report (plans/style.md) | World (plans/style-world.md)>, <one-line reason>; mixed-in Report scenes: <none | which>
 
 ## Cover frame
 <description>
@@ -230,6 +230,7 @@ Save both files if the workspace allows it, and also show the plan in the reply.
   "width": 1080,
   "height": 1920,
   "audioFile": "<path to the recorded voice>",
+  "style": "report | world",
   "scenes": [
     {
       "id": 1,

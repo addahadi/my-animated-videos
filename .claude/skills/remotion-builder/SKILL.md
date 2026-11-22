@@ -21,7 +21,7 @@ Pipeline position: `reel-script-writer`, record audio, `video-planner`, **this s
 1. `plans/<slug>-plan.md` (storyboard, engagement map, components list, build order, MVP fallback)
 2. `plans/<slug>-timeline.json` (scenes with seconds and frames, component names, props, on-screen text, SFX, tool, role)
 3. The recorded audio (the path is in the timeline's `audioFile`)
-4. `plans/style.md` (palette, fonts, motion rules)
+4. The style guide named in the plan's `Style:` line and the timeline's `style` field: `plans/style.md` (Report, the default when the field is missing) or `plans/style-world.md` (World). Read the matching references folder (`references/runtime-style/` or `references/world-style/`) and use that guide's look-alike checklist for the still review. A World video's mixed-in Report scenes follow `plans/style.md`.
 
 Optional: a CapCut `.srt` of the same recording (preferred for captions), a music file, SFX files, an existing Remotion project.
 
@@ -44,7 +44,9 @@ public/<slug>/voice.<ext>        copy of the recorded audio (never edit the orig
 public/<slug>/captions.srt       if provided
 public/<slug>/images/            images listed in the plan's Images table
 public/sfx/                      shared sound effects
-src/theme.ts                     tokens generated from plans/style.md
+src/theme.ts                     tokens generated from plans/style.md (Report, shared tokens)
+src/theme-world.ts               World tokens generated from plans/style-world.md (imports shared tokens from theme.ts)
+src/components/world/            World components (CityMap, CarToken, LevelMeter, SlotTray, TopCaption, ...)
 src/components/                  shared, reusable components + COMPONENTS.md catalog
 src/lib/                         helpers (sec(), registry, captions, sfx)
 src/videos/<slug>/Video.tsx      the composition
@@ -61,7 +63,7 @@ The TikTok cut is registered as a second composition with the id `<slug>-tiktok`
 
 ## Step 2: Theme
 
-Generate `src/theme.ts` from `plans/style.md`: colors, font families and sizes, motion durations, easing, safe-zone numbers. **No hardcoded colors, sizes or durations inside components.** If `plans/style.md` is missing, stop and ask the user to run `video-planner` first.
+Generate `src/theme.ts` from `plans/style.md`: colors, font families and sizes, motion durations, easing, safe-zone numbers. For a World video, also use `src/theme-world.ts` (generated from the token block of `plans/style-world.md`; create or update it if the guide changed) and the components in `src/components/world/`; World captions use `TopCaption` instead of `CaptionPill`. **No hardcoded colors, sizes or durations inside components.** If `plans/style.md` is missing, stop and ask the user to run `video-planner` first.
 
 ## Step 3: Data-driven architecture
 
