@@ -15,6 +15,8 @@ Three user-level skills (installed in `~/.agents/skills/`) define the production
 
 Why two cuts: the Nov 2026 analytics (`reports/tiktok-vs-instagram-2026-11-19.html`) showed TikTok videos of 64 to 113 s were almost never watched to the end, so none got past TikTok's first test group, while Instagram still spread the same videos widely. The TikTok cut is a separate script and recording, never the main recording trimmed.
 
+Carousels (photo posts, added 2026-11-22): `carousel-script-writer` (in this project's `.claude/skills/`) writes the slide text to `scripts/<slug>.md` (header `Format: carousel`). One script serves both platforms; slides are built in the Report style as Remotion stills, exported at 1080x1440 (Instagram) and 1080x1920 (TikTok). Design demo: compositions `CarouselDemo-ig` / `CarouselDemo-tt` (`src/videos/carousel-demo/`).
+
 - Run a step when the user asks for it. Do not skip ahead. If the script or the recorded audio is missing, ask for it before planning or building.
 - The user can put the recorded narration anywhere in the workspace and give its path. `$remotion-builder` copies it into `public/<slug>/` and never edits the original.
 - Remotion's own agent skills may be installed in this project's `.agents/skills/` (via `npx remotion skills add`). Keep them. `$remotion-builder` loads them.

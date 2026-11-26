@@ -12,6 +12,9 @@ import gta6Timeline from './videos/gta6-fake-download/timeline.json';
 import { BaridimobScams, BaridimobScamsTiktok, scenes as baridimobScenes, tiktokScenes as baridimobTiktokScenes } from './videos/baridimob-scams/Video';
 import baridimobTimeline from './videos/baridimob-scams/timeline.json';
 import { WorldStyleDemo, WORLD_DEMO_FRAMES } from './videos/world-style-demo/Video';
+import { CarouselDemo, SIZES, SLIDES } from './videos/carousel-demo/Carousel';
+import { RiemannCarousel, RIEMANN_SLIDES } from './videos/riemann-claude/Carousel';
+import { CAROUSEL_SIZES } from './components/carousel/Carousel';
 import './fonts';
 
 export const RemotionRoot: React.FC = () => {
@@ -79,6 +82,42 @@ export const RemotionRoot: React.FC = () => {
         width={theme.canvas.width}
         height={theme.canvas.height}
         defaultProps={{ captions: true }}
+      />
+      <Composition
+        id="CarouselDemo-ig"
+        component={CarouselDemo}
+        durationInFrames={SLIDES}
+        fps={30}
+        width={SIZES.ig.w}
+        height={SIZES.ig.h}
+        defaultProps={{ variant: 'ig' as const }}
+      />
+      <Composition
+        id="CarouselDemo-tt"
+        component={CarouselDemo}
+        durationInFrames={SLIDES}
+        fps={30}
+        width={SIZES.tt.w}
+        height={SIZES.tt.h}
+        defaultProps={{ variant: 'tt' as const }}
+      />
+      <Composition
+        id="RiemannCarousel-ig"
+        component={RiemannCarousel}
+        durationInFrames={RIEMANN_SLIDES.length}
+        fps={30}
+        width={CAROUSEL_SIZES.ig.w}
+        height={CAROUSEL_SIZES.ig.h}
+        defaultProps={{ variant: 'ig' as const }}
+      />
+      <Composition
+        id="RiemannCarousel-tt"
+        component={RiemannCarousel}
+        durationInFrames={RIEMANN_SLIDES.length}
+        fps={30}
+        width={CAROUSEL_SIZES.tt.w}
+        height={CAROUSEL_SIZES.tt.h}
+        defaultProps={{ variant: 'tt' as const }}
       />
     </Folder>
   );

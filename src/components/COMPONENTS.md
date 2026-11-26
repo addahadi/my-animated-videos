@@ -102,3 +102,16 @@ Audio: `src/lib/sfx.tsx` (`SfxTrack`, `SFX_FILES`) plays files from `public/sfx/
 
 Not built yet (listed in `plans/style-world.md` section 5, build them the first time a plan needs them): `EvidenceBoard`, `PollCard`.
 Example of everything together: `src/videos/world-style-demo/` (composition `WorldStyleDemo`).
+
+## Carousels (photo posts)
+
+`src/components/carousel/Carousel.tsx`. One composition frame = one slide; register `<Name>-ig` (1080x1440) and `<Name>-tt` (1080x1920) with `CAROUSEL_SIZES`. Export with `node videos/carousels/stills.mjs <Name> <slug>` (PNGs + contact sheets in `out/<slug>/`).
+
+| Component | Props (main) | Notes |
+|---|---|---|
+| `CarouselStrip` | `variant`, `slides: SlideDef[]`, `seams` | lays slides on one strip (grid continues across edges); slide content drawn in a 940x1300 safe box placed per platform; `seams` draws objects across slide edges in strip coords |
+| `SlideHeader` | `i`, `n`, `mode`, `label` | wordmark, Latin label, counter `03 / 12` (body slides) |
+| `Counter` | `i`, `n`, `mode` | counter alone (cover, end slide) |
+| `SlideTitle` / `SlideBody` | `top`, `size`, `color` | Arabic RTL headline / body |
+| `Hl` | `color` | marker highlight behind words |
+| `SwipeCue` | `text` | dark pill with Darija verb + arrow to the next slide |
